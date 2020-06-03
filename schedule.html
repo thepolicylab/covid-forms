@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style media="screen">
+
+        #item-to-hide {
+          display: none;
+        }
+      /* @-ms-viewport{
+width: device-width;
+} */
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Example form for completing testing registration - v02</title>
+    <link rel="stylesheet" href="css/uswds.min.css" />
+  </head>
+  <body>
+    <script src="js/uswds.min.js"></script>
+
+
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+
+    <section class="usa-banner" aria-label="Official government website">
+      <div class="usa-accordion">
+        <header class="usa-banner__header padding-bottom-2 min-height-none">
+          <div class="usa-banner__inner">
+            <div class="grid-col-auto">
+              <!-- <img class="usa-banner__header-flag" src="img/us_flag_small.png" alt="U.S. flag"> -->
+            </div>
+            <div class="">
+              <p class="usa-banner__header-text padding-top-2 test-clicker">Not functional / For demonstration purposes</p>
+            </div>
+
+          </div>
+        </header>
+
+      </div>
+    </section>
+
+
+
+
+    <div class="usa-overlay"></div>
+    <header class="usa-header usa-header--basic">
+      <div class="usa-nav-container">
+        <div class="">
+      <div class="usa-logo margin-bottom-0" id="basic-logo">
+        <h1>Form for scheduling a COVID-19 test</h1>
+        <p class="margin-top-1">This form would create a testing appointment</p>
+      </div>
+
+
+    </div>
+
+      </div>
+    </header>
+
+
+
+
+    <div class="usa-section padding-top-4 margin-top-0">
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+
+
+          <main class="" id="main-content">
+
+
+
+
+
+
+            <div class="usa-alert margin-bottom-8 margin-top-0">
+                <div class="usa-alert__body">
+                    <p class="usa-alert__text"><b>All sections can be styled to align with our broader communications strategy.</b></p>
+                    <p class="usa-alert__text">For an example of the form for residents to complete their registration, <a href="complete-registration.html">click here</a>.</p>
+                </div>
+            </div>
+
+            <form class="example-form-content">
+
+
+
+              <fieldset class="usa-fieldset padding-bottom-4">
+                  <legend class="usa-legend">Main reason for being tested</legend>
+                  <!-- <span class="usa-hint" id="reasonHint">Hint text here</span> -->
+                  <br/>
+                  <div class="grid-row grid-gap reasons-for-testing">
+
+                    <div class="usa-radio tablet:grid-col-12">
+                      <input class="usa-radio__input" id="symptomatic" type="radio" name="reason-for-testing" value="symptomatic">
+                      <label class="usa-radio__label" for="symptomatic">I have symptoms of Covid-19</label>
+                      <!-- <span class="usa-hint" id="symptomaticHint">I've received authorizato</span> -->
+                    </div>
+                    <div class="usa-radio tablet:grid-col-12">
+                      <input class="usa-radio__input" id="random-sample" type="radio" name="reason-for-testing" value="random-sample">
+                      <label class="usa-radio__label" for="random-sample">I received a letter in the mail</label>
+                      <!-- <span class="usa-hint" id="symptomaticHint">I was asked to participate in testing because</span> -->
+                    </div>
+                    <div class="usa-radio tablet:grid-col-12">
+                      <input class="usa-radio__input" id="sentinel-group" type="radio" name="reason-for-testing" value="sentinel-group">
+                      <label class="usa-radio__label" for="sentinel-group">I work in a profession that's been asked to get tested</label>
+                    </div>
+                    <div class="usa-radio tablet:grid-col-12">
+                      <input class="usa-radio__input" id="been-in-contact" type="radio" name="reason-for-testing" value="been-in-contact">
+                      <label class="usa-radio__label" for="been-in-contact">I have been in contact with someone who tested positive</label>
+                    </div>
+                    <div class="usa-radio tablet:grid-col-12">
+                      <input class="usa-radio__input" id="reason-other" type="radio" name="reason-for-testing" value="reason-other">
+                      <label class="usa-radio__label" for="reason-other">Other</label>
+                    </div>
+
+                    <div class="usa-checkbox tablet:grid-col-12 padding-bottom-2" id="mailer-id-question">
+                      <label class="usa-label" for="mailer-id">Mailer ID</label>
+                      <span class="usa-hint" id="mailer-id-hint">The ID number on your mailer, if available</span>
+                      <input class="usa-input" id="mailer-id" name="mailer-id" type="text" aria-required="false">
+                    </div>
+
+                    <div class="usa-checkbox tablet:grid-col-12 padding-bottom-2" id="referral-id-question">
+                      <label class="usa-label" for="mailer-id">Referral ID</label>
+                      <span class="usa-hint" id="mailer-id-hint">The referral ID number from your doctor, if available</span>
+                      <input class="usa-input" id="mailer-id" name="mailer-id" type="text" aria-required="false">
+                    </div>
+
+                    <div class="usa-checkbox tablet:grid-col-12 padding-bottom-2" id="other-reason-question">
+                      <label class="usa-label" for="other-reason">Other reason</label>
+                      <!-- <span class="usa-hint" id="other-reason-hint">Tell us more about why you're being tested</span> -->
+                      <input class="usa-input" id="other-reason" name="other-reason" type="text" aria-required="false">
+                    </div>
+
+
+                  </div>
+              </fieldset>
+
+              <hr class="margin-top-4 margin-bottom-4"/>
+
+
+
+
+
+
+
+
+
+
+              <hr class="margin-top-4 margin-bottom-4 random-sample-questions"/>
+
+              <button class="usa-button usa-button--big">Schedule test</button>
+              <p>After completing this form, the resident will be asked to <a href="complete-registration.html">complete their registration</a>.
+
+              </p>
+
+            </form>
+            <!-- end of form -->
+
+
+
+
+
+          </main>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </body>
+
+  <script>
+
+       $("#transportation-other").click(function(){
+           $('#other-transportation-question').slideToggle(600);
+       });
+
+
+  </script>
+
+
+</html>
