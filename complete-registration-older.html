@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style media="screen">
 
-        #other-reason-question, #mailer-id-question, #referral-id-question, #insurance-provider-2, #other-symptoms-1-question, #other-symptoms-2-question, #gender-other-question, #so-other-question, #other-work-setting-question, #role-options, #other-role-question, #other-transportation-question {
+        #other-reason-question, #mailer-id-question, #referral-id-question, #insurance-provider-2, #other-symptoms-1-question, #other-symptoms-2-question, #gender-other-question, #so-other-question, #other-work-setting-question, #other-role-question, #other-transportation-question {
           display: none;
         }
       /* @-ms-viewport{
@@ -52,7 +52,7 @@ width: device-width;
       <div class="usa-nav-container">
         <div class="">
       <div class="usa-logo margin-bottom-0" id="basic-logo">
-        <h1 class="margin-bottom-1">Finish registering for your COVID-19 test</h1>
+        <h1>Finish registering for your COVID-19 test</h1>
         <p class="margin-top-1">Fill out this form for each member of your household who will be receiving a test.</p>
       </div>
 
@@ -602,7 +602,7 @@ width: device-width;
               </fieldset>
 
               <fieldset class="usa-fieldset padding-bottom-10" id="role-options">
-                  <legend class="usa-legend">What work do you do <span id="">there?</span></legend>
+                  <legend class="usa-legend">What work do you do there?</legend>
                   <span class="usa-hint" id="symptomsHint">Select the option that best describes your position</span>
                   <br/><br/>
                   <div class="grid-row grid-gap">
@@ -1005,50 +1005,14 @@ width: device-width;
            $('#other-work-setting-question').slideToggle(600);
        });
 
-
-       // $("#role-other").click(function(){
-       //     $('#other-role-question').slideUp(600);
-       // });
-
-
-       // dynamically change role question based on selection
-       // $(function() {
-       //      $("input[name='work-setting']").click(function() {
-       //        var workSetting = $('input[name="work-setting"]:checked').parent().text();
-       //        alert (workSetting);
-       //        // alert("Value: " + $('input[name="work-setting"]:checked').parent().text());
-       //
-       //
-       //    });
-       //  });
-
-
-       // show / hide additional questions for role
-       $(function() {
-            $("input[name='work-setting']").click(function() {
-
-            if ($("#work-setting-unemployed, #work-setting-other").is(":checked")) {
-              $('#role-options').slideUp(400);
-            } else {
-              $('#role-options').slideDown(600);
-            }
-            if ($("#work-setting-other").is(":checked")) {
-              $('#other-work-setting-question').slideDown(600);
-            } else {
-              $('#other-work-setting-question').slideUp(600);
-            }
-
-          });
-        });
-
-
-
-
-
+       $("#role-other").click(function(){
+           $('#other-role-question').slideToggle(600);
+       });
 
        $("#transportation-other").click(function(){
            $('#other-transportation-question').slideToggle(600);
        });
+
 
 
 
