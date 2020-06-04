@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style media="screen">
+
+        #list-of-hours-1, #list-of-hours-2, #list-of-hours-3 {
+          display: none;
+        }
+
+
+      /* @-ms-viewport{
+width: device-width;
+} */
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Example form for completing testing registration - v02</title>
+    <link rel="stylesheet" href="css/uswds.min.css" />
+  </head>
+  <body>
+    <script src="js/uswds.min.js"></script>
+
+
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+
+    <section class="usa-banner" aria-label="Official government website">
+      <div class="usa-accordion">
+        <header class="usa-banner__header padding-bottom-2 min-height-none">
+          <div class="usa-banner__inner">
+            <div class="grid-col-auto">
+              <!-- <img class="usa-banner__header-flag" src="img/us_flag_small.png" alt="U.S. flag"> -->
+            </div>
+            <div class="">
+              <h3 class="padding-bottom-0 margin-bottom-0">Form for scheduling a COVID-19 test</h3>
+              <p class="usa-banner__header-text padding-top-0 margin-top-0 test-clicker">Not functional / For demonstration purposes</p>
+            </div>
+
+          </div>
+        </header>
+
+      </div>
+    </section>
+
+
+
+
+    <div class="usa-overlay"></div>
+    <header class="usa-header usa-header--basic">
+      <div class="usa-nav-container">
+        <div class="">
+      <div class="usa-logo margin-bottom-0" id="basic-logo">
+        <h1 class="margin-bottom-1">Schedule a COVID-19 test</h1>
+        <p class="margin-top-1">This form will create an appointment for you and members or your household to get tested.</p>
+      </div>
+
+
+    </div>
+
+      </div>
+    </header>
+
+
+
+
+    <div class="usa-section padding-top-4 margin-top-0">
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+
+
+          <main class="" id="main-content">
+
+
+
+
+
+
+            <!-- <div class="usa-alert margin-bottom-8 margin-top-0">
+                <div class="usa-alert__body">
+                    <p class="usa-alert__text"><b>All sections can be styled to align with our broader communications strategy.</b></p>
+                    <p class="usa-alert__text">For an example of the form for residents to complete their registration, <a href="complete-registration.html">click here</a>.</p>
+                </div>
+            </div> -->
+
+            <form class="example-form-content">
+
+            <fieldset class="usa-fieldset padding-bottom-8 margin-top-6" id="select-date-and-time">
+
+                <legend class="usa-legend padding-bottom-0">Location selected</legend>
+                <div id="your-selections">
+                </div>
+
+                <br/>
+
+
+            <fieldset class="usa-fieldset padding-bottom-8 margin-top-6" id="select-date-and-time">
+
+              <legend class="usa-legend padding-bottom-0">Select a location</legend>
+              <p class="margin-top-1 margin-bottom-1">Testing is currently available at the following locations:</p>
+              <br/>
+
+                <ul class="usa-card-group" id="locations-list">
+                  <li class="testing-location-card tablet:grid-col-4 usa-card">
+                          <div class="usa-card__container">
+                              <header class="usa-card__header">
+                                  <h2 class="usa-card__heading">Name of location 1</h2>
+                              </header>
+                              <div class="usa-card__media">
+                                  <div class="usa-card__img">
+                                      <img src="https://images.unsplash.com/photo-1579800070193-abe62433f737?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=610&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="A placeholder image">
+                                  </div>
+                              </div>
+                              <div class="usa-card__body">
+                                <p><b>400 East Avenue,<br/>Warwick, RI 02886</b><br/><a href="">See on Google Maps</a></p>
+
+                                <p>You will need to be in a car to receive a test at this location.</p>
+
+                                  <p class="margin-bottom-1">Mon-Sun, 8am-8pm &nbsp;<a id="show-hours-link-1" href="">Show hours</a></p>
+
+                                  <table class="list-of-hours" id="list-of-hours-1">
+                                    <tr>
+                                      <td class="padding-right-4">Monday</td>
+                                      <td>8:00am - 8:00pm</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="padding-right-4">Tuesday</td>
+                                      <td>8:00am - 8:00pm</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="padding-right-4">Wednesday</td>
+                                      <td>8:00am - 8:00pm</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="padding-right-4">Thursday</td>
+                                      <td>8:00am - 8:00pm</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="padding-right-4">Friday</td>
+                                      <td>8:00am - 8:00pm</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="padding-right-4">Saturday</td>
+                                      <td>8:00am - 8:00pm</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="padding-right-4">Sunday</td>
+                                      <td>8:00am - 8:00pm</td>
+                                    </tr>
+                                  </table>
+                              </div>
+                              <div class="usa-card__footer padding-top-1">
+                                  <button class="usa-button location-button">Select this location</button>
+                              </div>
+                          </div>
+                      </li>
+
+                      <li class="testing-location-card tablet:grid-col-4 usa-card">
+                              <div class="usa-card__container">
+                                  <header class="usa-card__header">
+                                      <h2 class="usa-card__heading">Name of location 2</h2>
+                                  </header>
+                                  <div class="usa-card__media">
+                                      <div class="usa-card__img">
+                                          <img src="https://images.unsplash.com/photo-1579800070193-abe62433f737?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=610&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="A placeholder image">
+                                      </div>
+                                  </div>
+                                  <div class="usa-card__body">
+                                    <p><b>400 East Avenue,<br/>Warwick, RI 02886</b><br/><a href="">See on Google Maps</a></p>
+
+                                    <p>You will need to be in a car to receive a test at this location.</p>
+
+                                      <p class="margin-bottom-1">Mon-Sun, 8am-8pm &nbsp;<a id="show-hours-link-2" href="">Show hours</a></p>
+
+                                      <table class="list-of-hours" id="list-of-hours-2">
+                                        <tr>
+                                          <td class="padding-right-4">Monday</td>
+                                          <td>8:00am - 8:00pm</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="padding-right-4">Tuesday</td>
+                                          <td>8:00am - 8:00pm</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="padding-right-4">Wednesday</td>
+                                          <td>8:00am - 8:00pm</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="padding-right-4">Thursday</td>
+                                          <td>8:00am - 8:00pm</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="padding-right-4">Friday</td>
+                                          <td>8:00am - 8:00pm</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="padding-right-4">Saturday</td>
+                                          <td>8:00am - 8:00pm</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="padding-right-4">Sunday</td>
+                                          <td>8:00am - 8:00pm</td>
+                                        </tr>
+                                      </table>
+                                  </div>
+                                  <div class="usa-card__footer padding-top-1">
+                                      <button class="usa-button location-button">Select this location</button>
+                                  </div>
+                              </div>
+                          </li>
+
+                          <li class="testing-location-card tablet:grid-col-4 usa-card">
+                                  <div class="usa-card__container">
+                                      <header class="usa-card__header">
+                                          <h2 class="usa-card__heading">Name of location 3</h2>
+                                      </header>
+                                      <div class="usa-card__media">
+                                          <div class="usa-card__img">
+                                              <img src="https://images.unsplash.com/photo-1579800070193-abe62433f737?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=610&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="A placeholder image">
+                                          </div>
+                                      </div>
+                                      <div class="usa-card__body">
+                                        <p><b>400 East Avenue,<br/>Warwick, RI 02886</b><br/><a href="">See on Google Maps</a></p>
+
+                                        <p>This location offers walk-up and in-car testing.</p>
+
+                                          <p class="margin-bottom-1">Mon-Sun, 8am-8pm &nbsp;<a id="show-hours-link-3" href="">Show hours</a></p>
+
+                                          <table class="list-of-hours" id="list-of-hours-3">
+                                            <tr>
+                                              <td class="padding-right-4">Monday</td>
+                                              <td>8:00am - 8:00pm</td>
+                                            </tr>
+                                            <tr>
+                                              <td class="padding-right-4">Tuesday</td>
+                                              <td>8:00am - 8:00pm</td>
+                                            </tr>
+                                            <tr>
+                                              <td class="padding-right-4">Wednesday</td>
+                                              <td>8:00am - 8:00pm</td>
+                                            </tr>
+                                            <tr>
+                                              <td class="padding-right-4">Thursday</td>
+                                              <td>8:00am - 8:00pm</td>
+                                            </tr>
+                                            <tr>
+                                              <td class="padding-right-4">Friday</td>
+                                              <td>8:00am - 8:00pm</td>
+                                            </tr>
+                                            <tr>
+                                              <td class="padding-right-4">Saturday</td>
+                                              <td>8:00am - 8:00pm</td>
+                                            </tr>
+                                            <tr>
+                                              <td class="padding-right-4">Sunday</td>
+                                              <td>8:00am - 8:00pm</td>
+                                            </tr>
+                                          </table>
+                                      </div>
+                                      <div class="usa-card__footer padding-top-1">
+                                          <button class="usa-button location-button">Select this location</button>
+                                      </div>
+                                  </div>
+                              </li>
+
+
+
+                    </ul>
+
+
+
+
+            </fieldset>
+
+            <fieldset class="usa-fieldset padding-bottom-4" id="select-date-and-time">
+
+              <legend class="usa-legend padding-bottom-2">Select a date and time</legend>
+
+              <div class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
+
+                  <!-- Use the accurate heading level to maintain the document outline -->
+                  <h2 class="usa-accordion__heading">
+                      <button class="usa-accordion__button" aria-expanded="true" aria-controls="m-a1">
+                        Friday, June 12th
+                      </button>
+                  </h2>
+                  <div id="m-a1" class="usa-accordion__content usa-prose">
+                    <div class="grid-row grid-gap appointment-options">
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">8:00am - 9:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">9:00am - 10:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">10:00am - 11:00am</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">11:00am - Noon</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">Noon - 1:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">1:00pm - 2:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">2:00pm - 3:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">3:00pm - 4:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">4:00pm - 5:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">5:00pm - 6:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">6:00pm - 7:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">7:00pm - 8:00pm</button>
+                        </div>
+
+                    </div>
+                  </div>
+
+                  <!-- Use the accurate heading level to maintain the document outline -->
+                  <h2 class="usa-accordion__heading">
+                      <button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a2">
+                        Saturday, June 13th
+                      </button>
+                  </h2>
+                  <div id="m-a2" class="usa-accordion__content usa-prose">
+
+                    <div class="grid-row grid-gap appointment-options">
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">8:00am - 9:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">9:00am - 10:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">10:00am - 11:00am</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">11:00am - Noon</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">Noon - 1:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">1:00pm - 2:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">2:00pm - 3:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">3:00pm - 4:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">4:00pm - 5:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">5:00pm - 6:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">6:00pm - 7:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">7:00pm - 8:00pm</button>
+                        </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Use the accurate heading level to maintain the document outline -->
+                  <h2 class="usa-accordion__heading">
+                      <button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a3">
+                        Sunday, June 14th
+                      </button>
+                  </h2>
+                  <div id="m-a3" class="usa-accordion__content usa-prose">
+
+                    <div class="grid-row grid-gap appointment-options">
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">8:00am - 9:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">9:00am - 10:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">10:00am - 11:00am</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">11:00am - Noon</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">Noon - 1:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">1:00pm - 2:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">2:00pm - 3:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">3:00pm - 4:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">4:00pm - 5:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">5:00pm - 6:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">6:00pm - 7:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">7:00pm - 8:00pm</button>
+                        </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Use the accurate heading level to maintain the document outline -->
+                  <h2 class="usa-accordion__heading">
+                      <button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a4">
+                        Monday, June 15th
+                      </button>
+                  </h2>
+                  <div id="m-a4" class="usa-accordion__content usa-prose">
+
+                    <div class="grid-row grid-gap appointment-options">
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">8:00am - 9:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">9:00am - 10:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">10:00am - 11:00am</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">11:00am - Noon</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">Noon - 1:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">1:00pm - 2:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">2:00pm - 3:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">3:00pm - 4:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">4:00pm - 5:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">5:00pm - 6:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">6:00pm - 7:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">7:00pm - 8:00pm</button>
+                        </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Use the accurate heading level to maintain the document outline -->
+                  <h2 class="usa-accordion__heading">
+                      <button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a5">
+                        Tuesday, June 16th
+                      </button>
+                  </h2>
+                  <div id="m-a5" class="usa-accordion__content usa-prose">
+
+                    <div class="grid-row grid-gap appointment-options">
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">8:00am - 9:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">9:00am - 10:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">10:00am - 11:00am</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">11:00am - Noon</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">Noon - 1:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">1:00pm - 2:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">2:00pm - 3:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">3:00pm - 4:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">4:00pm - 5:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">5:00pm - 6:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">6:00pm - 7:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">7:00pm - 8:00pm</button>
+                        </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Use the accurate heading level to maintain the document outline -->
+                  <h2 class="usa-accordion__heading">
+                      <button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a6">
+                        Wednesday, June 17th
+                      </button>
+                  </h2>
+                  <div id="m-a6" class="usa-accordion__content usa-prose">
+
+                    <div class="grid-row grid-gap appointment-options">
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">8:00am - 9:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">9:00am - 10:00am</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">10:00am - 11:00am</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">11:00am - Noon</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">Noon - 1:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">1:00pm - 2:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">2:00pm - 3:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">3:00pm - 4:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">4:00pm - 5:00pm</button>
+                        </div>
+
+                        <div class="tablet:grid-col-3">
+                          <button class="usa-button usa-button--outline margin-bottom-1">5:00pm - 6:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">6:00pm - 7:00pm</button>
+                          <button class="usa-button usa-button--outline margin-bottom-1">7:00pm - 8:00pm</button>
+                        </div>
+
+                    </div>
+
+                  </div>
+
+              </div>
+
+            </fieldset>
+
+            <fieldset class="usa-fieldset padding-bottom-4 margin-top-4">
+                <legend class="usa-legend padding-top-4">How many people will be receiving a test?</legend>
+                    <div class="grid-row grid-gap">
+                      <div class="tablet:grid-col-3">
+                          <label class="usa-label" for="number-of-adults">Number of adults</label>
+                          <input class="usa-input" style="width: 100px;" id="number-of-adults" name="number-of-adults" type="text" maxlength="3" size="3">
+                      </div>
+                      <div class="tablet:grid-col-3">
+                          <label class="usa-label" for="number-of-adults">Number of children</label>
+                          <input class="usa-input" style="width: 100px;" id="number-of-children" name="number-of-children" type="text" maxlength="3" size="3">
+                      </div>
+
+
+
+
+            </fieldset>
+
+
+            <fieldset class="usa-fieldset padding-bottom-4 margin-top-4">
+                <legend class="usa-legend padding-top-2">Contact information</legend>
+
+                <label class="usa-label" for="first-name">First name</label>
+                <input class="usa-input" id="first-name" name="first-name" type="text" aria-required="true">
+
+                <label class="usa-label" for="last-name">Last name</label>
+                <input class="usa-input" id="last-name" name="last-name" type="text" aria-required="true">
+
+                <label class="usa-label" for="phone-number">Phone number</label>
+                <input class="usa-input" id="phone-number" name="phone-number" type="text">
+
+                <label class="usa-label" for="email-address">Email address (optional)</label>
+                <input class="usa-input" id="email-address" name="email-address" type="text">
+            </fieldset>
+
+
+
+
+              <hr class="margin-top-4 margin-bottom-4"/>
+
+
+              <button class="usa-button usa-button--big">Schedule test</button>
+              <p>After completing this form, the resident will be asked to <a href="complete-registration.html">complete their registration</a>.
+
+              </p>
+
+            </form>
+            <!-- end of form -->
+
+
+
+
+
+          </main>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </body>
+
+  <script>
+
+       $("#show-hours-link-1").click(function(){
+          $('#list-of-hours-1').slideToggle(600);
+       });
+
+       $("#show-hours-link-2").click(function(){
+          $('#list-of-hours-2').slideToggle(600);
+       });
+
+       $("#show-hours-link-3").click(function(){
+          $('#list-of-hours-3').slideToggle(600);
+       });
+
+       $(".location-button").click(function(){
+          $(this).hide();
+       });
+
+       // pull location selection
+       $(function() {
+            $(".location-button").click(function() {
+              var selectedLocation = $(this).parent().parent().html();
+              alert (selectedLocation);
+              $('#select-date-and-time').slideUp(400);
+              $('#appointment-details').slideDown(600);
+
+              // alert("Value: " + $('input[name="work-setting"]:checked').parent().text());
+          });
+        });
+
+  </script>
+
+
+</html>
