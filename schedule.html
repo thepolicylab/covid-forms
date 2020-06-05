@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style media="screen">
 
-        #list-of-hours-1, #list-of-hours-2, #list-of-hours-3, .hideLink {
+        #list-of-hours-1, #list-of-hours-2, #list-of-hours-3, .hideLink, #step-2, #step-3 {
           display: none;
         }
 
@@ -72,7 +72,7 @@ width: device-width;
         <div class="grid-row grid-gap">
 
 
-          <main class="" id="main-content">
+          <main class="tablet:grid-col-12" id="main-content">
 
 
 
@@ -97,7 +97,7 @@ width: device-width;
                 <br/> -->
 
 
-            <fieldset class="usa-fieldset padding-bottom-8 margin-top-6" id="select-date-and-time">
+            <fieldset class="usa-fieldset padding-bottom-8 margin-top-6 tablet:grid-col-12" id="select-date-and-time">
 
               <legend class="usa-legend margin-bottom-0">Select a location</legend>
               <!-- <p class="margin-top-1 margin-bottom-1">Testing is currently available at the following locations:</p> -->
@@ -288,12 +288,17 @@ width: device-width;
 
             </fieldset>
 
+
+        <section id="step-2">
+
             <fieldset class="usa-fieldset padding-bottom-4" id="select-date-and-time">
 
               <legend class="usa-legend padding-bottom-2">Select a date and time</legend>
 
               <div class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
 
+
+                <div id="day-one" class="day-group padding-bottom-1">
                   <!-- Use the accurate heading level to maintain the document outline -->
                   <h2 class="usa-accordion__heading">
                       <button class="usa-accordion__button" aria-expanded="true" aria-controls="m-a1">
@@ -305,23 +310,23 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-8a-9a" type="radio" name="time-selected" value="20200612-8a-9a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-8a-9a">8:00am - 9:00am</label>
                         </div>
-                        <p class="margin-top-0 change-time-link margin-bottom-0 text-center text-base text-underline">Change date & time</p>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-9a-10a" type="radio" name="time-selected" value="20200612-9a-10a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-9a-10a">9:00am - 10:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-10a-11a" type="radio" name="time-selected" value="20200612-10a-11a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-10a-11a">10:00am - 11:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-11a-12p" type="radio" name="time-selected" value="20200612-11a-12p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-11a-12p">11:00am - Noon</label>
                         </div>
@@ -332,22 +337,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-12p-1p" type="radio" name="time-selected" value="20200613-12p-1p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-12p-1p">Noon - 1:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-1p-2p" type="radio" name="time-selected" value="20200612-1p-2p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-1p-2p">1:00pm - 2:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-2p-3p" type="radio" name="time-selected" value="20200612-2p-3p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-2p-3p">2:00pm - 3:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-3p-4p" type="radio" name="time-selected" value="20200612-3p-4p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-3p-4p">3:00pm - 4:00pm</label>
                         </div>
@@ -356,22 +361,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-4p-5p" type="radio" name="time-selected" value="20200612-4p-5p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-4p-5p">4:00pm - 5:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-5p-6p" type="radio" name="time-selected" value="20200612-5p-6p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-5p-6p">5:00pm - 6:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-6p-7p" type="radio" name="time-selected" value="20200612-6p-7p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-6p-7p">6:00pm - 7:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200612-7p-8p" type="radio" name="time-selected" value="20200612-7p-8p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200612-7p-8p">7:00pm - 8:00pm</label>
                         </div>
@@ -381,7 +386,11 @@ width: device-width;
                     </div>
                   </div>
 
+                </div>
+
                   <!-- Use the accurate heading level to maintain the document outline -->
+                <div id="day-two" class="day-group padding-bottom-1">
+
                   <h2 class="usa-accordion__heading">
                       <button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a2">
                         Saturday, June 13th
@@ -393,22 +402,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-8a-9a" type="radio" name="time-selected" value="20200613-8a-9a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-8a-9a">8:00am - 9:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-9a-10a" type="radio" name="time-selected" value="20200613-9a-10a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-9a-10a">9:00am - 10:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-10a-11a" type="radio" name="time-selected" value="20200613-10a-11a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-10a-11a">10:00am - 11:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-11a-12p" type="radio" name="time-selected" value="20200613-11a-12p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-11a-12p">11:00am - Noon</label>
                         </div>
@@ -419,22 +428,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-12p-1p" type="radio" name="time-selected" value="20200613-12p-1p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-12p-1p">Noon - 1:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-1p-2p" type="radio" name="time-selected" value="20200613-1p-2p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-1p-2p">1:00pm - 2:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-2p-3p" type="radio" name="time-selected" value="20200613-2p-3p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-2p-3p">2:00pm - 3:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-3p-4p" type="radio" name="time-selected" value="20200613-3p-4p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-3p-4p">3:00pm - 4:00pm</label>
                         </div>
@@ -443,22 +452,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-4p-5p" type="radio" name="time-selected" value="20200613-4p-5p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-4p-5p">4:00pm - 5:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-5p-6p" type="radio" name="time-selected" value="20200613-5p-6p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-5p-6p">5:00pm - 6:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-6p-7p" type="radio" name="time-selected" value="20200613-6p-7p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-6p-7p">6:00pm - 7:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200613-7p-8p" type="radio" name="time-selected" value="20200613-7p-8p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200613-7p-8p">7:00pm - 8:00pm</label>
                         </div>
@@ -468,7 +477,9 @@ width: device-width;
                     </div>
 
                   </div>
+                </div>
 
+                <div id="day-three" class="day-group padding-bottom-1">
                   <!-- Use the accurate heading level to maintain the document outline -->
                   <h2 class="usa-accordion__heading">
                       <button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a3">
@@ -481,22 +492,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-8a-9a" type="radio" name="time-selected" value="20200614-8a-9a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-8a-9a">8:00am - 9:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-9a-10a" type="radio" name="time-selected" value="20200614-9a-10a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-9a-10a">9:00am - 10:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-10a-11a" type="radio" name="time-selected" value="20200614-10a-11a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-10a-11a">10:00am - 11:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-11a-12p" type="radio" name="time-selected" value="20200614-11a-12p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-11a-12p">11:00am - Noon</label>
                         </div>
@@ -507,22 +518,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-12p-1p" type="radio" name="time-selected" value="20200614-12p-1p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-12p-1p">Noon - 1:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-1p-2p" type="radio" name="time-selected" value="20200614-1p-2p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-1p-2p">1:00pm - 2:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-2p-3p" type="radio" name="time-selected" value="20200614-2p-3p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-2p-3p">2:00pm - 3:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-3p-4p" type="radio" name="time-selected" value="20200614-3p-4p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-3p-4p">3:00pm - 4:00pm</label>
                         </div>
@@ -531,22 +542,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-4p-5p" type="radio" name="time-selected" value="20200614-4p-5p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-4p-5p">4:00pm - 5:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-5p-6p" type="radio" name="time-selected" value="20200614-5p-6p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-5p-6p">5:00pm - 6:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-6p-7p" type="radio" name="time-selected" value="20200614-6p-7p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-6p-7p">6:00pm - 7:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200614-7p-8p" type="radio" name="time-selected" value="20200614-7p-8p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200614-7p-8p">7:00pm - 8:00pm</label>
                         </div>
@@ -556,6 +567,9 @@ width: device-width;
                     </div>
 
                   </div>
+                </div>
+
+                <div id="day-four" class="day-group padding-bottom-1">
 
                   <!-- Use the accurate heading level to maintain the document outline -->
                   <h2 class="usa-accordion__heading">
@@ -569,22 +583,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-8a-9a" type="radio" name="time-selected" value="20200615-8a-9a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-8a-9a">8:00am - 9:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-9a-10a" type="radio" name="time-selected" value="20200615-9a-10a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-9a-10a">9:00am - 10:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-10a-11a" type="radio" name="time-selected" value="20200615-10a-11a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-10a-11a">10:00am - 11:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-11a-12p" type="radio" name="time-selected" value="20200615-11a-12p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-11a-12p">11:00am - Noon</label>
                         </div>
@@ -595,22 +609,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-12p-1p" type="radio" name="time-selected" value="20200615-12p-1p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-12p-1p">Noon - 1:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-1p-2p" type="radio" name="time-selected" value="20200615-1p-2p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-1p-2p">1:00pm - 2:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-2p-3p" type="radio" name="time-selected" value="20200615-2p-3p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-2p-3p">2:00pm - 3:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-3p-4p" type="radio" name="time-selected" value="20200615-3p-4p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-3p-4p">3:00pm - 4:00pm</label>
                         </div>
@@ -619,22 +633,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-4p-5p" type="radio" name="time-selected" value="20200615-4p-5p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-4p-5p">4:00pm - 5:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-5p-6p" type="radio" name="time-selected" value="20200615-5p-6p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-5p-6p">5:00pm - 6:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-6p-7p" type="radio" name="time-selected" value="20200615-6p-7p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-6p-7p">6:00pm - 7:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-7p-8p" type="radio" name="time-selected" value="20200615-7p-8p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200615-7p-8p">7:00pm - 8:00pm</label>
                         </div>
@@ -644,6 +658,9 @@ width: device-width;
                     </div>
 
                   </div>
+
+                </div>
+                <div id="day-five" class="day-group padding-bottom-1">
 
                   <!-- Use the accurate heading level to maintain the document outline -->
                   <h2 class="usa-accordion__heading">
@@ -657,22 +674,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-8a-9a" type="radio" name="time-selected" value="20200616-8a-9a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-8a-9a">8:00am - 9:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200616-9a-10a" type="radio" name="time-selected" value="20200616-9a-10a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-9a-10a">9:00am - 10:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200616-10a-11a" type="radio" name="time-selected" value="20200616-10a-11a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-10a-11a">10:00am - 11:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200616-11a-12p" type="radio" name="time-selected" value="20200616-11a-12p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-11a-12p">11:00am - Noon</label>
                         </div>
@@ -683,22 +700,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200616-12p-1p" type="radio" name="time-selected" value="20200616-12p-1p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-12p-1p">Noon - 1:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200616-1p-2p" type="radio" name="time-selected" value="20200616-1p-2p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-1p-2p">1:00pm - 2:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200616-2p-3p" type="radio" name="time-selected" value="20200616-2p-3p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-2p-3p">2:00pm - 3:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200616-3p-4p" type="radio" name="time-selected" value="20200616-3p-4p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-3p-4p">3:00pm - 4:00pm</label>
                         </div>
@@ -707,22 +724,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200616-4p-5p" type="radio" name="time-selected" value="20200616-4p-5p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-4p-5p">4:00pm - 5:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200616-5p-6p" type="radio" name="time-selected" value="20200616-5p-6p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-5p-6p">5:00pm - 6:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200616-6p-7p" type="radio" name="time-selected" value="20200616-6p-7p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-6p-7p">6:00pm - 7:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200616-7p-8p" type="radio" name="time-selected" value="20200616-7p-8p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200616-7p-8p">7:00pm - 8:00pm</label>
                         </div>
@@ -732,6 +749,9 @@ width: device-width;
                     </div>
 
                   </div>
+                </div>
+
+                <div id="day-six" class="day-group padding-bottom-1">
 
                   <!-- Use the accurate heading level to maintain the document outline -->
                   <h2 class="usa-accordion__heading">
@@ -745,22 +765,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200615-8a-9a" type="radio" name="time-selected" value="20200617-8a-9a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-8a-9a">8:00am - 9:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200617-9a-10a" type="radio" name="time-selected" value="20200617-9a-10a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-9a-10a">9:00am - 10:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200617-10a-11a" type="radio" name="time-selected" value="20200617-10a-11a">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-10a-11a">10:00am - 11:00am</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200617-11a-12p" type="radio" name="time-selected" value="20200617-11a-12p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-11a-12p">11:00am - Noon</label>
                         </div>
@@ -771,22 +791,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200617-12p-1p" type="radio" name="time-selected" value="20200617-12p-1p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-12p-1p">Noon - 1:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200617-1p-2p" type="radio" name="time-selected" value="20200617-1p-2p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-1p-2p">1:00pm - 2:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200617-2p-3p" type="radio" name="time-selected" value="20200617-2p-3p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-2p-3p">2:00pm - 3:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200617-3p-4p" type="radio" name="time-selected" value="20200617-3p-4p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-3p-4p">3:00pm - 4:00pm</label>
                         </div>
@@ -795,22 +815,22 @@ width: device-width;
 
                       <div class="tablet:grid-col-4">
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200617-4p-5p" type="radio" name="time-selected" value="20200617-4p-5p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-4p-5p">4:00pm - 5:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200617-5p-6p" type="radio" name="time-selected" value="20200617-5p-6p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-5p-6p">5:00pm - 6:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200617-6p-7p" type="radio" name="time-selected" value="20200617-6p-7p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-6p-7p">6:00pm - 7:00pm</label>
                         </div>
 
-                        <div class="usa-button usa-button--outline margin-bottom-1 width-full">
+                        <div class="usa-button usa-button--outline margin-bottom-1 width-full time-option">
                           <input class="usa-radio__input" id="20200617-7p-8p" type="radio" name="time-selected" value="20200617-7p-8p">
                           <label class="usa-radio__label text-bold padding-top-1 margin-bottom-1" for="20200617-7p-8p">7:00pm - 8:00pm</label>
                         </div>
@@ -822,8 +842,13 @@ width: device-width;
                   </div>
 
               </div>
+            </div>
 
             </fieldset>
+
+        </section>
+
+        <section id="step-3">
 
             <fieldset class="usa-fieldset padding-bottom-4 margin-top-4">
                 <legend class="usa-legend padding-top-4">How many people will be receiving a test?</legend>
@@ -865,10 +890,12 @@ width: device-width;
               <hr class="margin-top-4 margin-bottom-4"/>
 
 
-              <button class="usa-button usa-button--big">Schedule test</button>
+              <button class="usa-button usa-button--big"><a href="complete-registration.html" class="text-white text-no-underline">Schedule test</a></button>
               <p>After completing this form, the resident will be asked to <a href="complete-registration.html">complete their registration</a>.
 
               </p>
+
+        </section>
 
             </form>
             <!-- end of form -->
@@ -937,6 +964,7 @@ width: device-width;
              $(this).parent().parent().find("p").removeClass("hideLink");
              $(".unselectedLocation").find(".location-button").addClass("usa-button--outline");
              $(".selectedLocation").find(".location-button").removeClass("usa-button--outline");
+             $("#step-2").slideDown();
            });
          });
 
@@ -946,20 +974,44 @@ width: device-width;
         });
 
 
+
         $(function() {
              $("input[name='time-selected']").click(function() {
 
              if ($("input[name='time-selected']").is(":checked")) {
+               $(".selectedTime").addClass("time-option");
                $(".selectedTime").addClass("unselectedTime");
                $(".selectedTime").removeClass("selectedTime");
+               $(".day-selected").addClass("day-group");
+               $(".day-selected").removeClass("day-selected");
                $(this).parent().addClass("selectedTime");
                $(this).parent().removeClass("unselectedTime");
+               $(this).parent().removeClass("time-option");
+               $(this).parent().after("<p class=\"margin-top-0 change-time-link margin-bottom-0 text-center text-base text-underline\">Change date & time</p>");
+               $(this).parent().parent().parent().parent().parent().addClass("day-selected");
+               $(this).parent().parent().parent().parent().parent().removeClass("day-group");
+
              } else {
 
              }
+             $(".time-option").slideUp();
+             $(".day-group").slideUp();
              $(".unselectedTime").addClass("usa-button--outline");
              $(".selectedTime").removeClass("usa-button--outline");
+             $(".change-time-link").click(function(){
+                 $(".day-group").slideDown();
+                 $(".time-option").slideDown();
+                 $(this).addClass("hideLink");
+             });
+             $("#step-3").slideDown();
            });
+         });
+
+         $(".change-time-link").click(function(){
+             $(".day-group").slideDown();
+             $(".time-option").slideDown();
+             $(this).addClass("hideLink");
+
          });
 
 
