@@ -1105,8 +1105,9 @@ width: device-width;
          $(document).ready(function(){
             $.ajax({
               url: 'pcp-list-formatted.html',
-              success: function(){
+              success: function(data){
                 alert("done");
+                $('#PCP-option').append(data);
               },
               error: function (xhr, ajaxOptions, thrownError) {
                   var errorMsg = 'Ajax request failed: ' + xhr.responseText;
