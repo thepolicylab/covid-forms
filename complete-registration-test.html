@@ -1085,7 +1085,6 @@ width: device-width;
 
 
 
-         $(document).ready(function(){
             $.ajax({
               url: 'pcp-list-formatted.html',
               success: function(data){
@@ -1093,20 +1092,21 @@ width: device-width;
                 $('#PCP-name').html(data);
 
 
-                alert("done4");
+
               },
               error: function (xhr, ajaxOptions, thrownError) {
                   var errorMsg = 'Ajax request failed: ' + xhr.responseText;
                   alert(errorMsg);
                 }
-          })
+          });
+          
           accessibleAutocomplete.enhanceSelectElement({
             defaultValue: '',
             placeholder: 'Enter the name of your Primary Care Provider',
             selectElement: document.querySelector('#PCP-name')
           });
           alert("done5");
-            });
+
 
 
 
