@@ -1106,7 +1106,7 @@ width: device-width;
               placeholder: 'Enter the name of your Primary Care Doctor',
               selectElement: document.querySelector('#PCP-name')
             });
-              alert("Ready32");
+              alert("Ready34");
               }, false);
 
 
@@ -1117,8 +1117,8 @@ width: device-width;
 
 
 
-$("#PCP-name").click(function(){
-  alert("The item was clicked.");
+$("#pcp-fields").click(function(){
+
   $.ajax({
       url: 'pcp-list-formatted.html',
       success: function(data){
