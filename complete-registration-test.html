@@ -1088,22 +1088,7 @@ width: device-width;
 
 
 
-  <script>
 
-  $.ajax({
-      url: 'pcp-list-formatted.html',
-      success: function(data){
-        $('#PCP-option').append(data);
-
-
-      },
-      error: function (xhr, ajaxOptions, thrownError) {
-          var errorMsg = 'Ajax request failed: ' + xhr.responseText;
-          alert(errorMsg);
-        }
-      });
-
-</script>
 
 <script>
 
@@ -1115,20 +1100,42 @@ width: device-width;
 
 
 
-          // document.addEventListener('DOMContentLoaded', function() {
-          //   accessibleAutocomplete.enhanceSelectElement({
-          //     defaultValue: '',
-          //     placeholder: 'Enter the name of your Primary Care Doctor',
-          //     selectElement: document.querySelector('#PCP-name')
-          //   });
-          //     alert("Ready30");
-          //     }, false);
+          document.addEventListener('DOMContentLoaded', function() {
+            accessibleAutocomplete.enhanceSelectElement({
+              defaultValue: '',
+              placeholder: 'Enter the name of your Primary Care Doctor',
+              selectElement: document.querySelector('#PCP-name')
+            });
+              alert("Ready31");
+              }, false);
 
 
 </script>
 
 
+<script>
 
+
+
+$("#PCP-name-select").click(function(){
+  alert("The item was clicked.");
+  $.ajax({
+      url: 'pcp-list-formatted.html',
+      success: function(data){
+        $('#PCP-option').append(data);
+        alert("data appended.");
+
+
+      },
+      error: function (xhr, ajaxOptions, thrownError) {
+          var errorMsg = 'Ajax request failed: ' + xhr.responseText;
+          alert(errorMsg);
+        }
+      });
+});
+
+
+</script>
 
 
 
