@@ -1087,11 +1087,7 @@ width: device-width;
   <script>
 
 
-          accessibleAutocomplete.enhanceSelectElement({
-            defaultValue: '',
-            placeholder: 'Enter the name of your Primary Care Doctor',
-            selectElement: document.querySelector('#PCP-name')
-          });
+
 
 </script>
 
@@ -1105,7 +1101,11 @@ width: device-width;
             url: 'pcp-list-formatted.html',
             success: function(data){
               $('#PCP-name').html(data);
-              alert('success7');
+              accessibleAutocomplete.enhanceSelectElement({
+                defaultValue: '',
+                placeholder: 'Enter the name of your Primary Care Doctor',
+                selectElement: document.querySelector('#PCP-name')
+              });
             },
             error: function (xhr, ajaxOptions, thrownError) {
                 var errorMsg = 'Ajax request failed: ' + xhr.responseText;
