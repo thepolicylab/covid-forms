@@ -1,24 +1,51 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <p id="food"></p>
+    <p id="food">Test</p>
+
+    <h1>Tabletop.js test</h1>
+
+<table id="food"></table>
+
+<p>View the <a href="https://docs.google.com/spreadsheet/pub?hl=en_US&amp;hl=en_US&amp;key=0AmYzu_s7QHsmdDNZUzRlYldnWTZCLXdrMXlYQzVxSFE&amp;output=html" target="_blank">source sheet</a>. Get Tabletop.js <a href="https://github.com/jsoma/tabletop" target="_blank">here</a>.</p>
+
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
     <script type='text/javascript'>
-      var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1sbyMINQHPsJctjAtMW0lCfLrcpMqoGMOJj6AN-sNQrc/pubhtml';
 
-      function init() {
-        Tabletop.init( { key: publicSpreadsheetUrl,
-                         callback: showInfo,
-                         simpleSheet: true } )
-      }
 
-      function showInfo(data, tabletop) {
-        alert('Successfully processed!')
-        console.log(data);
-      }
 
-      window.addEventListener('DOMContentLoaded', init)
+
+// https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0AmYzu_s7QHsmdDNZUzRlYldnWTZCLXdrMXlYQzVxSFE&output=html
+
+// Note - in a newer Google Sheets URL, the "key" is between the slashes
+// 1ReMXiz9K7p70yglhq1BAFsaIfUalSzq30wiXtT61GFw is the "key" from:  https://docs.google.com/spreadsheets/d/1ReMXiz9K7p70yglhq1BAFsaIfUalSzq30wiXtT61GFw/pubhtml
+
+var public_spreadsheet_url = '2PACX-1vSjFNAjqYlHd1OU6RC8zy0WqJabWYRofAIscsdiLxxp86xLdInHv3PFMBQwb69YRXmq2ygicM-aH6tp';
+
+function init() {
+		Tabletop.init( { key: public_spreadsheet_url,
+			callback: showInfo,
+			simpleSheet: true } );
+}
+
+function showInfo(data) {
+  var html = "<tr>";
+
+  // double for-loops to do rows, cells in a table
+	for ( i = 0; i < data.length; i++ ) {
+			for ( prop in data[i] ) {
+					html += "<td>" + data[i][prop] + "</td>";
+    	}
+			html += "</tr><tr>";
+	}
+	document.getElementById("food").innerHTML = html;
+
+}
+
+// call the function
+init();
+
     </script>
 
 
