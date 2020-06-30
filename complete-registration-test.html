@@ -1078,14 +1078,6 @@ width: device-width;
            $('#other-transportation-question').slideToggle(600);
        });
 
-    //    $(document).ready(function(){
-    //
-    //   $("pcp-fields").load("pcp-list-formatted.html");
-    //
-    // })
-
-       //Papa.parse("assets/ri-physicians-latest.csv", config);
-
 
 
 
@@ -1105,7 +1097,7 @@ width: device-width;
                   placeholder: 'Enter the name of your Primary Care Provider',
                   selectElement: document.querySelector('#PCP-name')
                 });
-                alert("done3");
+                alert("done4");
               },
               error: function (xhr, ajaxOptions, thrownError) {
                   var errorMsg = 'Ajax request failed: ' + xhr.responseText;
@@ -1115,7 +1107,11 @@ width: device-width;
             });
 
 
-
+            accessibleAutocomplete.enhanceSelectElement({
+              defaultValue: '',
+              placeholder: 'Enter the name of your Primary Care Provider',
+              selectElement: document.querySelector('#PCP-name')
+            });
 
 
 
