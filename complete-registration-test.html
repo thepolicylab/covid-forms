@@ -1088,17 +1088,8 @@ width: device-width;
 
 
 
-       accessibleAutocomplete.enhanceSelectElement({
-         defaultValue: '',
-         placeholder: 'Enter the name of your Primary Care Provider',
-         selectElement: document.querySelector('#PCP-name')
-       });
-
-  </script>
 
 
-
-  <script>
 
 
 
@@ -1114,6 +1105,13 @@ width: device-width;
                   alert(errorMsg);
                 }
           })
+            });
+
+
+            accessibleAutocomplete.enhanceSelectElement({
+              defaultValue: '',
+              placeholder: 'Enter the name of your Primary Care Provider',
+              selectElement: document.querySelector('#PCP-name')
             });
 
 
