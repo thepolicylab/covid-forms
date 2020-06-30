@@ -1105,15 +1105,22 @@ width: device-width;
 
   <script>
 
+  // confirmOnBlur (default: true)
+  // Type: Boolean
+  //
+  // The autocomplete will confirm the currently selected option when the user clicks outside of the component. Set to false to disable.
 
 
 
-            accessibleAutocomplete.enhanceSelectElement({
-              defaultValue: '',
-              placeholder: 'Enter the name of your Primary Care Doctor',
-              selectElement: document.querySelector('#PCP-name')
-            });
-            alert('success12');
+
+            document.addEventListener('DOMContentLoaded', function() {
+              accessibleAutocomplete.enhanceSelectElement({
+                defaultValue: '',
+                placeholder: 'Enter the name of your Primary Care Doctor',
+                selectElement: document.querySelector('#PCP-name')
+              });
+                alert("Ready22");
+                }, false);
 
 
   </script>
