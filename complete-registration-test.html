@@ -1078,7 +1078,7 @@ width: device-width;
            $('#other-transportation-question').slideToggle(600);
        });
 
-       alert('success66');
+
 
 
 
@@ -1091,6 +1091,7 @@ width: device-width;
             defaultValue: '',
             placeholder: 'Enter the name of your Primary Care Provider',
             selectElement: document.querySelector('#PCP-name')
+            alert('success70');
           })
 
 
@@ -1100,21 +1101,21 @@ width: device-width;
 
   <script>
 
-      $( document ).ready(function(){
-
-        $.ajax({
-            url: 'pcp-list-formatted.html',
-            success: function(data){
-              $('#PCP-name').html(data);
-              alert('success7');
-            },
-            error: function (xhr, ajaxOptions, thrownError) {
-                var errorMsg = 'Ajax request failed: ' + xhr.responseText;
-                alert(errorMsg);
-              }
-            });
-
-      });
+      // $( document ).ready(function(){
+      //
+      //   $.ajax({
+      //       url: 'pcp-list-formatted.html',
+      //       success: function(data){
+      //         $('#PCP-name').html(data);
+      //         alert('success7');
+      //       },
+      //       error: function (xhr, ajaxOptions, thrownError) {
+      //           var errorMsg = 'Ajax request failed: ' + xhr.responseText;
+      //           alert(errorMsg);
+      //         }
+      //       });
+      //
+      // });
 
   </script>
 
