@@ -1092,11 +1092,7 @@ width: device-width;
 
                 $('#PCP-name').html(data);
 
-                accessibleAutocomplete.enhanceSelectElement({
-                  defaultValue: '',
-                  placeholder: 'Enter the name of your Primary Care Provider',
-                  selectElement: document.querySelector('#PCP-name')
-                });
+
                 alert("done4");
               },
               error: function (xhr, ajaxOptions, thrownError) {
@@ -1104,14 +1100,16 @@ width: device-width;
                   alert(errorMsg);
                 }
           })
+          accessibleAutocomplete.enhanceSelectElement({
+            defaultValue: '',
+            placeholder: 'Enter the name of your Primary Care Provider',
+            selectElement: document.querySelector('#PCP-name')
+          });
+          alert("done5");
             });
 
 
-            accessibleAutocomplete.enhanceSelectElement({
-              defaultValue: '',
-              placeholder: 'Enter the name of your Primary Care Provider',
-              selectElement: document.querySelector('#PCP-name')
-            });
+
 
 
 
