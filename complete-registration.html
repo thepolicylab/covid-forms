@@ -17,7 +17,6 @@ width: device-width;
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-
     <title>Prototype form for completing testing registration - v02</title>
     <link rel="stylesheet" href="css/uswds.min.css" />
     <link rel="stylesheet" href="css/accessible-autocomplete.min.css" />
@@ -26,7 +25,6 @@ width: device-width;
   <body>
     <script src="js/uswds.min.js"></script>
     <script type="text/javascript" src="js/accessible-autocomplete.min.js"></script>
-
 
 
 
@@ -93,6 +91,7 @@ width: device-width;
             </div> -->
 
             <form class="example-form-content">
+
 
 
 
@@ -352,13 +351,15 @@ width: device-width;
 
                   <fieldset class="usa-fieldset padding-bottom-4 insurance-info">
                       <legend class="usa-legend padding-top-4">Primary Care Provider</legend>
-                      <span class="usa-hint" id="pcpHint">If you have a primary care doctor, search for their name below</span>
+                      <span class="usa-hint" id="pcpHint">If you have a primary care doctor, please search for their name below</span>
 
                       <div id="pcp-fields" class="padding-top-2 margin-bottom-4">
                           <div class="usa-checkbox tablet:grid-col-9">
                             <select class="usa-input" id="PCP-name" name="PCP-name" type="text" aria-required="false">
-                              <option id="PCP-option" value="">Select your Primary Care Doctor</option>
-
+                              <option value="">Select a country</option>
+                              <option value="fr">France</option>
+                              <option value="de">Germany</option>
+                              <option value="gb">United Kingdom</option>
                             </select>
 
 
@@ -1078,47 +1079,13 @@ width: device-width;
            $('#other-transportation-question').slideToggle(600);
        });
 
-    //    $(document).ready(function(){
-    //
-    //   $("pcp-fields").load("pcp-list-formatted.html");
-    //
-    // })
-
-       //Papa.parse("assets/ri-physicians-latest.csv", config);
-
-
-
        accessibleAutocomplete.enhanceSelectElement({
          defaultValue: '',
          placeholder: 'Enter the name of your Primary Care Provider',
          selectElement: document.querySelector('#PCP-name')
-       });
+       })
 
   </script>
-
-
-
-  <script>
-
-
-         // 
-         // $(document).ready(function(){
-         //    $.ajax({
-         //      url: 'pcp-list-formatted.html',
-         //      success: function(){
-         //        alert("done");
-         //      },
-         //      error: function (xhr, ajaxOptions, thrownError) {
-         //          var errorMsg = 'Ajax request failed: ' + xhr.responseText;
-         //          alert(errorMsg);
-         //        }
-         //  })
-         //    });
-
-
-
-  </script>
-
 
 
 </html>
