@@ -1085,16 +1085,16 @@ width: device-width;
 
 
 
-          // $.ajax({
-          //     url: 'pcp-list-formatted.html',
-          //     success: function(data){
-          //       $('#PCP-name').html(data);
-          //     },
-          //     error: function (xhr, ajaxOptions, thrownError) {
-          //         var errorMsg = 'Ajax request failed: ' + xhr.responseText;
-          //         alert(errorMsg);
-          //       }
-          //     });
+          $.ajax({
+              url: 'pcp-list-formatted.html',
+              success: function(data){
+                $('#PCP-name').html(data);
+              },
+              error: function (xhr, ajaxOptions, thrownError) {
+                  var errorMsg = 'Ajax request failed: ' + xhr.responseText;
+                  alert(errorMsg);
+                }
+              });
 
           accessibleAutocomplete.enhanceSelectElement({
             defaultValue: '',
