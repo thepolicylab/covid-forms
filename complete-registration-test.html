@@ -1093,7 +1093,7 @@ width: device-width;
   $.ajax({
       url: 'pcp-list-formatted.html',
       success: function(data){
-        $('#PCP-option').after().html(data);
+        $('#PCP-option').append(data);
 
 
       },
@@ -1121,7 +1121,7 @@ width: device-width;
               placeholder: 'Enter the name of your Primary Care Doctor',
               selectElement: document.querySelector('#PCP-name')
             });
-              alert("Ready29");
+              alert("Ready30");
               }, false);
 
 
