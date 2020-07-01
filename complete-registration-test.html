@@ -353,6 +353,8 @@ width: device-width;
                   <fieldset class="usa-fieldset padding-bottom-4 insurance-info">
                       <legend class="usa-legend padding-top-4">Primary Care Provider</legend>
                       <span class="usa-hint" id="pcpHint">If you have a primary care doctor, search for their name below</span>
+                      <button id="show-pcp" class="usa-button usa-button--big">Show PCP field</button>
+
 
                       <div id="pcp-fields" class="padding-top-2 margin-bottom-4">
                           <div class="usa-checkbox tablet:grid-col-9">
@@ -1124,8 +1126,6 @@ $("#pcp-fields").click(function(){
       success: function(data){
         $('#PCP-name-select').html(data);
         alert("data appended.");
-
-
       },
       error: function (xhr, ajaxOptions, thrownError) {
           var errorMsg = 'Ajax request failed: ' + xhr.responseText;
