@@ -30,6 +30,7 @@ width: device-width;
 
 
 
+
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
 
@@ -92,7 +93,6 @@ width: device-width;
             </div> -->
 
             <form class="example-form-content">
-
 
 
 
@@ -354,10 +354,11 @@ width: device-width;
                       <legend class="usa-legend padding-top-4">Primary Care Provider</legend>
                       <span class="usa-hint" id="pcpHint">If you have a primary care doctor, search for their name below</span>
 
+
                       <div id="pcp-fields" class="padding-top-2 margin-bottom-4">
                           <div class="usa-checkbox tablet:grid-col-9">
                             <select class="usa-input" id="PCP-name" name="PCP-name" type="text" aria-required="false">
-                              <option value="no-pcp-selected">Select your Primary Care Doctor</option>
+                              <option value="no-pcp-selected"></option>
                               <option value="ETL00949">AARON, JAMES</option>
                               <option value="MD05878">AARON, ROY K - UNIVERSITY ORTHOPEDICS INC</option>
                               <option value="LP04072">AARON, STEPHANIE LEIGH - KENT HOSPITAL</option>
@@ -7892,6 +7893,7 @@ width: device-width;
                               <option value="MD14650">ZUREK, OLIVIA SANTO - MASS GENERAL HOSPITAL</option>
                               <option value="MD07704">ZWETCHKENBAUM, JOHN F - ASTHMA & ALLERGY PHYSICIANS</option>
 
+
                             </select>
 
 
@@ -7899,12 +7901,12 @@ width: device-width;
                           </div>
                       </div>
 
-                      <div class="usa-checkbox padding-top-0 pcp-not-found-checkbox">
+                      <div class="usa-checkbox pcp-not-found-checkbox padding-top-1">
                           <input class="usa-checkbox__input" id="pcp-not-found" type="checkbox" name="pcp-not-found" value="pcp-not-found">
                           <label class="usa-checkbox__label" for="pcp-not-found">I am not able to find my Primary Care Provider in this list</label>
                       </div>
 
-                      <div class="usa-checkbox padding-top-0 no-pcp-checkbox">
+                      <div class="usa-checkbox no-pcp-checkbox padding-top-1">
                           <input class="usa-checkbox__input" id="no-pcp" type="checkbox" name="no-pcp" value="no-pcp">
                           <label class="usa-checkbox__label" for="no-pcp">I do not have a Primary Care Provider</label>
                       </div>
@@ -8537,11 +8539,13 @@ width: device-width;
        $("#no-pcp").click(function(){
            $('#pcp-fields').slideToggle(600);
            $('.pcp-not-found-checkbox').slideToggle(600);
+           $('.pcp-not-found-checkbox').toggleClass('padding-top-2');
        });
 
        $("#pcp-not-found").click(function(){
            $('#pcp-fields').slideToggle(600);
            $('.no-pcp-checkbox').slideToggle(600);
+           $('.no-pcp-checkbox').toggleClass('padding-top-2');
        });
 
 
@@ -8615,13 +8619,34 @@ width: device-width;
 
 
 
-       accessibleAutocomplete.enhanceSelectElement({
-         defaultValue: '',
-         placeholder: 'Enter the name of your Primary Care Provider',
-         selectElement: document.querySelector('#PCP-name')
-       });
-
   </script>
+
+
+
+
+
+
+
+<script>
+
+// confirmOnBlur (default: true)
+// Type: Boolean
+//
+// The autocomplete will confirm the currently selected option when the user clicks outside of the component. Set to false to disable.
+
+
+
+
+accessibleAutocomplete.enhanceSelectElement({
+  defaultValue: 'Enter the name of your Primary Care Doctor',
+  selectElement: document.querySelector('#PCP-name')
+});
+
+</script>
+
+
+
+
 
 
 </html>

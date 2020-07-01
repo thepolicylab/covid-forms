@@ -358,7 +358,7 @@ width: device-width;
                       <div id="pcp-fields" class="padding-top-2 margin-bottom-4">
                           <div class="usa-checkbox tablet:grid-col-9">
                             <select class="usa-input" id="PCP-name" name="PCP-name" type="text" aria-required="false">
-                              <option value="no-pcp-selected">Select your Primary Care Doctor</option>
+                              <option value="no-pcp-selected"></option>
                               <option value="ETL00949">AARON, JAMES</option>
                               <option value="MD05878">AARON, ROY K - UNIVERSITY ORTHOPEDICS INC</option>
                               <option value="LP04072">AARON, STEPHANIE LEIGH - KENT HOSPITAL</option>
@@ -7901,12 +7901,12 @@ width: device-width;
                           </div>
                       </div>
 
-                      <div class="usa-checkbox padding-top-0 pcp-not-found-checkbox">
+                      <div class="usa-checkbox pcp-not-found-checkbox">
                           <input class="usa-checkbox__input" id="pcp-not-found" type="checkbox" name="pcp-not-found" value="pcp-not-found">
                           <label class="usa-checkbox__label" for="pcp-not-found">I am not able to find my Primary Care Provider in this list</label>
                       </div>
 
-                      <div class="usa-checkbox padding-top-0 no-pcp-checkbox">
+                      <div class="usa-checkbox no-pcp-checkbox">
                           <input class="usa-checkbox__input" id="no-pcp" type="checkbox" name="no-pcp" value="no-pcp">
                           <label class="usa-checkbox__label" for="no-pcp">I do not have a Primary Care Provider</label>
                       </div>
@@ -8539,11 +8539,13 @@ width: device-width;
        $("#no-pcp").click(function(){
            $('#pcp-fields').slideToggle(600);
            $('.pcp-not-found-checkbox').slideToggle(600);
+           $('.pcp-not-found-checkbox').toggleClass('padding-top-2');
        });
 
        $("#pcp-not-found").click(function(){
            $('#pcp-fields').slideToggle(600);
            $('.no-pcp-checkbox').slideToggle(600);
+           $('.no-pcp-checkbox').toggleClass('padding-top-2');
        });
 
 
@@ -8636,8 +8638,7 @@ width: device-width;
 
 
 accessibleAutocomplete.enhanceSelectElement({
-  defaultValue: '',
-  placeholder: 'Enter the name of your Primary Care Doctor',
+  defaultValue: 'Enter the name of your Primary Care Doctor',
   selectElement: document.querySelector('#PCP-name')
 });
 
