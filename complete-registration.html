@@ -24,7 +24,7 @@
     </style>
     <link rel="stylesheet" href="css/accessible-autocomplete.min.css" />
 
-    <title>Prototype form for completing testing registration - v02</title>
+    <title>Prototype form for completing testing registration - v03</title>
     <link rel="stylesheet" href="css/uswds.min.css" />
     <link rel="stylesheet" href="css/accessible-autocomplete.min.css" />
   </head>
@@ -43,7 +43,7 @@
             </div>
             <div class="">
               <h3 class="padding-bottom-0 margin-bottom-0">Form for completing testing registration</h3>
-              <p class="usa-banner__header-text padding-top-0 margin-top-0 test-clicker">Not functional / For demonstration purposes. To view the form for scheduling a test, <a href="schedule.html">click here</a>.</p>
+              <p class="usa-banner__header-text padding-top-0 margin-top-0 test-clicker margin-right-2">Not functional / For demonstration purposes. To view the form for scheduling a test, <a href="schedule.html">click here</a>.</p>
             </div>
 
           </div>
@@ -61,7 +61,7 @@
         <div class="">
       <div class="usa-logo margin-bottom-0" id="basic-logo">
         <h1 class="margin-bottom-1">Finish registering for your COVID-19 test</h1>
-        <p class="margin-top-1">Fill out this form for each member of your household who will be receiving a test.</p>
+        <p class="margin-top-1 margin-right-2">Fill out this form for each member of your household who will be receiving a test.</p>
       </div>
 
 
@@ -73,7 +73,7 @@
 
 
 
-    <div class="usa-section padding-top-4 margin-top-0">
+    <div id="page-content" class="usa-section padding-top-4 margin-top-0">
       <div class="grid-container">
         <div class="grid-row grid-gap">
 
@@ -96,7 +96,7 @@
 
 
 
-              <fieldset class="usa-fieldset margin-top-6 padding-bottom-4">
+              <fieldset class="usa-fieldset margin-top-2 padding-bottom-4">
                   <legend class="usa-legend">Main reason for being tested</legend>
                   <!-- <span class="usa-hint" id="reason-helper-text">Hint text here</span> -->
                   <br/>
@@ -209,7 +209,7 @@
 
                   <fieldset class="usa-fieldset padding-bottom-4 tablet:grid-col-8 desktop:grid-col-6">
                       <legend class="usa-legend padding-top-4">Address</legend>
-                      <span class="usa-hint" id="address-helper-text">Your household address</span>
+                      <span class="usa-hint" id="address-helper-text">Your household address. This will help us understand the spread of COVID-19.</span>
 
                       <div id="address-fields">
 
@@ -273,7 +273,7 @@
 
                   <fieldset class="usa-fieldset padding-bottom-2 insurance-info desktop:grid-col-8">
                       <legend class="usa-legend padding-top-4">Insurance information</legend>
-                      <span class="usa-hint" id="address-helper-text">COVID-19 is currently covered by all insurance companies. We ask if you have insurance, you please enter the information here. If you do not currently have insurance, testing is free.</span>
+                      <span class="usa-hint" id="address-helper-text">COVID-19 is currently covered by all insurance companies. If you have insurance, you please enter the information here. If you do not currently have insurance, testing is free at centers managed by the State of Rhode Island.</span>
 
                       <div class="insurance-info-block padding-bottom-2" id="insurance-provider-1">
                         <label class="usa-label" for="provider-name">Health insurance provider name</label>
@@ -2008,7 +2008,7 @@
 
               <fieldset class="usa-fieldset padding-bottom-6 is-hidden" id="workplace-location">
                   <legend class="usa-legend padding-top-4">Where is your workplace located?</legend>
-                  <span class="usa-hint" id="workplaceAddress-helper-text">The address for where you work most of the time</span>
+                  <span class="usa-hint" id="workplaceAddress-helper-text">The address for where you work most of the time. This information will help us understand the spread of COVID-19.</span>
 
                   <div id="workplace-address-fields" class="tablet:grid-col-8 desktop:grid-col-6">
 
@@ -2045,12 +2045,12 @@
 
                       <div class="usa-checkbox padding-top-4">
                           <input class="usa-checkbox__input" id="workplace-travel" type="checkbox" name="workplace-travel" value="workplace-travel">
-                          <label class="usa-checkbox__label" for="workplace-travel">I also work at other locations</label>
+                          <label class="usa-checkbox__label" for="workplace-travel">I also work at additional locations</label>
                       </div>
 
                       <div class="usa-checkbox padding-top-1">
                           <input class="usa-checkbox__input" id="no-workplace-address" type="checkbox" name="no-workplace-address" value="no-workplace-address">
-                          <label class="usa-checkbox__label" for="no-workplace-address">I am not able to provide my workplace address</label>
+                          <label class="usa-checkbox__label" for="no-workplace-address">I am not able to provide my complete workplace address</label>
                       </div>
 
 
@@ -2418,7 +2418,8 @@
       });
     });
 
-    $1("#no-workplace-address").addEventListener('click', function() { toggle($1('#workplace-address-fields')); });
+  // Commenting out this toggle as it should probably be more of a conditional on making the fields not required
+  //  $1("#no-workplace-address").addEventListener('click', function() { toggle($1('#workplace-address-fields')); });
 
 
 
