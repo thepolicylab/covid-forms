@@ -96,7 +96,7 @@
 
 
 
-              <fieldset class="usa-fieldset margin-top-2 padding-bottom-4">
+              <fieldset id="reason-for-being-tested" class="usa-fieldset margin-top-2 padding-bottom-4">
                   <legend class="usa-legend">Main reason for being tested</legend>
                   <!-- <span class="usa-hint" id="reason-helper-text">Hint text here</span> -->
                   <br/>
@@ -155,7 +155,7 @@
 
 
 
-                <fieldset class="usa-fieldset padding-bottom-4">
+                <fieldset id="name" class="usa-fieldset padding-bottom-4">
                     <legend class="usa-legend padding-top-2">Name</legend>
 
                     <label class="usa-label" for="first-name">First name</label>
@@ -170,21 +170,21 @@
 
 
 
-                <fieldset class="usa-fieldset padding-bottom-4">
+                <fieldset id="dob" class="usa-fieldset padding-bottom-4">
                     <legend class="usa-legend padding-top-4">Date of birth</legend>
                     <span class="usa-hint" id="dob-helper-text">For example, 4 28 1986</span>
                     <div class="usa-memorable-date">
                         <div class="usa-form-group usa-form-group--month">
-                            <label class="usa-label" for="date_of_birth_1">Month</label>
-                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_1" name="date_of_birth_1" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="">
+                            <label class="usa-label" for="dob-month">Month</label>
+                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="dob-month" name="dob-month" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="">
                         </div>
                         <div class="usa-form-group usa-form-group--day">
-                            <label class="usa-label" for="date_of_birth_2">Day</label>
-                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_2" name="date_of_birth_2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="">
+                            <label class="usa-label" for="dob-day">Day</label>
+                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="dob-day" name="dob-day" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="">
                         </div>
                         <div class="usa-form-group usa-form-group--year">
-                            <label class="usa-label" for="date_of_birth_3">Year</label>
-                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_3" name="date_of_birth_3" type="text" minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="">
+                            <label class="usa-label" for="dob-year">Year</label>
+                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="dob-year" name="dob-year" type="text" minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="">
                         </div>
                     </div>
                 </fieldset>
@@ -300,7 +300,7 @@
                               </div>
                           </div>
 
-                          <label class="usa-label" for="zip">ZIP</label>
+                          <label class="usa-label" for="zip">ZIP Code</label>
                           <input class="usa-input usa-input--medium" id="zip" name="zip" type="text" pattern="[\d]{5}(-[\d]{4})?">
 
                           <div class="usa-checkbox padding-top-4">
@@ -334,7 +334,7 @@
 
                   <fieldset class="usa-fieldset padding-bottom-2 insurance-info desktop:grid-col-8">
                       <legend class="usa-legend padding-top-4">Insurance information</legend>
-                      <span class="usa-hint" id="address-helper-text">COVID-19 is currently covered by all insurance companies. If you have insurance, you please enter the information here. If you do not currently have insurance, testing is free at centers managed by the State of Rhode Island.</span>
+                      <span class="usa-hint" id="address-helper-text">COVID-19 testing is currently covered by all insurance companies. If you have insurance, you please enter the information here. If you do not currently have insurance, testing is free at centers managed by the State of Rhode Island.</span>
 
                       <div class="insurance-info-block padding-bottom-2" id="insurance-provider-1">
                         <label class="usa-label" for="provider-name">Health insurance provider name</label>
@@ -458,7 +458,7 @@
                         <label class="usa-checkbox__label" for="cough">Cough</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="fever" type="checkbox" name="symptoms-1" value="fever">
+                        <input class="usa-checkbox__input" id="fever-or-chills" type="checkbox" name="symptoms-1" value="fever">
                         <label class="usa-checkbox__label" for="fever">Fever or chills</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
@@ -482,8 +482,8 @@
                         <label class="usa-checkbox__label" for="diarrhea">Diarrhea</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="runny-nose" type="checkbox" name="symptoms-1" value="runny-nose">
-                        <label class="usa-checkbox__label" for="runny-nose">Runny nose or stuffy nose</label>
+                        <input class="usa-checkbox__input" id="runny-stuffy-nose" type="checkbox" name="symptoms-1" value="runny-stuffy-nose">
+                        <label class="usa-checkbox__label" for="runny-stuffy-nose">Runny nose or stuffy nose</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
                         <input class="usa-checkbox__input" id="fatigue" type="checkbox" name="symptoms-1" value="fatigue">
@@ -496,6 +496,10 @@
                     <div class="usa-checkbox tablet:grid-col-3">
                         <input class="usa-checkbox__input" id="symptoms1-other" type="checkbox" name="symptoms-1" value="symptoms1-other">
                         <label class="usa-checkbox__label" for="symptoms1-other">Other</label>
+                    </div>
+                    <div class="usa-checkbox tablet:grid-col-3">
+                        <input class="usa-checkbox__input" id="symptoms1-none" type="checkbox" name="symptoms-1" value="symptoms1-none">
+                        <label class="usa-checkbox__label" for="symptoms1-none">I have not experienced any of these symptoms in the past 24 hours</label>
                     </div>
 
                   </div>
@@ -517,7 +521,7 @@
                         <label class="usa-checkbox__label" for="cough-longterm">Cough</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="fever-longterm" type="checkbox" name="symptoms-2" value="fever-longterm">
+                        <input class="usa-checkbox__input" id="fever-or-chills-longterm" type="checkbox" name="symptoms-2" value="fever-longterm">
                         <label class="usa-checkbox__label" for="fever-longterm">Fever or chills</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
@@ -541,8 +545,8 @@
                         <label class="usa-checkbox__label" for="diarrhea-longterm">Diarrhea</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="runny-nose-longterm" type="checkbox" name="symptoms-2" value="runny-nose-longterm">
-                        <label class="usa-checkbox__label" for="runny-nose-longterm">Runny nose or stuffy nose</label>
+                        <input class="usa-checkbox__input" id="runny-stuffy-nose-longterm" type="checkbox" name="symptoms-2" value="runny-stuffy-nose-longterm">
+                        <label class="usa-checkbox__label" for="runny-stuffy-nose-longterm">Runny nose or stuffy nose</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
                         <input class="usa-checkbox__input" id="fatigue-longterm" type="checkbox" name="symptoms-2" value="fatigue-longterm">
@@ -2454,7 +2458,7 @@
                           </div>
                       </div>
 
-                      <label class="usa-label" for="workplace-zip">ZIP</label>
+                      <label class="usa-label" for="workplace-zip">ZIP Code</label>
                       <input class="usa-input usa-input--medium" id="workplace-zip" name="workplace-zip" type="text" pattern="[\d]{5}(-[\d]{4})?">
 
                   </div>

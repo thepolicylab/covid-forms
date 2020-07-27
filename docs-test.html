@@ -1,0 +1,3755 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<!-- Mobile Specific Metas
+================================================== -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Title and meta description
+================================================== -->
+
+
+<title>Data Standard for Covid-19 testing | The Policy Lab</title>
+<meta property="og:title" content="Data Standard for Covid-19 testing | The Policy Lab">
+
+
+<meta name="description" content="">
+<meta property="og:description" content="">
+
+<meta name="twitter:card" value="">
+<meta name="twitter:site" content="@thepolicytweets">
+<meta property="og:type" content="article">
+
+
+
+
+
+
+  <meta property="og:image" content="https://designsystem.digital.gov/img/uswds-logo/lg-black.png">
+
+
+<link rel="canonical" href="https://designsystem.digital.gov/design-tokens/">
+<meta property="og:url" content="https://designsystem.digital.gov/design-tokens/">
+
+
+
+<!-- Favicons
+================================================== -->
+  <!-- 128x128 -->
+  <link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png">
+
+  <!-- 192x192, as recommended for Android
+  http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+  -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicons/favicon-192.png">
+
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon-precomposed" href="/assets/img/favicons/favicon-57.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/favicons/favicon-72.png">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicons/favicon-114.png">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/favicons/favicon-144.png">
+
+<!-- CSS
+================================================== -->
+<!-- env: production -->
+
+
+<link rel="stylesheet" href="css/uswds.min.css" />
+<link rel="stylesheet" href="css/styles.css" />
+
+  </head>
+  <script src="js/uswds.min.js"></script>
+  <body class="page-design-tokens layout-styleguide ">
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+
+<header class="usa-header site-header site-header-dark" role="banner">
+  <div class="usa-navbar site-header-navbar">
+    <div class="usa-logo site-logo" id="logo">
+      <em class="usa-logo__text">
+        <a class="margin-right-05" href="/" title="Home" aria-label="U.S. Web Design System (USWDS) home">
+          <span aria-hidden="true" class="site-title-short">The Policy Lab</span>
+          <span class="site-title">The Policy Lab &nbsp;|&nbsp;  Data standards for Covid-19 testing</span>
+        </a>
+      </em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+    <div class="navbar--container">
+
+      <div class="buttons">
+  <a
+    class="usa-button site-button-outline-secondary site-button-standards margin-x-0 desktop:margin-right-1 padding-x-05 desktop:padding-left-1 desktop:padding-right-05 desktop-lg:padding-left-205 desktop-lg:padding-right-2 font-lang-sm"
+    href="/complete-registration.html"
+  >
+    View model form
+  </a>
+  <a
+    class="usa-button site-button-outline-secondary site-button-download margin-x-0 desktop:margin-right-1 desktop:padding-left-1 desktop:padding-right-05 desktop-lg:padding-left-205 desktop-lg:padding-right-2 font-lang-sm"
+    href="https://github.com/thepolicylab/covid-forms"
+  >
+    View code
+  </a>
+  <a
+    class="usa-button site-button-github margin-x-0 desktop:margin-right-4 font-lang-sm"
+    href="https://github.com/thepolicylab">
+    <?xml version="1.0" encoding="UTF-8"?><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="33"
+  height="32"
+  viewBox="0 0 33 32"
+  class="logo"
+>
+  <title>Github logo</title>
+  <path
+    fill="#161514"
+    fill-rule="evenodd"
+    d="M16.288 0C7.294 0 0 7.293 0 16.29c0 7.197 4.667 13.302 11.14 15.456.815.15 1.112-.353 1.112-.785 0-.386-.014-1.411-.022-2.77-4.531.984-5.487-2.184-5.487-2.184-.741-1.882-1.809-2.383-1.809-2.383-1.479-1.01.112-.99.112-.99 1.635.115 2.495 1.679 2.495 1.679 1.453 2.489 3.813 1.77 4.741 1.353.148-1.052.569-1.77 1.034-2.177-3.617-.411-7.42-1.809-7.42-8.051 0-1.778.635-3.233 1.677-4.371-.168-.412-.727-2.069.16-4.311 0 0 1.367-.438 4.479 1.67a15.602 15.602 0 0 1 4.078-.549 15.62 15.62 0 0 1 4.078.549c3.11-2.108 4.475-1.67 4.475-1.67.889 2.242.33 3.899.163 4.311 1.044 1.138 1.674 2.593 1.674 4.371 0 6.258-3.809 7.635-7.437 8.038.584.503 1.105 1.497 1.105 3.017 0 2.177-.02 3.934-.02 4.468 0 .436.294.943 1.12.784 6.468-2.159 11.131-8.26 11.131-15.455C32.579 7.293 25.285 0 16.288 0"
+  />
+</svg>
+
+    <span class="text">View on GitHub</span>
+  </a>
+</div>
+
+
+    </div>
+  </div>
+</header>
+<nav class="site-nav-secondary sticky">
+  <ul>
+
+
+
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/overview/">
+  <span>
+    Overview
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item is-current">
+
+
+<a href="/data-standard/"class="usa-current">
+  <span>
+    Data standard
+  </span>
+</a>
+
+
+
+
+  </li>
+
+
+
+
+
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/scheduling/">
+  <span>
+    Scheduling
+  </span>
+</a>
+
+
+
+  </li>
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/registration/">
+  <span>
+    Registration
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+
+
+  </ul>
+</nav>
+<div class="usa-overlay"></div>
+
+<nav role="navigation" class="usa-nav site-nav sidenav-mobile">
+  <button class="usa-nav__close">
+    <span class="usa-sr-only">Close</span>
+  </button>
+
+  <form
+    id="search_form-mobile"
+    class="usa-search usa-search--small desktop:margin-right-4"
+    action="https://search.usa.gov/search"
+    accept-charset="UTF-8"
+    method="get">
+    <input name="utf8" type="hidden" value="&#x2713;" />
+    <input type="hidden" name="affiliate" id="affiliate-mobile" value="uswds" />
+    <div role="search">
+      <label class="usa-sr-only" for="query-mobile">Search</label>
+      <input
+        id="query-mobile"
+        class="usa-input usagov-search-autocomplete"
+        name="query"
+        type="search"
+        autocomplete="off"/>
+      <button
+        class="usa-button margin-top-0"
+        type="submit"
+        name="commit">
+        <span class="usa-sr-only">Search</span>
+      </button>
+    </div>
+  </form>
+  <div class="usa-nav__inner">
+    <ul class="usa-nav__primary usa-accordion">
+
+  <li class="usa-nav__primary-item">
+
+
+
+
+<button class="usa-accordion__button usa-nav__link" aria-controls="nav-how-to-use-uswds"
+  aria-expanded="false"
+  >
+  How to use USWDS
+</button>
+<ul id="nav-how-to-use-uswds" class="usa-nav__submenu">
+
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/how-to-use-uswds/">
+  <span>
+    How to use USWDS
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/website-standards/">
+  <span>
+    Website standards
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/maturity-model/">
+  <span>
+    USWDS maturity model
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/documentation/developers/">
+  <span>
+    For developers
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/documentation/designers/">
+  <span>
+    For designers
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/documentation/accessibility/">
+  <span>
+    Accessibility
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/documentation/settings/">
+  <span>
+    Settings
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/performance/">
+  <span>
+    Performance guidelines
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/documentation/code-guidelines/">
+  <span>
+    Code guidelines
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/documentation/migration/">
+  <span>
+    Migrating to USWDS 2
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/documentation/video-tutorials/">
+  <span>
+    Video tutorials
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/documentation/implementations/">
+  <span>
+    Implementations
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/documentation/showcase/">
+  <span>
+    Showcase
+  </span>
+</a>
+
+
+
+  </li>
+
+
+</ul>
+
+
+  </li>
+
+  <li class="usa-nav__primary-item">
+
+
+
+
+<a href="/design-principles/">
+  <span>
+    Design principles
+  </span>
+</a>
+
+
+
+  </li>
+
+  <li class="usa-nav__primary-item">
+
+
+
+
+<button class="usa-accordion__button usa-nav__link" aria-controls="nav-components"
+  aria-expanded="false"
+  >
+  Components
+</button>
+<ul id="nav-components" class="usa-nav__submenu">
+
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/">
+  <span>
+    Components
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/accordion/">
+  <span>
+    Accordion
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/alert/">
+  <span>
+    Alert
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/banner/">
+  <span>
+    Banner
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/breadcrumb/">
+  <span>
+    Breadcrumb
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/button/">
+  <span>
+    Button
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/button-groups/">
+  <span>
+    Button groups
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/card/">
+  <span>
+    Card
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/data-visualizations/">
+  <span>
+    Data visualizations
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/footer/">
+  <span>
+    Footer
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/form-controls/">
+  <span>
+    Form controls
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/form-templates/">
+  <span>
+    Form templates
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/layout-grid/">
+  <span>
+    Grid
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/header/">
+  <span>
+    Header
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/icons/">
+  <span>
+    Icons
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/search/">
+  <span>
+    Search
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/sidenav/">
+  <span>
+    Side navigation
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/table/">
+  <span>
+    Table
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/tag/">
+  <span>
+    Tag
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/tooltip/">
+  <span>
+    Tooltip
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/components/typography/">
+  <span>
+    Typography
+  </span>
+</a>
+
+
+
+  </li>
+
+
+</ul>
+
+
+  </li>
+
+  <li class="usa-nav__primary-item">
+
+
+
+
+<button class="usa-accordion__button usa-nav__link" aria-controls="nav-design-tokens"
+
+  class="usa-current"
+  aria-expanded="true"
+  >
+  Design tokens
+</button>
+<ul id="nav-design-tokens" class="usa-nav__submenu">
+
+
+
+
+
+  <li class="usa-nav__submenu-item is-current">
+
+
+<a href="/design-tokens/"class="usa-current">
+  <span>
+    Data standard
+  </span>
+</a>
+
+
+
+
+    <ul class="usa-nav__submenu">
+
+      <li class="usa-nav__submenu-item is-current">
+        <a href="#partners">Partners</a>
+      </li>
+
+      <li class="usa-nav__submenu-item is-current">
+        <a href="#types-of-data">Types of data</a>
+      </li>
+
+      <li class="usa-nav__submenu-item is-current">
+        <a href="#how-to-read">How to read</a>
+      </li>
+
+    </ul>
+
+
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/design-tokens/color/">
+  <span>
+    Color
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/design-tokens/typesetting/">
+  <span>
+    Typesetting
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/design-tokens/flex/">
+  <span>
+    Flex
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/design-tokens/opacity/">
+  <span>
+    Opacity
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/design-tokens/order/">
+  <span>
+    Order
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/design-tokens/shadow/">
+  <span>
+    Shadow
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/design-tokens/spacing-units/">
+  <span>
+    Spacing units
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/design-tokens/z-index/">
+  <span>
+    Z-index
+  </span>
+</a>
+
+
+
+  </li>
+
+
+</ul>
+
+
+  </li>
+
+  <li class="usa-nav__primary-item">
+
+
+
+
+<button class="usa-accordion__button usa-nav__link" aria-controls="nav-utilities"
+  aria-expanded="false"
+  >
+  Utilities
+</button>
+<ul id="nav-utilities" class="usa-nav__submenu">
+
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/">
+  <span>
+    Utilities
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/layout-grid/">
+  <span>
+    Layout grid
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/color/">
+  <span>
+    Color
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/height-and-width/">
+  <span>
+    Height and width
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/margin-and-padding/">
+  <span>
+    Margin and padding
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/border/">
+  <span>
+    Border
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/outline/">
+  <span>
+    Outline
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/font-size-and-family/">
+  <span>
+    Font size and family
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/text-styles/">
+  <span>
+    Text styles
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/paragraph-styles/">
+  <span>
+    Paragraph styles
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/display/">
+  <span>
+    Display
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/flex/">
+  <span>
+    Flex
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/shadow/">
+  <span>
+    Shadow
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/float/">
+  <span>
+    Float
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/clearfix/">
+  <span>
+    Clearfix
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/utilities/list-reset/">
+  <span>
+    List reset
+  </span>
+</a>
+
+
+
+  </li>
+
+
+</ul>
+
+
+  </li>
+
+  <li class="usa-nav__primary-item">
+
+
+
+
+<a href="/page-templates/">
+  <span>
+    Page templates
+  </span>
+</a>
+
+
+
+  </li>
+
+  <li class="usa-nav__primary-item">
+
+
+
+
+<button class="usa-accordion__button usa-nav__link" aria-controls="nav-about"
+  aria-expanded="false"
+  >
+  About
+</button>
+<ul id="nav-about" class="usa-nav__submenu">
+
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/about/">
+  <span>
+    About
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/about/product-values/">
+  <span>
+    Product values
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/about/whats-new/">
+  <span>
+    What’s new
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/about/releases/">
+  <span>
+    Release notes
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/about/updates/">
+  <span>
+    News and updates
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/about/product-roadmap/">
+  <span>
+    Product roadmap
+  </span>
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-nav__submenu-item">
+
+
+<a href="/about/research/">
+  <span>
+    Research
+  </span>
+</a>
+
+
+
+  </li>
+
+
+</ul>
+
+
+  </li>
+
+
+    </ul>
+    <div class="buttons">
+  <a
+    class="usa-button site-button-outline-secondary site-button-standards margin-x-0 desktop:margin-right-1 padding-x-05 desktop:padding-left-1 desktop:padding-right-05 desktop-lg:padding-left-205 desktop-lg:padding-right-2 font-lang-sm"
+    href="/website-standards/"
+    onclick="ga('send', 'event', 'Read website standards', 'Clicked Read website standards from inside site');"
+  >
+    Read website standards
+  </a>
+  <a
+    class="usa-button site-button-outline-secondary site-button-download margin-x-0 desktop:margin-right-1 desktop:padding-left-1 desktop:padding-right-05 desktop-lg:padding-left-205 desktop-lg:padding-right-2 font-lang-sm"
+    href="/download/"
+    onclick="ga('send', 'event', 'Downloaded code and design files', 'Clicked Download code and design files from inside site');"
+  >
+    Download <span class="version desktop:display-none desktop-lg:display-inline">v2.8.0</span>
+  </a>
+  <a
+    class="usa-button site-button-github margin-x-0 desktop:margin-right-4 font-lang-sm"
+    href="https://github.com/uswds/uswds"
+    onclick="ga('send', 'event', 'Viewed on Github', 'Clicked View on Github from inside site');"
+  >
+    <?xml version="1.0" encoding="UTF-8"?><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="33"
+  height="32"
+  viewBox="0 0 33 32"
+  class="logo"
+>
+  <title>Github logo</title>
+  <path
+    fill="#161514"
+    fill-rule="evenodd"
+    d="M16.288 0C7.294 0 0 7.293 0 16.29c0 7.197 4.667 13.302 11.14 15.456.815.15 1.112-.353 1.112-.785 0-.386-.014-1.411-.022-2.77-4.531.984-5.487-2.184-5.487-2.184-.741-1.882-1.809-2.383-1.809-2.383-1.479-1.01.112-.99.112-.99 1.635.115 2.495 1.679 2.495 1.679 1.453 2.489 3.813 1.77 4.741 1.353.148-1.052.569-1.77 1.034-2.177-3.617-.411-7.42-1.809-7.42-8.051 0-1.778.635-3.233 1.677-4.371-.168-.412-.727-2.069.16-4.311 0 0 1.367-.438 4.479 1.67a15.602 15.602 0 0 1 4.078-.549 15.62 15.62 0 0 1 4.078.549c3.11-2.108 4.475-1.67 4.475-1.67.889 2.242.33 3.899.163 4.311 1.044 1.138 1.674 2.593 1.674 4.371 0 6.258-3.809 7.635-7.437 8.038.584.503 1.105 1.497 1.105 3.017 0 2.177-.02 3.934-.02 4.468 0 .436.294.943 1.12.784 6.468-2.159 11.131-8.26 11.131-15.455C32.579 7.293 25.285 0 16.288 0"
+  />
+</svg>
+
+    <span class="text">View on GitHub</span>
+  </a>
+</div>
+
+
+  </div>
+</nav>
+
+
+<div class="default-container">
+  <aside class="sidenav">
+
+
+    <ul class="site-sidenav usa-sidenav">
+
+
+
+
+  <li class="usa-sidenav__item is-current">
+
+
+<a href="/design-tokens/"class="usa-current">
+
+    Design tokens
+
+</a>
+
+
+
+
+    <ul class="usa-sidenav__sublist">
+
+      <li class="usa-nav__submenu-item is-current">
+        <a href="#partners">Partners</a>
+      </li>
+
+      <li class="usa-nav__submenu-item is-current">
+        <a href="#types-of-data">Types of data</a>
+      </li>
+
+      <li class="usa-nav__submenu-item is-current">
+        <a href="#how-to-read">How to read this</a>
+      </li>
+
+</ul>
+
+
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-sidenav__item">
+
+
+<a href="/design-tokens/color/">
+
+    Color
+
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-sidenav__item">
+
+
+<a href="/design-tokens/typesetting/">
+
+    Typesetting
+
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-sidenav__item">
+
+
+<a href="/design-tokens/flex/">
+
+    Flex
+
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-sidenav__item">
+
+
+<a href="/design-tokens/opacity/">
+
+    Opacity
+
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-sidenav__item">
+
+
+<a href="/design-tokens/order/">
+
+    Order
+
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-sidenav__item">
+
+
+<a href="/design-tokens/shadow/">
+
+    Shadow
+
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-sidenav__item">
+
+
+<a href="/design-tokens/spacing-units/">
+
+    Spacing units
+
+</a>
+
+
+
+  </li>
+
+
+
+
+  <li class="usa-sidenav__item">
+
+
+<a href="/design-tokens/z-index/">
+
+    Z-index
+
+</a>
+
+
+
+  </li>
+
+
+    </ul>
+
+  </aside>
+
+  <main id="main-content" class="main-content">
+
+    <div class="styleguide-content usa-prose site-prose">
+      <header>
+
+
+
+        <h1 id="data-standard-test-subjects" class="site-page-title">Data standard for Covid-19 testing</h1>
+
+      </header>
+
+      <p class="site-text-intro">This data standard can help states and regions ensure consistency about Covid-19 tests across government agencies, vendors, and technology platforms.
+
+
+        <h2 id="partners">Partners</h2>
+          <p>This work was developed in partnership with Rhode Island's <a href="https://health.ri.gov/">Department of Health</a>, <a href="http://www.admin.ri.gov/">Department of Administration</a>, and <a href="https://governor.ri.gov/">Office of the Governor</a>.</p>
+          <p>Its model forms use the <a href="https://designsystem.digital.gov/">U.S. Web Design System</a>, and its occupation taxonomy is based on the <a href="https://www.onetcenter.org/taxonomy.html">O*Net</a> Standard Occupation Categories (SOCs), which are sponsored by the U.S. Department of Labor.  The development and documentation of this standard has been led by <a href="https://thepolicylab.brown.edu/">The Policy Lab</a> at Brown University.</p>
+
+          <h2 id="types-of-data">Types of data</h2>
+            <p>We've selected the fields for this data standard to minimize the administrative burden of completing a test, with additional areas selected to improve capacities for analysis, contact tracing, and testing operations.</p> <p>Priority areas include: </p>
+            <ul>
+              <li>
+                <strong>Structured fields for personal information</strong> such as name, date of birth, address, and contact information,
+              </li>
+              <li>
+                <strong>Structured categories</strong> for symptoms, work settings, occupations, and places that may have been exposed,
+              </li>
+              <li>
+                <strong>Information about insurance providers</strong> to support the long-term costs of testing, and
+              </li>
+              <li>
+                <strong>Inclusive options</strong> for gender identity, sexual orientation, and housing status.
+              </li>
+            </ul>
+
+          <p>In a given state or region, you may choose to replicate this standard completely, or select sections to reuse or adapt based on your current needs.</p>
+
+          <h2 id="how-to-read">How to read this standard</h2>
+            <p>This standard provides technical documentation for developers and data analysts. For a preview of what this form looks like online, check out our <a href="complete-registration.html">model form</a>.</p>
+            <p>For a higher-level overview of how this standard can fit into a state or region's testing operations, check out our <a href="#does-not-yet-exist">overview section</a>.</p>
+
+
+          <h2 id="reason-for-being-tested">Reason for being tested</h2>
+          <p>This fieldset contains options for why the resident is looking to get a test, displayed as checkboxes so that they can select all that apply. <a href="complete-registration.html#reason-for-being-tested">View in model form</a></p>
+
+          <div class="site-table-wrapper">
+            <table class="usa-table--borderless site-table-responsive">
+              <thead>
+                <tr>
+                  <th scope="col" colspan="2">Heading</th>
+                  <th scope="col" colspan="3">Helper text</th>
+                </tr>
+              </thead>
+              <tbody class="font-mono-2xs padding-bottom-1">
+                <tr class="padding-bottom-2">
+                  <td colspan="2" scope="row" data-title="Heading">
+                    <span>
+                      Reason for being tested
+                    </span>
+                  </td>
+                  <td colspan="3"  data-title="Helper text">
+                    <span>
+                      Select all that apply
+                    </span>
+                  </td>
+                </tr>
+
+              </tbody>
+
+              <thead>
+                <tr>
+                  <th scope="col">Label</th>
+                  <th scope="col">ID</th>
+                  <th scope="col">Input type</th>
+                  <th scope="col">Validation</th>
+                  <th scope="col">Error text</th>
+                </tr>
+              </thead>
+              <tbody class="font-mono-2xs">
+                <tr>
+                  <td data-title="Label">
+                    <span>
+                      I have symptoms of Covid-19
+                    </span>
+                  </td>
+                  <td data-title="ID">
+                    <span>
+                      symptomatic
+                    </span>
+                  </td>
+                  <td data-title="Input type">
+                    <span>
+                      checkbox
+                    </span>
+                  </td>
+                  <td data-title="Validation">
+                    <span>
+                      Must select at least one option
+                    </span>
+                  </td>
+                  <td data-title="Error text">
+                    <span>
+                      Select a reason for being tested
+                    </span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td data-title="Label">
+                    <span>
+                      I received a letter in the mail
+                    </span>
+                  </td>
+                  <td data-title="ID">
+                    <span>
+                      random-sample
+                    </span>
+                  </td>
+                  <td data-title="Input type">
+                    <span>
+                      checkbox
+                    </span>
+                  </td>
+                  <td data-title="Validation">
+                    <span>
+                      Must select at least one option
+                    </span>
+                  </td>
+                  <td data-title="Error text">
+                    <span>
+                      Select a reason for being tested
+                    </span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td data-title="Label">
+                    <span>
+                      I work in a profession that's been asked to get tested
+                    </span>
+                  </td>
+                  <td data-title="ID">
+                    <span>
+                      sentinel-group
+                    </span>
+                  </td>
+                  <td data-title="Input type">
+                    <span>
+                      checkbox
+                    </span>
+                  </td>
+                  <td data-title="Validation">
+                    <span>
+                      Must select at least one option
+                    </span>
+                  </td>
+                  <td data-title="Error text">
+                    <span>
+                      Select a reason for being tested
+                    </span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td data-title="Label">
+                    <span>
+                      I attended an event with more than 100 people
+                    </span>
+                  </td>
+                  <td data-title="ID">
+                    <span>
+                      group-setting
+                    </span>
+                  </td>
+                  <td data-title="Input type">
+                    <span>
+                      checkbox
+                    </span>
+                  </td>
+                  <td data-title="Validation">
+                    <span>
+                      Must select at least one option
+                    </span>
+                  </td>
+                  <td data-title="Error text">
+                    <span>
+                      Select a reason for being tested
+                    </span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td data-title="Label">
+                    <span>
+                      I have been in contact with someone who tested positive
+                    </span>
+                  </td>
+                  <td data-title="ID">
+                    <span>
+                      been-in-contact
+                    </span>
+                  </td>
+                  <td data-title="Input type">
+                    <span>
+                      checkbox
+                    </span>
+                  </td>
+                  <td data-title="Validation">
+                    <span>
+                      Must select at least one option
+                    </span>
+                  </td>
+                  <td data-title="Error text">
+                    <span>
+                      Select a reason for being tested
+                    </span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td data-title="Label">
+                    <span>
+                      Other
+                    </span>
+                  </td>
+                  <td data-title="ID">
+                    <span>
+                      reason-other
+                    </span>
+                  </td>
+                  <td data-title="Input type">
+                    <span>
+                      checkbox
+                    </span>
+                  </td>
+                  <td data-title="Validation">
+                    <span>
+                      If selected, show other-reason field
+                    </span>
+                  </td>
+                  <td data-title="Error text">
+                    <span>
+                      Select a reason for being tested
+                    </span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td data-title="Label">
+                    <span>
+                      Other reason
+                    </span>
+                  </td>
+                  <td data-title="ID">
+                    <span>
+                      other-reason
+                    </span>
+                  </td>
+                  <td data-title="Input type">
+                    <span>
+                      text
+                    </span>
+                  </td>
+                  <td data-title="Validation">
+                    <span>
+                      Hidden on default. Appears if resident selects "Other"
+                    </span>
+                  </td>
+                  <td data-title="Error text">
+                    <span>
+                      How would you describe why you're getting tested?
+                    </span>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+
+          <h2 id="name">Name</h2>
+                    <p>This fieldset uses a standard template from the <a href="https://designsystem.digital.gov/components/form-templates/">US Web Design System</a> for first name, middle name, and last name. <a href="complete-registration.html#name">View in model form</a></p>
+
+                    <div class="site-table-wrapper">
+                      <table class="usa-table--borderless site-table-responsive">
+                        <thead>
+                          <tr>
+                            <th scope="col" colspan="2">Heading</th>
+                            <th scope="col" colspan="3">Helper text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs padding-bottom-1">
+                          <tr class="padding-bottom-2">
+                            <td colspan="2" scope="row" data-title="Heading">
+                              <span>
+                                Name
+                              </span>
+                            </td>
+                            <td colspan="3"  data-title="Helper text">
+                              <span>
+                                [None]
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+
+                        <thead>
+                          <tr>
+                            <th scope="col">Label</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Input type</th>
+                            <th scope="col">Validation</th>
+                            <th scope="col">Error text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs">
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                First name
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                first-name
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must contain at least one character
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Enter your first name
+                              </span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Middle name (optional)
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                middle-name
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Optional field
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Last name
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                last-name
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must contain at least one character
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Enter your last name
+                              </span>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+
+                    <h2 id="date-of-birth">Date of birth</h2>
+                    <p>This fieldset uses a standard template from the <a href="https://designsystem.digital.gov/components/form-controls/#date-input">US Web Design System</a> for requesting month, day, and year. <a href="complete-registration.html#dob">View in model form</a></p>
+
+                    <div class="site-table-wrapper">
+                      <table class="usa-table--borderless site-table-responsive">
+                        <thead>
+                          <tr>
+                            <th scope="col" colspan="2">Heading</th>
+                            <th scope="col" colspan="3">Helper text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs padding-bottom-1">
+                          <tr class="padding-bottom-2">
+                            <td colspan="2" scope="row" data-title="Heading">
+                              <span>
+                                Date of birth
+                              </span>
+                            </td>
+                            <td colspan="3"  data-title="Helper text">
+                              <span>
+                                [None]
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+
+                        <thead>
+                          <tr>
+                            <th scope="col">Label</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Input type</th>
+                            <th scope="col">Validation</th>
+                            <th scope="col">Error text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs">
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Month
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                dob-month
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must be a number between 1 and 12
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Enter the month when you were born in a number format, such as 1 (January) or 12 (December)
+                              </span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Day
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                dob-day
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must be a number between 1 and 31
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Enter the day of the month when you were born
+                              </span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Year
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                dob-year
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must be a number between 1900 and 2030
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Enter the year when you were born
+                              </span>
+                            </td>
+                          </tr>
+
+
+
+                        </tbody>
+                      </table>
+                    </div>
+
+
+                    <h2 id="phone-number">Phone number</h2>
+                    <p></p>
+
+                    <div class="site-table-wrapper">
+                      <table class="usa-table--borderless site-table-responsive">
+                        <thead>
+                          <tr>
+                            <th scope="col" colspan="2">Heading</th>
+                            <th scope="col" colspan="3">Helper text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs padding-bottom-1">
+                          <tr class="padding-bottom-2">
+                            <td colspan="2" scope="row" data-title="Heading">
+                              <span>
+                                Phone number
+                              </span>
+                            </td>
+                            <td colspan="3"  data-title="Helper text">
+                              <span>
+                                We'll use this phone number to provide updates
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+
+                        <thead>
+                          <tr>
+                            <th scope="col">Label</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Input type</th>
+                            <th scope="col">Validation</th>
+                            <th scope="col">Error text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs">
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                [None]
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                phone-number
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                tel
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must be valid phone number
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Enter your phone number with an area code, such as 555 555 5555
+                              </span>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <h2 id="email-address">Email address</h2>
+                    <p></p>
+
+                    <div class="site-table-wrapper">
+                      <table class="usa-table--borderless site-table-responsive">
+                        <thead>
+                          <tr>
+                            <th scope="col" colspan="2">Heading</th>
+                            <th scope="col" colspan="3">Helper text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs padding-bottom-1">
+                          <tr class="padding-bottom-2">
+                            <td colspan="2" scope="row" data-title="Heading">
+                              <span>
+                                Email address
+                              </span>
+                            </td>
+                            <td colspan="3"  data-title="Helper text">
+                              <span>
+                                We'll send a confirmation message to this email address
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+
+                        <thead>
+                          <tr>
+                            <th scope="col">Label</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Input type</th>
+                            <th scope="col">Validation</th>
+                            <th scope="col">Error text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs">
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                [None]
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                email-address
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                email
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must be valid email address
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Please enter your email address. If you don't have one, you can select the checkbox below.
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                I don't have an email address
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                no-email
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                If selected, email-address field is hidden and not required
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+
+                    <h2 id="address">Address</h2>
+                    <p></p>
+
+                    <div class="site-table-wrapper">
+                      <table class="usa-table--borderless site-table-responsive">
+                        <thead>
+                          <tr>
+                            <th scope="col" colspan="2">Heading</th>
+                            <th scope="col" colspan="3">Helper text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs padding-bottom-1">
+                          <tr class="padding-bottom-2">
+                            <td colspan="2" scope="row" data-title="Heading">
+                              <span>
+                                Address
+                              </span>
+                            </td>
+                            <td colspan="3"  data-title="Helper text">
+                              <span>
+                                Your household address. This will help us understand the spread of COVID-19.
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+
+                        <thead>
+                          <tr>
+                            <th scope="col">Label</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Input type</th>
+                            <th scope="col">Validation</th>
+                            <th scope="col">Error text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs">
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Street address
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                address-1
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must contain text
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Enter your address
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Street address 2
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                address-2
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Optional field
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                City
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                city
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must contain text
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Enter your city
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                State
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                state
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                select
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must select an option
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Select a state
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                ZIP Code
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                zip
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must be 5-digit ZIP Code
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Enter a five-digit ZIP Code
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                This residence is in a treatment facility, group home, or other group setting
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                group-home
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                I do not currently have an address
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                no-address
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                If selected, hides address fields and makes them no longer required
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <h2 id="number-of-persons-in-household">How many people live in your household?</h2>
+                    <p></p>
+
+                    <div class="site-table-wrapper">
+                      <table class="usa-table--borderless site-table-responsive">
+                        <thead>
+                          <tr>
+                            <th scope="col" colspan="2">Heading</th>
+                            <th scope="col" colspan="3">Helper text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs padding-bottom-1">
+                          <tr class="padding-bottom-2">
+                            <td colspan="2" scope="row" data-title="Heading">
+                              <span>
+                                How many people live in your household?
+                              </span>
+                            </td>
+                            <td colspan="3"  data-title="Helper text">
+                              <span>
+                                [None]
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+
+                        <thead>
+                          <tr>
+                            <th scope="col">Label</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Input type</th>
+                            <th scope="col">Validation</th>
+                            <th scope="col">Error text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs">
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                [None]
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                household-number
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                Text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must be a number between 1 and 25
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Enter the number of people who live in your household
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+
+                    <h2 id="insurance-information">Insurance information</h2>
+                    <p></p>
+
+                    <div class="site-table-wrapper">
+                      <table class="usa-table--borderless site-table-responsive">
+                        <thead>
+                          <tr>
+                            <th scope="col" colspan="2">Heading</th>
+                            <th scope="col" colspan="3">Helper text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs padding-bottom-1">
+                          <tr class="padding-bottom-2">
+                            <td colspan="2" scope="row" data-title="Heading">
+                              <span>
+                                Insurance information
+                              </span>
+                            </td>
+                            <td colspan="3"  data-title="Helper text">
+                              <span>
+                                Covid-19 testing is currently covered by all insurance companies. If you have insurance, you please enter the information here. If you do not currently have insurance, testing is free at centers managed by [Your State or Region].
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+
+                        <thead>
+                          <tr>
+                            <th scope="col">Label</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Input type</th>
+                            <th scope="col">Validation</th>
+                            <th scope="col">Error text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs">
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Health insurance provider name
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                provider-name
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must contain text
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                If you have an insurance provider, include their name here. If you don't currently have access to insurance, you can select "I do not have health insurance" below.
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                ID Number
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                insurance-id-number
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must contain text
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Include your ID Number here
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Insurance policyholder's name
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                policy-holder-name
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must contain text
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Include the policyholder's name here
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Relationship to policyholder
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                policyholder-relationship
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                                select
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                                Option must be selected. These include:
+                                <ul>
+                                  <li class="highlighter-rouge">Self</li>
+                                  <li>Parent</li>
+                                  <li>Child</li>
+                                  <li>Spouse</li>
+                                  <li>Domestic partner</li>
+                                  <li>Custodial adult</li>
+                                  <li>Other</li>
+                                </ul>
+
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Select the option that best describes your relationship to the policyholder
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                I do not have health insurance
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                no-health-insurance
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                If selected, insurance fields are hidden and not required
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                I have an additional health insurance provider
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                secondary-health-insurance
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                If selected, show fields for additional insurance provider
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <h2 id="secondary-insurance-information">Secondary insurance information</h2>
+                    <p></p>
+
+                    <div class="site-table-wrapper">
+                      <table class="usa-table--borderless site-table-responsive">
+                        <thead>
+                          <tr>
+                            <th scope="col" colspan="2">Heading</th>
+                            <th scope="col" colspan="3">Helper text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs padding-bottom-1">
+                          <tr class="padding-bottom-2">
+                            <td colspan="2" scope="row" data-title="Heading">
+                              <span>
+                                Additional insurance information
+                              </span>
+                            </td>
+                            <td colspan="3"  data-title="Helper text">
+                              <span>
+                                Enter the information for your additional health insurance provider below
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+
+                        <thead>
+                          <tr>
+                            <th scope="col">Label</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Input type</th>
+                            <th scope="col">Validation</th>
+                            <th scope="col">Error text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs">
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Health insurance provider name
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                provider-name-2
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must contain text
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Enter the name of your additional insurance provider
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                ID Number
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                insurance-id-number-2
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must contain text
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Include your ID Number here
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Insurance policyholder's name
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                policy-holder-name-2
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must contain text
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Include the policyholder's name here
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Relationship to policyholder
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                policyholder-relationship-2
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                                select
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                                Option must be selected. These include:
+                                <ul>
+                                  <li class="highlighter-rouge">Self</li>
+                                  <li>Parent</li>
+                                  <li>Child</li>
+                                  <li>Spouse</li>
+                                  <li>Domestic partner</li>
+                                  <li>Custodial adult</li>
+                                  <li>Other</li>
+                                </ul>
+
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Select the option that best describes your relationship to the policyholder
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+
+                    <h2 id="primary-care-provider">Primary care provider</h2>
+                    <p></p>
+
+                    <div class="site-table-wrapper">
+                      <table class="usa-table--borderless site-table-responsive">
+                        <thead>
+                          <tr>
+                            <th scope="col" colspan="2">Heading</th>
+                            <th scope="col" colspan="3">Helper text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs padding-bottom-1">
+                          <tr class="padding-bottom-2">
+                            <td colspan="2" scope="row" data-title="Heading">
+                              <span>
+                                Primary Care Provider
+                              </span>
+                            </td>
+                            <td colspan="3"  data-title="Helper text">
+                              <span>
+                                If you have a primary care doctor, search for their name below
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+
+                        <thead>
+                          <tr>
+                            <th scope="col">Label</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Input type</th>
+                            <th scope="col">Validation</th>
+                            <th scope="col">Error text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs">
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                [None]
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                PCP-name
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                Autocomplete text box
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must select an option from database of primary care providers
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Search for your Primary Care Provider by entering their name above. If you don't have a Primary Care Provider, you can select "I don't have a Primary Care Provider" below.
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                I am not able to find my Primary Care Provider in this list
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                pcp-not-found
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                If selected, hides PCP fields
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                I do not have a Primary Care Provider
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                no-pcp
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                If selected, hides PCP fields
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+
+                    <h2 id=""></h2>
+                    <p></p>
+
+                    <div class="site-table-wrapper">
+                      <table class="usa-table--borderless site-table-responsive">
+                        <thead>
+                          <tr>
+                            <th scope="col" colspan="2">Heading</th>
+                            <th scope="col" colspan="3">Helper text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs padding-bottom-1">
+                          <tr class="padding-bottom-2">
+                            <td colspan="2" scope="row" data-title="Heading">
+                              <span>
+                                What symptoms have you experienced in the past 24 hours?
+                              </span>
+                            </td>
+                            <td colspan="3"  data-title="Helper text">
+                              <span>
+                                Select all that apply
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+
+                        <thead>
+                          <tr>
+                            <th scope="col">Label</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Input type</th>
+                            <th scope="col">Validation</th>
+                            <th scope="col">Error text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs">
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Cough
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                cough
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Fever or chills
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                fever-or-chills
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Muscle or body aches
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                body-aches
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Sore throat
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                sore-throat
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Headache
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                headache
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                 Nausea or vomiting
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                nausea-vomiting
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Diarrhea
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                diarrhea
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Runny nose or stuffy nose
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                runny-stuffy-nose
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Fatigue
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                fatigue
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Loss of taste or smell
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                loss-taste-smell
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Other
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                symptoms1-other
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                At least one option must be selected
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know if you have experienced any symptoms in the past 24 hours
+                              </span>
+                            </td>
+                          </tr>
+
+
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                =
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+
+
+
+
+
+
+
+    </div>
+  </main>
+</div>
+
+
+<footer class="usa-footer site-footer" role="contentinfo">
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container footer-content">
+      <h3>Powered by The Policy Lab</h3>
+      <p>
+        The Policy Lab brings together experts from government, universities, and community organizations to collaborate on research tailored to inform decisions about how to improve policies and programs across the state and around the world.
+      </p>
+
+    </div>
+
+
+
+    <div class="footer-section-bottom">
+      <div class="grid-container">
+
+        <p>
+          Learn more at <a href="https://thepolicylab.brown.edu/">thepolicylab.brown.edu</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    	<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+
+	<!-- Google Analytics -->
+	<script>
+
+	</script>
+
+<script src="/assets/js/styleguide.js"></script>
+
+<script src="/assets/js/vendor/uswds.min.js"></script>
+<!--<script>
+//<![CDATA[
+      var usasearch_config = { siteHandle:"uswds" };
+
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "//search.usa.gov/javascripts/remote.loader.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+
+//]]>
+</script>
+-->
+
+  </body>
+</html>
