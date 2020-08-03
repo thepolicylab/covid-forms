@@ -2646,10 +2646,10 @@
                                 <input class="usa-radio__input" id="so-choose-not-to-disclose" type="radio" name="sexual-orientation" value="so-choose-not-to-disclose">
                                 <label class="usa-radio__label" for="so-choose-not-to-disclose">Choose not to disclose</label>
                               </div>
-                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question is-hidden" id="so-other-question">
-                            <label class="usa-label" for="so-other">How do you describe your sexual orientation?</label>
-                            <input class="usa-input" id="so-other" name="so-other" type="text" required aria-required="false">
-                          </div>
+                              <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question is-hidden" id="so-other-question">
+                                <label class="usa-label" for="so-other">How do you describe your sexual orientation?</label>
+                                <input class="usa-input" id="so-other" name="so-other" type="text" required aria-required="false">
+                              </div>
                         </div>
 
                     </fieldset>
@@ -2660,58 +2660,135 @@
                 <hr class="margin-top-2 margin-bottom-8"/>
 
 
+                  <fieldset class="usa-fieldset padding-bottom-6" id="ethnicity">
+                      <legend class="usa-legend">Are you of Hispanic, Latino, or Spanish origin? </legend>
+                      <span class="usa-hint" id="ethnicity-helper-text">Select all that apply</span>
+                      <br/><br/>
+                      <div class="grid-row grid-gap">
+                          <div class="usa-checkbox tablet:grid-col-6">
+                            <input class="usa-checkbox__input" id="not-hispanic-latino-spanish" type="checkbox" name="ethnicity" value="">
+                            <label class="usa-checkbox__label" for="">No, I am not</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-6">
+                            <input class="usa-checkbox__input" id="yes-mexican-mexican-american-chicano" type="checkbox" name="ethnicity" value="yes-mexican-mexican-american-chicano">
+                            <label class="usa-checkbox__label" for="yes-mexican-mexican-american-chicano">Yes, Mexican, Mexican American, Chicano</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-6">
+                            <input class="usa-checkbox__input" id="yes-puerto-rican" type="checkbox" name="ethnicity" value="yes-puerto-rican">
+                            <label class="usa-checkbox__label" for="yes-puerto-rican">Yes, Puerto Rican</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-6">
+                            <input class="usa-checkbox__input" id="yes-cuban" type="checkbox" name="ethnicity" value="yes-cuban">
+                            <label class="usa-checkbox__label" for="yes-cuban">Yes, Cuban</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-6">
+                            <input class="usa-checkbox__input" id="yes-another-origin" type="checkbox" name="ethnicity" value="yes-another-origin">
+                            <label class="usa-checkbox__label" for="yes-another-origin">Yes, another Hispanic, Latino, or Spanish origin</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="ethnicity-other-question">
+                            <label class="usa-label" for="ethnicity-other"><b>What other origin?</b> <i>(for example, Salvadoran, Dominican, Colombian, Guatemalan, Spaniard, Ecuadorian, etc)</i></label>
+                            <input class="usa-input" id="ethnicity-other" name="ethnicity-other" type="text" required aria-required="false">
+                          </div>
+                      </div>
+                  </fieldset>
 
-                  <fieldset class="usa-fieldset padding-bottom-6" id="race">
+
+                  <fieldset class="usa-fieldset padding-bottom-8" id="race">
                       <legend class="usa-legend">What is your race?</legend>
                       <span class="usa-hint" id="race-helper-text">Select all that apply</span>
                       <br/><br/>
                       <div class="grid-row grid-gap">
-                          <div class="usa-checkbox tablet:grid-col-6">
-                            <input class="usa-checkbox__input" id="white" type="checkbox" name="race" value="white">
-                            <label class="usa-checkbox__label" for="white">White</label>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-white" type="checkbox" name="race" value="race-white">
+                            <label class="usa-checkbox__label" for="race-white">White</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-6">
-                            <input class="usa-checkbox__input" id="black-or-african-american" type="checkbox" name="race" value="black-or-african-american">
-                            <label class="usa-checkbox__label" for="black-or-african-american">Black or African American</label>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-black-or-african-american" type="checkbox" name="race" value="race-black-or-african-american">
+                            <label class="usa-checkbox__label" for="race-black-or-african-american">Black or African American</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-6">
-                            <input class="usa-checkbox__input" id="native-american-or-alaska-native" type="checkbox" name="race" value="native-american-or-alaska-native">
-                            <label class="usa-checkbox__label" for="native-american-or-alaska-native">American Indian or Alaska Native</label>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-american-indian-or-alaska-native" type="checkbox" name="race" value="race-american-indian-or-alaska-native">
+                            <label class="usa-checkbox__label" for="race-american-indian-or-alaska-native">American Indian or Alaska Native</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-6">
-                            <input class="usa-checkbox__input" id="native-hawaiian-pacific-islander" type="checkbox" name="race" value="native-hawaiian-pacific-islander">
-                            <label class="usa-checkbox__label" for="native-hawaiian-pacific-islander">Native Hawaiian or other Pacific Islander</label>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-chinese" type="checkbox" name="race" value="race-chinese">
+                            <label class="usa-checkbox__label" for="race-chinese">Chinese</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-6">
-                            <input class="usa-checkbox__input" id="Asian" type="checkbox" name="race" value="Asian">
-                            <label class="usa-checkbox__label" for="Asian">Asian</label>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-filipino" type="checkbox" name="race" value="race-filipino">
+                            <label class="usa-checkbox__label" for="race-filipino">Filipino</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-6">
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-asian-indian" type="checkbox" name="race" value="race-asian-indian">
+                            <label class="usa-checkbox__label" for="race-asian-indian">Asian Indian</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-vietnamese" type="checkbox" name="race" value="race-vietnamese">
+                            <label class="usa-checkbox__label" for="race-vietnamese">Vietnamese</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-korean" type="checkbox" name="race" value="race-korean">
+                            <label class="usa-checkbox__label" for="race-korean">Korean</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-japanese" type="checkbox" name="race" value="race-japanese">
+                            <label class="usa-checkbox__label" for="race-japanese">Japanese</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-other-asian" type="checkbox" name="race" value="race-other-asian">
+                            <label class="usa-checkbox__label" for="race-other-asian">Other Asian</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="native-hawaiian" type="checkbox" name="race" value="native-hawaiian">
+                            <label class="usa-checkbox__label" for="native-hawaiian">Native Hawaiian</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-samoan" type="checkbox" name="race" value="race-samoan">
+                            <label class="usa-checkbox__label" for="race-samoan">Samoan</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-chamorro" type="checkbox" name="race" value="race-chamorro">
+                            <label class="usa-checkbox__label" for="race-chamorro">Chamorro</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-other-pacific-islander" type="checkbox" name="race" value="race-other-pacific-islander">
+                            <label class="usa-checkbox__label" for="race-other-pacific-islander">Other Pacific Islander</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-4">
                             <input class="usa-checkbox__input" id="other-race" type="checkbox" name="race" value="other-race">
-                            <label class="usa-checkbox__label" for="other-race">Other</label>
+                            <label class="usa-checkbox__label" for="other-race">Another race</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-6">
-                            <input class="usa-checkbox__input" id="decline-to-answer-race" type="checkbox" name="race" value="decline-to-answer-race">
-                            <label class="usa-checkbox__label" for="decline-to-answer-race">Decline to answer</label>
+                          <div class="usa-checkbox tablet:grid-col-4">
+                            <input class="usa-checkbox__input" id="race-decline-to-answer" type="checkbox" name="race" value="race-decline-to-answer">
+                            <label class="usa-checkbox__label" for="race-decline-to-answer">Decline to answer</label>
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-white-detailed-identity-question">
+                            <label class="usa-label" for="race-white-detailed-identity"><b>How do you identify as white?</b> <i>For example, German, Irish, English, Italian, Lebanese, Egyptian, etc.</i></label>
+                            <input class="usa-input" id="race-white-detailed-identity" name="race-white-detailed-identity" type="text" required aria-required="false">
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-black-or-african-american-detailed-identity-question">
+                            <label class="usa-label" for="race-black-or-african-american-detailed-identity"><b>How do you identify as Black or African American?</b> <i>For example, African American, Jamaican, Haitian, Nigerian, Ethiopian, Somali, etc.</i></label>
+                            <input class="usa-input" id="race-black-or-african-american-detailed-identity" name="race-black-or-african-american-detailed-identity" type="text" required aria-required="false">
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-american-indian-alaska-native-detailed-identity-question">
+                            <label class="usa-label" for="race-american-indian-alaska-native-detailed-identity"><b>How do you identify as American Indian or Alaska Native?</b> <i>For example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.</i></label>
+                            <input class="usa-input" id="race-american-indian-alaska-native-detailed-identity" name="race-american-indian-alaska-native-detailed-identity" type="text" required aria-required="false">
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-other-asian-detailed-identity-question">
+                            <label class="usa-label" for="race-other-asian-detailed-identity"><b>How do you identify as Other Asian?</b> <i>For example, Pakistani, Cambodian, Hmong, etc.</i></label>
+                            <input class="usa-input" id="race-other-asian-detailed-identity" name="race-other-asian-detailed-identity" type="text" required aria-required="false">
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-other-pacific-islander-detailed-identity-question">
+                            <label class="usa-label" for="race-other-pacific-islander-detailed-identity"><b>How do you identify as Other Pacific Islander?</b> <i>For example, Tongan, Fijian, Marshallese, etc.</i></label>
+                            <input class="usa-input" id="race-other-pacific-islander-detailed-identity" name="race-other-pacific-islander-detailed-identity" type="text" required aria-required="false">
+                          </div>
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-other-question">
+                            <label class="usa-label" for="race-other-detailed-identity"><b>How do you identify as another race?</b> <i>Enter race or origin</i></label>
+                            <input class="usa-input" id="race-other-detailed-identity" name="race-other-detailed-identity" type="text" required aria-required="false">
                           </div>
                       </div>
                   </fieldset>
 
-                  <fieldset class="usa-fieldset padding-bottom-8">
-                      <legend class="usa-legend">Are you hispanic or latino?</legend>
-                      <!-- <span class="usa-hint" id="symptoms-helper-text"></span> -->
-                      <br/>
-                      <div class="grid-row grid-gap">
-                          <div class="usa-radio">
-                            <input class="usa-radio__input" id="yes-hispanic" type="radio" name="ethnicity" value="yes-hispanic">
-                            <label class="usa-radio__label" for="yes-hispanic">Yes, I am hispanic or latino</label>
-                          </div>
-                          <div class="usa-radio">
-                            <input class="usa-radio__input" id="no-hispanic" type="radio" name="ethnicity" value="no-hispanic">
-                            <label class="usa-radio__label" for="no-hispanic">No, I am not</label>
-                          </div>
-                      </div>
-                  </fieldset>
 
               <hr class="margin-top-4 margin-bottom-4 random-sample-questions"/>
 

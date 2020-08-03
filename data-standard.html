@@ -397,13 +397,13 @@
         </a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="#race">
-          Race
+        <a href="#hispanic-origin">
+          Hispanic origin
         </a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="#ethnicity">
-          Ethnicity
+        <a href="#race">
+          Race
         </a>
       </li>
       <!-- <li class="usa-sidenav__item">
@@ -13639,10 +13639,229 @@
                     </div>
 
 
+
+
+                    <h2 id="hispanic-origin">Hispanic origin</h2>
+                    <p>This fieldset asks for the resident's hispanic origin as one of two fieldsets related to race and ethnicity. <a href="complete-registration.html#race">View in model form</a></p>
+
+                    <p>This format is modeled from the <a href="https://2020census.gov/en/about-questions/hispanic-origin.html">2020 Census</a>, which is based on standards from the US Office of Management and Budget. This structure is also for the 2020 <a href="https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/questionnaires.aspx?BeginYear=2019">National Health and Nutrition Examination Survey</a> from the CDC's National Center for Health Statistics</a>.
+
+                    <div class="site-table-wrapper">
+                      <table class="usa-table--borderless site-table-responsive">
+                        <thead>
+                          <tr>
+                            <th scope="col" colspan="2">Fieldset</th>
+                            <th scope="col" colspan="3">Helper text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs padding-bottom-1">
+                          <tr class="padding-bottom-2">
+                            <td colspan="2" scope="row" data-title="Fieldset">
+                              <span>
+                                Are you of Hispanic, Latino, or Spanish origin?
+                              </span>
+                            </td>
+                            <td colspan="3"  data-title="Helper text">
+                              <span>
+                                Select all that apply
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+
+                        <thead>
+                          <tr>
+                            <th scope="col">Label</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Input type</th>
+                            <th scope="col">Validation</th>
+                            <th scope="col">Error text</th>
+                          </tr>
+                        </thead>
+                        <tbody class="font-mono-2xs">
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                No, I am not
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                not-hispanic-latino-spanish
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must select at least one option
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Select the options that best describe your ethnicity
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Yes, Mexican, Mexican American, Chicano
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                yes-mexican-mexican-american-chicano
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must select at least one option
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Select the options that best describe your ethnicity
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Yes, Puerto Rican
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                yes-puerto-rican
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must select at least one option
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Select the options that best describe your ethnicity
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Yes, Cuban
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                yes-cuban
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must select at least one option
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Select the options that best describe your ethnicity
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                Yes, another Hispanic, Latino, or Spanish origin
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                yes-another-origin
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Must select at least one option. If selected, show the "ethnicity-other" field
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Select the options that best describe your ethnicity
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                What other origin? (for example, Salvadoran, Dominican, Colombian, Guatemalan, Spaniard, Ecuadorian, etc)
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                ethnicity-other
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                text
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                Hidden by default. Appears if resident selects "yes-another-origin"
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                Let us know how to best describe your ethnicity
+                              </span>
+                            </td>
+                          </tr>
+
+
+                        </tbody>
+                      </table>
+                    </div>
+
+
+
+
+
                     <h2 id="race">Race</h2>
                     <p>This fieldset asks for the resident's race as one of two fieldsets related to race and ethnicity. <a href="complete-registration.html#race">View in model form</a></p>
 
-                    <p>These questions use standard options from the <a href="https://2020census.gov/en/about-questions/2020-census-questions-race.html">2020 Census</a> based on standards from the US Office of Management and Budget. The same format is used for the 2020 <a href="https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/questionnaires.aspx?BeginYear=2019">National Health and Nutrition Examination Survey</a> from the CDC's National Center for Health Statistics</a>.
+                    <p>This format is modeled from the <a href="https://2020census.gov/en/about-questions/2020-census-questions-race.html">2020 Census</a>, which is based on standards from the US Office of Management and Budget. The same format is used for the 2020 <a href="https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/questionnaires.aspx?BeginYear=2019">National Health and Nutrition Examination Survey</a> from the CDC's National Center for Health Statistics</a>.
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -13854,7 +14073,7 @@
                             </td>
                             <td data-title="ID">
                               <span>
-                                decline-to-answer-race
+                                race-decline-to-answer
                               </span>
                             </td>
                             <td data-title="Input type">
@@ -13880,102 +14099,7 @@
 
 
 
-                    <h2 id="ethnicity">Ethnicity</h2>
-                    <p></p>
 
-                    <div class="site-table-wrapper">
-                      <table class="usa-table--borderless site-table-responsive">
-                        <thead>
-                          <tr>
-                            <th scope="col" colspan="2">Fieldset</th>
-                            <th scope="col" colspan="3">Helper text</th>
-                          </tr>
-                        </thead>
-                        <tbody class="font-mono-2xs padding-bottom-1">
-                          <tr class="padding-bottom-2">
-                            <td colspan="2" scope="row" data-title="Fieldset">
-                              <span>
-                                Are you hispanic or latino?
-                              </span>
-                            </td>
-                            <td colspan="3"  data-title="Helper text">
-                              <span>
-                                [None]
-                              </span>
-                            </td>
-                          </tr>
-
-                        </tbody>
-
-                        <thead>
-                          <tr>
-                            <th scope="col">Label</th>
-                            <th scope="col">ID</th>
-                            <th scope="col">Input type</th>
-                            <th scope="col">Validation</th>
-                            <th scope="col">Error text</th>
-                          </tr>
-                        </thead>
-                        <tbody class="font-mono-2xs">
-                          <tr>
-                            <td data-title="Label">
-                              <span>
-                                Yes, I am hispanic or latino
-                              </span>
-                            </td>
-                            <td data-title="ID">
-                              <span>
-                                yes-hispanic
-                              </span>
-                            </td>
-                            <td data-title="Input type">
-                              <span>
-                                radio
-                              </span>
-                            </td>
-                            <td data-title="Validation">
-                              <span>
-                                Must select an option
-                              </span>
-                            </td>
-                            <td data-title="Error text">
-                              <span>
-                                Select the option that best describes your ethnicity
-                              </span>
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td data-title="Label">
-                              <span>
-                                No, I am not
-                              </span>
-                            </td>
-                            <td data-title="ID">
-                              <span>
-                                no-hispanic
-                              </span>
-                            </td>
-                            <td data-title="Input type">
-                              <span>
-                                radio
-                              </span>
-                            </td>
-                            <td data-title="Validation">
-                              <span>
-                                Must select an option
-                              </span>
-                            </td>
-                            <td data-title="Error text">
-                              <span>
-                                Select the option that best describes your ethnicity
-                              </span>
-                            </td>
-                          </tr>
-
-                        </tbody>
-                      </table>
-                    </div>
 
 
 
