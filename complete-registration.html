@@ -96,7 +96,7 @@
 
 
 
-              <fieldset id="reason-for-being-tested" class="usa-fieldset margin-top-2 padding-bottom-4">
+              <fieldset class="usa-fieldset margin-top-2 padding-bottom-4">
                   <legend class="usa-legend">Main reason for being tested</legend>
                   <!-- <span class="usa-hint" id="reason-helper-text">Hint text here</span> -->
                   <br/>
@@ -155,7 +155,7 @@
 
 
 
-                <fieldset id="name" class="usa-fieldset padding-bottom-4">
+                <fieldset class="usa-fieldset padding-bottom-4">
                     <legend class="usa-legend padding-top-2">Name</legend>
 
                     <label class="usa-label" for="first-name">First name</label>
@@ -170,21 +170,21 @@
 
 
 
-                <fieldset id="dob" class="usa-fieldset padding-bottom-4">
+                <fieldset class="usa-fieldset padding-bottom-4">
                     <legend class="usa-legend padding-top-4">Date of birth</legend>
                     <span class="usa-hint" id="dob-helper-text">For example, 4 28 1986</span>
                     <div class="usa-memorable-date">
                         <div class="usa-form-group usa-form-group--month">
-                            <label class="usa-label" for="dob-month">Month</label>
-                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="dob-month" name="dob-month" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="">
+                            <label class="usa-label" for="date_of_birth_1">Month</label>
+                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_1" name="date_of_birth_1" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="">
                         </div>
                         <div class="usa-form-group usa-form-group--day">
-                            <label class="usa-label" for="dob-day">Day</label>
-                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="dob-day" name="dob-day" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="">
+                            <label class="usa-label" for="date_of_birth_2">Day</label>
+                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_2" name="date_of_birth_2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="">
                         </div>
                         <div class="usa-form-group usa-form-group--year">
-                            <label class="usa-label" for="dob-year">Year</label>
-                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="dob-year" name="dob-year" type="text" minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="">
+                            <label class="usa-label" for="date_of_birth_3">Year</label>
+                            <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_3" name="date_of_birth_3" type="text" minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="">
                         </div>
                     </div>
                 </fieldset>
@@ -215,7 +215,7 @@
 
                   <fieldset class="usa-fieldset padding-bottom-4 tablet:grid-col-8 desktop:grid-col-6">
                       <legend class="usa-legend padding-top-4">Address</legend>
-                      <span class="usa-hint" id="address-helper-text">Your household address. This will help us understand the spread of COVID-19.</span>
+                      <span class="usa-hint" id="address-helper-text">Your household address. This information will help us understand the spread of COVID-19.</span>
 
                       <div id="address-fields">
 
@@ -300,7 +300,7 @@
                               </div>
                           </div>
 
-                          <label class="usa-label" for="zip">ZIP Code</label>
+                          <label class="usa-label" for="zip">ZIP</label>
                           <input class="usa-input usa-input--medium" id="zip" name="zip" type="text" pattern="[\d]{5}(-[\d]{4})?">
 
                           <div class="usa-checkbox padding-top-4">
@@ -334,7 +334,7 @@
 
                   <fieldset class="usa-fieldset padding-bottom-2 insurance-info desktop:grid-col-8">
                       <legend class="usa-legend padding-top-4">Insurance information</legend>
-                      <span class="usa-hint" id="address-helper-text">COVID-19 testing is currently covered by all insurance companies. If you have insurance, you please enter the information here. If you do not currently have insurance, testing is free at centers managed by the State of Rhode Island.</span>
+                      <span class="usa-hint" id="address-helper-text">COVID-19 is currently covered by all insurance companies. If you have insurance, you please enter the information here. If you do not currently have insurance, testing is free at centers managed by the State of Rhode Island.</span>
 
                       <div class="insurance-info-block padding-bottom-2" id="insurance-provider-1">
                         <label class="usa-label" for="provider-name">Health insurance provider name</label>
@@ -454,60 +454,69 @@
                   <br/><br/>
                   <div class="grid-row grid-gap">
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="cough" type="checkbox" name="symptoms-1" value="cough">
+                        <input class="usa-checkbox__input" id="cough" type="checkbox" name="symptoms-24-hours" value="cough">
                         <label class="usa-checkbox__label" for="cough">Cough</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="fever-or-chills" type="checkbox" name="symptoms-1" value="fever">
+                        <input class="usa-checkbox__input" id="fever" type="checkbox" name="symptoms-24-hours" value="fever">
                         <label class="usa-checkbox__label" for="fever">Fever or chills</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="body-aches" type="checkbox" name="symptoms-1" value="body-aches">
+                        <input class="usa-checkbox__input" id="body-aches" type="checkbox" name="symptoms-24-hours" value="body-aches">
                         <label class="usa-checkbox__label" for="body-aches">Muscle or body aches</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="sore-throat" type="checkbox" name="symptoms-1" value="sore-throat">
+                        <input class="usa-checkbox__input" id="sore-throat" type="checkbox" name="symptoms-24-hours" value="sore-throat">
                         <label class="usa-checkbox__label" for="sore-throat">Sore throat</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="headache" type="checkbox" name="symptoms-1" value="headache">
+                        <input class="usa-checkbox__input" id="headache" type="checkbox" name="symptoms-24-hours" value="headache">
                         <label class="usa-checkbox__label" for="headache">Headache</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="nausea-vomiting" type="checkbox" name="symptoms-1" value="nausea-vomiting">
+                        <input class="usa-checkbox__input" id="nausea-vomiting" type="checkbox" name="symptoms-24-hours" value="nausea-vomiting">
                         <label class="usa-checkbox__label" for="nausea-vomiting">Nausea or vomiting</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="diarrhea" type="checkbox" name="symptoms-1" value="diarrhea">
+                        <input class="usa-checkbox__input" id="diarrhea" type="checkbox" name="symptoms-24-hours" value="diarrhea">
                         <label class="usa-checkbox__label" for="diarrhea">Diarrhea</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="runny-stuffy-nose" type="checkbox" name="symptoms-1" value="runny-stuffy-nose">
-                        <label class="usa-checkbox__label" for="runny-stuffy-nose">Runny nose or stuffy nose</label>
+                        <input class="usa-checkbox__input" id="runny-nose" type="checkbox" name="symptoms-24-hours" value="runny-nose">
+                        <label class="usa-checkbox__label" for="runny-nose">Runny nose or stuffy nose</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="fatigue" type="checkbox" name="symptoms-1" value="fatigue">
+                        <input class="usa-checkbox__input" id="fatigue" type="checkbox" name="symptoms-24-hours" value="fatigue">
                         <label class="usa-checkbox__label" for="fatigue">Fatigue</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="loss-taste-smell" type="checkbox" name="symptoms-1" value="loss-taste-smell">
+                        <input class="usa-checkbox__input" id="loss-taste-smell" type="checkbox" name="symptoms-24-hours" value="loss-taste-smell">
                         <label class="usa-checkbox__label" for="loss-taste-smell">Loss of taste or smell</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="symptoms1-other" type="checkbox" name="symptoms-1" value="symptoms1-other">
-                        <label class="usa-checkbox__label" for="symptoms1-other">Other</label>
+                        <input class="usa-checkbox__input" id="symptoms-24-hours-other" type="checkbox" name="symptoms-24-hours" value="symptoms-24-hours-other">
+                        <label class="usa-checkbox__label" for="symptoms-24-hours-other">Other</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="symptoms1-none" type="checkbox" name="symptoms-1" value="symptoms1-none">
-                        <label class="usa-checkbox__label" for="symptoms1-none">I have not experienced any of these symptoms in the past 24 hours</label>
+                        <input class="usa-checkbox__input" id="current-symptoms-no-symptoms" type="checkbox" name="symptoms-24-hours" value="current-symptoms-no-symptoms">
+                        <label class="usa-checkbox__label" for="current-symptoms-no-symptoms">I have not experienced symptoms</label>
                     </div>
 
                   </div>
 
-                  <div class="usa-checkbox tablet:grid-col-12 padding-bottom-2 other-question is-hidden" id="other-symptoms-1-question">
-                    <label class="usa-label" for="other-symptoms-1">What other symptoms have you experienced in the past 24 hours? </label>
-                    <input class="usa-input" id="other-symptoms-1" name="other-symptoms-1" type="text" aria-required="false">
+                  <div class="usa-checkbox tablet:grid-col-12 padding-bottom-2 other-question is-hidden" id="other-symptoms-24-hours-question">
+                    <label class="usa-label" for="other-symptoms-24-hours">What other symptoms have you experienced in the past 24 hours? </label>
+                    <input class="usa-input" id="other-symptoms-24-hours" name="other-symptoms-24-hours" type="text" aria-required="false">
                   </div>
+
+                  <div class="usa-form-group" id="current-symptoms-onset-date-question">
+                      <label class="usa-label" id="current-symptoms-onset-date-label" for="current-symptoms-onset-date">On what day did you begin experiencing symptoms?</label>
+                      <div class="usa-hint" id="current-symptoms-onset-date-hint">Use format mm/dd/yyyy</div>
+                      <div class="usa-date-picker">
+                          <input class="usa-input" id="current-symptoms-onset-date" name="current-symptoms-onset-date" type="text" aria-describedby="current-symptoms-onset-date-label current-symptoms-onset-date-hint">
+                      </div>
+                  </div>
+
 
               </fieldset>
 
@@ -517,71 +526,83 @@
                   <br/><br/>
                   <div class="grid-row grid-gap">
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="cough-longterm" type="checkbox" name="symptoms-2" value="cough-longterm">
-                        <label class="usa-checkbox__label" for="cough-longterm">Cough</label>
+                        <input class="usa-checkbox__input" id="cough-march-2020" type="checkbox" name="symptoms-march-2020" value="cough-march-2020">
+                        <label class="usa-checkbox__label" for="cough-march-2020">Cough</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="fever-or-chills-longterm" type="checkbox" name="symptoms-2" value="fever-longterm">
-                        <label class="usa-checkbox__label" for="fever-longterm">Fever or chills</label>
+                        <input class="usa-checkbox__input" id="fever-march-2020" type="checkbox" name="symptoms-march-2020" value="fever-march-2020">
+                        <label class="usa-checkbox__label" for="fever-march-2020">Fever or chills</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="body-aches-longterm" type="checkbox" name="symptoms-2" value="body-aches-longterm">
-                        <label class="usa-checkbox__label" for="body-aches-longterm">Muscle or body aches</label>
+                        <input class="usa-checkbox__input" id="body-aches-march-2020" type="checkbox" name="symptoms-march-2020" value="body-aches-march-2020">
+                        <label class="usa-checkbox__label" for="body-aches-march-2020">Muscle or body aches</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="sore-throat-longterm" type="checkbox" name="symptoms-2" value="sore-throat-longterm">
-                        <label class="usa-checkbox__label" for="sore-throat-longterm">Sore throat</label>
+                        <input class="usa-checkbox__input" id="sore-throat-march-2020" type="checkbox" name="symptoms-march-2020" value="sore-throat-march-2020">
+                        <label class="usa-checkbox__label" for="sore-throat-march-2020">Sore throat</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="headache-longterm" type="checkbox" name="symptoms-2" value="headache-longterm">
-                        <label class="usa-checkbox__label" for="headache-longterm">Headache</label>
+                        <input class="usa-checkbox__input" id="headache-march-2020" type="checkbox" name="symptoms-march-2020" value="headache-march-2020">
+                        <label class="usa-checkbox__label" for="headache-march-2020">Headache</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="nausea-vomiting-longterm" type="checkbox" name="symptoms-2" value="nausea-vomiting-longterm">
-                        <label class="usa-checkbox__label" for="nausea-vomiting-longterm">Nausea or vomiting</label>
+                        <input class="usa-checkbox__input" id="nausea-vomiting-march-2020" type="checkbox" name="symptoms-march-2020" value="nausea-vomiting-march-2020">
+                        <label class="usa-checkbox__label" for="nausea-vomiting-march-2020">Nausea or vomiting</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="diarrhea-longterm" type="checkbox" name="symptoms-2" value="diarrhea-longterm">
-                        <label class="usa-checkbox__label" for="diarrhea-longterm">Diarrhea</label>
+                        <input class="usa-checkbox__input" id="diarrhea-march-2020" type="checkbox" name="symptoms-march-2020" value="diarrhea-march-2020">
+                        <label class="usa-checkbox__label" for="diarrhea-march-2020">Diarrhea</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="runny-stuffy-nose-longterm" type="checkbox" name="symptoms-2" value="runny-stuffy-nose-longterm">
-                        <label class="usa-checkbox__label" for="runny-stuffy-nose-longterm">Runny nose or stuffy nose</label>
+                        <input class="usa-checkbox__input" id="runny-nose-march-2020" type="checkbox" name="symptoms-march-2020" value="runny-nose-march-2020">
+                        <label class="usa-checkbox__label" for="runny-nose-march-2020">Runny nose or stuffy nose</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="fatigue-longterm" type="checkbox" name="symptoms-2" value="fatigue-longterm">
-                        <label class="usa-checkbox__label" for="fatigue-longterm">Fatigue</label>
+                        <input class="usa-checkbox__input" id="fatigue-march-2020" type="checkbox" name="symptoms-march-2020" value="fatigue-march-2020">
+                        <label class="usa-checkbox__label" for="fatigue-march-2020">Fatigue</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="loss-taste-smell-longterm" type="checkbox" name="symptoms-2" value="loss-taste-smell-longterm">
-                        <label class="usa-checkbox__label" for="loss-taste-smell-longterm">Loss of taste or smell</label>
+                        <input class="usa-checkbox__input" id="loss-taste-smell-march-2020" type="checkbox" name="symptoms-march-2020" value="loss-taste-smell-march-2020">
+                        <label class="usa-checkbox__label" for="loss-taste-smell-march-2020">Loss of taste or smell</label>
                     </div>
                     <div class="usa-checkbox tablet:grid-col-3">
-                        <input class="usa-checkbox__input" id="symptoms2-other" type="checkbox" name="symptoms-2" value="symptoms1-other">
-                        <label class="usa-checkbox__label" for="symptoms2-other">Other</label>
+                        <input class="usa-checkbox__input" id="symptoms-march-2020-other" type="checkbox" name="symptoms-march-2020" value="symptoms-march-2020-other">
+                        <label class="usa-checkbox__label" for="symptoms-march-2020-other">Other</label>
+                    </div>
+                    <div class="usa-checkbox tablet:grid-col-3">
+                        <input class="usa-checkbox__input" id="symptoms-march-2020-no-symptoms" type="checkbox" name="symptoms-march-2020" value="symptoms-march-2020-no-symptoms">
+                        <label class="usa-checkbox__label" for="symptoms-march-2020-no-symptoms">I have not experienced symptoms</label>
                     </div>
 
                   </div>
 
-                  <div class="usa-checkbox tablet:grid-col-12 padding-bottom-2 other-question is-hidden" id="other-symptoms-2-question">
-                    <label class="usa-label" for="other-symptoms-2">What other symptoms have you experienced since March 1st, 2020?</label>
-                    <input class="usa-input" id="other-symptoms-2" name="other-symptoms-2" type="text" aria-required="false">
+                  <div class="usa-checkbox tablet:grid-col-12 padding-bottom-2 other-question is-hidden" id="other-symptoms-march-2020-question">
+                    <label class="usa-label" for="other-symptoms-march-2020">What other symptoms have you experienced since March 1st, 2020?</label>
+                    <input class="usa-input" id="other-symptoms-march-2020" name="other-symptoms-march-2020" type="text" aria-required="false">
+                  </div>
+
+                  <div class="usa-form-group" id="march-2020-symptoms-onset-date-question">
+                      <label class="usa-label" id="march-2020-symptoms-onset-date-label" for="march-2020-symptoms-onset-date">On what day did you begin experiencing symptoms?</label>
+                      <div class="usa-hint" id="march-2020-symptoms-onset-date-hint">Use format mm/dd/yyyy</div>
+                      <div class="usa-date-picker">
+                          <input class="usa-input" id="march-2020-symptoms-onset-date" name="march-2020-symptoms-onset-date" type="text" aria-describedby="march-2020-symptoms-onset-date-label march-2020-symptoms-onset-date-hint">
+                      </div>
                   </div>
 
               </fieldset>
 
-              <fieldset class="usa-fieldset padding-bottom-8 margin-top-2 random-sample-questions" id="contact-with-positive-test">
+              <fieldset class="usa-fieldset padding-bottom-8 margin-top-2 random-sample-questions" id="positive-nearby">
                   <legend class="usa-legend">Have you been around someone who tested positive?</legend>
                   <!-- <span class="usa-hint" id="symptoms-helper-text"></span> -->
                   <br/>
                   <div class="grid-row grid-gap">
                       <div class="usa-radio tablet:grid-col-3">
-                        <input class="usa-radio__input" id="yes-contact-with-positive" type="radio" name="yes-contact-with-positive" value="contact-with-positive">
-                        <label class="usa-radio__label" for="yes-contact-with-positive">Yes, I have</label>
+                        <input class="usa-radio__input" id="yes-around-someone" type="radio" name="around-someone" value="yes-mailer">
+                        <label class="usa-radio__label" for="yes-around-someone">Yes, I have</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-3">
-                        <input class="usa-radio__input" id="no-contact-with-positive" type="radio" name="no-contact-with-positive" value="contact-with-positive">
-                        <label class="usa-radio__label" for="no-contact-with-positive">No, I have not</label>
+                        <input class="usa-radio__input" id="no-around-someone" type="radio" name="around-someone" value="no-around-someone">
+                        <label class="usa-radio__label" for="no-around-someone">No, I have not</label>
                       </div>
                   </div>
               </fieldset>
@@ -877,7 +898,7 @@
 
                       </div>
                     </div>
-                  </div> <!-- end row 4 -->
+                  </div> <!-- end optional row 4 -->
 
 
 
@@ -921,8 +942,8 @@
                           <label class="usa-radio__label" for="congregate-living">Congregate living (Nursing home, Assisted living, Group home)</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="faith-based" type="radio" name="work-setting" value="faith-based">
-                          <label class="usa-radio__label" for="faith-based">Faith-based organization</label>
+                          <input class="usa-radio__input" id="faith-based-organization" type="radio" name="work-setting" value="faith-based-organization">
+                          <label class="usa-radio__label" for="faith-based-organization">Faith-based organization</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="gym" type="radio" name="work-setting" value="gym">
@@ -1044,13 +1065,13 @@
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="healthcare-social-worker" type="radio" name="occupation" value="healthcare-social-worker">
-                          <label class="usa-radio__label" for="healthcare-social-worker">Child, family, and school social worker</label>
+                          <input class="usa-radio__input" id="child-family-school-social-worker" type="radio" name="occupation" value="child-family-school-social-worker">
+                          <label class="usa-radio__label" for="child-family-school-social-worker">Child, family, or school social worker</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="healthcare-social-service-assistance" type="radio" name="occupation" value="healthcare-social-service-assistance">
-                          <label class="usa-radio__label" for="healthcare-social-service-assistance">Social and human service assistance</label>
+                          <input class="usa-radio__input" id="healthcare-social-services-assistance" type="radio" name="occupation" value="healthcare-social-services-assistance">
+                          <label class="usa-radio__label" for="healthcare-social-services-assistance">Social and human services assistance</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -1207,7 +1228,7 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="congregate-living-housekeeper-cleaner" type="radio" name="occupation" value="congregate-living-housekeeper-cleaner">
-                          <label class="usa-radio__label" for="congregate-living-housekeeper-cleaner">Housekeeper / cleaner</label>
+                          <label class="usa-radio__label" for="congregate-living-housekeeper-cleaner">Housekeeper or cleaner</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -1271,7 +1292,7 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="faith-based-org-choir-music" type="radio" name="occupation" value="faith-based-org-choir-music">
-                          <label class="usa-radio__label" for="faith-based-org-choir-music">Choir / Music</label>
+                          <label class="usa-radio__label" for="faith-based-org-choir-music">Choir or Music</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -1572,7 +1593,7 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="restaurant-or-bar-fast-food-counter-worker" type="radio" name="occupation" value="restaurant-or-bar-fast-food-counter-worker">
-                          <label class="usa-radio__label" for="restaurant-or-bar-fast-food-counter-worker">Fast food / counter worker</label>
+                          <label class="usa-radio__label" for="restaurant-or-bar-fast-food-counter-worker">Fast food or counter worker</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -1582,7 +1603,7 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="restaurant-or-bar-server-waiter-waitress" type="radio" name="occupation" value="restaurant-or-bar-server-waiter-waitress">
-                          <label class="usa-radio__label" for="restaurant-or-bar-server-waiter-waitress">Server (waiter or waitress)</label>
+                          <label class="usa-radio__label" for="restaurant-or-bar-server-waiter-waitress">Server, waiter, or waitress</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -1769,7 +1790,7 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="construction-trades-on-site-labor" type="radio" name="occupation" value="construction-trades-on-site-labor">
-                          <label class="usa-radio__label" for="construction-trades-on-site-labor">On-site labor / landscape / craft / trade</label>
+                          <label class="usa-radio__label" for="construction-trades-on-site-labor">On-site labor, landscape, craft, or trade</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -1843,7 +1864,7 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="manufacturing-slaughter-meat-packing" type="radio" name="occupation" value="manufacturing-slaughter-meat-packing">
-                          <label class="usa-radio__label" for="manufacturing-slaughter-meat-packing">Slaughter or meat packing </label>
+                          <label class="usa-radio__label" for="manufacturing-slaughter-meat-packing">Slaughter or meat packing</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -1936,18 +1957,18 @@
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="education-library-art" type="radio" name="occupation" value="education-library-art">
-                          <label class="usa-radio__label" for="education-library-art">Library, art</label>
+                          <input class="usa-radio__input" id="education-library-or-arts" type="radio" name="occupation" value="education-library-or-arts">
+                          <label class="usa-radio__label" for="education-library-or-arts">Library or arts</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="education-classroom-attendant-support" type="radio" name="occupation" value="education-classroom-attendant-support">
-                          <label class="usa-radio__label" for="education-classroom-attendant-support">Classroom attendant / support</label>
+                          <input class="usa-radio__input" id="education-classroom-attendant-or-support" type="radio" name="occupation" value="education-classroom-attendant-or-support">
+                          <label class="usa-radio__label" for="education-classroom-attendant-or-support">Classroom attendant or support</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="education-teaching-assistant-aid" type="radio" name="occupation" value="education-teaching-assistant-aid">
-                          <label class="usa-radio__label" for="education-teaching-assistant-aid">Teaching assistant / aid</label>
+                          <input class="usa-radio__input" id="education-teaching-assistant-aide" type="radio" name="occupation" value="education-teaching-assistant-aide">
+                          <label class="usa-radio__label" for="education-teaching-assistant-aide">Teaching assistant or aide</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -1981,12 +2002,12 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="government-inspector-compliance" type="radio" name="occupation" value="government-inspector-compliance">
-                          <label class="usa-radio__label" for="government-inspector-compliance">Inspector / compliance</label>
+                          <label class="usa-radio__label" for="government-inspector-compliance">Inspector or compliance</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="government-parks-fishing-game" type="radio" name="occupation" value="government-parks-fishing-game">
-                          <label class="usa-radio__label" for="government-parks-fishing-game">Parks, fishing, and game</label>
+                          <label class="usa-radio__label" for="government-parks-fishing-game">Parks, fishing, or game</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -2070,7 +2091,7 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="transportation-ticket-taker-rail-conductor" type="radio" name="occupation" value="transportation-ticket-taker-rail-conductor">
-                          <label class="usa-radio__label" for="transportation-ticket-taker-rail-conductor">Ticket taker / rail conductor</label>
+                          <label class="usa-radio__label" for="transportation-ticket-taker-rail-conductor">Ticket taker or rail conductor</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -2130,7 +2151,7 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="first-responder-fire" type="radio" name="occupation" value="first-responder-fire">
-                          <label class="usa-radio__label" for="first-responder-fire">Firefighter / fire inspector / fireline supervisor</label>
+                          <label class="usa-radio__label" for="first-responder-fire">Firefighter, fire inspector, or fireline supervisor</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -2145,7 +2166,7 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="first-responder-detective-criminal-investigator" type="radio" name="occupation" value="first-responder-detective-criminal-investigator">
-                          <label class="usa-radio__label" for="first-responder-detective-criminal-investigator">Detective / criminal investigator</label>
+                          <label class="usa-radio__label" for="first-responder-detective-criminal-investigator">Detective or criminal investigator</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -2209,7 +2230,7 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="corrections-inmate" type="radio" name="occupation" value="corrections-inmate">
-                          <label class="usa-radio__label" for="corrections-inmateProbation officer">Inmate</label>
+                          <label class="usa-radio__label" for="corrections-inmate">Inmate</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -2254,22 +2275,22 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="other-work-setting-project-team-manager" type="radio" name="occupation" value="other-work-setting-project-team-manager">
-                          <label class="usa-radio__label" for="other-work-setting-project-team-manager">Project manager / team manager</label>
+                          <label class="usa-radio__label" for="other-work-setting-project-team-manager">Project manager or team manager</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="other-work-setting-human-resources-staff-support" type="radio" name="occupation" value="other-work-setting-human-resources-staff-support">
-                          <label class="usa-radio__label" for="other-work-setting-human-resources-staff-support">Human resources / staff support</label>
+                          <label class="usa-radio__label" for="other-work-setting-human-resources-staff-support">Human resources or staff support</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="other-work-setting-student-primary-k-12" type="radio" name="occupation" value="other-work-setting-student-primary-k-12">
-                          <label class="usa-radio__label" for="other-work-setting-student-primary-k-12">Student: Primary K-12</label>
+                          <label class="usa-radio__label" for="other-work-setting-student-primary-k-12">Student in Primary K-12</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="other-work-setting-student-postsecondary" type="radio" name="occupation" value="other-work-setting-student-postsecondary">
-                          <label class="usa-radio__label" for="other-work-setting-student-postsecondary">Student: college, university, or trade school</label>
+                          <label class="usa-radio__label" for="other-work-setting-student-postsecondary">Student in college, university, or trade school</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -2279,7 +2300,7 @@
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="other-work-setting-computers-technology" type="radio" name="occupation" value="other-work-setting-computers-technology">
-                          <label class="usa-radio__label" for="other-work-setting-computers-technology">Computers / technology</label>
+                          <label class="usa-radio__label" for="other-work-setting-computers-technology">Computers or technology</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -2347,7 +2368,7 @@
 
 
 
-              <fieldset class="usa-fieldset padding-bottom-4 margin-top-6" id="wfh-question">
+              <fieldset class="usa-fieldset padding-bottom-4 margin-top-6" id="work-from-home">
                   <legend class="usa-legend">Are you currently working from home?</legend>
                   <!-- <span class="usa-hint" id="workFromHome-helper-text"> </span> -->
                   <br/>
@@ -2390,7 +2411,6 @@
                               <label class="usa-label" for="workplace-state">State</label>
                               <select class="usa-select" id="workplace-state" name="workplace-state">
                                   <option value>- Select -</option>
-                                  <option value="workplace-RI">Rhode Island</option>
                                   <!-- start with local states -->
                                   <option value="workplace-RI">Rhode Island</option>
                                   <option value="workplace-CT">Connecticut</option>
@@ -2458,7 +2478,7 @@
                           </div>
                       </div>
 
-                      <label class="usa-label" for="workplace-zip">ZIP Code</label>
+                      <label class="usa-label" for="workplace-zip">ZIP</label>
                       <input class="usa-input usa-input--medium" id="workplace-zip" name="workplace-zip" type="text" pattern="[\d]{5}(-[\d]{4})?">
 
                   </div>
@@ -2469,8 +2489,8 @@
                       </div>
 
                       <div class="usa-checkbox padding-top-1">
-                          <input class="usa-checkbox__input" id="no-workplace-address" type="checkbox" name="no-workplace-address" value="no-workplace-address">
-                          <label class="usa-checkbox__label" for="no-workplace-address">I am not able to provide my complete workplace address</label>
+                          <input class="usa-checkbox__input" id="workplace-address-incomplete" type="checkbox" name="workplace-address-incomplete" value="workplace-address-incomplete">
+                          <label class="usa-checkbox__label" for="workplace-address-incomplete">I am not able to provide my complete workplace address</label>
                       </div>
 
 
@@ -2493,8 +2513,8 @@
                   <br/>
                   <div class="grid-row grid-gap">
                       <div class="usa-radio tablet:grid-col-3">
-                        <input class="usa-radio__input" id="person-vehicle" type="radio" name="mode-of-transportation" value="person-vehicle">
-                        <label class="usa-radio__label" for="person-vehicle">Personal vehicle</label>
+                        <input class="usa-radio__input" id="personal-vehicle" type="radio" name="mode-of-transportation" value="personal-vehicle">
+                        <label class="usa-radio__label" for="personal-vehicle">Personal vehicle</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-3">
                         <input class="usa-radio__input" id="carpool" type="radio" name="mode-of-transportation" value="carpool">
@@ -2541,28 +2561,28 @@
                       <br/>
                       <div class="grid-row grid-gap">
                           <div class="usa-radio tablet:grid-col-6">
-                            <input class="usa-radio__input" id="male" type="radio" name="gender" value="male">
-                            <label class="usa-radio__label" for="male">Male</label>
+                            <input class="usa-radio__input" id="gender-identity-male" type="radio" name="gender" value="gender-identity-male">
+                            <label class="usa-radio__label" for="gender-identity-male">Male</label>
                           </div>
                           <div class="usa-radio tablet:grid-col-6">
-                            <input class="usa-radio__input" id="female" type="radio" name="gender" value="female">
-                            <label class="usa-radio__label" for="female">Female</label>
+                            <input class="usa-radio__input" id="gender-identity-female" type="radio" name="gender" value="gender-identity-female">
+                            <label class="usa-radio__label" for="gender-identity-female">Female</label>
                           </div>
                           <div class="usa-radio tablet:grid-col-6">
-                            <input class="usa-radio__input" id="transgender-male" type="radio" name="gender" value="transgender-male">
-                            <label class="usa-radio__label" for="transgender-male">Transgender male / Female-to-male</label>
+                            <input class="usa-radio__input" id="gender-identity-transgender-male" type="radio" name="gender" value="gender-identity-transgender-male">
+                            <label class="usa-radio__label" for="gender-identity-transgender-male">Transgender male / Female-to-male</label>
                           </div>
                           <div class="usa-radio tablet:grid-col-6">
-                            <input class="usa-radio__input" id="transgender-female" type="radio" name="gender" value="transgender-female">
-                            <label class="usa-radio__label" for="transgender-female">Transgender female / Male-to-female</label>
+                            <input class="usa-radio__input" id="gender-identity-transgender-female" type="radio" name="gender" value="gender-identity-transgender-female">
+                            <label class="usa-radio__label" for="gender-identity-transgender-female">Transgender female / Male-to-female</label>
                           </div>
                           <div class="usa-radio tablet:grid-col-6">
-                            <input class="usa-radio__input" id="gender-not-listed" type="radio" name="gender" value="gender-not-listed">
-                            <label class="usa-radio__label" for="gender-not-listed">Not listed</label>
+                            <input class="usa-radio__input" id="gender-identity-not-listed" type="radio" name="gender" value="gender-identity-not-listed">
+                            <label class="usa-radio__label" for="gender-identity-not-listed">Not listed</label>
                           </div>
                           <div class="usa-radio tablet:grid-col-6">
-                            <input class="usa-radio__input" id="choose-not-to-disclose" type="radio" name="gender" value="choose-not-to-disclose">
-                            <label class="usa-radio__label" for="choose-not-to-disclose">Choose not to disclose</label>
+                            <input class="usa-radio__input" id="gender-choose-not-to-disclose" type="radio" name="gender" value="gender-choose-not-to-disclose">
+                            <label class="usa-radio__label" for="gender-choose-not-to-disclose">Choose not to disclose</label>
                           </div>
                           <div class="usa-checkbox tablet:grid-col-9 other-question is-hidden" id="gender-other-question">
                             <label class="usa-label" for="gender-other">How do you describe your gender?</label>
@@ -2652,16 +2672,16 @@
                             <label class="usa-checkbox__label" for="white">White</label>
                           </div>
                           <div class="usa-checkbox tablet:grid-col-6">
-                            <input class="usa-checkbox__input" id="black" type="checkbox" name="race" value="black">
-                            <label class="usa-checkbox__label" for="black">Black or African American</label>
+                            <input class="usa-checkbox__input" id="black-or-african-american" type="checkbox" name="race" value="black-or-african-american">
+                            <label class="usa-checkbox__label" for="black-or-african-american">Black or African American</label>
                           </div>
                           <div class="usa-checkbox tablet:grid-col-6">
-                            <input class="usa-checkbox__input" id="native-american" type="checkbox" name="race" value="native-american">
-                            <label class="usa-checkbox__label" for="native-american">American Indian or Alaska Native</label>
+                            <input class="usa-checkbox__input" id="native-american-or-alaska-native" type="checkbox" name="race" value="native-american-or-alaska-native">
+                            <label class="usa-checkbox__label" for="native-american-or-alaska-native">American Indian or Alaska Native</label>
                           </div>
                           <div class="usa-checkbox tablet:grid-col-6">
-                            <input class="usa-checkbox__input" id="pacific" type="checkbox" name="race" value="pacific">
-                            <label class="usa-checkbox__label" for="pacific">Native Hawaiian or other Pacific Islander</label>
+                            <input class="usa-checkbox__input" id="native-hawaiian-pacific-islander" type="checkbox" name="race" value="native-hawaiian-pacific-islander">
+                            <label class="usa-checkbox__label" for="native-hawaiian-pacific-islander">Native Hawaiian or other Pacific Islander</label>
                           </div>
                           <div class="usa-checkbox tablet:grid-col-6">
                             <input class="usa-checkbox__input" id="Asian" type="checkbox" name="race" value="Asian">
@@ -2672,8 +2692,8 @@
                             <label class="usa-checkbox__label" for="other-race">Other</label>
                           </div>
                           <div class="usa-checkbox tablet:grid-col-6">
-                            <input class="usa-checkbox__input" id="decline-race" type="checkbox" name="race" value="decline-race">
-                            <label class="usa-checkbox__label" for="decline-race">Decline to answer</label>
+                            <input class="usa-checkbox__input" id="decline-to-answer-race" type="checkbox" name="race" value="decline-to-answer-race">
+                            <label class="usa-checkbox__label" for="decline-to-answer-race">Decline to answer</label>
                           </div>
                       </div>
                   </fieldset>
@@ -2812,12 +2832,12 @@
       $1("#pcp-not-found").checked ? addClass($1(".pcp-not-found-checkbox"), "padding-top-2") : addClass($1(".pcp-not-found-checkbox"), "padding-top-2");
     });
 
-    $1("#symptoms1-other").addEventListener("click", function() {
-      apply($('#other-symptoms-1-question'), toggle);
+    $1("#symptoms-24-hours-other").addEventListener("click", function() {
+      apply($('#other-symptoms-24-hours-question'), toggle);
     });
 
-    $1("#symptoms2-other").addEventListener("click", function() {
-      apply($('#other-symptoms-2-question'), toggle);
+    $1("#symptoms-march-2020-other").addEventListener("click", function() {
+      apply($('#other-symptoms-march-2020-question'), toggle);
     });
 
     apply($("input[name='wfh']"), function(elt) {
@@ -2830,19 +2850,19 @@
     });
 
   // Commenting out this toggle as it should probably be more of a conditional on making the fields not required
-  //  $1("#no-workplace-address").addEventListener('click', function() { toggle($1('#workplace-address-fields')); });
+  //  $1("#workplace-address-incomplete").addEventListener('click', function() { toggle($1('#workplace-address-fields')); });
 
 
 
     apply($("input[name='work-setting']"), function(elt) {
       elt.addEventListener('click', function() {
-        $1("#work-setting-notworking").checked ? addClass($1("#wfh-question"), "is-hidden") : removeClass($1("#wfh-question"), "is-hidden");
+        $1("#work-setting-notworking").checked ? addClass($1("#work-from-home"), "is-hidden") : removeClass($1("#work-from-home"), "is-hidden");
         $1("#work-setting-notworking").checked ? addClass($1("#workplace-location"), "is-hidden") : removeClass($1("#workplace-location"), "is-hidden");
         $1("#healthcare").checked ? removeClass($1("#role-options-healthcare"), "is-hidden") : addClass($1("#role-options-healthcare"), "is-hidden");
         $1("#dental").checked ? removeClass($1("#role-options-dental"), "is-hidden") : addClass($1("#role-options-dental"), "is-hidden");
         $1("#childcare").checked ? removeClass($1("#role-options-childcare"), "is-hidden") : addClass($1("#role-options-childcare"), "is-hidden");
         $1("#congregate-living").checked ? removeClass($1("#role-options-congregate-living"), "is-hidden") : addClass($1("#role-options-congregate-living"), "is-hidden");
-        $1("#faith-based").checked ? removeClass($1("#role-options-faith-based-org"), "is-hidden") : addClass($1("#role-options-faith-based-org"), "is-hidden");
+        $1("#faith-based-organization").checked ? removeClass($1("#role-options-faith-based-org"), "is-hidden") : addClass($1("#role-options-faith-based-org"), "is-hidden");
         $1("#gym").checked ? removeClass($1("#role-options-gym"), "is-hidden") : addClass($1("#role-options-gym"), "is-hidden");
         $1("#hair-salon-barbershop").checked ? removeClass($1("#role-options-hair-salon"), "is-hidden") : addClass($1("#role-options-hair-salon"), "is-hidden");
         $1("#personal-services").checked ? removeClass($1("#role-options-personal-services"), "is-hidden") : addClass($1("#role-options-personal-services"), "is-hidden");
@@ -2874,6 +2894,7 @@
     // });
 
 
+
     apply($("input[name='recent-locations']"), function(elt) {
       elt.addEventListener('click', function() {
         if ($1("#rl-protest-or-rally").checked || $1("#rl-concert-or-entertainment").checked || $1("#rl-wedding-or-funeral").checked || $1("#rl-cookout-barbecue").checked || $1("#rl-graduation").checked || $1("#rl-other-gathering-more-than-25").checked) {
@@ -2881,9 +2902,10 @@
         } else {
          addClass($1("#gathering-question-indoors"), "is-hidden");
         }
-
       });
     });
+
+
 
     // setupOtherQuestion($1("#recent-locations"), $1(".gathering-question"), $1("#gathering-question-indoors"));
 
@@ -2913,9 +2935,6 @@
 
 
 
-
-
-
     apply($("input[name='mode-of-transportation']"), function(elt) {
       elt.addEventListener('click', function() {
         $1("#transportation-mode-other").checked ? removeClass($1("#other-transportation-mode-question"), "is-hidden") : addClass($1("#other-transportation-mode-question"), "is-hidden");
@@ -2923,7 +2942,7 @@
     });
 
 
-    setupOtherQuestion($1("#gender-identity"), $1("#gender-not-listed"), $1("#gender-other-question"));
+    setupOtherQuestion($1("#gender-identity"), $1("#gender-identity-not-listed"), $1("#gender-other-question"));
     setupOtherQuestion($1("#sexual-orientation"), $1("#so-not-listed"), $1("#so-other-question"));
 
 
