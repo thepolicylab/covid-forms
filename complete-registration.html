@@ -213,7 +213,7 @@
             <hr class="margin-top-4 margin-bottom-4"/>
 
 
-                  <fieldset class="usa-fieldset padding-bottom-4 tablet:grid-col-8 desktop:grid-col-6">
+                  <fieldset id="address-question" class="usa-fieldset padding-bottom-4 tablet:grid-col-8 desktop:grid-col-6">
                       <legend class="usa-legend padding-top-4">Address</legend>
                       <span class="usa-hint" id="address-helper-text">Your household address. This information will help us understand the spread of COVID-19.</span>
 
@@ -321,7 +321,7 @@
 
 
 
-                  <fieldset class="usa-fieldset padding-bottom-4">
+                  <fieldset id="number-of-persons-in-household" class="usa-fieldset padding-bottom-4">
                       <legend class="usa-legend padding-top-4">How many people live in your household?</legend>
                       <label class="usa-label" for="household-number"></label>
                       <input class="usa-input" style="width: 100px;" id="household-number" name="household-number" type="text" maxlength="6" size="6">
@@ -332,7 +332,7 @@
 
 
 
-                  <fieldset class="usa-fieldset padding-bottom-2 insurance-info desktop:grid-col-8">
+                  <fieldset id="insurance-information" class="usa-fieldset padding-bottom-2 insurance-info desktop:grid-col-8">
                       <legend class="usa-legend padding-top-4">Insurance information</legend>
                       <span class="usa-hint" id="address-helper-text">COVID-19 is currently covered by all insurance companies. If you have insurance, you please enter the information here. If you do not currently have insurance, testing is free at centers managed by the State of Rhode Island.</span>
 
@@ -412,22 +412,15 @@
 
                   <hr class="margin-top-6 margin-bottom-4"/>
 
-                  <fieldset class="usa-fieldset padding-bottom-4 insurance-info">
+                  <fieldset id="pcp-question" class="usa-fieldset padding-bottom-4 insurance-info">
                       <legend class="usa-legend padding-top-4">Primary Care Provider</legend>
                       <span class="usa-hint" id="pcp-helper-text">If you have a primary care doctor, search for their name below</span>
-
 
                       <div id="pcp-fields" class="padding-top-2 margin-bottom-4">
                           <div class="usa-checkbox tablet:grid-col-9">
                             <select class="usa-input" id="PCP-name" name="PCP-name" type="text" aria-required="false">
                               <option value="no-pcp-selected"></option>
-
-
-
                             </select>
-
-
-
                           </div>
                       </div>
 
@@ -448,7 +441,7 @@
               <hr class="margin-top-4 margin-bottom-8"/>
 
 
-              <fieldset class="usa-fieldset padding-bottom-8">
+              <fieldset id="symptoms-24-hours-question" class="usa-fieldset padding-bottom-8">
                   <legend class="usa-legend">What symptoms have you experienced in the past 24 hours?</legend>
                   <span class="usa-hint" id="symptoms-helper-text">Select all that apply</span>
                   <br/><br/>
@@ -520,7 +513,7 @@
 
               </fieldset>
 
-              <fieldset class="usa-fieldset margin-top-2 padding-bottom-8">
+              <fieldset id="symptoms-march-2020" class="usa-fieldset margin-top-2 padding-bottom-8">
                   <legend class="usa-legend">What symptoms have you experienced since March 1st, 2020?</legend>
                   <span class="usa-hint" id="symptoms-helper-text">Select all that apply</span>
                   <br/><br/>
@@ -591,7 +584,7 @@
 
               </fieldset>
 
-              <fieldset class="usa-fieldset padding-bottom-8 margin-top-2 random-sample-questions" id="positive-nearby">
+              <fieldset id="around-someone-who-tested-positive" class="usa-fieldset padding-bottom-8 margin-top-2 random-sample-questions" id="positive-nearby">
                   <legend class="usa-legend">Have you been around someone who tested positive?</legend>
                   <!-- <span class="usa-hint" id="symptoms-helper-text"></span> -->
                   <br/>
@@ -618,23 +611,23 @@
                       <h3 class="margin-bottom-2">Medical settings</h3>
 
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-hospital" type="checkbox" name="recent-locations" value="rl-hospital">
-                          <label class="usa-checkbox__label" for="rl-hospital">Hospital</label>
+                          <input class="usa-checkbox__input" id="recent-location-hospital" type="checkbox" name="recent-locations" value="recent-location-hospital">
+                          <label class="usa-checkbox__label" for="recent-location-hospital">Hospital</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-health-clinic" type="checkbox" name="recent-locations" value="rl-health-clinic">
-                          <label class="usa-checkbox__label" for="rl-health-clinic">Health clinic or doctor's office</label>
+                          <input class="usa-checkbox__input" id="recent-location-health-clinic" type="checkbox" name="recent-locations" value="recent-location-health-clinic">
+                          <label class="usa-checkbox__label" for="recent-location-health-clinic">Health clinic or doctor's office</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-dental-office" type="checkbox" name="recent-locations" value="rl-dental-office">
-                          <label class="usa-checkbox__label" for="rl-dental-office">Dental office</label>
+                          <input class="usa-checkbox__input" id="recent-location-dental-office" type="checkbox" name="recent-locations" value="recent-location-dental-office">
+                          <label class="usa-checkbox__label" for="recent-location-dental-office">Dental office</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-physical-therapy" type="checkbox" name="recent-locations" value="rl-physical-therapy">
-                          <label class="usa-checkbox__label" for="rl-physical-therapy">Physical therapy or chiropractic</label>
+                          <input class="usa-checkbox__input" id="recent-location-physical-therapy" type="checkbox" name="recent-locations" value="recent-location-physical-therapy">
+                          <label class="usa-checkbox__label" for="recent-location-physical-therapy">Physical therapy or chiropractic</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-other-specialist" type="checkbox" name="recent-locations" value="rl-other-specialist">
+                          <input class="usa-checkbox__input" id="recent-location-other-specialist" type="checkbox" name="recent-locations" value="recent-location-other-specialist">
                           <label class="usa-checkbox__label" for="">Other specialist</label>
                       </div>
 
@@ -645,20 +638,20 @@
                       <h3 class="margin-bottom-2">Educational settings</h3>
 
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-childcare" type="checkbox" name="recent-locations" value="rl-childcare">
-                          <label class="usa-checkbox__label" for="rl-childcare">Childcare</label>
+                          <input class="usa-checkbox__input" id="recent-location-childcare" type="checkbox" name="recent-locations" value="recent-location-childcare">
+                          <label class="usa-checkbox__label" for="recent-location-childcare">Childcare</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-summer-camp" type="checkbox" name="recent-locations" value="rl-summer-camp">
-                          <label class="usa-checkbox__label" for="rl-summer-camp">Summer camp</label>
+                          <input class="usa-checkbox__input" id="recent-location-summer-camp" type="checkbox" name="recent-locations" value="recent-location-summer-camp">
+                          <label class="usa-checkbox__label" for="recent-location-summer-camp">Summer camp</label>
                       </div>
                       <div class="usa-checkbox padding-right-2">
-                          <input class="usa-checkbox__input" id="rl-k12-school" type="checkbox" name="recent-locations" value="rl-k12-school">
-                          <label class="usa-checkbox__label" for="rl-k12-school">Kindergarten, Elementary, Middle, or High School</label>
+                          <input class="usa-checkbox__input" id="recent-location-k12-school" type="checkbox" name="recent-locations" value="recent-location-k12-school">
+                          <label class="usa-checkbox__label" for="recent-location-k12-school">Kindergarten, Elementary, Middle, or High School</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-college-university" type="checkbox" name="recent-locations" value="rl-college-university">
-                          <label class="usa-checkbox__label" for="rl-college-university">College or university</label>
+                          <input class="usa-checkbox__input" id="recent-location-college-university" type="checkbox" name="recent-locations" value="recent-location-college-university">
+                          <label class="usa-checkbox__label" for="recent-location-college-university">College or university</label>
                       </div>
 
                     </div>
@@ -668,24 +661,24 @@
                       <h3 class="margin-bottom-2">Congregate or temporary housing</h3>
 
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-hotel-or-other-lodging" type="checkbox" name="recent-locations" value="rl-hotel-or-other-lodging">
-                          <label class="usa-checkbox__label" for="rl-hotel-or-other-lodging">Hotel, short-term rental, or other lodging</label>
+                          <input class="usa-checkbox__input" id="recent-location-hotel-or-other-lodging" type="checkbox" name="recent-locations" value="recent-location-hotel-or-other-lodging">
+                          <label class="usa-checkbox__label" for="recent-location-hotel-or-other-lodging">Hotel, short-term rental, or other lodging</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-apartment-complex-public-housing" type="checkbox" name="recent-locations" value="rl-apartment-complex-public-housing">
-                          <label class="usa-checkbox__label" for="rl-apartment-complex-public-housing">Apartment complex or public housing</label>
+                          <input class="usa-checkbox__input" id="recent-location-apartment-complex-public-housing" type="checkbox" name="recent-locations" value="recent-location-apartment-complex-public-housing">
+                          <label class="usa-checkbox__label" for="recent-location-apartment-complex-public-housing">Apartment complex or public housing</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-nursing-or-group-home" type="checkbox" name="recent-locations" value="rl-nursing-or-group-home">
-                          <label class="usa-checkbox__label" for="rl-nursing-or-group-home">Nursing home, Assisted living, or Group home</label>
+                          <input class="usa-checkbox__input" id="recent-location-nursing-or-group-home" type="checkbox" name="recent-locations" value="recent-location-nursing-or-group-home">
+                          <label class="usa-checkbox__label" for="recent-location-nursing-or-group-home">Nursing home, Assisted living, or Group home</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-shelter-cooling-center" type="checkbox" name="recent-locations" value="rl-shelter-cooling-center">
-                          <label class="usa-checkbox__label" for="rl-shelter-cooling-center">Shelter or cooling center</label>
+                          <input class="usa-checkbox__input" id="recent-location-shelter-cooling-center" type="checkbox" name="recent-locations" value="recent-location-shelter-cooling-center">
+                          <label class="usa-checkbox__label" for="recent-location-shelter-cooling-center">Shelter or cooling center</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-correctional-facility" type="checkbox" name="recent-locations" value="rl-correctional-facility">
-                          <label class="usa-checkbox__label" for="rl-correctional-facility">Correctional facility</label>
+                          <input class="usa-checkbox__input" id="recent-location-correctional-facility" type="checkbox" name="recent-locations" value="recent-location-correctional-facility">
+                          <label class="usa-checkbox__label" for="recent-location-correctional-facility">Correctional facility</label>
                       </div>
 
                     </div>
@@ -700,20 +693,20 @@
                       <h3 class="margin-bottom-2">Customer service settings</h3>
 
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-personal-services" type="checkbox" name="recent-locations" value="rl-personal-services">
-                          <label class="usa-checkbox__label" for="rl-personal-services">Personal services (Nail, Massage, Tattoo, Facialist, Hair salon, Barbershop)</label>
+                          <input class="usa-checkbox__input" id="recent-location-personal-services" type="checkbox" name="recent-locations" value="recent-location-personal-services">
+                          <label class="usa-checkbox__label" for="recent-location-personal-services">Personal services (Nail, Massage, Tattoo, Facialist, Hair salon, Barbershop)</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-laundromat" type="checkbox" name="recent-locations" value="rl-laundromat">
-                          <label class="usa-checkbox__label" for="rl-laundromat">Laundromat</label>
+                          <input class="usa-checkbox__input" id="recent-location-laundromat" type="checkbox" name="recent-locations" value="recent-location-laundromat">
+                          <label class="usa-checkbox__label" for="recent-location-laundromat">Laundromat</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-personal-business" type="checkbox" name="recent-locations" value="rl-personal-business">
-                          <label class="usa-checkbox__label" for="rl-personal-business">Personal business (Banking, Financial, Legal)</label>
+                          <input class="usa-checkbox__input" id="recent-location-personal-business" type="checkbox" name="recent-locations" value="recent-location-personal-business">
+                          <label class="usa-checkbox__label" for="recent-location-personal-business">Personal business (Banking, Financial, Legal)</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-real-estate-open-house" type="checkbox" name="recent-locations" value="rl-real-estate-open-house">
-                          <label class="usa-checkbox__label" for="rl-real-estate-open-house">Real estate open house</label>
+                          <input class="usa-checkbox__input" id="recent-location-real-estate-open-house" type="checkbox" name="recent-locations" value="recent-location-real-estate-open-house">
+                          <label class="usa-checkbox__label" for="recent-location-real-estate-open-house">Real estate open house</label>
                       </div>
 
                     </div>
@@ -723,24 +716,24 @@
                       <h3 class="margin-bottom-2">Food and retail settings</h3>
 
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-restaurant-bar-indoors" type="checkbox" name="recent-locations" value="rl-restaurant-bar-indoors">
-                          <label class="usa-checkbox__label" for="rl-restaurant-bar-indoors">Restaurant or bar, indoors</label>
+                          <input class="usa-checkbox__input" id="recent-location-restaurant-bar-indoors" type="checkbox" name="recent-locations" value="recent-location-restaurant-bar-indoors">
+                          <label class="usa-checkbox__label" for="recent-location-restaurant-bar-indoors">Restaurant or bar, indoors</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-restaurant-bar-outdoors" type="checkbox" name="recent-locations" value="rl-restaurant-bar-outdoors">
-                          <label class="usa-checkbox__label" for="rl-restaurant-bar-outdoors">Restaurant or bar, outdoors</label>
+                          <input class="usa-checkbox__input" id="recent-location-restaurant-bar-outdoors" type="checkbox" name="recent-locations" value="recent-location-restaurant-bar-outdoors">
+                          <label class="usa-checkbox__label" for="recent-location-restaurant-bar-outdoors">Restaurant or bar, outdoors</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-grocery-store-indoors" type="checkbox" name="recent-locations" value="rl-grocery-store-indoors">
-                          <label class="usa-checkbox__label" for="rl-grocery-store-indoors">Grocery store, indoors</label>
+                          <input class="usa-checkbox__input" id="recent-location-grocery-store-indoors" type="checkbox" name="recent-locations" value="recent-location-grocery-store-indoors">
+                          <label class="usa-checkbox__label" for="recent-location-grocery-store-indoors">Grocery store, indoors</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-farmers-market-outdoor-grocery" type="checkbox" name="recent-locations" value="rl-farmers-market-outdoor-grocery">
-                          <label class="usa-checkbox__label" for="rl-farmers-market-outdoor-grocery">Farmer’s market or outdoor grocery</label>
+                          <input class="usa-checkbox__input" id="recent-location-farmers-market-outdoor-grocery" type="checkbox" name="recent-locations" value="recent-location-farmers-market-outdoor-grocery">
+                          <label class="usa-checkbox__label" for="recent-location-farmers-market-outdoor-grocery">Farmer’s market or outdoor grocery</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-retail-or-shopping-mall" type="checkbox" name="recent-locations" value="rl-retail-or-shopping-mall">
-                          <label class="usa-checkbox__label" for="rl-retail-or-shopping-mall">Retail store or shopping mall</label>
+                          <input class="usa-checkbox__input" id="recent-location-retail-or-shopping-mall" type="checkbox" name="recent-locations" value="recent-location-retail-or-shopping-mall">
+                          <label class="usa-checkbox__label" for="recent-location-retail-or-shopping-mall">Retail store or shopping mall</label>
                       </div>
 
                     </div>
@@ -750,28 +743,28 @@
                       <h3 class="margin-bottom-2">Transportation</h3>
 
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-bus-train-shuttle" type="checkbox" name="recent-locations" value="rl-bus-train-shuttle">
-                          <label class="usa-checkbox__label" for="rl-bus-train-shuttle">Bus, train, or shuttle</label>
+                          <input class="usa-checkbox__input" id="recent-location-bus-train-shuttle" type="checkbox" name="recent-locations" value="recent-location-bus-train-shuttle">
+                          <label class="usa-checkbox__label" for="recent-location-bus-train-shuttle">Bus, train, or shuttle</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-ferry-boat" type="checkbox" name="recent-locations" value="rl-ferry-boat">
-                          <label class="usa-checkbox__label" for="rl-ferry-boat">Ferry or boat</label>
+                          <input class="usa-checkbox__input" id="recent-location-ferry-boat" type="checkbox" name="recent-locations" value="recent-location-ferry-boat">
+                          <label class="usa-checkbox__label" for="recent-location-ferry-boat">Ferry or boat</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-rideshare-taxi" type="checkbox" name="recent-locations" value="rl-rideshare-taxi">
-                          <label class="usa-checkbox__label" for="rl-rideshare-taxi">Rideshare or taxi</label>
+                          <input class="usa-checkbox__input" id="recent-location-rideshare-taxi" type="checkbox" name="recent-locations" value="recent-location-rideshare-taxi">
+                          <label class="usa-checkbox__label" for="recent-location-rideshare-taxi">Rideshare or taxi</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-airplane-airport" type="checkbox" name="recent-locations" value="rl-airplane-airport">
-                          <label class="usa-checkbox__label" for="rl-airplane-airport">Airplane or airport</label>
+                          <input class="usa-checkbox__input" id="recent-location-airplane-airport" type="checkbox" name="recent-locations" value="recent-location-airplane-airport">
+                          <label class="usa-checkbox__label" for="recent-location-airplane-airport">Airplane or airport</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-ems-ambulance-rescue" type="checkbox" name="recent-locations" value="rl-ems-ambulance-rescue">
-                          <label class="usa-checkbox__label" for="rl-ems-ambulance-rescue">Emergency medical transportation (Ambulance, rescue)</label>
+                          <input class="usa-checkbox__input" id="recent-location-ems-ambulance-rescue" type="checkbox" name="recent-locations" value="recent-location-ems-ambulance-rescue">
+                          <label class="usa-checkbox__label" for="recent-location-ems-ambulance-rescue">Emergency medical transportation (Ambulance, rescue)</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-traveled-outside-ri" type="checkbox" name="recent-locations" value="rl-traveled-outside-ri">
-                          <label class="usa-checkbox__label" for="rl-traveled-outside-ri">I have traveled outside of Rhode Island</label>
+                          <input class="usa-checkbox__input" id="recent-location-traveled-outside-ri" type="checkbox" name="recent-locations" value="recent-location-traveled-outside-ri">
+                          <label class="usa-checkbox__label" for="recent-location-traveled-outside-ri">I have traveled outside of Rhode Island</label>
                       </div>
 
                     </div>
@@ -784,24 +777,24 @@
                       <h3 class="margin-bottom-2">Recreation settings</h3>
 
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-beach-or-public-pool" type="checkbox" name="recent-locations" value="rl-beach-or-public-pool">
-                          <label class="usa-checkbox__label" for="rl-beach-or-public-pool">Beach or public pool</label>
+                          <input class="usa-checkbox__input" id="recent-location-beach-or-public-pool" type="checkbox" name="recent-locations" value="recent-location-beach-or-public-pool">
+                          <label class="usa-checkbox__label" for="recent-location-beach-or-public-pool">Beach or public pool</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-park-garden-nursery" type="checkbox" name="recent-locations" value="rl-park-garden-nursery">
-                          <label class="usa-checkbox__label" for="rl-park-garden-nursery">Outdoor park, garden center, or nursery</label>
+                          <input class="usa-checkbox__input" id="recent-location-park-garden-nursery" type="checkbox" name="recent-locations" value="recent-location-park-garden-nursery">
+                          <label class="usa-checkbox__label" for="recent-location-park-garden-nursery">Outdoor park, garden center, or nursery</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-amusement-park" type="checkbox" name="recent-locations" value="rl-amusement-park">
-                          <label class="usa-checkbox__label" for="rl-amusement-park">Amusement park</label>
+                          <input class="usa-checkbox__input" id="recent-location-amusement-park" type="checkbox" name="recent-locations" value="recent-location-amusement-park">
+                          <label class="usa-checkbox__label" for="recent-location-amusement-park">Amusement park</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-gym-fitness-sports" type="checkbox" name="recent-locations" value="rl-gym-fitness-sports">
-                          <label class="usa-checkbox__label" for="rl-gym-fitness-sports">Gym, fitness class, or sports team</label>
+                          <input class="usa-checkbox__input" id="recent-location-gym-fitness-sports" type="checkbox" name="recent-locations" value="recent-location-gym-fitness-sports">
+                          <label class="usa-checkbox__label" for="recent-location-gym-fitness-sports">Gym, fitness class, or sports team</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-other-group-lesson" type="checkbox" name="recent-locations" value="rl-other-group-lesson">
-                          <label class="usa-checkbox__label" for="rl-other-group-lesson">Other group lesson or class</label>
+                          <input class="usa-checkbox__input" id="recent-location-other-group-lesson" type="checkbox" name="recent-locations" value="recent-location-other-group-lesson">
+                          <label class="usa-checkbox__label" for="recent-location-other-group-lesson">Other group lesson or class</label>
                       </div>
 
                     </div>
@@ -811,24 +804,24 @@
                       <h3 class="margin-bottom-2">Civic and religious settings</h3>
 
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-church-or-place-of-worship" type="checkbox" name="recent-locations" value="rl-church-or-place-of-worship">
-                          <label class="usa-checkbox__label" for="rl-church-or-place-of-worship">Church or place of worship</label>
+                          <input class="usa-checkbox__input" id="recent-location-church-or-place-of-worship" type="checkbox" name="recent-locations" value="recent-location-church-or-place-of-worship">
+                          <label class="usa-checkbox__label" for="recent-location-church-or-place-of-worship">Church or place of worship</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-museum-library-recreation-center" type="checkbox" name="recent-locations" value="rl-museum-library-recreation-center">
-                          <label class="usa-checkbox__label" for="rl-museum-library-recreation-center">Museum, library, or recreation center</label>
+                          <input class="usa-checkbox__input" id="recent-location-museum-library-recreation-center" type="checkbox" name="recent-locations" value="recent-location-museum-library-recreation-center">
+                          <label class="usa-checkbox__label" for="recent-location-museum-library-recreation-center">Museum, library, or recreation center</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-government-office-or-courthouse" type="checkbox" name="recent-locations" value="rl-government-office-or-courthouse">
-                          <label class="usa-checkbox__label" for="rl-government-office-or-courthouse">Government office or courthouse</label>
+                          <input class="usa-checkbox__input" id="recent-location-government-office-or-courthouse" type="checkbox" name="recent-locations" value="recent-location-government-office-or-courthouse">
+                          <label class="usa-checkbox__label" for="recent-location-government-office-or-courthouse">Government office or courthouse</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-senior-center" type="checkbox" name="recent-locations" value="rl-senior-center">
-                          <label class="usa-checkbox__label" for="rl-senior-center">Senior center</label>
+                          <input class="usa-checkbox__input" id="recent-location-senior-center" type="checkbox" name="recent-locations" value="recent-location-senior-center">
+                          <label class="usa-checkbox__label" for="recent-location-senior-center">Senior center</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input" id="rl-voting-location" type="checkbox" name="recent-locations" value="rl-voting-location">
-                          <label class="usa-checkbox__label" for="rl-voting-location">Voting location</label>
+                          <input class="usa-checkbox__input" id="recent-location-voting-location" type="checkbox" name="recent-locations" value="recent-location-voting-location">
+                          <label class="usa-checkbox__label" for="recent-location-voting-location">Voting location</label>
                       </div>
 
                     </div>
@@ -838,40 +831,40 @@
                       <h3 class="margin-bottom-2">Gatherings and events</h3>
 
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input gathering-question" id="rl-protest-or-rally" type="checkbox" name="recent-locations" value="rl-protest-or-rally">
-                          <label class="usa-checkbox__label" for="rl-protest-or-rally">Protest or rally</label>
+                          <input class="usa-checkbox__input gathering-question" id="recent-location-protest-or-rally" type="checkbox" name="recent-locations" value="recent-location-protest-or-rally">
+                          <label class="usa-checkbox__label" for="recent-location-protest-or-rally">Protest or rally</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input gathering-question" id="rl-concert-or-entertainment" type="checkbox" name="recent-locations" value="rl-concert-or-entertainment">
-                          <label class="usa-checkbox__label" for="rl-concert-or-entertainment">Concert or entertainment</label>
+                          <input class="usa-checkbox__input gathering-question" id="recent-location-concert-or-entertainment" type="checkbox" name="recent-locations" value="recent-location-concert-or-entertainment">
+                          <label class="usa-checkbox__label" for="recent-location-concert-or-entertainment">Concert or entertainment</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input gathering-question" id="rl-wedding-or-funeral" type="checkbox" name="recent-locations" value="rl-wedding-or-funeral">
-                          <label class="usa-checkbox__label" for="rl-wedding-or-funeral">Wedding or funeral</label>
+                          <input class="usa-checkbox__input gathering-question" id="recent-location-wedding-or-funeral" type="checkbox" name="recent-locations" value="recent-location-wedding-or-funeral">
+                          <label class="usa-checkbox__label" for="recent-location-wedding-or-funeral">Wedding or funeral</label>
                       </div>
                       <!-- <div class="usa-checkbox">
-                          <input class="usa-checkbox__input gathering-question" id="rl-wedding" type="checkbox" name="recent-locations" value="rl-wedding">
-                          <label class="usa-checkbox__label" for="rl-wedding">Wedding</label>
+                          <input class="usa-checkbox__input gathering-question" id="recent-location-wedding" type="checkbox" name="recent-locations" value="recent-location-wedding">
+                          <label class="usa-checkbox__label" for="recent-location-wedding">Wedding</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input gathering-question" id="rl-funeral" type="checkbox" name="recent-locations" value="rl-funeral">
-                          <label class="usa-checkbox__label" for="rl-funeral">Funeral</label>
+                          <input class="usa-checkbox__input gathering-question" id="recent-location-funeral" type="checkbox" name="recent-locations" value="recent-location-funeral">
+                          <label class="usa-checkbox__label" for="recent-location-funeral">Funeral</label>
                       </div> -->
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input gathering-question" id="rl-cookout-barbecue" type="checkbox" name="recent-locations" value="rl-cookout-barbecue">
-                          <label class="usa-checkbox__label" for="rl-cookout-barbecue">Cookout or barbecue</label>
+                          <input class="usa-checkbox__input gathering-question" id="recent-location-cookout-barbecue" type="checkbox" name="recent-locations" value="recent-location-cookout-barbecue">
+                          <label class="usa-checkbox__label" for="recent-location-cookout-barbecue">Cookout or barbecue</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input gathering-question" id="rl-graduation" type="checkbox" name="recent-locations" value="rl-graduation">
-                          <label class="usa-checkbox__label" for="rl-graduation">Graduation</label>
+                          <input class="usa-checkbox__input gathering-question" id="recent-location-graduation" type="checkbox" name="recent-locations" value="recent-location-graduation">
+                          <label class="usa-checkbox__label" for="recent-location-graduation">Graduation</label>
                       </div>
                       <div class="usa-checkbox">
-                          <input class="usa-checkbox__input gathering-question" id="rl-other-gathering-more-than-25" type="checkbox" name="recent-locations" value="rl-other-gathering-more-than-25">
-                          <label class="usa-checkbox__label" for="rl-other-gathering-more-than-25">Other gathering of more than 25 people</label>
+                          <input class="usa-checkbox__input gathering-question" id="recent-location-other-gathering-more-than-25" type="checkbox" name="recent-locations" value="recent-location-other-gathering-more-than-25">
+                          <label class="usa-checkbox__label" for="recent-location-other-gathering-more-than-25">Other gathering of more than 25 people</label>
                       </div>
                       <!-- <div class="usa-checkbox">
-                          <input class="usa-checkbox__input gathering-question" id="rl-other-gathering-more-than-50" type="checkbox" name="recent-locations" value="rl-other-gathering-more-than-50">
-                          <label class="usa-checkbox__label" for="rl-other-gathering-more-than-50">Other gathering of more than 50 people</label>
+                          <input class="usa-checkbox__input gathering-question" id="recent-location-other-gathering-more-than-50" type="checkbox" name="recent-locations" value="recent-location-other-gathering-more-than-50">
+                          <label class="usa-checkbox__label" for="recent-location-other-gathering-more-than-50">Other gathering of more than 50 people</label>
                       </div> -->
 
                     </div>
@@ -2368,7 +2361,7 @@
 
 
 
-              <fieldset class="usa-fieldset padding-bottom-4 margin-top-6" id="work-from-home">
+              <fieldset class="usa-fieldset padding-bottom-4 margin-top-6" id="working-from-home">
                   <legend class="usa-legend">Are you currently working from home?</legend>
                   <!-- <span class="usa-hint" id="workFromHome-helper-text"> </span> -->
                   <br/>
@@ -2591,7 +2584,7 @@
                       </div>
                 </fieldset>
 
-                <fieldset class="usa-fieldset padding-bottom-6">
+                <fieldset class="usa-fieldset padding-bottom-6" id="birth-sex" >
                         <legend class="usa-legend">What sex were you assigned at birth?</legend>
                         <span class="usa-hint" id="birth-sex-helper-text">This is the sex that's listed on your original birth certificate</span>
                         <br/><br/>
@@ -2605,6 +2598,12 @@
                             <div class="usa-radio tablet:grid-col-4">
                               <input class="usa-radio__input" id="birth-sex-female" type="radio" name="birth-sex" value="birth-sex-female">
                               <label class="usa-radio__label" for="birth-sex-female">Female</label>
+                            </div>
+                        </div>
+                        <div class="grid-row grid-gap">
+                            <div class="usa-radio tablet:grid-col-4">
+                              <input class="usa-radio__input" id="birth-sex-not-disclosed" type="radio" name="birth-sex" value="birth-sex-not-disclosed">
+                              <label class="usa-radio__label" for="birth-sex-not-disclosed">Choose not to disclose</label>
                             </div>
                         </div>
                   </fieldset>
@@ -2662,7 +2661,7 @@
 
 
 
-                  <fieldset class="usa-fieldset padding-bottom-6">
+                  <fieldset class="usa-fieldset padding-bottom-6" id="race">
                       <legend class="usa-legend">What is your race?</legend>
                       <span class="usa-hint" id="race-helper-text">Select all that apply</span>
                       <br/><br/>
@@ -2856,7 +2855,7 @@
 
     apply($("input[name='work-setting']"), function(elt) {
       elt.addEventListener('click', function() {
-        $1("#work-setting-notworking").checked ? addClass($1("#work-from-home"), "is-hidden") : removeClass($1("#work-from-home"), "is-hidden");
+        $1("#work-setting-notworking").checked ? addClass($1("#working-from-home"), "is-hidden") : removeClass($1("#working-from-home"), "is-hidden");
         $1("#work-setting-notworking").checked ? addClass($1("#workplace-location"), "is-hidden") : removeClass($1("#workplace-location"), "is-hidden");
         $1("#healthcare").checked ? removeClass($1("#role-options-healthcare"), "is-hidden") : addClass($1("#role-options-healthcare"), "is-hidden");
         $1("#dental").checked ? removeClass($1("#role-options-dental"), "is-hidden") : addClass($1("#role-options-dental"), "is-hidden");
@@ -2885,9 +2884,9 @@
 
     // apply($("input[name='recent-locations']"), function(elt) {
     //   elt.addEventListener('click', function() {
-    //     $1("#rl-other-gathering-more-than-25").checked ? removeClass($1("#gathering-question-indoors"), "is-hidden") : addClass($1("#gathering-question-indoors"), "is-hidden");
-    //     //$1("#rl-protest-or-rally || #rl-concert-or-entertainment").checked ? removeClass($1("#gathering-question-indoors"), "is-hidden") : addClass($1("#gathering-question-indoors"), "is-hidden");
-    //     // $1("#rl-concert-or-entertainment").checked ? removeClass($1("#gathering-question-indoors"), "is-hidden") : addClass($1("#gathering-question-indoors"), "is-hidden");
+    //     $1("#recent-location-other-gathering-more-than-25").checked ? removeClass($1("#gathering-question-indoors"), "is-hidden") : addClass($1("#gathering-question-indoors"), "is-hidden");
+    //     //$1("#recent-location-protest-or-rally || #recent-location-concert-or-entertainment").checked ? removeClass($1("#gathering-question-indoors"), "is-hidden") : addClass($1("#gathering-question-indoors"), "is-hidden");
+    //     // $1("#recent-location-concert-or-entertainment").checked ? removeClass($1("#gathering-question-indoors"), "is-hidden") : addClass($1("#gathering-question-indoors"), "is-hidden");
     //
     //
     //   });
@@ -2897,7 +2896,7 @@
 
     apply($("input[name='recent-locations']"), function(elt) {
       elt.addEventListener('click', function() {
-        if ($1("#rl-protest-or-rally").checked || $1("#rl-concert-or-entertainment").checked || $1("#rl-wedding-or-funeral").checked || $1("#rl-cookout-barbecue").checked || $1("#rl-graduation").checked || $1("#rl-other-gathering-more-than-25").checked) {
+        if ($1("#recent-location-protest-or-rally").checked || $1("#recent-location-concert-or-entertainment").checked || $1("#recent-location-wedding-or-funeral").checked || $1("#recent-location-cookout-barbecue").checked || $1("#recent-location-graduation").checked || $1("#recent-location-other-gathering-more-than-25").checked) {
           removeClass($1("#gathering-question-indoors"), "is-hidden")
         } else {
          addClass($1("#gathering-question-indoors"), "is-hidden");
