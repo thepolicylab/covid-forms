@@ -98,35 +98,35 @@
 
               <fieldset class="usa-fieldset margin-top-2 padding-bottom-4">
                   <legend class="usa-legend">Main reason for being tested</legend>
-                  <!-- <span class="usa-hint" id="reason-helper-text">Hint text here</span> -->
-                  <br/>
+                  <span class="usa-hint" id="reason-helper-text">Select all that apply</span>
+                  <br/><br/>
                   <div class="grid-row grid-gap reasons-for-testing">
 
-                    <div class="usa-radio tablet:grid-col-12">
-                      <input class="usa-radio__input" id="symptomatic" type="radio" name="reason-for-testing" value="symptomatic">
-                      <label class="usa-radio__label" for="symptomatic">I have symptoms of Covid-19</label>
+                    <div class="usa-checkbox tablet:grid-col-12">
+                      <input class="usa-checkbox__input" id="symptomatic" type="checkbox" name="reason-for-testing" value="symptomatic">
+                      <label class="usa-checkbox__label" for="symptomatic">I have symptoms of Covid-19</label>
                       <!-- <span class="usa-hint" id="symptomatic-helper-text">I've received authorizato</span> -->
                     </div>
-                    <div class="usa-radio tablet:grid-col-12">
-                      <input class="usa-radio__input" id="random-sample" type="radio" name="reason-for-testing" value="random-sample">
-                      <label class="usa-radio__label" for="random-sample">I received a letter in the mail</label>
+                    <div class="usa-checkbox tablet:grid-col-12">
+                      <input class="usa-checkbox__input" id="random-sample" type="checkbox" name="reason-for-testing" value="random-sample">
+                      <label class="usa-checkbox__label" for="random-sample">I was asked to get tested as part of a random sample</label>
                       <!-- <span class="usa-hint" id="symptomatic-helper-text">I was asked to participate in testing because</span> -->
                     </div>
-                    <div class="usa-radio tablet:grid-col-12">
-                      <input class="usa-radio__input" id="sentinel-group" type="radio" name="reason-for-testing" value="sentinel-group">
-                      <label class="usa-radio__label" for="sentinel-group">I work in a profession that's been asked to get tested</label>
+                    <div class="usa-checkbox tablet:grid-col-12">
+                      <input class="usa-checkbox__input" id="sentinel-group" type="checkbox" name="reason-for-testing" value="sentinel-group">
+                      <label class="usa-checkbox__label" for="sentinel-group">I work in a profession that's been asked to get tested</label>
                     </div>
-                    <div class="usa-radio tablet:grid-col-12">
-                      <input class="usa-radio__input" id="group-setting" type="radio" name="reason-for-testing" value="group-setting">
-                      <label class="usa-radio__label" for="group-setting">I attended an event with more than 100 people</label>
+                    <div class="usa-checkbox tablet:grid-col-12">
+                      <input class="usa-checkbox__input" id="group-setting" type="checkbox" name="reason-for-testing" value="group-setting">
+                      <label class="usa-checkbox__label" for="group-setting">I attended an event with more than 100 people</label>
                     </div>
-                    <div class="usa-radio tablet:grid-col-12">
-                      <input class="usa-radio__input" id="been-in-contact" type="radio" name="reason-for-testing" value="been-in-contact">
-                      <label class="usa-radio__label" for="been-in-contact">I have been in contact with someone who tested positive</label>
+                    <div class="usa-checkbox tablet:grid-col-12">
+                      <input class="usa-checkbox__input" id="been-in-contact" type="checkbox" name="reason-for-testing" value="been-in-contact">
+                      <label class="usa-checkbox__label" for="been-in-contact">I have been in contact with someone who tested positive</label>
                     </div>
-                    <div class="usa-radio tablet:grid-col-12">
-                      <input class="usa-radio__input" id="reason-other" type="radio" name="reason-for-testing" value="reason-other">
-                      <label class="usa-radio__label" for="reason-other">Other</label>
+                    <div class="usa-checkbox tablet:grid-col-12">
+                      <input class="usa-checkbox__input" id="reason-other" type="checkbox" name="reason-for-testing" value="reason-other">
+                      <label class="usa-checkbox__label" for="reason-other">Other</label>
                     </div>
 
                     <div class="usa-checkbox tablet:grid-col-12 padding-bottom-2 other-question is-hidden" id="mailer-id-question">
@@ -303,10 +303,6 @@
                           <label class="usa-label" for="zip">ZIP</label>
                           <input class="usa-input usa-input--medium" id="zip" name="zip" type="text" pattern="[\d]{5}(-[\d]{4})?">
 
-                          <div class="usa-checkbox padding-top-4">
-                              <input class="usa-checkbox__input" id="group-home" type="checkbox" name="group-home" value="group-home">
-                              <label class="usa-checkbox__label" for="group-home">This residence is in a treatment facility, group home, or other group setting</label>
-                          </div>
 
                       </div>
 
@@ -325,6 +321,12 @@
                       <legend class="usa-legend padding-top-4">How many people live in your household?</legend>
                       <label class="usa-label" for="household-number"></label>
                       <input class="usa-input" style="width: 100px;" id="household-number" name="household-number" type="text" maxlength="6" size="6">
+
+                      <div class="usa-checkbox padding-top-4">
+                          <input class="usa-checkbox__input" id="group-home" type="checkbox" name="group-home" value="group-home">
+                          <label class="usa-checkbox__label" for="group-home">This residence is in a treatment facility, group home, or other group setting</label>
+                      </div>
+                      
                   </fieldset>
 
 
@@ -334,7 +336,7 @@
 
                   <fieldset id="insurance-information" class="usa-fieldset padding-bottom-2 insurance-info desktop:grid-col-8">
                       <legend class="usa-legend padding-top-4">Insurance information</legend>
-                      <span class="usa-hint" id="address-helper-text">COVID-19 is currently covered by all insurance companies. If you have insurance, you please enter the information here. If you do not currently have insurance, testing is free at centers managed by the State of Rhode Island.</span>
+                      <span class="usa-hint" id="address-helper-text">COVID-19 is currently covered by all insurance companies. If you have insurance, you please enter the information here. If you do not currently have insurance, testing is free at locations managed by the State of Rhode Island.</span>
 
                       <div class="insurance-info-block padding-bottom-2" id="insurance-provider-1">
                         <label class="usa-label" for="provider-name">Health insurance provider name</label>
@@ -369,9 +371,9 @@
                           <label class="usa-checkbox__label" for="no-health-insurance">I do not have health insurance</label>
                       </div>
 
-                      <div class="usa-checkbox padding-top-0 secondary-insurance-question">
-                          <input class="usa-checkbox__input" id="secondary-health-insurance" type="checkbox" name="secondary-health-insurance" value="secondary-health-insurance">
-                          <label class="usa-checkbox__label" for="secondary-health-insurance">I have an additional health insurance provider</label>
+                      <div class="usa-checkbox padding-top-0 additional-insurance-question">
+                          <input class="usa-checkbox__input" id="additional-health-insurance" type="checkbox" name="additional-health-insurance" value="additional-health-insurance">
+                          <label class="usa-checkbox__label" for="additional-health-insurance">I have an additional health insurance provider</label>
                       </div>
 
                   </fieldset>
@@ -2665,23 +2667,23 @@
                       <span class="usa-hint" id="ethnicity-helper-text">Select all that apply</span>
                       <br/><br/>
                       <div class="grid-row grid-gap">
-                          <div class="usa-checkbox tablet:grid-col-6">
-                            <input class="usa-checkbox__input" id="not-hispanic-latino-spanish" type="checkbox" name="ethnicity" value="">
-                            <label class="usa-checkbox__label" for="">No, I am not</label>
+                          <div class="usa-checkbox tablet:grid-col-9">
+                            <input class="usa-checkbox__input" id="not-hispanic-latino-spanish" type="checkbox" name="ethnicity" value="not-hispanic-latino-spanish">
+                            <label class="usa-checkbox__label" for="not-hispanic-latino-spanish">No, I am not</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-6">
+                          <div class="usa-checkbox tablet:grid-col-9">
                             <input class="usa-checkbox__input" id="yes-mexican-mexican-american-chicano" type="checkbox" name="ethnicity" value="yes-mexican-mexican-american-chicano">
                             <label class="usa-checkbox__label" for="yes-mexican-mexican-american-chicano">Yes, Mexican, Mexican American, Chicano</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-6">
+                          <div class="usa-checkbox tablet:grid-col-9">
                             <input class="usa-checkbox__input" id="yes-puerto-rican" type="checkbox" name="ethnicity" value="yes-puerto-rican">
                             <label class="usa-checkbox__label" for="yes-puerto-rican">Yes, Puerto Rican</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-6">
+                          <div class="usa-checkbox tablet:grid-col-9">
                             <input class="usa-checkbox__input" id="yes-cuban" type="checkbox" name="ethnicity" value="yes-cuban">
                             <label class="usa-checkbox__label" for="yes-cuban">Yes, Cuban</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-6">
+                          <div class="usa-checkbox tablet:grid-col-9">
                             <input class="usa-checkbox__input" id="yes-another-origin" type="checkbox" name="ethnicity" value="yes-another-origin">
                             <label class="usa-checkbox__label" for="yes-another-origin">Yes, another Hispanic, Latino, or Spanish origin</label>
                           </div>
@@ -2739,8 +2741,8 @@
                             <label class="usa-checkbox__label" for="race-other-asian">Other Asian</label>
                           </div>
                           <div class="usa-checkbox tablet:grid-col-4">
-                            <input class="usa-checkbox__input" id="native-hawaiian" type="checkbox" name="race" value="native-hawaiian">
-                            <label class="usa-checkbox__label" for="native-hawaiian">Native Hawaiian</label>
+                            <input class="usa-checkbox__input" id="race-native-hawaiian" type="checkbox" name="race" value="race-native-hawaiian">
+                            <label class="usa-checkbox__label" for="race-native-hawaiian">Native Hawaiian</label>
                           </div>
                           <div class="usa-checkbox tablet:grid-col-4">
                             <input class="usa-checkbox__input" id="race-samoan" type="checkbox" name="race" value="race-samoan">
@@ -2755,8 +2757,8 @@
                             <label class="usa-checkbox__label" for="race-other-pacific-islander">Other Pacific Islander</label>
                           </div>
                           <div class="usa-checkbox tablet:grid-col-4">
-                            <input class="usa-checkbox__input" id="other-race" type="checkbox" name="race" value="other-race">
-                            <label class="usa-checkbox__label" for="other-race">Another race</label>
+                            <input class="usa-checkbox__input" id="race-other" type="checkbox" name="race" value="race-other">
+                            <label class="usa-checkbox__label" for="race-other">Another race</label>
                           </div>
                           <div class="usa-checkbox tablet:grid-col-4">
                             <input class="usa-checkbox__input" id="race-decline-to-answer" type="checkbox" name="race" value="race-decline-to-answer">
@@ -2889,10 +2891,10 @@
 
     $1("#no-health-insurance").addEventListener("click", function() {
       $1("#no-health-insurance").checked ? addClass($1("#insurance-provider-1"), "is-hidden") : removeClass($1("#insurance-provider-1"), "is-hidden");
-      apply($('.secondary-insurance-question'), toggle);
+      apply($('.additional-insurance-question'), toggle);
     });
 
-    $1("#secondary-health-insurance").addEventListener("click", function() {
+    $1("#additional-health-insurance").addEventListener("click", function() {
       toggle($1('#insurance-provider-2'));
     });
 

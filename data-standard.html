@@ -459,7 +459,7 @@
 
 
           <h2 id="reason-for-being-tested">Reason for being tested</h2>
-          <p>This fieldset contains options for why the resident is looking to get a test, displayed as checkboxes so that they can select all that apply. <a href="complete-registration.html#reason-for-being-tested">View in model form</a></p>
+          <p>This fieldset contains options for why the person is looking to get a test, displayed as checkboxes so that they can select all that apply. <a href="complete-registration.html#reason-for-being-tested">View in model form</a></p>
 
           <div class="site-table-wrapper">
             <table class="usa-table--borderless site-table-responsive">
@@ -526,7 +526,7 @@
                 <tr>
                   <td data-title="Label">
                     <span>
-                      I received a letter in the mail
+                      I was asked to get tested as part of a random sample
                     </span>
                   </td>
                   <td data-title="ID">
@@ -681,7 +681,7 @@
                   </td>
                   <td data-title="Validation">
                     <span>
-                      Hidden on default. Appears if resident selects "Other"
+                      Hidden on default. Appears if "Other" is selected
                     </span>
                   </td>
                   <td data-title="Error text">
@@ -946,7 +946,7 @@
 
 
                     <h2 id="phone-number">Phone number</h2>
-                    <p>This fieldset requests the resident's phone number. The helper text informs them that we'll be using it to provide updates, which can help them choose which number to include. <a href="complete-registration.html#phone-number-question">View in model form</a></p>
+                    <p>This fieldset requests the person's phone number. The helper text informs them that we'll be using it to provide updates, which can help them choose which number to include. <a href="complete-registration.html#phone-number-question">View in model form</a></p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -1014,8 +1014,8 @@
                     </div>
 
                     <h2 id="email-address">Email address</h2>
-                    <p>This fieldset requests the resident's email address. The helper text informs them that we'll be using it to send a confirmation email, which can help them choose which email address to include. <a href="complete-registration.html#email-address-question">View in model form</a></p>
-                    <p>Selecting the "no-email" checkbox will allow form submission for residents who do not have an email address.</p>
+                    <p>This fieldset requests the person's email address. The helper text informs them that we'll be using it to send a confirmation email, which can help them choose which email address to include. <a href="complete-registration.html#email-address-question">View in model form</a></p>
+                    <p>Selecting the "no-email" checkbox will allow form submission for persons who do not have an email address.</p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -1113,7 +1113,7 @@
 
                     <h2 id="address">Address</h2>
                     <p>This fieldset uses a standard template from the <a href="https://designsystem.digital.gov/components/form-templates/#address-form">US Web Design System</a> for requesting a U.S. mailing address. <a href="complete-registration.html#address-question">View in model form</a></p>
-                    <p>The "group home" checkbox indicates whether the address is in a group setting, and the "no-address" checkbox allows form submission for residents who do not currently have an address.</p>
+                    <p>The "group home" checkbox indicates whether the address is in a group setting, and the "no-address" checkbox allows form submission for persons who do not currently have an address.</p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -1350,7 +1350,7 @@
                     </div>
 
                     <h2 id="number-of-persons-in-household">Number of persons in household</h2>
-                    <p>This fieldset asks how many persons live in the resident's household. <a href="complete-registration.html#number-of-persons-in-household">View in model form</a></p>
+                    <p>This fieldset asks how many persons live in the person's household. <a href="complete-registration.html#number-of-persons-in-household">View in model form</a></p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -1420,8 +1420,8 @@
 
 
                     <h2 id="insurance-information">Insurance information</h2>
-                    <p>This fieldset requests information about the resident's health insurance policy to support the costs of testing. <a href="complete-registration.html#insurance-information">View in model form</a></p>
-                    <p>The "no-health-insurance" checkbox allows form submission if the resident does not have health insurance. Selecting the "secondary-health-insurance" checkbox can open up the fieldset for secondary insurance information.</p>
+                    <p>This fieldset requests information about the person's health insurance policy to support the costs of testing. <a href="complete-registration.html#insurance-information">View in model form</a></p>
+                    <p>The "no-health-insurance" checkbox allows form submission if the person does not have health insurance. Selecting the "secondary-health-insurance" checkbox can open up the fieldset for secondary insurance information.</p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -1440,7 +1440,7 @@
                             </td>
                             <td colspan="3"  data-title="Helper text">
                               <span>
-                                Covid-19 testing is currently covered by all insurance companies. If you have insurance, you please enter the information here. If you do not currently have insurance, testing is free at centers managed by [Your State or Region].
+                                Covid-19 testing is currently covered by all insurance companies. If you have insurance, you please enter the information here. If you do not currently have insurance, testing is free at locations managed by [Your State or Region].
                               </span>
                             </td>
                           </tr>
@@ -1612,7 +1612,7 @@
                             </td>
                             <td data-title="ID">
                               <span>
-                                secondary-health-insurance
+                                additional-health-insurance
                               </span>
                             </td>
                             <td data-title="Input type">
@@ -1636,8 +1636,8 @@
                       </table>
                     </div>
 
-                    <h2 id="secondary-insurance-information">Secondary insurance information</h2>
-                    <p>This fieldset requests information about any secondary health insurance policy that the resident can include to support the costs of testing. It should be viewable after selecting the "secondary-health-insurance" checkbox. <a href="complete-registration.html#insurance-provider-2">View in model form</a></p>
+                    <h2 id="additional-insurance-information">Additional insurance information</h2>
+                    <p>This fieldset requests information about an additional health insurance policy that the person can include to support the costs of testing. It's hidden on default on the model form, and appears after the the "additional-health-insurance" checkbox is selected. <a href="complete-registration.html#insurance-provider-2">View in model form</a></p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -1798,9 +1798,9 @@
 
 
                     <h2 id="primary-care-provider">Primary care provider</h2>
-                    <p>This fieldset requests the name of the resident's primary care provider (PCP) using an autocomplete textfield. <a href="complete-registration.html#pcp-question">View in model form</a></p>
+                    <p>This fieldset requests the name of the person's primary care provider (PCP) using an autocomplete textfield. <a href="complete-registration.html#pcp-question">View in model form</a></p>
                     <p>In the model form, we've used <a href="https://github.com/alphagov/accessible-autocomplete">Accessible autocomplete</a> from the UK Government Digital Service, which is optimized for accessibility, usability, and compatibility across browsers and devices. Its options pull from a public list of all registered physicians in Rhode Island that's been formatted as a JSON file. <a href="doctor_data.json">View example file</a></p>
-                    <p>The "no-pcp" checkbox allows form submission if the resident does not have a primary care provider, and the "pcp-not-found" checkbox allows form submission if the resident cannot identify their PCP in the autocomplete list.</p>
+                    <p>The "no-pcp" checkbox allows form submission if the person does not have a primary care provider, and the "pcp-not-found" checkbox allows form submission if the person cannot identify their PCP in the autocomplete list.</p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -1926,8 +1926,8 @@
 
 
                     <h2 id="symptoms-24-hours">Symptoms in the past 24 hours</h2>
-                    <p>This fieldset requests identification of any symptoms that the resident experienced in the past 24 hours. Its checkboxes are optional, and the helper text asks to select all that apply. <a href="complete-registration.html#symptoms-24-hours">View in model form</a></p>
-                    <p>If any of the symptoms are selected, an additional question, "current-symptoms-onset-date," will appear to request the day when the resident began experiencing symptoms.</p>
+                    <p>This fieldset requests identification of any symptoms that the person experienced in the past 24 hours. Its checkboxes are optional, and the helper text asks to select all that apply. <a href="complete-registration.html#symptoms-24-hours">View in model form</a></p>
+                    <p>If any of the symptoms are selected, an additional question, "current-symptoms-onset-date," will appear to request the day when the person began experiencing symptoms.</p>
                     <p>Selecting "I have not experienced symptoms" allows form submission without selecting any symptoms.</p>
 
                     <div class="site-table-wrapper">
@@ -2362,8 +2362,8 @@
 
 
                     <h2 id="symptoms-march-2020">Symptoms since March 1st, 2020</h2>
-                    <p>This fieldset requests identification of any symptoms that the resident experienced since March 1st, 2020. Its checkboxes are optional, and the helper text asks to select all that apply. <a href="complete-registration.html#symptoms-march-2020">View in model form</a></p>
-                    <p>If any of the symptoms are selected, an additional question, "march-2020-symptoms-onset-date," will appear to request the day when the resident began experiencing symptoms.</p>
+                    <p>This fieldset requests identification of any symptoms that the person experienced since March 1st, 2020. Its checkboxes are optional, and the helper text asks to select all that apply. <a href="complete-registration.html#symptoms-march-2020">View in model form</a></p>
+                    <p>If any of the symptoms are selected, an additional question, "march-2020-symptoms-onset-date," will appear to request the day when the person began experiencing symptoms.</p>
                     <p>Selecting "I have not experienced symptoms" allows form submission without selecting any symptoms.</p>
 
                     <div class="site-table-wrapper">
@@ -2799,7 +2799,7 @@
 
 
                     <h2 id="contact-with-positive-test">Have you been around someone who tested positive?</h2>
-                    <p>This question asks if the resident has been around someone who has tested positive for Covid-19. <a href="complete-registration.html#around-someone-who-tested-positive">View in model form</a></p>
+                    <p>This question asks if the person has been around someone who has tested positive for Covid-19. <a href="complete-registration.html#around-someone-who-tested-positive">View in model form</a></p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -2897,8 +2897,8 @@
 
 
                     <h2 id="recent-locations">Recent locations</h2>
-                    <p>This fieldset requests identification of types of locations where the resident has spent 15 minutes or more in the past two weeks. <a href="complete-registration.html#recent-locations">View in model form</a></p>
-                    <p>Its sections are organized under headings to make the lists easy to scan, and helper text invites residents to select all that apply.</p>
+                    <p>This fieldset requests identification of types of locations where the person has spent 15 minutes or more in the past two weeks. <a href="complete-registration.html#recent-locations">View in model form</a></p>
+                    <p>Its sections are organized under headings to make the lists easy to scan, and helper text invites persons to select all that apply.</p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -4436,7 +4436,7 @@
                     </div>
 
                     <h2 id="work-setting">Work setting</h2>
-                    <p>This fieldset asks for the resident's primary work setting, with categories that map to the Department of Labor's Standard Occupational Classification (SOC) as organized by the <a href="https://www.onetcenter.org/taxonomy.html">Occupational Information Network</a>. <a href="complete-registration.html#work-setting">View on model form</a></p>
+                    <p>This fieldset asks for the person's primary work setting, with categories that map to the Department of Labor's Standard Occupational Classification (SOC) as organized by the <a href="https://www.onetcenter.org/taxonomy.html">Occupational Information Network</a>. <a href="complete-registration.html#work-setting">View on model form</a></p>
                     <p>[Link to mapping grid]</p>
 
                     <div class="site-table-wrapper">
@@ -5067,8 +5067,8 @@
 
 
                     <h2 id="occupation">Occupation</h2>
-                    <p>This fieldset asks for the resident's occupation, with options that map to the Department of Labor's Standard Occupational Classification (SOC) as organized by the <a href="https://www.onetcenter.org/taxonomy.html">Occupational Information Network</a>. <a href="complete-registration.html#work-setting">View on model form</a></p>
-                    <p>As the SOC contains 867 occupations to choose from, this list reduces the user burden by consolidating to a list of around 150 occupation-types organized in groups based on what the resident selects as their workplace setting.</p>
+                    <p>This fieldset asks for the person's occupation, with options that map to the Department of Labor's Standard Occupational Classification (SOC) as organized by the <a href="https://www.onetcenter.org/taxonomy.html">Occupational Information Network</a>. <a href="complete-registration.html#work-setting">View on model form</a></p>
+                    <p>As the SOC contains 867 occupations to choose from, this list reduces the user burden by consolidating to a list of around 150 occupation-types organized in groups based on what the person selects as their workplace setting.</p>
                     <p>[ Link to mapping grid ]</p>
 
                     <div class="site-table-wrapper">
@@ -12320,7 +12320,7 @@
 
 
                     <h2 id="working-from-home">Working from home</h2>
-                    <p>This fieldset asks if the resident is currently working from home. If "sometimes-wfh" or "no-wfh" is selected, the "workplace-location" fieldset should be shown. <a href="complete-registration.html#working-from-home">View on model form</a></p>
+                    <p>This fieldset asks if the person is currently working from home. If "sometimes-wfh" or "no-wfh" is selected, the "workplace-location" fieldset should be shown. <a href="complete-registration.html#working-from-home">View on model form</a></p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -12445,9 +12445,9 @@
                     </div>
 
                     <h2 id="workplace-address">Workplace address</h2>
-                    <p>This fieldset requests the resident's workplace address using the standard template from the <a href="https://designsystem.digital.gov/components/form-templates/#address-form">US Web Design System</a>. <a href="complete-registration.html#workplace-address">View in model form</a></p>
+                    <p>This fieldset requests the person's workplace address using the standard template from the <a href="https://designsystem.digital.gov/components/form-templates/#address-form">US Web Design System</a>. <a href="complete-registration.html#workplace-address">View in model form</a></p>
                     <p>Selecting the checkbox labeled "I am not able to provide my complete workplace address" should set all of these fields to be optional, allowing form submission with partial information.</p>
-                    <p>The "workplace-travel" checkbox allows the resident to indicate that their work involves traveling between different locations.</p>
+                    <p>The "workplace-travel" checkbox allows the person to indicate that their work involves traveling between different locations.</p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -12685,7 +12685,7 @@
 
 
                     <h2 id="mode-of-transportation">Primary mode of transportation</h2>
-                    <p>This fieldset asks for the resident's primary mode of transportation. <a href="complete-registration.html#mode-of-transportation">View in model form</a></p>
+                    <p>This fieldset asks for the person's primary mode of transportation. <a href="complete-registration.html#mode-of-transportation">View in model form</a></p>
                     <p>If "Other" is selected, the "other-mode-of-transportation" text field is shown.</p>
 
                     <div class="site-table-wrapper">
@@ -12979,7 +12979,7 @@
                     </div>
 
                     <h2 id="gender-identity">Gender identity</h2>
-                    <p>This fieldset asks for the resident's gender identity as one of three fieldsets related to gender, birth sex, and sexual orientation. <a href="complete-registration.html#gender-identity">View in model form</a></p>
+                    <p>This fieldset asks for the person's gender identity as one of three fieldsets related to gender, birth sex, and sexual orientation. <a href="complete-registration.html#gender-identity">View in model form</a></p>
                     <p>These options align with the latest <a href="https://www.cdc.gov/hiv/clinicians/transforming-health/health-care-providers/collecting-sexual-orientation.html">CDC guidance</a> for collecting information about sexual orientation and gender identity, and the US Health Resources & Services Administration's 2020 <a href="https://bphc.hrsa.gov/datareporting/reporting/index.html">Uniform Data System</a>.</p>
                     <p>If "Not listed" is selected, the "gender-other" text field is shown.</p>
 
@@ -13218,7 +13218,7 @@
                     </div>
 
                     <h2 id="birth-sex">Birth sex</h2>
-                    <p>This fieldset asks for the resident's birth sex as one of three fieldsets related to gender, birth sex, and sexual orientation. <a href="complete-registration.html#birth-sex">View in model form</a></p>
+                    <p>This fieldset asks for the person's birth sex as one of three fieldsets related to gender, birth sex, and sexual orientation. <a href="complete-registration.html#birth-sex">View in model form</a></p>
                     <p>These options align with the latest <a href="https://www.cdc.gov/hiv/clinicians/transforming-health/health-care-providers/collecting-sexual-orientation.html">CDC guidance</a> for collecting information about sexual orientation and gender identity, and the US Health Resources & Services Administration's 2020 <a href="https://bphc.hrsa.gov/datareporting/reporting/index.html">Uniform Data System</a>.</p>
 
                     <div class="site-table-wrapper">
@@ -13345,7 +13345,7 @@
 
 
                     <h2 id="sexual-orientation">Sexual orientation</h2>
-                    <p>This fieldset asks for the resident's sexual orientation as one of three fieldsets related to gender, birth sex, and sexual orientation. <a href="complete-registration.html#sexual-orientation">View in model form</a></p>
+                    <p>This fieldset asks for the person's sexual orientation as one of three fieldsets related to gender, birth sex, and sexual orientation. <a href="complete-registration.html#sexual-orientation">View in model form</a></p>
                     <p>These options align with the latest <a href="https://www.cdc.gov/hiv/clinicians/transforming-health/health-care-providers/collecting-sexual-orientation.html">CDC guidance</a> for collecting information about sexual orientation and gender identity, and the US Health Resources & Services Administration's 2020 <a href="https://bphc.hrsa.gov/datareporting/reporting/index.html">Uniform Data System</a>.</p>
                     <p>If "Not listed" is selected, the "gender-other" text field is shown.</p>
 
@@ -13643,7 +13643,7 @@
 
 
                     <h2 id="hispanic-origin">Hispanic origin</h2>
-                    <p>This fieldset asks for the resident's hispanic origin as one of two fieldsets related to race and ethnicity. <a href="complete-registration.html#race">View in model form</a></p>
+                    <p>This fieldset asks for the person's hispanic origin as one of two fieldsets related to race and ethnicity. <a href="complete-registration.html#race">View in model form</a></p>
 
                     <p>This format is modeled from the <a href="https://2020census.gov/en/about-questions/hispanic-origin.html">2020 Census</a>, which is based on standards from the US Office of Management and Budget. This structure is also for the 2020 <a href="https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/questionnaires.aspx?BeginYear=2019">National Health and Nutrition Examination Survey</a> from the CDC's National Center for Health Statistics</a>.
 
@@ -13840,7 +13840,7 @@
                             </td>
                             <td data-title="Validation">
                               <span>
-                                Hidden by default. Appears if resident selects "yes-another-origin"
+                                Hidden by default. Appears if "yes-another-origin" is selected
                               </span>
                             </td>
                             <td data-title="Error text">
@@ -13860,7 +13860,7 @@
 
 
                     <h2 id="race">Race</h2>
-                    <p>This fieldset asks for the resident's race as one of two fieldsets related to race and ethnicity. <a href="complete-registration.html#race">View in model form</a></p>
+                    <p>This fieldset asks for the person's race as one of two fieldsets related to race and ethnicity. <a href="complete-registration.html#race">View in model form</a></p>
 
                     <p>This format is modeled from the <a href="https://2020census.gov/en/about-questions/2020-census-questions-race.html">2020 Census</a>, which is based on standards from the US Office of Management and Budget. The same format is used for the 2020 <a href="https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/questionnaires.aspx?BeginYear=2019">National Health and Nutrition Examination Survey</a> from the CDC's National Center for Health Statistics</a>.
 
