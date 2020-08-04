@@ -317,8 +317,8 @@
         </a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="#number-of-persons-in-household">
-          Number of persons in household
+        <a href="#household-information">
+          Household information
         </a>
       </li>
       <li class="usa-sidenav__item">
@@ -1113,7 +1113,7 @@
 
                     <h2 id="address">Address</h2>
                     <p>This fieldset uses a standard template from the <a href="https://designsystem.digital.gov/components/form-templates/#address-form">US Web Design System</a> for requesting a U.S. mailing address. <a href="complete-registration.html#address-question">View in model form</a></p>
-                    <p>The "group home" checkbox indicates whether the address is in a group setting, and the "no-address" checkbox allows form submission for persons who do not currently have an address.</p>
+                    <p>The "no-address" checkbox allows form submission for persons who do not currently have an address.</p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -1292,34 +1292,6 @@
                           <tr>
                             <td data-title="Label">
                               <span>
-                                This residence is in a treatment facility, group home, or other group setting
-                              </span>
-                            </td>
-                            <td data-title="ID">
-                              <span>
-                                group-home
-                              </span>
-                            </td>
-                            <td data-title="Input type">
-                              <span>
-                                checkbox
-                              </span>
-                            </td>
-                            <td data-title="Validation">
-                              <span>
-                                n/a
-                              </span>
-                            </td>
-                            <td data-title="Error text">
-                              <span>
-                                n/a
-                              </span>
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td data-title="Label">
-                              <span>
                                 I do not currently have an address
                               </span>
                             </td>
@@ -1349,8 +1321,9 @@
                       </table>
                     </div>
 
-                    <h2 id="number-of-persons-in-household">Number of persons in household</h2>
-                    <p>This fieldset asks how many persons live in the person's household. <a href="complete-registration.html#number-of-persons-in-household">View in model form</a></p>
+                    <h2 id="household-information">Household information</h2>
+                    <p>This fieldset asks how many persons live in the person's household, and if their residence is one of two types of congregate living. <a href="complete-registration.html#household-information">View in model form</a>
+                    </p>
 
                     <div class="site-table-wrapper">
                       <table class="usa-table--borderless site-table-responsive">
@@ -1389,7 +1362,7 @@
                           <tr>
                             <td data-title="Label">
                               <span>
-                                [None]
+                                Number of people living in your home
                               </span>
                             </td>
                             <td data-title="ID">
@@ -1404,12 +1377,68 @@
                             </td>
                             <td data-title="Validation">
                               <span>
-                                Must contain text
+                                Must be a number
                               </span>
                             </td>
                             <td data-title="Error text">
                               <span>
                                 Enter the number of people who live in your household
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                I live in a treatment facility, group home, or other group setting
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                group-home
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td data-title="Label">
+                              <span>
+                                I live in a dorm, hotel, or apartment building
+                              </span>
+                            </td>
+                            <td data-title="ID">
+                              <span>
+                                dorm-hotel-apartment
+                              </span>
+                            </td>
+                            <td data-title="Input type">
+                              <span>
+                                checkbox
+                              </span>
+                            </td>
+                            <td data-title="Validation">
+                              <span>
+                                n/a
+                              </span>
+                            </td>
+                            <td data-title="Error text">
+                              <span>
+                                n/a
                               </span>
                             </td>
                           </tr>

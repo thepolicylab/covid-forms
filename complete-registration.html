@@ -306,7 +306,7 @@
 
                       </div>
 
-                      <div class="usa-checkbox padding-top-2">
+                      <div class="usa-checkbox padding-top-4">
                           <input class="usa-checkbox__input" id="no-address" type="checkbox" name="no-address" value="no-address">
                           <label class="usa-checkbox__label" for="no-address">I do not currently have an address</label>
                       </div>
@@ -317,16 +317,20 @@
 
 
 
-                  <fieldset id="number-of-persons-in-household" class="usa-fieldset padding-bottom-4">
+                  <fieldset id="household-information" class="usa-fieldset padding-bottom-4">
                       <legend class="usa-legend padding-top-4">How many people live in your household?</legend>
-                      <label class="usa-label" for="household-number"></label>
+                      <label class="usa-label" for="household-number">Number of people living in your home</label>
                       <input class="usa-input" style="width: 100px;" id="household-number" name="household-number" type="text" maxlength="6" size="6">
 
                       <div class="usa-checkbox padding-top-4">
                           <input class="usa-checkbox__input" id="group-home" type="checkbox" name="group-home" value="group-home">
-                          <label class="usa-checkbox__label" for="group-home">This residence is in a treatment facility, group home, or other group setting</label>
+                          <label class="usa-checkbox__label" for="group-home">I live in a treatment facility, group home, or other group setting</label>
                       </div>
-                      
+                      <div class="usa-checkbox padding-top-2">
+                          <input class="usa-checkbox__input" id="dorm-hotel-apartment" type="checkbox" name="dorm-hotel-apartment" value="dorm-hotel-apartment">
+                          <label class="usa-checkbox__label" for="dorm-hotel-apartment">I live in a dorm, hotel, or apartment building</label>
+                      </div>
+
                   </fieldset>
 
 
@@ -504,7 +508,7 @@
                     <input class="usa-input" id="other-symptoms-24-hours" name="other-symptoms-24-hours" type="text" aria-required="false">
                   </div>
 
-                  <div class="usa-form-group" id="current-symptoms-onset-date-question">
+                  <div class="usa-form-group is-hidden" id="current-symptoms-onset-date-question">
                       <label class="usa-label" id="current-symptoms-onset-date-label" for="current-symptoms-onset-date">On what day did you begin experiencing symptoms?</label>
                       <div class="usa-hint" id="current-symptoms-onset-date-hint">Use format mm/dd/yyyy</div>
                       <div class="usa-date-picker">
@@ -576,7 +580,7 @@
                     <input class="usa-input" id="other-symptoms-march-2020" name="other-symptoms-march-2020" type="text" aria-required="false">
                   </div>
 
-                  <div class="usa-form-group" id="march-2020-symptoms-onset-date-question">
+                  <div class="usa-form-group is-hidden" id="march-2020-symptoms-onset-date-question">
                       <label class="usa-label" id="march-2020-symptoms-onset-date-label" for="march-2020-symptoms-onset-date">On what day did you begin experiencing symptoms?</label>
                       <div class="usa-hint" id="march-2020-symptoms-onset-date-hint">Use format mm/dd/yyyy</div>
                       <div class="usa-date-picker">
@@ -2687,7 +2691,7 @@
                             <input class="usa-checkbox__input" id="yes-another-origin" type="checkbox" name="ethnicity" value="yes-another-origin">
                             <label class="usa-checkbox__label" for="yes-another-origin">Yes, another Hispanic, Latino, or Spanish origin</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="ethnicity-other-question">
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question is-hidden" id="ethnicity-other-question">
                             <label class="usa-label" for="ethnicity-other"><b>What other origin?</b> <i>(for example, Salvadoran, Dominican, Colombian, Guatemalan, Spaniard, Ecuadorian, etc)</i></label>
                             <input class="usa-input" id="ethnicity-other" name="ethnicity-other" type="text" required aria-required="false">
                           </div>
@@ -2764,27 +2768,27 @@
                             <input class="usa-checkbox__input" id="race-decline-to-answer" type="checkbox" name="race" value="race-decline-to-answer">
                             <label class="usa-checkbox__label" for="race-decline-to-answer">Decline to answer</label>
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-white-detailed-identity-question">
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question is-hidden" id="race-white-detailed-identity-question">
                             <label class="usa-label" for="race-white-detailed-identity"><b>How do you identify as white?</b> <i>For example, German, Irish, English, Italian, Lebanese, Egyptian, etc.</i></label>
                             <input class="usa-input" id="race-white-detailed-identity" name="race-white-detailed-identity" type="text" required aria-required="false">
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-black-or-african-american-detailed-identity-question">
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question is-hidden" id="race-black-or-african-american-detailed-identity-question">
                             <label class="usa-label" for="race-black-or-african-american-detailed-identity"><b>How do you identify as Black or African American?</b> <i>For example, African American, Jamaican, Haitian, Nigerian, Ethiopian, Somali, etc.</i></label>
                             <input class="usa-input" id="race-black-or-african-american-detailed-identity" name="race-black-or-african-american-detailed-identity" type="text" required aria-required="false">
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-american-indian-alaska-native-detailed-identity-question">
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question is-hidden" id="race-american-indian-alaska-native-detailed-identity-question">
                             <label class="usa-label" for="race-american-indian-alaska-native-detailed-identity"><b>How do you identify as American Indian or Alaska Native?</b> <i>For example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.</i></label>
                             <input class="usa-input" id="race-american-indian-alaska-native-detailed-identity" name="race-american-indian-alaska-native-detailed-identity" type="text" required aria-required="false">
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-other-asian-detailed-identity-question">
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question is-hidden" id="race-other-asian-detailed-identity-question">
                             <label class="usa-label" for="race-other-asian-detailed-identity"><b>How do you identify as Other Asian?</b> <i>For example, Pakistani, Cambodian, Hmong, etc.</i></label>
                             <input class="usa-input" id="race-other-asian-detailed-identity" name="race-other-asian-detailed-identity" type="text" required aria-required="false">
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-other-pacific-islander-detailed-identity-question">
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question is-hidden" id="race-other-pacific-islander-detailed-identity-question">
                             <label class="usa-label" for="race-other-pacific-islander-detailed-identity"><b>How do you identify as Other Pacific Islander?</b> <i>For example, Tongan, Fijian, Marshallese, etc.</i></label>
                             <input class="usa-input" id="race-other-pacific-islander-detailed-identity" name="race-other-pacific-islander-detailed-identity" type="text" required aria-required="false">
                           </div>
-                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question" id="race-other-question">
+                          <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question is-hidden" id="race-other-question">
                             <label class="usa-label" for="race-other-detailed-identity"><b>How do you identify as another race?</b> <i>Enter race or origin</i></label>
                             <input class="usa-input" id="race-other-detailed-identity" name="race-other-detailed-identity" type="text" required aria-required="false">
                           </div>
@@ -2983,6 +2987,32 @@
       });
     });
 
+    apply($("input[name='symptoms-24-hours']"), function(elt) {
+      elt.addEventListener('click', function() {
+        if (this.checked && $1("#current-symptoms-no-symptoms").checked==false ) {
+          removeClass($1("#current-symptoms-onset-date-question"), "is-hidden");
+        }else if ($1("#current-symptoms-no-symptoms").checked) {
+          addClass($1("#current-symptoms-onset-date-question"), "is-hidden");
+        }else {
+          addClass($1("#current-symptoms-onset-date-question"), "is-hidden");
+        }
+      });
+    });
+
+    apply($("input[name='symptoms-march-2020']"), function(elt) {
+      elt.addEventListener('click', function() {
+        if (this.checked && $1("#symptoms-march-2020-no-symptoms").checked==false ) {
+          removeClass($1("#march-2020-symptoms-onset-date-question"), "is-hidden");
+        }else if ($1("#symptoms-march-2020-no-symptoms").checked) {
+          addClass($1("#march-2020-symptoms-onset-date-question"), "is-hidden");
+        }else {
+          addClass($1("#march-2020-symptoms-onset-date-question"), "is-hidden");
+        }
+      });
+    });
+
+
+
 
 
     // setupOtherQuestion($1("#recent-locations"), $1(".gathering-question"), $1("#gathering-question-indoors"));
@@ -3010,6 +3040,18 @@
     setupOtherQuestion($1("#role-options-corrections"), $1("#corrections-other"), $1("#corrections-other-role-question"));
     setupOtherQuestion($1("#role-options-other-work-setting"), $1("#other-work-setting-other"), $1("#other-work-setting-other-role-question"));
 
+    setupOtherQuestion($1("#ethnicity"), $1("#yes-another-origin"), $1("#ethnicity-other-question"));
+
+    setupOtherQuestion($1("#race"), $1("#race-white"), $1("#race-white-detailed-identity-question"));
+    setupOtherQuestion($1("#race"), $1("#race-black-or-african-american"), $1("#race-black-or-african-american-detailed-identity-question"));
+    setupOtherQuestion($1("#race"), $1("#race-american-indian-alaska-native"), $1("#race-american-indian-alaska-native-detailed-identity-question"));
+    setupOtherQuestion($1("#race"), $1("#race-other-asian"), $1("#race-other-asian-detailed-identity-question"));
+    setupOtherQuestion($1("#race"), $1("#race-other-pacific-islander"), $1("#race-other-pacific-islander-detailed-identity-question"));
+    setupOtherQuestion($1("#race"), $1("#race-other"), $1("#race-other-question"));
+
+    setupOtherQuestion($1("#race"), $1("#race-other"), $1("#race-other-question"));
+
+    setupOtherQuestion($1("#race"), $1("#race-other"), $1("#race-other-question"));
 
 
 
