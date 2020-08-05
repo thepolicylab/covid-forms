@@ -1,0 +1,1773 @@
+Work setting,Occupation,2019 O*NET SOC Code,2019 O*NET SOC Title
+Healthcare,Nursing,29-1141.00,Registered Nurses
+Healthcare,Nursing,29-1141.01,Acute Care Nurses
+Healthcare,Nursing,29-1141.02,Advanced Practice Psychiatric Nurses
+Healthcare,Nursing,29-1141.03,Critical Care Nurses
+Healthcare,Nursing,29-1141.04,Clinical Nurse Specialists
+Healthcare,Nursing,29-1151.00,Nurse Anesthetists
+Healthcare,Nursing,29-1161.00,Nurse Midwives
+Healthcare,Nursing,29-9099.01,Midwives
+Healthcare,Nursing,29-2061.00,Licensed Practical and Licensed Vocational Nurses
+Healthcare,Nursing,31-1131.00,Nursing Assistants
+Healthcare,Nursing practitioner,29-1171.00,Nurse Practitioners
+Healthcare,Pharmacy,29-1051.00,Pharmacists
+Healthcare,Pharmacy,31-9095.00,Pharmacy Aides
+Healthcare,Physician,29-1031.00,Dietitians and Nutritionists
+Healthcare,Physician,29-1041.00,Optometrists
+Healthcare,Physician,29-1181.00,Audiologists
+Healthcare,Physician,29-1211.00,Anesthesiologists
+Healthcare,Physician,29-1212.00,Cardiologists
+Healthcare,Physician,29-1213.00,Dermatologists
+Healthcare,Physician,29-1214.00,Emergency Medicine Physicians
+Healthcare,Physician,29-1215.00,Family Medicine Physicians
+Healthcare,Physician,29-1216.00,General Internal Medicine Physicians
+Healthcare,Physician,29-1217.00,Neurologists
+Healthcare,Physician,29-1218.00,Obstetricians and Gynecologists
+Healthcare,Physician,29-1221.00,"Pediatricians, General"
+Healthcare,Physician,29-1222.00,"Physicians, Pathologists"
+Healthcare,Physician,29-1223.00,Psychiatrists
+Healthcare,Physician,29-1224.00,Radiologists
+Healthcare,Physician,29-1229.00,"Physicians, All Other"
+Healthcare,Physician,29-1229.01,Allergists and Immunologists
+Healthcare,Physician,29-1229.02,Hospitalists
+Healthcare,Physician,29-1229.03,Urologists
+Healthcare,Physician,29-1229.04,Physical Medicine and Rehabilitation Physicians
+Healthcare,Physician,29-1229.05,Preventive Medicine Physicians
+Healthcare,Physician,29-1229.06,Sports Medicine Physicians
+Healthcare,Physician,29-1241.00,"Ophthalmologists, Except Pediatric"
+Healthcare,Physician,29-1242.00,"Orthopedic Surgeons, Except Pediatric"
+Healthcare,Physician,29-1243.00,Pediatric Surgeons
+Healthcare,Physician,29-1249.00,"Surgeons, All Other"
+Healthcare,Physician,29-1299.00,"Healthcare Diagnosing or Treating Practitioners, All Other"
+Healthcare,Physician,29-1299.01,Naturopathic Physicians
+Healthcare,Physician,29-1299.02,Orthoptists
+Healthcare,Physician assistant,29-1071.00,Physician Assistants
+Healthcare,Physician assistant,29-1071.01,Anesthesiologist Assistants
+Healthcare,Physician assistant,29-1081.00,Podiatrists
+Healthcare,Physician assistant,29-9093.00,Surgical Assistants
+Healthcare,Lab technician,11-9121.00,Natural Sciences Managers
+Healthcare,Lab technician,11-9121.01,Clinical Research Coordinators
+Healthcare,Lab technician,15-2099.01,Bioinformatics Technicians
+Healthcare,Lab technician,29-2011.00,Medical and Clinical Laboratory Technologists
+Healthcare,Lab technician,29-2011.01,Cytogenetic Technologists
+Healthcare,Lab technician,29-2011.02,Cytotechnologists
+Healthcare,Lab technician,29-2011.04,Histotechnologists
+Healthcare,Lab technician,29-2012.00,Medical and Clinical Laboratory Technicians
+Healthcare,Lab technician,29-2012.01,Histology Technicians
+Healthcare,Lab technician,29-2031.00,Cardiovascular Technologists and Technicians
+Healthcare,Lab technician,29-2032.00,Diagnostic Medical Sonographers
+Healthcare,Lab technician,29-2033.00,Nuclear Medicine Technologists
+Healthcare,Lab technician,29-2034.00,Radiologic Technologists and Technicians
+Healthcare,Lab technician,29-2035.00,Magnetic Resonance Imaging Technologists
+Healthcare,Lab technician,29-2036.00,Medical Dosimetrists
+Healthcare,Lab technician,29-2042.00,Emergency Medical Technicians
+Healthcare,Lab technician,29-2051.00,Dietetic Technicians
+Healthcare,Lab technician,29-2052.00,Pharmacy Technicians
+Healthcare,Lab technician,29-2053.00,Psychiatric Technicians
+Healthcare,Lab technician,29-2055.00,Surgical Technologists
+Healthcare,Lab technician,29-2056.00,Veterinary Technologists and Technicians
+Healthcare,Lab technician,29-2057.00,Ophthalmic Medical Technicians
+Healthcare,Lab technician,29-2099.00,"Health Technologists and Technicians, All Other"
+Healthcare,Lab technician,29-2099.01,Neurodiagnostic Technologists
+Healthcare,Lab technician,29-2099.05,Ophthalmic Medical Technologists
+Healthcare,Lab technician,29-9021.00,Health Information Technologists and Medical Registrars
+Healthcare,Lab technician,31-9099.02,Endoscopy Technicians
+Healthcare,Lab technician,51-9081.00,Dental Laboratory Technicians
+Healthcare,Lab technician,51-9082.00,Medical Appliance Technicians
+Healthcare,Lab technician,51-9083.00,Ophthalmic Laboratory Technicians
+Healthcare,Lab technician,29-1124.00,Radiation Therapists
+Healthcare,Veterinary,29-1131.00,Veterinarians
+Healthcare,Veterinary,31-9096.00,Veterinary Assistants and Laboratory Animal Caretakers
+Healthcare,Phlebotomy,31-9097.00,Phlebotomists
+Healthcare,Personal or home health care aide,11-9111.00,Medical and Health Services Managers
+Healthcare,Personal or home health care aide,31-1122.00,Personal Care Aides
+Healthcare,Personal or home health care aide,39-9099.00,"Personal Care and Service Workers, All Other"
+Healthcare,Healthcare social worker,11-9151.00,Social and Community Service Managers
+Healthcare,Healthcare social worker,21-1022.00,Healthcare Social Workers
+Healthcare,Healthcare social worker,21-1023.00,Mental Health and Substance Abuse Social Workers
+Healthcare,Healthcare social worker,21-1029.00,"Social Workers, All Other"
+Healthcare,Healthcare social worker,21-1099.00,"Community and Social Service Specialists, All Other"
+Healthcare,"Child, family, and school social worker",11-9151.00,Social and Community Service Managers
+Healthcare,"Child, family, and school social worker",21-1013.00,Marriage and Family Therapists
+Healthcare,"Child, family, and school social worker",21-1021.00,"Child, Family, and School Social Workers"
+Healthcare,Social and human service assistance,21-1093.00,Social and Human Service Assistants
+Healthcare,Social and human service assistance,29-2099.08,Patient Representatives
+Healthcare,Social and human service assistance,29-9092.00,Genetic Counselors
+Healthcare,Mental health counselor,19-3033.00,Clinical and Counseling Psychologists
+Healthcare,Mental health counselor,21-1011.00,Substance Abuse and Behavioral Disorder Counselors
+Healthcare,Mental health counselor,21-1014.00,Mental Health Counselors
+Healthcare,Mental health counselor,21-1015.00,Rehabilitation Counselors
+Healthcare,Mental health counselor,21-1019.00,"Counselors, All Other"
+Healthcare,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Healthcare,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Healthcare,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Healthcare,Administrative staff,15-1299.03,Document Management Specialists
+Healthcare,Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+Healthcare,Administrative staff,29-2072.00,Medical Records Specialists
+Healthcare,Administrative staff,31-9094.00,Medical Transcriptionists
+Healthcare,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Healthcare,Administrative staff,43-2021.00,Telephone Operators
+Healthcare,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Healthcare,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Healthcare,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Healthcare,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Healthcare,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Healthcare,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Healthcare,Administrative staff,43-9021.00,Data Entry Keyers
+Healthcare,Administrative staff,43-9022.00,Word Processors and Typists
+Healthcare,Administrative staff,43-9031.00,Desktop Publishers
+Healthcare,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Healthcare,Administrative staff,43-9199.02,Regulatory Affairs Managers
+Healthcare,Administrative staff,43-9199.03,Compliance Managers
+Healthcare,Administrative staff,43-9199.04,Fundraisers
+Healthcare,Administrative staff,43-9199.05,Health Informatics Specialists
+Healthcare,Other,15-2011.00,Actuaries
+Healthcare,Other,15-2051.02,Clinical Data Managers
+Healthcare,Other,21-1091.00,Health Education Specialists
+Healthcare,Other,21-1094.00,Community Health Workers
+Healthcare,Other,29-1031.00,Dietitians and Nutritionists
+Healthcare,Other,29-1122.00,Occupational Therapists
+Healthcare,Other,29-1122.01,"Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists"
+Healthcare,Other,29-1124.00,Radiation Therapists
+Healthcare,Other,29-1126.00,Respiratory Therapists
+Healthcare,Other,29-1127.00,Speech-Language Pathologists
+Healthcare,Other,31-9099.01,Speech-Language Pathology Assistants
+Healthcare,Other,29-1129.00,"Therapists, All Other"
+Healthcare,Other,29-1129.01,Art Therapists
+Healthcare,Other,29-1129.02,Music Therapists
+Healthcare,Other,29-2081.00,"Opticians, Dispensing"
+Healthcare,Other,29-2091.00,Orthotists and Prosthetists
+Healthcare,Other,29-2092.00,Hearing Aid Specialists
+Healthcare,Other,29-9099.00,"Healthcare Practitioners and Technical Workers, All Other"
+Healthcare,Other,31-9099.00,"Healthcare Support Workers, All Other"
+Healthcare,Other,31-9093.00,Medical Equipment Preparers
+Healthcare,Other,49-9062.00,Medical Equipment Repairers
+,,,
+,,,
+Dental,Dentist,29-1021.00,"Dentists, General"
+Dental,Dentist,29-1029.00,"Dentists, All Other Specialists"
+Dental,Oral surgeon,29-1022.00,Oral and Maxillofacial Surgeons
+Dental,Orthodontist,29-1023.00,Orthodontists
+Dental,Prosthodontist,29-1024.00,Prosthodontists
+Dental,Dental hygienist,29-1292.00,Dental Hygienists
+Dental,Dental assistant,31-9091.00,Dental Assistants
+Dental,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Dental,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Dental,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Dental,Administrative staff,15-1299.03,Document Management Specialists
+Dental,Administrative staff,31-9094.00,Medical Transcriptionists
+Dental,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Dental,Administrative staff,43-2021.00,Telephone Operators
+Dental,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Dental,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Dental,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Dental,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Dental,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Dental,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Dental,Administrative staff,43-9021.00,Data Entry Keyers
+Dental,Administrative staff,43-9022.00,Word Processors and Typists
+Dental,Administrative staff,43-9031.00,Desktop Publishers
+Dental,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Dental,Other,11-9121.01,Clinical Research Coordinators
+Dental,Other,11-9199.01,Regulatory Affairs Managers
+Dental,Other,11-9199.02,Compliance Managers
+Dental,Other,15-1211.01,Health Informatics Specialists
+Dental,Other,31-9093.00,Medical Equipment Preparers
+Dental,Other,51-9081.00,Dental Laboratory Technicians
+,,,
+,,,
+Childcare,Childcare worker,39-9011.00,Childcare Workers
+Childcare,Social worker or counselor,21-1021.00,"Child, Family, and School Social Workers"
+Childcare,Social worker or counselor,21-1029.00,"Social Workers, All Other"
+Childcare,Social worker or counselor,21-1093.00,Social and Human Service Assistants
+Childcare,Nanny,39-9011.01,Nannies
+Childcare,Babysitter,39-9011.00,Childcare Workers
+Childcare,Babysitter,39-9011.02,Nannies
+Childcare,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Childcare,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Childcare,Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+Childcare,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Childcare,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Childcare,Administrative staff,15-1299.03,Document Management Specialists
+Childcare,Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+Childcare,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Childcare,Administrative staff,43-2021.00,Telephone Operators
+Childcare,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Childcare,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Childcare,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Childcare,Other,11-9121.01,Clinical Research Coordinators
+Childcare,Other,11-9199.01,Regulatory Affairs Managers
+Childcare,Other,11-9199.02,Compliance Managers
+,,,
+,,,
+"Congregate Living (Nursing home, Assisted living, Group Home)",Resident,39-9041.00,Residential Advisors
+"Congregate Living (Nursing home, Assisted living, Group Home)",Home health aide,31-1121.00,Home Health Aides
+"Congregate Living (Nursing home, Assisted living, Group Home)",Home health aide,31-1133.00,Psychiatric Aides
+"Congregate Living (Nursing home, Assisted living, Group Home)",Housekeeper / cleaner,37-2012.00,Maids and Housekeeping Cleaners
+"Congregate Living (Nursing home, Assisted living, Group Home)",Housekeeper / cleaner,37-2019.00,"Building Cleaning Workers, All Other"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Orderly,31-1132.00,Orderlies
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1031.00,Dietitians and Nutritionists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1041.00,Optometrists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1181.00,Audiologists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1211.00,Anesthesiologists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1212.00,Cardiologists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1215.00,Family Medicine Physicians
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1216.00,General Internal Medicine Physicians
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1218.00,Obstetricians and Gynecologists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1221.00,"Pediatricians, General"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1222.00,"Physicians, Pathologists"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1223.00,Psychiatrists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1224.00,Radiologists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1229.00,"Physicians, All Other"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1229.01,Allergists and Immunologists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1229.03,Urologists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1229.04,Physical Medicine and Rehabilitation Physicians
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1229.05,Preventive Medicine Physicians
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1229.06,Sports Medicine Physicians
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1241.00,"Ophthalmologists, Except Pediatric"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1242.00,"Orthopedic Surgeons, Except Pediatric"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1249.00,"Surgeons, All Other"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1299.00,"Healthcare Diagnosing or Treating Practitioners, All Other"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1299.01,Naturopathic Physicians
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician,29-1299.02,Orthoptists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician assistant,29-1071.00,Physician Assistants
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician assistant,29-1071.01,Anesthesiologist Assistants
+"Congregate Living (Nursing home, Assisted living, Group Home)",Physician assistant,29-9093.00,Surgical Assistants
+"Congregate Living (Nursing home, Assisted living, Group Home)",Nursing,29-1141.00,Registered Nurses
+"Congregate Living (Nursing home, Assisted living, Group Home)",Nursing,29-1141.01,Acute Care Nurses
+"Congregate Living (Nursing home, Assisted living, Group Home)",Nursing,29-1141.02,Advanced Practice Psychiatric Nurses
+"Congregate Living (Nursing home, Assisted living, Group Home)",Nursing,29-1141.03,Critical Care Nurses
+"Congregate Living (Nursing home, Assisted living, Group Home)",Nursing,29-1141.04,Clinical Nurse Specialists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Nursing,29-1151.00,Nurse Anesthetists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Nursing,29-2061.00,Licensed Practical and Licensed Vocational Nurses
+"Congregate Living (Nursing home, Assisted living, Group Home)",Nursing,31-1131.00,Nursing Assistants
+"Congregate Living (Nursing home, Assisted living, Group Home)",Medical assistant,31-9092.00,Medical Assistants
+"Congregate Living (Nursing home, Assisted living, Group Home)",Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+"Congregate Living (Nursing home, Assisted living, Group Home)",Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,13-1082.00,Project Management Specialists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,15-1299.03,Document Management Specialists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,31-9094.00,Medical Transcriptionists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-2021.00,Telephone Operators
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-4171.00,Receptionists and Information Clerks
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-9021.00,Data Entry Keyers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-9022.00,Word Processors and Typists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-9031.00,Desktop Publishers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,11-2021.00,Marketing Managers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,13-1161.00,Market Research Analysts and Marketing Specialists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,13-1161.01,Search Marketing Strategists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,11-9051.00,Food Service Managers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,11-9081.00,Lodging Managers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,11-9111.00,Medical and Health Services Managers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,11-9199.01,Regulatory Affairs Managers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,11-9199.02,Compliance Managers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,13-1121.00,"Meeting, Convention, and Event Planners"
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,13-1131.00,Fundraisers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,31-9093.00,Medical Equipment Preparers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,11-9151.00,Social and Community Service Managers
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,19-3033.00,Clinical and Counseling Psychologists
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,21-1014.00,Mental Health Counselors
+"Congregate Living (Nursing home, Assisted living, Group Home)",Other,21-1019.00,"Counselors, All Other"
+,,,
+,,,
+Faith-based organization,Clergy,21-2011.00,Clergy
+Faith-based organization,Choir / Music,27-2042.00,Musicians and Singers
+Faith-based organization,Religious education,21-2021.00,"Directors, Religious Activities and Education"
+Faith-based organization,Religious activities,13-1121.00,"Meeting, Convention, and Event Planners"
+Faith-based organization,Religious activities,39-9032.00,Recreation Workers
+Faith-based organization,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Faith-based organization,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Faith-based organization,Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+Faith-based organization,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Faith-based organization,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Faith-based organization,Administrative staff,15-1299.03,Document Management Specialists
+Faith-based organization,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Faith-based organization,Administrative staff,43-2021.00,Telephone Operators
+Faith-based organization,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Faith-based organization,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Faith-based organization,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Faith-based organization,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Faith-based organization,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Faith-based organization,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Faith-based organization,Administrative staff,43-9021.00,Data Entry Keyers
+Faith-based organization,Administrative staff,43-9022.00,Word Processors and Typists
+Faith-based organization,Administrative staff,43-9031.00,Desktop Publishers
+Faith-based organization,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Faith-based organization,Other,11-9199.02,Compliance Managers
+Faith-based organization,Other,13-1131.00,Fundraisers
+Faith-based organization,Other,21-2099.00,"Religious Workers, All Other"
+,,,
+,,,
+Gym,Personal coach or trainer,29-9091.00,Athletic Trainers
+Gym,Personal coach or trainer,39-9031.00,Exercise Trainers and Group Fitness Instructors
+Gym,Group coach or instructor,39-9031.00,Exercise Trainers and Group Fitness Instructors
+Gym,Locker room attendant,39-3093.00,"Locker Room, Coatroom, and Dressing Room Attendants"
+Gym,Recreation worker,39-9032.00,Recreation Workers
+Gym,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Gym,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Gym,Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+Gym,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Gym,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Gym,Administrative staff,15-1299.03,Document Management Specialists
+Gym,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Gym,Administrative staff,43-2021.00,Telephone Operators
+Gym,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Gym,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Gym,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Gym,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Gym,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Gym,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Gym,Administrative staff,43-9021.00,Data Entry Keyers
+Gym,Administrative staff,43-9022.00,Word Processors and Typists
+Gym,Administrative staff,43-9031.00,Desktop Publishers
+Gym,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Gym,Other,11-2011.00,Advertising and Promotions Managers
+Gym,Other,11-2021.00,Marketing Managers
+Gym,Other,13-1161.00,Market Research Analysts and Marketing Specialists
+Gym,Other,13-1161.01,Search Marketing Strategists
+Gym,Other,11-3111.00,Compensation and Benefits Managers
+Gym,Other,13-1141.00,"Compensation, Benefits, and Job Analysis Specialists"
+Gym,Other,11-9179.01,Fitness and Wellness Coordinators
+Gym,Other,11-9199.01,Regulatory Affairs Managers
+Gym,Other,11-9199.02,Compliance Managers
+Gym,Other,11-9199.08,Loss Prevention Managers
+,,,
+,,,
+Hair Salon / Barbershop,Barber,39-5011.00,Barbers
+Hair Salon / Barbershop,Hairdresser or hairstylist,39-5012.00,"Hairdressers, Hairstylists, and Cosmetologists"
+Hair Salon / Barbershop,Cosmetologist,39-5012.00,"Hairdressers, Hairstylists, and Cosmetologists"
+Hair Salon / Barbershop,Shampooer,39-5093.00,Shampooers
+Hair Salon / Barbershop,Other personal appearance worker,39-9099.00,"Personal Care and Service Workers, All Other"
+Hair Salon / Barbershop,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Hair Salon / Barbershop,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Hair Salon / Barbershop,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Hair Salon / Barbershop,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Hair Salon / Barbershop,Administrative staff,15-1299.03,Document Management Specialists
+Hair Salon / Barbershop,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Hair Salon / Barbershop,Administrative staff,43-2021.00,Telephone Operators
+Hair Salon / Barbershop,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Hair Salon / Barbershop,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Hair Salon / Barbershop,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Hair Salon / Barbershop,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Hair Salon / Barbershop,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Hair Salon / Barbershop,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Hair Salon / Barbershop,Administrative staff,43-9021.00,Data Entry Keyers
+Hair Salon / Barbershop,Administrative staff,43-9022.00,Word Processors and Typists
+Hair Salon / Barbershop,Administrative staff,43-9031.00,Desktop Publishers
+Hair Salon / Barbershop,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Hair Salon / Barbershop,Other,11-2011.00,Advertising and Promotions Managers
+Hair Salon / Barbershop,Other,11-2021.00,Marketing Managers
+Hair Salon / Barbershop,Other,13-1161.00,Market Research Analysts and Marketing Specialists
+Hair Salon / Barbershop,Other,13-1161.01,Search Marketing Strategists
+Hair Salon / Barbershop,Other,13-1141.00,"Compensation, Benefits, and Job Analysis Specialists"
+,,,
+,,,
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Acupuncture,29-1291.00,Acupuncturists
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Massage therapy,31-9011.00,Massage Therapists
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Makeup artist or cosmetologist,39-5091.00,"Makeup Artists, Theatrical and Performance"
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Manicurist or pedicurist,39-5092.00,Manicurists and Pedicurists
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Tattoo artist,27-1019.00,"Artists and Related Workers, All Other"
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Skincare,39-5094.00,Skincare Specialists
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Personal care,39-9099.00,"Personal Care and Service Workers, All Other"
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Dry cleaning or other clothing services,51-6011.00,Laundry and Dry-Cleaning Workers
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,15-1299.03,Document Management Specialists
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-2021.00,Telephone Operators
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-4171.00,Receptionists and Information Clerks
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-9021.00,Data Entry Keyers
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-9022.00,Word Processors and Typists
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-9031.00,Desktop Publishers
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Other,11-2011.00,Advertising and Promotions Managers
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Other,11-2021.00,Marketing Managers
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Other,13-1161.00,Market Research Analysts and Marketing Specialists
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Other,13-1161.01,Search Marketing Strategists
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Other,11-3111.00,Compensation and Benefits Managers
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Other,13-1141.00,"Compensation, Benefits, and Job Analysis Specialists"
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Other,11-9179.02,Spa Managers
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Other,11-9199.01,Regulatory Affairs Managers
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Other,11-9199.02,Compliance Managers
+"Personal Services (Nail, Massage, Tattoo, Facialist, Other)",Other,11-9199.08,Loss Prevention Managers
+,,,
+,,,
+Physical Therapy / Chiropractic,Chiropractor,29-1011.00,Chiropractors
+Physical Therapy / Chiropractic,Physical therapist,29-1123.00,Physical Therapists
+Physical Therapy / Chiropractic,Exercise physiologist,29-1128.00,Exercise Physiologists
+Physical Therapy / Chiropractic,Sports medicine physician,29-1229.06,Sports Medicine Physicians
+Physical Therapy / Chiropractic,Physical medicine and rehabilitation,29-1229.04,Physical Medicine and Rehabilitation Physicians
+Physical Therapy / Chiropractic,Athletic trainer,29-9091.00,Athletic Trainers
+Physical Therapy / Chiropractic,Athletic trainer,39-9031.00,Exercise Trainers and Group Fitness Instructors
+Physical Therapy / Chiropractic,Occupational therapist,29-1122.00,Occupational Therapists
+Physical Therapy / Chiropractic,Occupational therapist,31-2011.00,Occupational Therapy Assistants
+Physical Therapy / Chiropractic,Occupational therapist,31-2012.00,Occupational Therapy Aides
+Physical Therapy / Chiropractic,Physical therapist assistant or aide,31-2021.00,Physical Therapist Assistants
+Physical Therapy / Chiropractic,Physical therapist assistant or aide,31-2022.00,Physical Therapist Aides
+Physical Therapy / Chiropractic,Recreation therapist,29-1125.00,Recreational Therapists
+Physical Therapy / Chiropractic,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Physical Therapy / Chiropractic,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Physical Therapy / Chiropractic,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Physical Therapy / Chiropractic,Administrative staff,15-1299.03,Document Management Specialists
+Physical Therapy / Chiropractic,Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+Physical Therapy / Chiropractic,Administrative staff,31-9094.00,Medical Transcriptionists
+Physical Therapy / Chiropractic,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Physical Therapy / Chiropractic,Administrative staff,43-2021.00,Telephone Operators
+Physical Therapy / Chiropractic,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Physical Therapy / Chiropractic,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Physical Therapy / Chiropractic,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Physical Therapy / Chiropractic,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Physical Therapy / Chiropractic,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Physical Therapy / Chiropractic,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Physical Therapy / Chiropractic,Administrative staff,43-9021.00,Data Entry Keyers
+Physical Therapy / Chiropractic,Administrative staff,43-9022.00,Word Processors and Typists
+Physical Therapy / Chiropractic,Administrative staff,43-9031.00,Desktop Publishers
+Physical Therapy / Chiropractic,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Physical Therapy / Chiropractic,Other,11-2011.00,Advertising and Promotions Managers
+Physical Therapy / Chiropractic,Other,11-2021.00,Marketing Managers
+Physical Therapy / Chiropractic,Other,13-1161.00,Market Research Analysts and Marketing Specialists
+Physical Therapy / Chiropractic,Other,13-1161.01,Search Marketing Strategists
+Physical Therapy / Chiropractic,Other,11-3111.00,Compensation and Benefits Managers
+Physical Therapy / Chiropractic,Other,13-1141.00,"Compensation, Benefits, and Job Analysis Specialists"
+Physical Therapy / Chiropractic,Other,11-9199.01,Regulatory Affairs Managers
+Physical Therapy / Chiropractic,Other,11-9199.02,Compliance Managers
+Physical Therapy / Chiropractic,Other,29-1122.01,"Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists"
+Physical Therapy / Chiropractic,Other,29-1126.00,Respiratory Therapists
+Physical Therapy / Chiropractic,Other,29-1129.00,"Therapists, All Other"
+Physical Therapy / Chiropractic,Other,31-9093.00,Medical Equipment Preparers
+,,,
+,,,
+Restaurant or Bar,Chef or cook,35-1011.00,Chefs and Head Cooks
+Restaurant or Bar,Chef or cook,35-2011.00,"Cooks, Fast Food"
+Restaurant or Bar,Chef or cook,35-2012.00,"Cooks, Institution and Cafeteria"
+Restaurant or Bar,Chef or cook,35-2013.00,"Cooks, Private Household"
+Restaurant or Bar,Chef or cook,35-2014.00,"Cooks, Restaurant"
+Restaurant or Bar,Chef or cook,35-2015.00,"Cooks, Short Order"
+Restaurant or Bar,Chef or cook,35-2019.00,"Cooks, All Other"
+Restaurant or Bar,Chef or cook,35-2021.00,Food Preparation Workers
+Restaurant or Bar,Bartender,35-3011.00,Bartenders
+Restaurant or Bar,Bartender,35-9011.00,Dining Room and Cafeteria Attendants and Bartender Helpers
+Restaurant or Bar,Fast food / counter worker,35-2011.00,"Cooks, Fast Food"
+Restaurant or Bar,Fast food / counter worker,35-3023.00,Fast Food and Counter Workers
+Restaurant or Bar,Barista,35-3023.01,Baristas
+Restaurant or Bar,Server (waiter or waitress),35-3031.00,Waiters and Waitresses
+Restaurant or Bar,Server (waiter or waitress),35-3041.00,"Food Servers, Nonrestaurant"
+Restaurant or Bar,Host or hostess,35-9031.00,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop"
+Restaurant or Bar,Busser or cafeteria attendant,35-9011.00,Dining Room and Cafeteria Attendants and Bartender Helpers
+Restaurant or Bar,Dishwasher,35-9021.00,Dishwashers
+Restaurant or Bar,"Butcher, baker, or food handler",35-2021.00,Food Preparation Workers
+Restaurant or Bar,"Butcher, baker, or food handler",51-3011.00,Bakers
+Restaurant or Bar,"Butcher, baker, or food handler",51-3021.00,Butchers and Meat Cutters
+Restaurant or Bar,Supervisor,35-1012.00,First-Line Supervisors of Food Preparation and Serving Workers
+Restaurant or Bar,Supervisor,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Restaurant or Bar,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Restaurant or Bar,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Restaurant or Bar,Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+Restaurant or Bar,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Restaurant or Bar,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Restaurant or Bar,Administrative staff,15-1299.03,Document Management Specialists
+Restaurant or Bar,Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+Restaurant or Bar,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Restaurant or Bar,Administrative staff,43-2021.00,Telephone Operators
+Restaurant or Bar,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Restaurant or Bar,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Restaurant or Bar,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Restaurant or Bar,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Restaurant or Bar,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Restaurant or Bar,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Restaurant or Bar,Administrative staff,43-9021.00,Data Entry Keyers
+Restaurant or Bar,Administrative staff,43-9022.00,Word Processors and Typists
+Restaurant or Bar,Administrative staff,43-9031.00,Desktop Publishers
+Restaurant or Bar,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Restaurant or Bar,Other,11-2011.00,Advertising and Promotions Managers
+Restaurant or Bar,Other,11-2021.00,Marketing Managers
+Restaurant or Bar,Other,13-1161.00,Market Research Analysts and Marketing Specialists
+Restaurant or Bar,Other,13-1161.01,Search Marketing Strategists
+Restaurant or Bar,Other,11-9051.00,Food Service Managers
+Restaurant or Bar,Other,11-3061.00,Purchasing Managers
+Restaurant or Bar,Other,11-9199.01,Regulatory Affairs Managers
+Restaurant or Bar,Other,11-9199.08,Loss Prevention Managers
+Restaurant or Bar,Other,13-1021.00,"Buyers and Purchasing Agents, Farm Products"
+Restaurant or Bar,Other,19-4013.00,Food Science Technicians
+Restaurant or Bar,Other,35-2021.00,Food Preparation Workers
+Restaurant or Bar,Other,35-9099.00,"Food Preparation and Serving Related Workers, All Other"
+,,,
+,,,
+Grocery Store,Cashier,41-2011.00,Cashiers
+Grocery Store,Bagger or attendant,35-9011.00,Dining Room and Cafeteria Attendants and Bartender Helpers
+Grocery Store,Food preparer or server,19-4013.00,Food Science Technicians
+Grocery Store,Food preparer or server,51-3021.00,Butchers and Meat Cutters
+Grocery Store,Food preparer or server,35-2021.00,Food Preparation Workers
+Grocery Store,Food preparer or server,35-9099.00,"Food Preparation and Serving Related Workers, All Other"
+Grocery Store,Food preparer or server,35-2012.00,"Cooks, Institution and Cafeteria"
+Grocery Store,Supervisor,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Grocery Store,Supervisor,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Grocery Store,"Shipping, receiving, or inventory",11-3061.00,Purchasing Managers
+Grocery Store,"Shipping, receiving, or inventory",11-3071.00,"Transportation, Storage, and Distribution Managers"
+Grocery Store,"Shipping, receiving, or inventory",11-3071.04,Supply Chain Managers
+Grocery Store,"Shipping, receiving, or inventory",43-5011.00,Cargo and Freight Agents
+Grocery Store,"Shipping, receiving, or inventory",43-5011.01,Freight Forwarders
+Grocery Store,"Shipping, receiving, or inventory",43-5071.00,"Shipping, Receiving, and Inventory Clerks"
+Grocery Store,"Shipping, receiving, or inventory",43-5111.00,"Weighers, Measurers, Checkers, and Samplers, Recordkeeping"
+Grocery Store,"Shipping, receiving, or inventory",13-1081.00,Logisticians
+Grocery Store,"Shipping, receiving, or inventory",13-1081.01,Logistics Engineers
+Grocery Store,"Shipping, receiving, or inventory",13-1081.02,Logistics Analysts
+Grocery Store,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Grocery Store,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Grocery Store,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Grocery Store,Administrative staff,13-1082.00,Project Management Specialists
+Grocery Store,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Grocery Store,Administrative staff,15-1299.03,Document Management Specialists
+Grocery Store,Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+Grocery Store,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Grocery Store,Administrative staff,43-2021.00,Telephone Operators
+Grocery Store,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Grocery Store,Administrative staff,43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks"
+Grocery Store,Administrative staff,43-3051.00,Payroll and Timekeeping Clerks
+Grocery Store,Administrative staff,43-4141.00,New Accounts Clerks
+Grocery Store,Administrative staff,43-4151.00,Order Clerks
+Grocery Store,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Grocery Store,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Grocery Store,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Grocery Store,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Grocery Store,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Grocery Store,Administrative staff,43-9021.00,Data Entry Keyers
+Grocery Store,Administrative staff,43-9022.00,Word Processors and Typists
+Grocery Store,Administrative staff,43-9031.00,Desktop Publishers
+Grocery Store,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Grocery Store,Other,13-1199.06,Online Merchants
+Grocery Store,Other,11-2021.00,Marketing Managers
+Grocery Store,Other,13-1161.00,Market Research Analysts and Marketing Specialists
+Grocery Store,Other,13-1161.01,Search Marketing Strategists
+Grocery Store,Other,11-9051.00,Food Service Managers
+Grocery Store,Other,11-9199.01,Regulatory Affairs Managers
+Grocery Store,Other,11-9199.08,Loss Prevention Managers
+Grocery Store,Other,13-1021.00,"Buyers and Purchasing Agents, Farm Products"
+Grocery Store,Other,13-1022.00,"Wholesale and Retail Buyers, Except Farm Products"
+Grocery Store,Other,41-9011.00,Demonstrators and Product Promoters
+,,,
+,,,
+Retail,Cashier,41-2011.00,Cashiers
+Retail,Counter or rental clerk,41-2021.00,Counter and Rental Clerks
+Retail,Loss prevention specialist,33-9099.02,Retail Loss Prevention Specialists
+Retail,Supervisor,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Retail,Supervisor,41-1011.00,First-Line Supervisors of Retail Sales Workers
+Retail,Supervisor,41-1012.00,First-Line Supervisors of Non-Retail Sales Workers
+Retail,Supervisor,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Retail,Door-to-door sales,41-9091.00,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers"
+Retail,General sales,11-2022.00,Sales Managers
+Retail,General sales,13-1051.00,Cost Estimators
+Retail,General sales,13-1199.06,Online Merchants
+Retail,General sales,41-2031.00,Retail Salespersons
+Retail,General sales,41-3011.00,Advertising Sales Agents
+Retail,General sales,41-3021.00,Insurance Sales Agents
+Retail,General sales,41-3031.00,"Securities, Commodities, and Financial Services Sales Agents"
+Retail,General sales,41-3091.00,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel"
+Retail,General sales,41-9041.00,Telemarketers
+Retail,General sales,41-9099.00,"Sales and Related Workers, All Other"
+Retail,Customer service representative,11-3111.00,Compensation and Benefits Managers
+Retail,Customer service representative,43-4051.00,Customer Service Representatives
+Retail,"Shipping, receiving, inventory",11-3061.00,Purchasing Managers
+Retail,"Shipping, receiving, inventory",11-3071.00,"Transportation, Storage, and Distribution Managers"
+Retail,"Shipping, receiving, inventory",11-3071.04,Supply Chain Managers
+Retail,"Shipping, receiving, inventory",43-5011.00,Cargo and Freight Agents
+Retail,"Shipping, receiving, inventory",43-5011.01,Freight Forwarders
+Retail,"Shipping, receiving, inventory",43-5071.00,"Shipping, Receiving, and Inventory Clerks"
+Retail,"Shipping, receiving, inventory",43-5111.00,"Weighers, Measurers, Checkers, and Samplers, Recordkeeping"
+Retail,"Shipping, receiving, inventory",13-1081.00,Logisticians
+Retail,"Shipping, receiving, inventory",13-1081.01,Logistics Engineers
+Retail,"Shipping, receiving, inventory",13-1081.02,Logistics Analysts
+Retail,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Retail,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Retail,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Retail,Administrative staff,13-1161.00,Market Research Analysts and Marketing Specialists
+Retail,Administrative staff,13-1141.00,"Compensation, Benefits, and Job Analysis Specialists"
+Retail,Administrative staff,13-1082.00,Project Management Specialists
+Retail,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Retail,Administrative staff,15-1299.03,Document Management Specialists
+Retail,Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+Retail,Administrative staff,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Retail,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Retail,Administrative staff,43-2021.00,Telephone Operators
+Retail,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Retail,Administrative staff,43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks"
+Retail,Administrative staff,43-3051.00,Payroll and Timekeeping Clerks
+Retail,Administrative staff,43-4141.00,New Accounts Clerks
+Retail,Administrative staff,43-4151.00,Order Clerks
+Retail,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Retail,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Retail,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Retail,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Retail,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Retail,Administrative staff,43-9021.00,Data Entry Keyers
+Retail,Administrative staff,43-9022.00,Word Processors and Typists
+Retail,Administrative staff,43-9031.00,Desktop Publishers
+Retail,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Retail,Administrative staff,19-3011.00,Economists
+Retail,Other,11-2011.00,Advertising and Promotions Managers
+Retail,Other,11-2021.00,Marketing Managers
+Retail,Other,13-1161.00,Market Research Analysts and Marketing Specialists
+Retail,Other,13-1161.01,Search Marketing Strategists
+Retail,Other,11-9199.01,Regulatory Affairs Managers
+Retail,Other,11-9199.08,Loss Prevention Managers
+Retail,Other,13-1022.00,"Wholesale and Retail Buyers, Except Farm Products"
+Retail,Other,41-9011.00,Demonstrators and Product Promoters
+,,,
+,,,
+Construction / Trades,On-site supervisor,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Construction / Trades,On-site supervisor,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Construction / Trades,On-site supervisor,45-1011.00,"First-Line Supervisors of Farming, Fishing, and Forestry Workers"
+Construction / Trades,On-site supervisor,47-1011.00,First-Line Supervisors of Construction Trades and Extraction Workers
+Construction / Trades,On-site supervisor,53-1042.00,"First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand"
+Construction / Trades,On-site supervisor,37-1012.00,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers"
+Construction / Trades,On-site supervisor,53-1043.00,First-Line Supervisors of Material-Moving Machine and Vehicle Operators
+Construction / Trades,On-site labor / landscape / craft / trade,47-2061.00,Construction Laborers
+Construction / Trades,On-site labor / landscape / craft / trade,37-3019.00,"Grounds Maintenance Workers, All Other"
+Construction / Trades,On-site labor / landscape / craft / trade,37-2021.00,Pest Control Workers
+Construction / Trades,On-site labor / landscape / craft / trade,37-3011.00,Landscaping and Groundskeeping Workers
+Construction / Trades,On-site labor / landscape / craft / trade,37-3012.00,"Pesticide Handlers, Sprayers, and Applicators, Vegetation"
+Construction / Trades,On-site labor / landscape / craft / trade,37-3013.00,Tree Trimmers and Pruners
+Construction / Trades,"Farming, fishing, or forestry",11-9121.02,Water Resource Specialists
+Construction / Trades,"Farming, fishing, or forestry",13-1074.00,Farm Labor Contractors
+Construction / Trades,"Farming, fishing, or forestry",19-1031.02,Range Managers
+Construction / Trades,"Farming, fishing, or forestry",19-1031.03,Park Naturalists
+Construction / Trades,"Farming, fishing, or forestry",19-1032.00,Foresters
+Construction / Trades,"Farming, fishing, or forestry",19-4071.00,Forest and Conservation Technicians
+Construction / Trades,"Farming, fishing, or forestry",45-1011.00,"First-Line Supervisors of Farming, Fishing, and Forestry Workers"
+Construction / Trades,"Farming, fishing, or forestry",45-2092.00,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse"
+Construction / Trades,"Farming, fishing, or forestry",45-2093.00,"Farmworkers, Farm, Ranch, and Aquacultural Animals"
+Construction / Trades,"Farming, fishing, or forestry",45-2099.00,"Agricultural Workers, All Other"
+Construction / Trades,"Farming, fishing, or forestry",45-3031.00,Fishing and Hunting Workers
+Construction / Trades,"Farming, fishing, or forestry",45-4011.00,Forest and Conservation Workers
+Construction / Trades,"Farming, fishing, or forestry",45-4021.00,Fallers
+Construction / Trades,"Farming, fishing, or forestry",45-4022.00,Logging Equipment Operators
+Construction / Trades,"Farming, fishing, or forestry",45-4023.00,Log Graders and Scalers
+Construction / Trades,"Farming, fishing, or forestry",45-4029.00,"Logging Workers, All Other"
+Construction / Trades,"Farming, fishing, or forestry",11-9013.00,"Farmers, Ranchers, and Other Agricultural Managers"
+Construction / Trades,Plumbing or septic,47-2152.00,"Plumbers, Pipefitters, and Steamfitters"
+Construction / Trades,Plumbing or septic,47-4071.00,Septic Tank Servicers and Sewer Pipe Cleaners
+Construction / Trades,Electrician,17-2071.00,Electrical Engineers
+Construction / Trades,Electrician,43-5041.00,"Meter Readers, Utilities"
+Construction / Trades,Electrician,47-2111.00,Electricians
+Construction / Trades,Electrician,49-2091.00,Avionics Technicians
+Construction / Trades,Electrician,49-2092.00,"Electric Motor, Power Tool, and Related Repairers"
+Construction / Trades,Electrician,49-2093.00,"Electrical and Electronics Installers and Repairers, Transportation Equipment"
+Construction / Trades,Electrician,49-2094.00,"Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+Construction / Trades,Electrician,49-2095.00,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay"
+Construction / Trades,Automotive body and related repair,49-2096.00,"Electronic Equipment Installers and Repairers, Motor Vehicles"
+Construction / Trades,Automotive body and related repair,13-1032.00,"Insurance Appraisers, Auto Damage"
+Construction / Trades,Automotive body and related repair,41-2021.00,Counter and Rental Clerks
+Construction / Trades,Automotive body and related repair,41-2022.00,Parts Salespersons
+Construction / Trades,Automotive body and related repair,49-3043.00,Rail Car Repairers
+Construction / Trades,Automotive body and related repair,49-3092.00,Recreational Vehicle Service Technicians
+Construction / Trades,Automotive body and related repair,49-3093.00,Tire Repairers and Changers
+Construction / Trades,Automotive body and related repair,51-9197.00,Tire Builders
+Construction / Trades,Automotive body and related repair,53-7061.00,Cleaners of Vehicles and Equipment
+Construction / Trades,"Motorcycle, bicycle, other auto repair",13-1032.00,"Insurance Appraisers, Auto Damage"
+Construction / Trades,"Motorcycle, bicycle, other auto repair",41-2021.00,Counter and Rental Clerks
+Construction / Trades,"Motorcycle, bicycle, other auto repair",41-2022.00,Parts Salespersons
+Construction / Trades,"Motorcycle, bicycle, other auto repair",49-3051.00,Motorboat Mechanics and Service Technicians
+Construction / Trades,"Motorcycle, bicycle, other auto repair",49-3052.00,Motorcycle Mechanics
+Construction / Trades,"Motorcycle, bicycle, other auto repair",49-3091.00,Bicycle Repairers
+Construction / Trades,"Motorcycle, bicycle, other auto repair",49-3093.00,Tire Repairers and Changers
+Construction / Trades,"Motorcycle, bicycle, other auto repair",51-9197.00,Tire Builders
+Construction / Trades,"Motorcycle, bicycle, other auto repair",53-6031.00,Automotive and Watercraft Service Attendants
+Construction / Trades,"Installation, maintenance, or repair worker",41-2021.00,Counter and Rental Clerks
+Construction / Trades,"Installation, maintenance, or repair worker",47-2041.00,Carpet Installers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2042.00,"Floor Layers, Except Carpet, Wood, and Hard Tiles"
+Construction / Trades,"Installation, maintenance, or repair worker",47-2043.00,Floor Sanders and Finishers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2044.00,Tile and Stone Setters
+Construction / Trades,"Installation, maintenance, or repair worker",47-2051.00,Cement Masons and Concrete Finishers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2053.00,Terrazzo Workers and Finishers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2071.00,"Paving, Surfacing, and Tamping Equipment Operators"
+Construction / Trades,"Installation, maintenance, or repair worker",47-2131.00,"Insulation Workers, Floor, Ceiling, and Wall"
+Construction / Trades,"Installation, maintenance, or repair worker",47-2132.00,"Insulation Workers, Mechanical"
+Construction / Trades,"Installation, maintenance, or repair worker",47-2141.00,"Painters, Construction and Maintenance"
+Construction / Trades,"Installation, maintenance, or repair worker",47-2142.00,Paperhangers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2151.00,Pipelayers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2082.00,Tapers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2121.00,Glaziers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2161.00,Plasterers and Stucco Masons
+Construction / Trades,"Installation, maintenance, or repair worker",47-2171.00,Reinforcing Iron and Rebar Workers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2181.00,Roofers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2211.00,Sheet Metal Workers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2221.00,Structural Iron and Steel Workers
+Construction / Trades,"Installation, maintenance, or repair worker",47-2231.00,Solar Photovoltaic Installers
+Construction / Trades,"Installation, maintenance, or repair worker",47-3011.00,"Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters"
+Construction / Trades,"Installation, maintenance, or repair worker",47-3012.00,Helpers--Carpenters
+Construction / Trades,"Installation, maintenance, or repair worker",47-3013.00,Helpers--Electricians
+Construction / Trades,"Installation, maintenance, or repair worker",47-3014.00,"Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons"
+Construction / Trades,"Installation, maintenance, or repair worker",47-3015.00,"Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters"
+Construction / Trades,"Installation, maintenance, or repair worker",47-3016.00,Helpers--Roofers
+Construction / Trades,"Installation, maintenance, or repair worker",47-3019.00,"Helpers, Construction Trades, All Other"
+Construction / Trades,"Installation, maintenance, or repair worker",47-4011.00,Construction and Building Inspectors
+Construction / Trades,"Installation, maintenance, or repair worker",47-4021.00,Elevator and Escalator Installers and Repairers
+Construction / Trades,"Installation, maintenance, or repair worker",47-4031.00,Fence Erectors
+Construction / Trades,"Installation, maintenance, or repair worker",47-4091.00,Segmental Pavers
+Construction / Trades,"Installation, maintenance, or repair worker",49-2021.00,"Radio, Cellular, and Tower Equipment Installers and Repairers"
+Construction / Trades,"Installation, maintenance, or repair worker",49-2022.00,"Telecommunications Equipment Installers and Repairers, Except Line Installers"
+Construction / Trades,"Installation, maintenance, or repair worker",49-2097.00,Audiovisual Equipment Installers and Repairers
+Construction / Trades,"Installation, maintenance, or repair worker",49-2098.00,Security and Fire Alarm Systems Installers
+Construction / Trades,"Installation, maintenance, or repair worker",49-3011.00,Aircraft Mechanics and Service Technicians
+Construction / Trades,"Installation, maintenance, or repair worker",49-3021.00,Automotive Body and Related Repairers
+Construction / Trades,"Installation, maintenance, or repair worker",49-3022.00,Automotive Glass Installers and Repairers
+Construction / Trades,"Installation, maintenance, or repair worker",49-3023.00,Automotive Service Technicians and Mechanics
+Construction / Trades,"Installation, maintenance, or repair worker",49-9011.00,Mechanical Door Repairers
+Construction / Trades,"Installation, maintenance, or repair worker",49-9012.00,"Control and Valve Installers and Repairers, Except Mechanical Door"
+Construction / Trades,"Installation, maintenance, or repair worker",49-9021.00,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers"
+Construction / Trades,"Installation, maintenance, or repair worker",49-9031.00,Home Appliance Repairers
+Construction / Trades,"Installation, maintenance, or repair worker",49-9051.00,Electrical Power-Line Installers and Repairers
+Construction / Trades,"Installation, maintenance, or repair worker",49-9052.00,Telecommunications Line Installers and Repairers
+Construction / Trades,"Installation, maintenance, or repair worker",49-9071.00,"Maintenance and Repair Workers, General"
+Construction / Trades,"Installation, maintenance, or repair worker",49-9094.00,Locksmiths and Safe Repairers
+Construction / Trades,"Installation, maintenance, or repair worker",49-9095.00,Manufactured Building and Mobile Home Installers
+Construction / Trades,"Installation, maintenance, or repair worker",49-9096.00,Riggers
+Construction / Trades,"Installation, maintenance, or repair worker",49-9097.00,Signal and Track Switch Repairers
+Construction / Trades,"Installation, maintenance, or repair worker",49-9098.00,"Helpers--Installation, Maintenance, and Repair Workers"
+Construction / Trades,"Installation, maintenance, or repair worker",49-9099.00,"Installation, Maintenance, and Repair Workers, All Other"
+Construction / Trades,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Construction / Trades,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Construction / Trades,Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+Construction / Trades,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Construction / Trades,Administrative staff,13-1082.00,Project Management Specialists
+Construction / Trades,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Construction / Trades,Administrative staff,15-1299.03,Document Management Specialists
+Construction / Trades,Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+Construction / Trades,Administrative staff,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Construction / Trades,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Construction / Trades,Administrative staff,43-2021.00,Telephone Operators
+Construction / Trades,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Construction / Trades,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Construction / Trades,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Construction / Trades,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Construction / Trades,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Construction / Trades,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Construction / Trades,Administrative staff,43-9021.00,Data Entry Keyers
+Construction / Trades,Administrative staff,43-9022.00,Word Processors and Typists
+Construction / Trades,Administrative staff,43-9031.00,Desktop Publishers
+Construction / Trades,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Construction / Trades,Administrative staff,11-3111.00,Compensation and Benefits Managers
+Construction / Trades,Administrative staff,13-1023.00,"Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+Construction / Trades,Administrative staff,13-1051.00,Cost Estimators
+Construction / Trades,Administrative staff,13-1081.00,Logisticians
+Construction / Trades,Administrative staff,13-1081.01,Logistics Engineers
+Construction / Trades,Administrative staff,13-1081.02,Logistics Analysts
+Construction / Trades,Administrative staff,19-3011.00,Economists
+Construction / Trades,Administrative staff,11-9199.01,Regulatory Affairs Managers
+Construction / Trades,Other,13-1141.00,"Compensation, Benefits, and Job Analysis Specialists"
+Construction / Trades,Other,11-9021.00,Construction Managers
+Construction / Trades,Other,11-9121.02,Water Resource Specialists
+Construction / Trades,Other,17-3013.00,Mechanical Drafters
+Construction / Trades,Other,19-2041.02,Environmental Restoration Planners
+Construction / Trades,Other,19-4012.00,Agricultural Technicians
+Construction / Trades,Other,19-4012.01,Precision Agriculture Technicians
+Construction / Trades,Other,45-2011.00,Agricultural Inspectors
+Construction / Trades,Other,45-2041.00,"Graders and Sorters, Agricultural Products"
+Construction / Trades,Other,45-2091.00,Agricultural Equipment Operators
+Construction / Trades,Other,41-9011.00,Demonstrators and Product Promoters
+Construction / Trades,Other,43-5011.00,Cargo and Freight Agents
+Construction / Trades,Other,47-2072.00,Pile Driver Operators
+Construction / Trades,Other,47-2073.00,Operating Engineers and Other Construction Equipment Operators
+Construction / Trades,Other,47-4041.00,Hazardous Materials Removal Workers
+Construction / Trades,Other,47-4051.00,Highway Maintenance Workers
+Construction / Trades,Other,47-4061.00,Rail-Track Laying and Maintenance Equipment Operators
+Construction / Trades,Other,47-4099.00,"Construction and Related Workers, All Other"
+Construction / Trades,Other,49-3053.00,Outdoor Power Equipment and Other Small Engine Mechanics
+Construction / Trades,Other,53-1042.01,Recycling Coordinators
+Construction / Trades,Other,53-7062.04,Recycling and Reclamation Workers
+Construction / Trades,Other,53-7081.00,Refuse and Recyclable Material Collectors
+Construction / Trades,Other,53-7062.00,"Laborers and Freight, Stock, and Material Movers, Hand"
+,,,
+,,,
+Manufacturing,On-site manager,11-3051.00,Industrial Production Managers
+Manufacturing,On-site manager,11-9013.00,"Farmers, Ranchers, and Other Agricultural Managers"
+Manufacturing,Assembly,51-2011.00,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers"
+Manufacturing,Assembly,51-2022.00,Electrical and Electronic Equipment Assemblers
+Manufacturing,Assembly,51-2023.00,Electromechanical Equipment Assemblers
+Manufacturing,Assembly,51-2031.00,Engine and Other Machine Assemblers
+Manufacturing,Assembly,51-2061.00,Timing Device Assemblers and Adjusters
+Manufacturing,Assembly,51-2092.00,Team Assemblers
+Manufacturing,Assembly,51-2099.00,"Assemblers and Fabricators, All Other"
+Manufacturing,Slaughter or meat packing,51-3023.00,Slaughterers and Meat Packers
+Manufacturing,Slaughter or meat packing,51-3021.00,Butchers and Meat Cutters
+Manufacturing,Slaughter or meat packing,51-3022.00,"Meat, Poultry, and Fish Cutters and Trimmers"
+Manufacturing,Food processing,19-4013.00,Food Science Technicians
+Manufacturing,Food processing,51-3091.00,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders"
+Manufacturing,Food processing,51-3092.00,Food Batchmakers
+Manufacturing,Food processing,51-3093.00,Food Cooking Machine Operators and Tenders
+Manufacturing,Food processing,51-3099.00,"Food Processing Workers, All Other"
+Manufacturing,Food processing,51-9193.00,Cooling and Freezing Equipment Operators and Tenders
+Manufacturing,Machinist,47-2011.00,Boilermakers
+Manufacturing,Machinist,47-5032.00,"Explosives Workers, Ordnance Handling Experts, and Blasters"
+Manufacturing,Machinist,47-5041.00,Continuous Mining Machine Operators
+Manufacturing,Machinist,47-5043.00,"Roof Bolters, Mining"
+Manufacturing,Machinist,47-5044.00,"Loading and Moving Machine Operators, Underground Mining"
+Manufacturing,Machinist,53-7199.00,"Material Moving Workers, All Other"
+Manufacturing,Machinist,47-5049.00,"Underground Mining Machine Operators, All Other"
+Manufacturing,Machinist,49-1011.00,"First-Line Supervisors of Mechanics, Installers, and Repairers"
+Manufacturing,Machinist,49-2011.00,"Computer, Automated Teller, and Office Machine Repairers"
+Manufacturing,Machinist,51-4041.00,Machinists
+Manufacturing,Machinist,51-9111.00,Packaging and Filling Machine Operators and Tenders
+Manufacturing,Machinist,51-9191.00,Adhesive Bonding Machine Operators and Tenders
+Manufacturing,Machinist,51-9192.00,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders"
+Manufacturing,Machinist,53-7011.00,Conveyor Operators and Tenders
+Manufacturing,Machinist,53-7021.00,Crane and Tower Operators
+Manufacturing,Machinist,53-7031.00,Dredge Operators
+Manufacturing,Machinist,53-7041.00,Hoist and Winch Operators
+Manufacturing,Machinist,53-7051.00,Industrial Truck and Tractor Operators
+Manufacturing,Machinist,53-7063.00,Machine Feeders and Offbearers
+Manufacturing,Metal working or plastic working,47-2211.00,Sheet Metal Workers
+Manufacturing,Metal working or plastic working,47-2221.00,Structural Iron and Steel Workers
+Manufacturing,Metal working or plastic working,51-2021.00,"Coil Winders, Tapers, and Finishers"
+Manufacturing,Metal working or plastic working,51-2041.00,Structural Metal Fabricators and Fitters
+Manufacturing,Metal working or plastic working,51-4051.00,Metal-Refining Furnace Operators and Tenders
+Manufacturing,Metal working or plastic working,51-4052.00,"Pourers and Casters, Metal"
+Manufacturing,Metal working or plastic working,51-4061.00,"Model Makers, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4062.00,"Patternmakers, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4071.00,Foundry Mold and Coremakers
+Manufacturing,Metal working or plastic working,51-4072.00,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4081.00,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4111.00,Tool and Die Makers
+Manufacturing,Metal working or plastic working,51-4121.00,"Welders, Cutters, Solderers, and Brazers"
+Manufacturing,Metal working or plastic working,51-4122.00,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders"
+Manufacturing,Metal working or plastic working,51-4191.00,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4192.00,"Layout Workers, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4193.00,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4194.00,"Tool Grinders, Filers, and Sharpeners"
+Manufacturing,Metal working or plastic working,51-4199.00,"Metal Workers and Plastic Workers, All Other"
+Manufacturing,Metal working or plastic working,51-9071.00,Jewelers and Precious Stone and Metal Workers
+Manufacturing,Metal working or plastic working,51-9071.06,Gem and Diamond Workers
+Manufacturing,Metal working or plastic working,51-4021.00,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4022.00,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4023.00,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4031.00,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4032.00,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4033.00,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4034.00,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-4035.00,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic"
+Manufacturing,Metal working or plastic working,51-9194.00,Etchers and Engravers
+Manufacturing,"Textile, apparel, or furnishing",47-2021.00,Brickmasons and Blockmasons
+Manufacturing,"Textile, apparel, or furnishing",47-2022.00,Stonemasons
+Manufacturing,"Textile, apparel, or furnishing",47-2031.00,Carpenters
+Manufacturing,"Textile, apparel, or furnishing",47-2042.00,"Floor Layers, Except Carpet, Wood, and Hard Tiles"
+Manufacturing,"Textile, apparel, or furnishing",47-2043.00,Floor Sanders and Finishers
+Manufacturing,"Textile, apparel, or furnishing",47-2044.00,Tile and Stone Setters
+Manufacturing,"Textile, apparel, or furnishing",47-2051.00,Cement Masons and Concrete Finishers
+Manufacturing,"Textile, apparel, or furnishing",47-2053.00,Terrazzo Workers and Finishers
+Manufacturing,"Textile, apparel, or furnishing",49-9045.00,"Refractory Materials Repairers, Except Brickmasons"
+Manufacturing,"Textile, apparel, or furnishing",51-2051.00,Fiberglass Laminators and Fabricators
+Manufacturing,"Textile, apparel, or furnishing",51-6011.00,Laundry and Dry-Cleaning Workers
+Manufacturing,"Textile, apparel, or furnishing",51-6021.00,"Pressers, Textile, Garment, and Related Materials"
+Manufacturing,"Textile, apparel, or furnishing",51-6031.00,Sewing Machine Operators
+Manufacturing,"Textile, apparel, or furnishing",51-6041.00,Shoe and Leather Workers and Repairers
+Manufacturing,"Textile, apparel, or furnishing",51-6042.00,Shoe Machine Operators and Tenders
+Manufacturing,"Textile, apparel, or furnishing",51-6051.00,"Sewers, Hand"
+Manufacturing,"Textile, apparel, or furnishing",51-6052.00,"Tailors, Dressmakers, and Custom Sewers"
+Manufacturing,"Textile, apparel, or furnishing",51-6061.00,Textile Bleaching and Dyeing Machine Operators and Tenders
+Manufacturing,"Textile, apparel, or furnishing",51-6062.00,"Textile Cutting Machine Setters, Operators, and Tenders"
+Manufacturing,"Textile, apparel, or furnishing",51-6063.00,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders"
+Manufacturing,"Textile, apparel, or furnishing",51-6064.00,"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders"
+Manufacturing,"Textile, apparel, or furnishing",51-6091.00,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers"
+Manufacturing,"Textile, apparel, or furnishing",51-6092.00,Fabric and Apparel Patternmakers
+Manufacturing,"Textile, apparel, or furnishing",51-6093.00,Upholsterers
+Manufacturing,"Textile, apparel, or furnishing",51-6099.00,"Textile, Apparel, and Furnishings Workers, All Other"
+Manufacturing,"Textile, apparel, or furnishing",51-7011.00,Cabinetmakers and Bench Carpenters
+Manufacturing,"Textile, apparel, or furnishing",51-7021.00,Furniture Finishers
+Manufacturing,"Textile, apparel, or furnishing",51-7031.00,"Model Makers, Wood"
+Manufacturing,"Textile, apparel, or furnishing",51-7032.00,"Patternmakers, Wood"
+Manufacturing,"Textile, apparel, or furnishing",51-7041.00,"Sawing Machine Setters, Operators, and Tenders, Wood"
+Manufacturing,"Textile, apparel, or furnishing",51-7042.00,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing"
+Manufacturing,"Textile, apparel, or furnishing",51-7099.00,"Woodworkers, All Other"
+Manufacturing,"Textile, apparel, or furnishing",51-9123.00,"Painting, Coating, and Decorating Workers"
+Manufacturing,"Textile, apparel, or furnishing",51-9124.00,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders"
+Manufacturing,Energy or power management,11-3051.02,Geothermal Production Managers
+Manufacturing,Energy or power management,11-3051.03,Biofuels Production Managers
+Manufacturing,Energy or power management,11-3051.04,Biomass Power Plant Managers
+Manufacturing,Energy or power management,11-3051.06,Hydroelectric Production Managers
+Manufacturing,Energy or power management,11-9041.01,Biofuels/Biodiesel Technology and Product Development Managers
+Manufacturing,Energy or power management,11-9121.02,Water Resource Specialists
+Manufacturing,Energy or power management,11-9199.09,Wind Energy Operations Managers
+Manufacturing,Energy or power management,11-9199.10,Wind Energy Development Managers
+Manufacturing,Energy or power management,41-4011.07,Solar Sales Representatives and Assessors
+Manufacturing,Energy or power management,47-1011.03,Solar Energy Installation Managers
+Manufacturing,Energy or power management,47-2152.04,Solar Thermal Installers and Technicians
+Manufacturing,Energy or power management,47-4011.01,Energy Auditors
+Manufacturing,Energy or power management,47-4099.03,Weatherization Installers and Technicians
+Manufacturing,Energy or power management,49-9081.00,Wind Turbine Service Technicians
+Manufacturing,Energy or power management,49-9099.01,Geothermal Technicians
+Manufacturing,Energy or power management,51-8011.00,Nuclear Power Reactor Operators
+Manufacturing,Energy or power management,51-8012.00,Power Distributors and Dispatchers
+Manufacturing,Energy or power management,51-8013.00,Power Plant Operators
+Manufacturing,Energy or power management,51-8013.03,Biomass Plant Technicians
+Manufacturing,Energy or power management,51-8013.04,Hydroelectric Plant Technicians
+Manufacturing,Energy or power management,51-8021.00,Stationary Engineers and Boiler Operators
+Manufacturing,Energy or power management,51-8031.00,Water and Wastewater Treatment Plant and System Operators
+Manufacturing,Energy or power management,51-8091.00,Chemical Plant and System Operators
+Manufacturing,Energy or power management,51-8092.00,Gas Plant Operators
+Manufacturing,Energy or power management,51-8093.00,"Petroleum Pump System Operators, Refinery Operators, and Gaugers"
+Manufacturing,Energy or power management,51-8099.00,"Plant and System Operators, All Other"
+Manufacturing,Energy or power management,51-8099.01,Biofuels Processing Technicians
+Manufacturing,Production worker,43-5011.00,Cargo and Freight Agents
+Manufacturing,Production worker,49-9041.00,Industrial Machinery Mechanics
+Manufacturing,Production worker,49-9043.00,"Maintenance Workers, Machinery"
+Manufacturing,Production worker,49-9044.00,Millwrights
+Manufacturing,Production worker,51-1011.00,First-Line Supervisors of Production and Operating Workers
+Manufacturing,Production worker,51-2021.00,"Coil Winders, Tapers, and Finishers"
+Manufacturing,Production worker,51-9011.00,Chemical Equipment Operators and Tenders
+Manufacturing,Production worker,51-9012.00,"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders"
+Manufacturing,Production worker,51-9021.00,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders"
+Manufacturing,Production worker,51-9022.00,"Grinding and Polishing Workers, Hand"
+Manufacturing,Production worker,51-9023.00,"Mixing and Blending Machine Setters, Operators, and Tenders"
+Manufacturing,Production worker,51-9031.00,"Cutters and Trimmers, Hand"
+Manufacturing,Production worker,51-9032.00,"Cutting and Slicing Machine Setters, Operators, and Tenders"
+Manufacturing,Production worker,51-9041.00,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders"
+Manufacturing,Production worker,51-9051.00,"Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders"
+Manufacturing,Production worker,51-9061.00,"Inspectors, Testers, Sorters, Samplers, and Weighers"
+Manufacturing,Production worker,51-9141.00,Semiconductor Processing Technicians
+Manufacturing,Production worker,51-9151.00,Photographic Process Workers and Processing Machine Operators
+Manufacturing,Production worker,51-9194.00,Etchers and Engravers
+Manufacturing,Production worker,51-9195.00,"Molders, Shapers, and Casters, Except Metal and Plastic"
+Manufacturing,Production worker,51-9195.03,"Stone Cutters and Carvers, Manufacturing"
+Manufacturing,Production worker,51-9195.04,"Glass Blowers, Molders, Benders, and Finishers"
+Manufacturing,Production worker,51-9195.05,"Potters, Manufacturing"
+Manufacturing,Production worker,51-9196.00,"Paper Goods Machine Setters, Operators, and Tenders"
+Manufacturing,Production worker,51-9198.00,Helpers--Production Workers
+Manufacturing,Production worker,51-9199.00,"Production Workers, All Other"
+Manufacturing,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Manufacturing,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Manufacturing,Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+Manufacturing,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Manufacturing,Administrative staff,13-1082.00,Project Management Specialists
+Manufacturing,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Manufacturing,Administrative staff,15-1299.03,Document Management Specialists
+Manufacturing,Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+Manufacturing,Administrative staff,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Manufacturing,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Manufacturing,Administrative staff,43-2021.00,Telephone Operators
+Manufacturing,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Manufacturing,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Manufacturing,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Manufacturing,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Manufacturing,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Manufacturing,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Manufacturing,Administrative staff,43-9021.00,Data Entry Keyers
+Manufacturing,Administrative staff,43-9022.00,Word Processors and Typists
+Manufacturing,Administrative staff,43-9031.00,Desktop Publishers
+Manufacturing,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Manufacturing,Administrative staff,53-7065.00,Stockers and Order Fillers
+Manufacturing,Administrative staff,13-1051.00,Cost Estimators
+Manufacturing,Administrative staff,11-3061.00,Purchasing Managers
+Manufacturing,Administrative staff,11-3071.00,"Transportation, Storage, and Distribution Managers"
+Manufacturing,Administrative staff,11-3071.04,Supply Chain Managers
+Manufacturing,Administrative staff,11-9199.01,Regulatory Affairs Managers
+Manufacturing,Administrative staff,13-1081.00,Logisticians
+Manufacturing,Administrative staff,13-1081.01,Logistics Engineers
+Manufacturing,Administrative staff,13-1081.02,Logistics Analysts
+Manufacturing,Administrative staff,19-3011.00,Economists
+Manufacturing,Administrative staff,11-2021.00,Marketing Managers
+Manufacturing,Administrative staff,13-1161.00,Market Research Analysts and Marketing Specialists
+Manufacturing,Administrative staff,41-4011.00,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products"
+Manufacturing,Administrative staff,41-4012.00,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
+Manufacturing,Administrative staff,53-7064.00,"Packers and Packagers, Hand"
+Manufacturing,Other,11-9121.02,Water Resource Specialists
+Manufacturing,Other,11-9199.08,Loss Prevention Managers
+Manufacturing,Other,13-1023.00,"Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+Manufacturing,Other,13-1074.00,Farm Labor Contractors
+Manufacturing,Other,17-3013.00,Mechanical Drafters
+Manufacturing,Other,19-2041.02,Environmental Restoration Planners
+Manufacturing,Other,19-4012.00,Agricultural Technicians
+Manufacturing,Other,19-4012.01,Precision Agriculture Technicians
+Manufacturing,Other,45-2011.00,Agricultural Inspectors
+Manufacturing,Other,45-2041.00,"Graders and Sorters, Agricultural Products"
+Manufacturing,Other,45-2091.00,Agricultural Equipment Operators
+Manufacturing,Other,41-9011.00,Demonstrators and Product Promoters
+Manufacturing,Other,43-5011.00,Cargo and Freight Agents
+Manufacturing,Other,47-5011.00,"Derrick Operators, Oil and Gas"
+Manufacturing,Other,47-5012.00,"Rotary Drill Operators, Oil and Gas"
+Manufacturing,Other,47-5013.00,"Service Unit Operators, Oil and Gas"
+Manufacturing,Other,47-5022.00,"Excavating and Loading Machine and Dragline Operators, Surface Mining"
+Manufacturing,Other,47-5023.00,"Earth Drillers, Except Oil and Gas"
+Manufacturing,Other,47-5051.00,"Rock Splitters, Quarry"
+Manufacturing,Other,47-5071.00,"Roustabouts, Oil and Gas"
+Manufacturing,Other,47-5081.00,Helpers--Extraction Workers
+Manufacturing,Other,47-5099.00,"Extraction Workers, All Other"
+Manufacturing,Other,51-5111.00,Prepress Technicians and Workers
+Manufacturing,Other,51-5112.00,Printing Press Operators
+Manufacturing,Other,51-5113.00,Print Binding and Finishing Workers
+Manufacturing,Other,51-9161.00,Computer Numerically Controlled Tool Operators
+Manufacturing,Other,51-9162.00,Computer Numerically Controlled Tool Programmers
+Manufacturing,Other,53-7071.00,Gas Compressor and Gas Pumping Station Operators
+Manufacturing,Other,53-7072.00,"Pump Operators, Except Wellhead Pumpers"
+Manufacturing,Other,53-7073.00,Wellhead Pumpers
+,,,
+,,,
+Education,"Teacher, Primary K-12",25-2011.00,"Preschool Teachers, Except Special Education"
+Education,"Teacher, Primary K-12",25-2012.00,"Kindergarten Teachers, Except Special Education"
+Education,"Teacher, Primary K-12",25-2021.00,"Elementary School Teachers, Except Special Education"
+Education,"Teacher, Primary K-12",25-2022.00,"Middle School Teachers, Except Special and Career/Technical Education"
+Education,"Teacher, Primary K-12",25-2023.00,"Career/Technical Education Teachers, Middle School"
+Education,"Teacher, Primary K-12",25-2031.00,"Secondary School Teachers, Except Special and Career/Technical Education"
+Education,"Teacher, Primary K-12",25-2032.00,"Career/Technical Education Teachers, Secondary School"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1011.00,"Business Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1021.00,"Computer Science Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1022.00,"Mathematical Science Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1031.00,"Architecture Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1032.00,"Engineering Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1041.00,"Agricultural Sciences Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1042.00,"Biological Science Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1043.00,"Forestry and Conservation Science Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1051.00,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1052.00,"Chemistry Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1053.00,"Environmental Science Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1054.00,"Physics Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1061.00,"Anthropology and Archeology Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1062.00,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1063.00,"Economics Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1064.00,"Geography Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1065.00,"Political Science Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1066.00,"Psychology Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1067.00,"Sociology Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1069.00,"Social Sciences Teachers, Postsecondary, All Other"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1071.00,"Health Specialties Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1072.00,"Nursing Instructors and Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1081.00,"Education Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1082.00,"Library Science Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1111.00,"Criminal Justice and Law Enforcement Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1112.00,"Law Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1113.00,"Social Work Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1121.00,"Art, Drama, and Music Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1122.00,"Communications Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1123.00,"English Language and Literature Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1124.00,"Foreign Language and Literature Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1125.00,"History Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1126.00,"Philosophy and Religion Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1192.00,"Family and Consumer Sciences Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1193.00,"Recreation and Fitness Studies Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1194.00,"Career/Technical Education Teachers, Postsecondary"
+Education,"Professor, Lecturer, or Instructor, Postsecondary",25-1199.00,"Postsecondary Teachers, All Other"
+Education,Other teacher or instructor,25-3011.00,"Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors"
+Education,Other teacher or instructor,25-3021.00,Self-Enrichment Teachers
+Education,Other teacher or instructor,25-3099.00,"Teachers and Instructors, All Other"
+Education,Academic researcher,11-9121.00,Natural Sciences Managers
+Education,Academic researcher,11-9121.01,Clinical Research Coordinators
+Education,Special education,25-2051.00,"Special Education Teachers, Preschool"
+Education,Special education,25-2055.00,"Special Education Teachers, Kindergarten"
+Education,Special education,25-2056.00,"Special Education Teachers, Elementary School"
+Education,Special education,25-2057.00,"Special Education Teachers, Middle School"
+Education,Special education,25-2058.00,"Special Education Teachers, Secondary School"
+Education,Special education,25-2059.00,"Special Education Teachers, All Other"
+Education,Special education,25-2059.01,Adapted Physical Education Specialists
+Education,"Small group, para professional, personal tutor",25-3041.00,Tutors
+Education,"Library, art",13-1011.00,"Agents and Business Managers of Artists, Performers, and Athletes"
+Education,"Library, art",25-4022.00,Librarians and Media Collections Specialists
+Education,"Library, art",25-4031.00,Library Technicians
+Education,"Library, art",25-9099.00,"Educational Instruction and Library Workers, All Other"
+Education,"Library, art",43-4121.00,"Library Assistants, Clerical"
+Education,Classroom attendant / support,25-3099.00,"Teachers and Instructors, All Other"
+Education,Teaching assistant / aid,25-3031.00,"Substitute Teachers, Short-Term"
+Education,Teaching assistant / aid,25-9042.00,"Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education"
+Education,Teaching assistant / aid,25-9043.00,"Teaching Assistants, Special Education"
+Education,Teaching assistant / aid,25-9044.00,"Teaching Assistants, Postsecondary"
+Education,Teaching assistant / aid,25-9049.00,"Teaching Assistants, All Other"
+Education,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Education,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Education,Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+Education,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Education,Administrative staff,11-9031.00,"Education and Childcare Administrators, Preschool and Daycare"
+Education,Administrative staff,11-9032.00,"Education Administrators, Kindergarten through Secondary"
+Education,Administrative staff,11-9033.00,"Education Administrators, Postsecondary"
+Education,Administrative staff,11-9039.00,"Education Administrators, All Other"
+Education,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Education,Administrative staff,13-1082.00,Project Management Specialists
+Education,Administrative staff,15-1299.03,Document Management Specialists
+Education,Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+Education,Administrative staff,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Education,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Education,Administrative staff,43-2021.00,Telephone Operators
+Education,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Education,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Education,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Education,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Education,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Education,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Education,Administrative staff,43-9021.00,Data Entry Keyers
+Education,Administrative staff,43-9022.00,Word Processors and Typists
+Education,Administrative staff,43-9031.00,Desktop Publishers
+Education,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Education,Other,11-9199.01,Regulatory Affairs Managers
+Education,Other,11-9199.02,Compliance Managers
+Education,Other,13-1131.00,Fundraisers
+Education,Other,19-3011.00,Economists
+Education,Other,19-3034.00,School Psychologists
+Education,Other,21-1012.00,"Educational, Guidance, and Career Counselors and Advisors"
+Education,Other,21-1019.00,"Counselors, All Other"
+Education,Other,25-9031.00,Instructional Coordinators
+Education,Other,39-9041.00,Residential Advisors
+,,,
+,,,
+Government,Inspector / compliance,11-9199.01,Regulatory Affairs Managers
+Government,Inspector / compliance,13-1041.00,Compliance Officers
+Government,Inspector / compliance,11-9199.02,Compliance Managers
+Government,Inspector / compliance,13-1041.03,Equal Opportunity Representatives and Officers
+Government,Inspector / compliance,13-1041.04,Government Property Inspectors and Investigators
+Government,Inspector / compliance,19-5011.00,Occupational Health and Safety Specialists
+Government,Inspector / compliance,45-2011.00,Agricultural Inspectors
+Government,Inspector / compliance,53-6051.00,Transportation Inspectors
+Government,Inspector / compliance,53-6051.01,Aviation Inspectors
+Government,Inspector / compliance,53-6051.07,"Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation"
+Government,"Parks, fishing, and game",11-9072.00,"Entertainment and Recreation Managers, Except Gambling"
+Government,"Parks, fishing, and game",19-1031.02,Range Managers
+Government,"Parks, fishing, and game",19-1031.03,Park Naturalists
+Government,"Parks, fishing, and game",19-1032.00,Foresters
+Government,"Parks, fishing, and game",33-3031.00,Fish and Game Wardens
+Government,"Parks, fishing, and game",45-1011.00,"First-Line Supervisors of Farming, Fishing, and Forestry Workers"
+Government,"Parks, fishing, and game",11-9121.00,Natural Sciences Managers
+Government,Animal control,33-9011.00,Animal Control Workers
+Government,Call center operator,43-2021.00,Telephone Operators
+Government,Interviewer,43-4061.00,"Eligibility Interviewers, Government Programs"
+Government,Postal service worker,11-9131.00,Postmasters and Mail Superintendents
+Government,Postal service worker,43-5051.00,Postal Service Clerks
+Government,Postal service worker,43-5052.00,Postal Service Mail Carriers
+Government,Postal service worker,43-5053.00,"Postal Service Mail Sorters, Processors, and Processing Machine Operators"
+Government,Parking enforcement,33-3041.00,Parking Enforcement Workers
+Government,Parking enforcement,53-6021.00,Parking Attendants
+Government,Parking enforcement,53-6041.00,Traffic Technicians
+Government,Air traffic control,53-2021.00,Air Traffic Controllers
+Government,Air traffic control,53-2022.00,Airfield Operations Specialists
+Government,Transportation security,11-3013.01,Security Managers
+Government,Transportation security,13-1199.07,Security Management Specialists
+Government,Transportation security,33-1091.00,First-Line Supervisors of Security Workers
+Government,Transportation security,33-9032.00,Security Guards
+Government,Transportation security,33-9093.00,Transportation Security Screeners
+Government,Transportation security,33-9094.00,School Bus Monitors
+Government,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Government,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Government,Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+Government,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Government,Administrative staff,13-1082.00,Project Management Specialists
+Government,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Government,Administrative staff,15-1299.03,Document Management Specialists
+Government,Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+Government,Administrative staff,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Government,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Government,Administrative staff,43-2021.00,Telephone Operators
+Government,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Government,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Government,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Government,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Government,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Government,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Government,Administrative staff,43-9021.00,Data Entry Keyers
+Government,Administrative staff,43-9022.00,Word Processors and Typists
+Government,Administrative staff,43-9031.00,Desktop Publishers
+Government,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Government,Administrative staff,11-9199.02,Compliance Managers
+Government,Administrative staff,13-1041.00,Compliance Officers
+Government,Administrative staff,13-1041.07,Regulatory Affairs Specialists
+Government,Administrative staff,13-2081.00,"Tax Examiners and Collectors, and Revenue Agents"
+Government,Administrative staff,13-2082.00,Tax Preparers
+Government,Other,11-9199.11,Brownfield Redevelopment Specialists and Site Managers
+Government,Other,11-9161.00,Emergency Management Directors
+Government,Other,19-2041.01,Climate Change Policy Analysts
+Government,Other,19-2041.02,Environmental Restoration Planners
+Government,Other,19-3011.00,Economists
+Government,Other,19-3093.00,Historians
+Government,Other,19-3094.00,Political Scientists
+Government,Other,25-4011.00,Archivists
+Government,Other,25-4012.00,Curators
+Government,Other,25-4013.00,Museum Technicians and Conservators
+Government,Other,25-4022.00,Librarians and Media Collections Specialists
+Government,Other,25-4031.00,Library Technicians
+Government,Other,33-1099.00,"First-Line Supervisors of Protective Service Workers, All Other"
+Government,Other,43-5031.00,Public Safety Telecommunicators
+Government,Other,55-1013.00,Armored Assault Vehicle Officers
+Government,Other,55-1014.00,Artillery and Missile Officers
+Government,Other,55-1015.00,Command and Control Center Officers
+Government,Other,55-1016.00,Infantry Officers
+Government,Other,55-1017.00,Special Forces Officers
+Government,Other,55-1019.00,"Military Officer Special and Tactical Operations Leaders, All Other"
+Government,Other,55-2012.00,First-Line Supervisors of Weapons Specialists/Crew Members
+Government,Other,55-2013.00,First-Line Supervisors of All Other Tactical Operations Specialists
+Government,Other,55-3013.00,Armored Assault Vehicle Crew Members
+Government,Other,55-3014.00,Artillery and Missile Crew Members
+Government,Other,55-3015.00,Command and Control Center Specialists
+Government,Other,55-3016.00,Infantry
+Government,Other,55-3018.00,Special Forces
+Government,Other,55-3019.00,"Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
+,,,
+,,,
+Transportation,Bus driver,53-3051.00,"Bus Drivers, School"
+Transportation,Bus driver,53-3052.00,"Bus Drivers, Transit and Intercity"
+Transportation,Taxi or ride share driver,53-3031.00,Driver/Sales Workers
+Transportation,Taxi or ride share driver,53-3053.00,Shuttle Drivers and Chauffeurs
+Transportation,Taxi or ride share driver,53-3054.00,Taxi Drivers
+Transportation,Delivery driver,53-3031.00,Driver/Sales Workers
+Transportation,Delivery driver,53-3032.00,Heavy and Tractor-Trailer Truck Drivers
+Transportation,Delivery driver,53-3033.00,Light Truck Drivers
+Transportation,Ticket taker / rail conductor,53-4031.00,Railroad Conductors and Yardmasters
+Transportation,Ticket taker / rail conductor,53-4041.00,Subway and Streetcar Operators
+Transportation,Ticket taker / rail conductor,53-4099.00,"Rail Transportation Workers, All Other"
+Transportation,Transit police,33-3052.00,Transit and Railroad Police
+Transportation,Transit police,33-3051.00,Police and Sheriff's Patrol Officers
+Transportation,Airline crew,39-6011.00,Baggage Porters and Bellhops
+Transportation,Airline crew,53-2021.00,Air Traffic Controllers
+Transportation,Airline crew,53-2022.00,Airfield Operations Specialists
+Transportation,Airline crew,53-2031.00,Flight Attendants
+Transportation,Airline crew,53-6032.00,Aircraft Service Attendants
+Transportation,Airline crew,55-1011.00,Air Crew Officers
+Transportation,Airline crew,55-1012.00,Aircraft Launch and Recovery Officers
+Transportation,Airline pilot,53-2011.00,"Airline Pilots, Copilots, and Flight Engineers"
+Transportation,Airline pilot,53-2012.00,Commercial Pilots
+Transportation,Airline pilot,55-2011.00,First-Line Supervisors of Air Crew Members
+Transportation,Airline pilot,55-3011.00,Air Crew Members
+Transportation,Airline pilot,55-3012.00,Aircraft Launch and Recovery Specialists
+Transportation,Engineer or mechanic,17-2011.00,Aerospace Engineers
+Transportation,Engineer or mechanic,17-2051.01,Transportation Engineers
+Transportation,Engineer or mechanic,17-2141.00,Mechanical Engineers
+Transportation,Engineer or mechanic,17-2141.01,Fuel Cell Engineers
+Transportation,Engineer or mechanic,17-2141.02,Automotive Engineers
+Transportation,Engineer or mechanic,17-3021.00,Aerospace Engineering and Operations Technologists and Technicians
+Transportation,Engineer or mechanic,17-3027.01,Automotive Engineering Technicians
+Transportation,Engineer or mechanic,17-2199.00,"Engineers, All Other"
+Transportation,Engineer or mechanic,49-3023.00,Automotive Service Technicians and Mechanics
+Transportation,Engineer or mechanic,49-3031.00,Bus and Truck Mechanics and Diesel Engine Specialists
+Transportation,Engineer or mechanic,49-3041.00,Farm Equipment Mechanics and Service Technicians
+Transportation,Engineer or mechanic,49-3042.00,"Mobile Heavy Equipment Mechanics, Except Engines"
+Transportation,Engineer or mechanic,53-4011.00,Locomotive Engineers
+Transportation,Engineer or mechanic,53-4013.00,"Rail Yard Engineers, Dinkey Operators, and Hostlers"
+Transportation,Engineer or mechanic,53-5031.00,Ship Engineers
+Transportation,Supervisor,33-1012.00,First-Line Supervisors of Police and Detectives
+Transportation,Supervisor,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Transportation,Supervisor,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Transportation,Supervisor,53-1043.00,First-Line Supervisors of Material-Moving Machine and Vehicle Operators
+Transportation,Supervisor,53-1044.00,First-Line Supervisors of Passenger Attendants
+Transportation,Supervisor,53-1049.00,"First-Line Supervisors of Transportation Workers, All Other"
+Transportation,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Transportation,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Transportation,Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+Transportation,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Transportation,Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+Transportation,Administrative staff,15-1299.03,Document Management Specialists
+Transportation,Administrative staff,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Transportation,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Transportation,Administrative staff,43-2021.00,Telephone Operators
+Transportation,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Transportation,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Transportation,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Transportation,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Transportation,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Transportation,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Transportation,Administrative staff,43-9021.00,Data Entry Keyers
+Transportation,Administrative staff,43-9022.00,Word Processors and Typists
+Transportation,Administrative staff,43-9031.00,Desktop Publishers
+Transportation,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Transportation,Other,11-3131.00,Training and Development Managers
+Transportation,Other,13-1151.00,Training and Development Specialists
+Transportation,Other,11-9199.01,Regulatory Affairs Managers
+Transportation,Other,19-3099.01,Transportation Planners
+Transportation,Other,33-9094.00,School Bus Monitors
+Transportation,Other,33-9099.00,"Protective Service Workers, All Other"
+Transportation,Other,43-5011.00,Cargo and Freight Agents
+Transportation,Other,53-1041.00,Aircraft Cargo Handling Supervisors
+Transportation,Other,53-3011.00,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians"
+Transportation,Other,53-7121.00,"Tank Car, Truck, and Ship Loaders"
+Transportation,Other,53-3099.00,"Motor Vehicle Operators, All Other"
+Transportation,Other,53-5011.00,Sailors and Marine Oilers
+Transportation,Other,53-5021.00,"Captains, Mates, and Pilots of Water Vessels"
+Transportation,Other,53-5022.00,Motorboat Operators
+Transportation,Other,53-6011.00,Bridge and Lock Tenders
+Transportation,Other,53-6051.00,Transportation Inspectors
+Transportation,Other,53-6051.01,Aviation Inspectors
+Transportation,Other,53-6051.07,"Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation"
+Transportation,Other,53-6061.00,Passenger Attendants
+Transportation,Other,53-6099.00,"Transportation Workers, All Other"
+Transportation,Other,55-2012.00,First-Line Supervisors of Weapons Specialists/Crew Members
+Transportation,Other,55-2013.00,First-Line Supervisors of All Other Tactical Operations Specialists
+,,,
+,,,
+"First Responder (Fire, EMS, Police)",Firefighter / fire inspector / fireline supervisor,33-1021.00,First-Line Supervisors of Firefighting and Prevention Workers
+"First Responder (Fire, EMS, Police)",Firefighter / fire inspector / fireline supervisor,33-2011.00,Firefighters
+"First Responder (Fire, EMS, Police)",Firefighter / fire inspector / fireline supervisor,33-2021.00,Fire Inspectors and Investigators
+"First Responder (Fire, EMS, Police)",Firefighter / fire inspector / fireline supervisor,33-2022.00,Forest Fire Inspectors and Prevention Specialists
+"First Responder (Fire, EMS, Police)",Paramedic or EMT,29-2043.00,Paramedics
+"First Responder (Fire, EMS, Police)",Police officer,33-3021.02,Police Identification and Records Officers
+"First Responder (Fire, EMS, Police)",Police officer,33-3051.00,Police and Sheriff's Patrol Officers
+"First Responder (Fire, EMS, Police)",Police officer,33-3051.04,Customs and Border Protection Officers
+"First Responder (Fire, EMS, Police)",Detective / criminal investigator,33-3021.00,Detectives and Criminal Investigators
+"First Responder (Fire, EMS, Police)",Detective / criminal investigator,33-3021.06,Intelligence Analysts
+"First Responder (Fire, EMS, Police)",Detective / criminal investigator,33-9021.00,Private Detectives and Investigators
+"First Responder (Fire, EMS, Police)",Records officer,33-3021.02,Police Identification and Records Officers
+"First Responder (Fire, EMS, Police)",Security guard,33-9032.00,Security Guards
+"First Responder (Fire, EMS, Police)",Security guard,11-3013.01,Security Managers
+"First Responder (Fire, EMS, Police)",Security guard,13-1199.07,Security Management Specialists
+"First Responder (Fire, EMS, Police)",Crossing guard or flagger,33-9091.00,Crossing Guards and Flaggers
+"First Responder (Fire, EMS, Police)",Dispatcher,43-5032.00,"Dispatchers, Except Police, Fire, and Ambulance"
+"First Responder (Fire, EMS, Police)",Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+"First Responder (Fire, EMS, Police)",Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+"First Responder (Fire, EMS, Police)",Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+"First Responder (Fire, EMS, Police)",Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+"First Responder (Fire, EMS, Police)",Administrative staff,13-1121.00,"Meeting, Convention, and Event Planners"
+"First Responder (Fire, EMS, Police)",Administrative staff,15-1299.03,Document Management Specialists
+"First Responder (Fire, EMS, Police)",Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+"First Responder (Fire, EMS, Police)",Administrative staff,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+"First Responder (Fire, EMS, Police)",Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+"First Responder (Fire, EMS, Police)",Administrative staff,43-2021.00,Telephone Operators
+"First Responder (Fire, EMS, Police)",Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+"First Responder (Fire, EMS, Police)",Administrative staff,43-4171.00,Receptionists and Information Clerks
+"First Responder (Fire, EMS, Police)",Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+"First Responder (Fire, EMS, Police)",Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+"First Responder (Fire, EMS, Police)",Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+"First Responder (Fire, EMS, Police)",Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+"First Responder (Fire, EMS, Police)",Administrative staff,43-9021.00,Data Entry Keyers
+"First Responder (Fire, EMS, Police)",Administrative staff,43-9022.00,Word Processors and Typists
+"First Responder (Fire, EMS, Police)",Administrative staff,43-9031.00,Desktop Publishers
+"First Responder (Fire, EMS, Police)",Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+"First Responder (Fire, EMS, Police)",Other,13-1041.06,Coroners
+"First Responder (Fire, EMS, Police)",Other,11-3131.00,Training and Development Managers
+"First Responder (Fire, EMS, Police)",Other,13-1151.00,Training and Development Specialists
+"First Responder (Fire, EMS, Police)",Other,11-9161.00,Emergency Management Directors
+"First Responder (Fire, EMS, Police)",Other,11-9199.01,Regulatory Affairs Managers
+"First Responder (Fire, EMS, Police)",Other,11-9199.02,Compliance Managers
+"First Responder (Fire, EMS, Police)",Other,33-1012.00,First-Line Supervisors of Police and Detectives
+"First Responder (Fire, EMS, Police)",Other,33-1099.00,"First-Line Supervisors of Protective Service Workers, All Other"
+"First Responder (Fire, EMS, Police)",Other,43-5031.00,Public Safety Telecommunicators
+"First Responder (Fire, EMS, Police)",Other,53-3011.00,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians"
+,,,
+,,,
+Corrections,Correctional officer or jailer,33-3012.00,Correctional Officers and Jailers
+Corrections,Correctional officer or jailer,33-1011.00,First-Line Supervisors of Correctional Officers
+Corrections,Bailiff,33-3011.00,Bailiffs
+Corrections,Inmate,,
+Corrections,Probation officer,21-1092.00,Probation Officers and Correctional Treatment Specialists
+Corrections,Food preparation,35-2021.00,Food Preparation Workers
+Corrections,Food preparation,35-2012.00,"Cooks, Institution and Cafeteria"
+Corrections,Food preparation,35-9099.00,"Food Preparation and Serving Related Workers, All Other"
+Corrections,Food preparation,35-1012.00,First-Line Supervisors of Food Preparation and Serving Workers
+Corrections,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Corrections,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Corrections,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Corrections,Administrative staff,15-1299.03,Document Management Specialists
+Corrections,Administrative staff,19-3032.00,Industrial-Organizational Psychologists
+Corrections,Administrative staff,43-1011.00,First-Line Supervisors of Office and Administrative Support Workers
+Corrections,Administrative staff,43-2011.00,"Switchboard Operators, Including Answering Service"
+Corrections,Administrative staff,43-2021.00,Telephone Operators
+Corrections,Administrative staff,43-2099.00,"Communications Equipment Operators, All Other"
+Corrections,Administrative staff,43-4171.00,Receptionists and Information Clerks
+Corrections,Administrative staff,43-6011.00,Executive Secretaries and Executive Administrative Assistants
+Corrections,Administrative staff,43-6012.00,Legal Secretaries and Administrative Assistants
+Corrections,Administrative staff,43-6013.00,Medical Secretaries and Administrative Assistants
+Corrections,Administrative staff,43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+Corrections,Administrative staff,43-9021.00,Data Entry Keyers
+Corrections,Administrative staff,43-9022.00,Word Processors and Typists
+Corrections,Administrative staff,43-9031.00,Desktop Publishers
+Corrections,Administrative staff,43-9199.00,"Office and Administrative Support Workers, All Other"
+Corrections,Other,11-3131.00,Training and Development Managers
+Corrections,Other,13-1151.00,Training and Development Specialists
+Corrections,Other,11-9199.01,Regulatory Affairs Managers
+Corrections,Other,11-9199.02,Compliance Managers
+Corrections,Other,11-9151.00,Social and Community Service Managers
+Corrections,Other,19-3033.00,Clinical and Counseling Psychologists
+Corrections,Other,21-1011.00,Substance Abuse and Behavioral Disorder Counselors
+Corrections,Other,21-1014.00,Mental Health Counselors
+Corrections,Other,21-1015.00,Rehabilitation Counselors
+Corrections,Other,21-1019.00,"Counselors, All Other"
+,,,
+,,,
+Other,Project manager / team manager,11-1021.00,General and Operations Managers
+Other,Project manager / team manager,11-9199.00,"Managers, All Other"
+Other,Human resources / staff support,11-3121.00,Human Resources Managers
+Other,Human resources / staff support,13-1071.00,Human Resources Specialists
+Other,Human resources / staff support,19-3032.00,Industrial-Organizational Psychologists
+Other,Human resources / staff support,43-4161.00,"Human Resources Assistants, Except Payroll and Timekeeping"
+Other,Human resources / staff support,13-1141.00,"Compensation, Benefits, and Job Analysis Specialists"
+Other,Human resources / staff support,11-3131.00,Training and Development Managers
+Other,Human resources / staff support,13-1151.00,Training and Development Specialists
+Other,Student: Primary K-12,,
+Other,"Student: college, university, or trade school",,
+Other,Finance,11-3031.03,Investment Fund Managers
+Other,Finance,11-2022.00,Sales Managers
+Other,Finance,11-2033.00,Fundraising Managers
+Other,Finance,13-1131.00,Fundraisers
+Other,Finance,11-3031.00,Financial Managers
+Other,Finance,11-3031.01,Treasurers and Controllers
+Other,Finance,11-3031.03,Investment Fund Managers
+Other,Finance,13-1051.00,Cost Estimators
+Other,Finance,13-2011.00,Accountants and Auditors
+Other,Finance,13-2022.00,Appraisers of Personal and Business Property
+Other,Finance,13-2023.00,Appraisers and Assessors of Real Estate
+Other,Finance,13-2031.00,Budget Analysts
+Other,Finance,13-2041.00,Credit Analysts
+Other,Finance,13-2051.00,Financial and Investment Analysts
+Other,Finance,13-2052.00,Personal Financial Advisors
+Other,Finance,13-2053.00,Insurance Underwriters
+Other,Finance,13-2054.00,Financial Risk Specialists
+Other,Finance,13-2061.00,Financial Examiners
+Other,Finance,13-2071.00,Credit Counselors
+Other,Finance,13-2072.00,Loan Officers
+Other,Finance,13-2099.00,"Financial Specialists, All Other"
+Other,Finance,13-2099.01,Financial Quantitative Analysts
+Other,Finance,15-2051.01,Business Intelligence Analysts
+Other,Finance,19-3011.00,Economists
+Other,Finance,19-3011.01,Environmental Economists
+Other,Finance,43-3011.00,Bill and Account Collectors
+Other,Finance,43-3021.00,Billing and Posting Clerks
+Other,Finance,43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks"
+Other,Finance,43-3051.00,Payroll and Timekeeping Clerks
+Other,Finance,43-3061.00,Procurement Clerks
+Other,Finance,43-3071.00,Tellers
+Other,Finance,43-3099.00,"Financial Clerks, All Other"
+Other,Finance,43-4011.00,Brokerage Clerks
+Other,Finance,43-4021.00,Correspondence Clerks
+Other,Finance,43-4031.00,"Court, Municipal, and License Clerks"
+Other,Finance,43-4041.00,"Credit Authorizers, Checkers, and Clerks"
+Other,Finance,43-4071.00,File Clerks
+Other,Finance,43-4131.00,Loan Interviewers and Clerks
+Other,Computers / technology,11-3021.00,Computer and Information Systems Managers
+Other,Computers / technology,15-1211.00,Computer Systems Analysts
+Other,Computers / technology,15-1211.01,Health Informatics Specialists
+Other,Computers / technology,15-1212.00,Information Security Analysts
+Other,Computers / technology,15-1221.00,Computer and Information Research Scientists
+Other,Computers / technology,15-1231.00,Computer Network Support Specialists
+Other,Computers / technology,15-1232.00,Computer User Support Specialists
+Other,Computers / technology,15-1241.00,Computer Network Architects
+Other,Computers / technology,15-1241.01,Telecommunications Engineering Specialists
+Other,Computers / technology,15-1242.00,Database Administrators
+Other,Computers / technology,15-1243.00,Database Architects
+Other,Computers / technology,15-1243.01,Data Warehousing Specialists
+Other,Computers / technology,15-1244.00,Network and Computer Systems Administrators
+Other,Computers / technology,15-1251.00,Computer Programmers
+Other,Computers / technology,15-1252.00,Software Developers
+Other,Computers / technology,15-1253.00,Software Quality Assurance Analysts and Testers
+Other,Computers / technology,15-1254.00,Web Developers
+Other,Computers / technology,15-1255.00,Web and Digital Interface Designers
+Other,Computers / technology,15-1255.01,Video Game Designers
+Other,Computers / technology,15-1299.00,"Computer Occupations, All Other"
+Other,Computers / technology,15-1299.01,Web Administrators
+Other,Computers / technology,15-1299.03,Document Management Specialists
+Other,Computers / technology,15-1299.04,Penetration Testers
+Other,Computers / technology,15-1299.05,Information Security Engineers
+Other,Computers / technology,15-1299.06,Digital Forensics Analysts
+Other,Computers / technology,15-1299.07,Blockchain Engineers
+Other,Computers / technology,15-1299.08,Computer Systems Engineers/Architects
+Other,Computers / technology,15-1299.09,Information Technology Project Managers
+Other,Computers / technology,51-9161.00,Computer Numerically Controlled Tool Operators
+Other,Computers / technology,51-9162.00,Computer Numerically Controlled Tool Programmers
+Other,Engineer,15-1241.01,Telecommunications Engineering Specialists
+Other,Engineer,11-9041.00,Architectural and Engineering Managers
+Other,Engineer,17-2011.00,Aerospace Engineers
+Other,Engineer,17-2021.00,Agricultural Engineers
+Other,Engineer,17-2031.00,Bioengineers and Biomedical Engineers
+Other,Engineer,17-2041.00,Chemical Engineers
+Other,Engineer,17-2051.00,Civil Engineers
+Other,Engineer,17-2051.01,Transportation Engineers
+Other,Engineer,17-2051.02,Water/Wastewater Engineers
+Other,Engineer,17-2061.00,Computer Hardware Engineers
+Other,Engineer,17-2071.00,Electrical Engineers
+Other,Engineer,17-2072.00,"Electronics Engineers, Except Computer"
+Other,Engineer,17-2081.00,Environmental Engineers
+Other,Engineer,17-2111.00,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
+Other,Engineer,17-2111.02,Fire-Prevention and Protection Engineers
+Other,Engineer,17-2112.00,Industrial Engineers
+Other,Engineer,17-2112.01,Human Factors Engineers and Ergonomists
+Other,Engineer,17-2112.02,Validation Engineers
+Other,Engineer,17-2112.03,Manufacturing Engineers
+Other,Engineer,17-2121.00,Marine Engineers and Naval Architects
+Other,Engineer,17-2131.00,Materials Engineers
+Other,Engineer,17-2141.00,Mechanical Engineers
+Other,Engineer,17-2141.01,Fuel Cell Engineers
+Other,Engineer,17-2141.02,Automotive Engineers
+Other,Engineer,17-2151.00,"Mining and Geological Engineers, Including Mining Safety Engineers"
+Other,Engineer,17-2161.00,Nuclear Engineers
+Other,Engineer,17-2171.00,Petroleum Engineers
+Other,Engineer,17-2199.00,"Engineers, All Other"
+Other,Engineer,17-2199.03,"Energy Engineers, Except Wind and Solar"
+Other,Engineer,17-2199.05,Mechatronics Engineers
+Other,Engineer,17-2199.06,Microsystems Engineers
+Other,Engineer,17-2199.07,Photonics Engineers
+Other,Engineer,17-2199.08,Robotics Engineers
+Other,Engineer,17-2199.09,Nanosystems Engineers
+Other,Engineer,17-2199.10,Wind Energy Engineers
+Other,Engineer,17-2199.11,Solar Energy Systems Engineers
+Other,Engineer,17-3021.00,Aerospace Engineering and Operations Technologists and Technicians
+Other,Engineer,17-3022.00,Civil Engineering Technologists and Technicians
+Other,Engineer,17-3025.00,Environmental Engineering Technologists and Technicians
+Other,Engineer,17-3026.00,Industrial Engineering Technologists and Technicians
+Other,Engineer,17-3026.01,Nanotechnology Engineering Technologists and Technicians
+Other,Engineer,17-3027.00,Mechanical Engineering Technologists and Technicians
+Other,Engineer,17-3027.01,Automotive Engineering Technicians
+Other,Engineer,17-3029.00,"Engineering Technologists and Technicians, Except Drafters, All Other"
+Other,Engineer,41-9031.00,Sales Engineers
+Other,Engineer,47-2073.00,Operating Engineers and Other Construction Equipment Operators
+Other,Engineer,53-4011.00,Locomotive Engineers
+Other,Engineer,53-4013.00,"Rail Yard Engineers, Dinkey Operators, and Hostlers"
+Other,Engineer,53-5031.00,Ship Engineers
+Other,Scientist,11-9121.00,Natural Sciences Managers
+Other,Scientist,11-9121.01,Clinical Research Coordinators
+Other,Scientist,15-1299.02,Geographic Information Systems Technologists and Technicians
+Other,Scientist,15-2021.00,Mathematicians
+Other,Scientist,15-2041.00,Statisticians
+Other,Scientist,15-2041.01,Biostatisticians
+Other,Scientist,43-9111.00,Statistical Assistants
+Other,Scientist,15-2051.00,Data Scientists
+Other,Scientist,15-2099.00,"Mathematical Science Occupations, All Other"
+Other,Scientist,15-2099.01,Bioinformatics Technicians
+Other,Scientist,17-2031.00,Bioengineers and Biomedical Engineers
+Other,Scientist,17-2041.00,Chemical Engineers
+Other,Scientist,17-3021.00,Aerospace Engineering and Operations Technologists and Technicians
+Other,Scientist,17-3022.00,Civil Engineering Technologists and Technicians
+Other,Scientist,17-3023.00,Electrical and Electronic Engineering Technologists and Technicians
+Other,Scientist,17-3024.00,Electro-Mechanical and Mechatronics Technologists and Technicians
+Other,Scientist,17-3024.01,Robotics Technicians
+Other,Scientist,17-3025.00,Environmental Engineering Technologists and Technicians
+Other,Scientist,17-3026.00,Industrial Engineering Technologists and Technicians
+Other,Scientist,17-3026.01,Nanotechnology Engineering Technologists and Technicians
+Other,Scientist,17-3027.00,Mechanical Engineering Technologists and Technicians
+Other,Scientist,17-3027.01,Automotive Engineering Technicians
+Other,Scientist,17-3028.00,Calibration Technologists and Technicians
+Other,Scientist,17-3029.00,"Engineering Technologists and Technicians, Except Drafters, All Other"
+Other,Scientist,17-3029.01,Non-Destructive Testing Specialists
+Other,Scientist,17-3029.08,Photonics Technicians
+Other,Scientist,17-3031.00,Surveying and Mapping Technicians
+Other,Scientist,19-1011.00,Animal Scientists
+Other,Scientist,19-1012.00,Food Scientists and Technologists
+Other,Scientist,19-1013.00,Soil and Plant Scientists
+Other,Scientist,19-1021.00,Biochemists and Biophysicists
+Other,Scientist,19-1022.00,Microbiologists
+Other,Scientist,19-1023.00,Zoologists and Wildlife Biologists
+Other,Scientist,19-1029.00,"Biological Scientists, All Other"
+Other,Scientist,19-1029.01,Bioinformatics Scientists
+Other,Scientist,19-1029.02,Molecular and Cellular Biologists
+Other,Scientist,19-1029.03,Geneticists
+Other,Scientist,19-1029.04,Biologists
+Other,Scientist,19-1031.00,Conservation Scientists
+Other,Scientist,19-1041.00,Epidemiologists
+Other,Scientist,19-1042.00,"Medical Scientists, Except Epidemiologists"
+Other,Scientist,19-1099.00,"Life Scientists, All Other"
+Other,Scientist,19-2011.00,Astronomers
+Other,Scientist,19-2012.00,Physicists
+Other,Scientist,19-2021.00,Atmospheric and Space Scientists
+Other,Scientist,19-2031.00,Chemists
+Other,Scientist,19-2032.00,Materials Scientists
+Other,Scientist,19-2041.00,"Environmental Scientists and Specialists, Including Health"
+Other,Scientist,19-2041.01,Climate Change Policy Analysts
+Other,Scientist,19-2041.02,Environmental Restoration Planners
+Other,Scientist,19-2041.03,Industrial Ecologists
+Other,Scientist,19-2042.00,"Geoscientists, Except Hydrologists and Geographers"
+Other,Scientist,19-2043.00,Hydrologists
+Other,Scientist,19-2099.00,"Physical Scientists, All Other"
+Other,Scientist,19-2099.01,Remote Sensing Scientists and Technologists
+Other,Scientist,19-3022.00,Survey Researchers
+Other,Scientist,19-3032.00,Industrial-Organizational Psychologists
+Other,Scientist,19-3033.00,Clinical and Counseling Psychologists
+Other,Scientist,19-3034.00,School Psychologists
+Other,Scientist,19-3039.00,"Psychologists, All Other"
+Other,Scientist,19-3039.02,Neuropsychologists
+Other,Scientist,19-3039.03,Clinical Neuropsychologists
+Other,Scientist,19-3041.00,Sociologists
+Other,Scientist,19-3092.00,Geographers
+Other,Scientist,19-3094.00,Political Scientists
+Other,Scientist,19-3099.00,"Social Scientists and Related Workers, All Other"
+Other,Scientist,19-4012.00,Agricultural Technicians
+Other,Scientist,19-4012.01,Precision Agriculture Technicians
+Other,Scientist,19-4013.00,Food Science Technicians
+Other,Scientist,19-4021.00,Biological Technicians
+Other,Scientist,19-4031.00,Chemical Technicians
+Other,Scientist,19-4042.00,"Environmental Science and Protection Technicians, Including Health"
+Other,Scientist,19-4043.00,"Geological Technicians, Except Hydrologic Technicians"
+Other,Scientist,19-4044.00,Hydrologic Technicians
+Other,Scientist,19-4051.00,Nuclear Technicians
+Other,Scientist,19-4051.02,Nuclear Monitoring Technicians
+Other,Scientist,19-4061.00,Social Science Research Assistants
+Other,Scientist,19-4071.00,Forest and Conservation Technicians
+Other,Scientist,19-4092.00,Forensic Science Technicians
+Other,Scientist,19-4099.00,"Life, Physical, and Social Science Technicians, All Other"
+Other,Scientist,19-4099.01,Quality Control Analysts
+Other,Scientist,19-4099.03,Remote Sensing Technicians
+Other,Scientist,19-5012.00,Occupational Health and Safety Technicians
+Other,Athlete,13-1011.00,"Agents and Business Managers of Artists, Performers, and Athletes"
+Other,Athlete,27-2021.00,Athletes and Sports Competitors
+Other,Athlete,27-2022.00,Coaches and Scouts
+Other,Athlete,27-2023.00,"Umpires, Referees, and Other Sports Officials"
+Other,Athlete,27-2031.00,Dancers
+Other,Athlete,27-2032.00,Choreographers
+Other,Athlete,27-2099.00,"Entertainers and Performers, Sports and Related Workers, All Other"
+Other,Artist,13-1011.00,"Agents and Business Managers of Artists, Performers, and Athletes"
+Other,Artist,27-1011.00,Art Directors
+Other,Artist,27-1012.00,Craft Artists
+Other,Artist,27-1013.00,"Fine Artists, Including Painters, Sculptors, and Illustrators"
+Other,Artist,27-1014.00,Special Effects Artists and Animators
+Other,Artist,27-1019.00,"Artists and Related Workers, All Other"
+Other,Artist,27-1021.00,Commercial and Industrial Designers
+Other,Artist,27-1022.00,Fashion Designers
+Other,Artist,27-1023.00,Floral Designers
+Other,Artist,27-1024.00,Graphic Designers
+Other,Artist,27-2099.00,"Entertainers and Performers, Sports and Related Workers, All Other"
+Other,Artist,27-3043.00,Writers and Authors
+Other,Artist,27-3043.05,"Poets, Lyricists and Creative Writers"
+Other,Artist,21-1013.00,Actors
+Other,Artist,27-4015.00,Lighting Technicians
+Other,Artist,27-4021.00,Photographers
+Other,Artist,49-9061.00,Camera and Photographic Equipment Repairers
+Other,Artist,27-4031.00,"Camera Operators, Television, Video, and Film"
+Other,Artist,27-4032.00,Film and Video Editors
+Other,Artist,29-1129.01,Art Therapists
+Other,Artist,39-3021.00,Motion Picture Projectionists
+Other,Artist,39-3091.00,Amusement and Recreation Attendants
+Other,Artist,39-3092.00,Costume Attendants
+Other,Artist,39-3093.00,"Locker Room, Coatroom, and Dressing Room Attendants"
+Other,Artist,39-5091.00,"Makeup Artists, Theatrical and Performance"
+Other,Artist,41-9012.00,Models
+Other,Artist,51-9151.00,Photographic Process Workers and Processing Machine Operators
+Other,Musician,13-1011.00,"Agents and Business Managers of Artists, Performers, and Athletes"
+Other,Musician,27-2041.00,Music Directors and Composers
+Other,Musician,27-2042.00,Musicians and Singers
+Other,Musician,27-2091.00,"Disc Jockeys, Except Radio"
+Other,Musician,27-2099.00,"Entertainers and Performers, Sports and Related Workers, All Other"
+Other,Musician,27-4011.00,Audio and Video Technicians
+Other,Musician,27-4012.00,Broadcast Technicians
+Other,Musician,27-4014.00,Sound Engineering Technicians
+Other,Musician,29-1129.02,Music Therapists
+Other,Musician,49-9063.00,Musical Instrument Repairers and Tuners
+Other,Legal,11-1031.00,Legislators
+Other,Legal,13-1031.00,"Claims Adjusters, Examiners, and Investigators"
+Other,Legal,13-1041.07,Regulatory Affairs Specialists
+Other,Legal,13-1041.08,Customs Brokers
+Other,Legal,13-2099.04,"Fraud Examiners, Investigators and Analysts"
+Other,Legal,15-1299.06,Digital Forensics Analysts
+Other,Legal,23-1011.00,Lawyers
+Other,Legal,23-1012.00,Judicial Law Clerks
+Other,Legal,23-1021.00,"Administrative Law Judges, Adjudicators, and Hearing Officers"
+Other,Legal,23-1023.00,"Judges, Magistrate Judges, and Magistrates"
+Other,Legal,23-2011.00,Paralegals and Legal Assistants
+Other,Legal,23-2093.00,"Title Examiners, Abstractors, and Searchers"
+Other,Legal,23-2099.00,"Legal Support Workers, All Other"
+Other,Legal,27-3092.00,Court Reporters and Simultaneous Captioners
+Other,Legal,43-4031.00,"Court, Municipal, and License Clerks"
+Other,Janitor or maintenance,37-1011.00,First-Line Supervisors of Housekeeping and Janitorial Workers
+Other,Janitor or maintenance,37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+Other,Janitor or maintenance,37-2012.00,Maids and Housekeeping Cleaners
+Other,Janitor or maintenance,37-2019.00,"Building Cleaning Workers, All Other"
+Other,Animal care,31-9096.00,Veterinary Assistants and Laboratory Animal Caretakers
+Other,Animal care,39-2011.00,Animal Trainers
+Other,Animal care,39-2021.00,Animal Caretakers
+Other,Animal care,45-2021.00,Animal Breeders
+Other,Gambling,11-9071.00,Gambling Managers
+Other,Gambling,33-9031.00,Gambling Surveillance Officers and Gambling Investigators
+Other,Gambling,39-1013.00,First-Line Supervisors of Gambling Services Workers
+Other,Gambling,39-3011.00,Gambling Dealers
+Other,Gambling,39-3012.00,Gambling and Sports Book Writers and Runners
+Other,Gambling,39-3019.00,"Gambling Service Workers, All Other"
+Other,Gambling,41-2012.00,Gambling Change Persons and Booth Cashiers
+Other,Gambling,43-3041.00,Gambling Cage Workers
+Other,Gambling,49-9091.00,"Coin, Vending, and Amusement Machine Servicers and Repairers"
+Other,Funeral services,11-9171.00,Funeral Home Managers
+Other,Funeral services,13-1041.06,Coroners
+Other,Funeral services,39-4011.00,Embalmers
+Other,Funeral services,39-4031.00,"Morticians, Undertakers, and Funeral Arrangers"
+Other,Hotel services,11-9081.00,Lodging Managers
+Other,Hotel services,39-6011.00,Baggage Porters and Bellhops
+Other,Hotel services,39-6012.00,Concierges
+Other,Hotel services,43-4081.00,"Hotel, Motel, and Resort Desk Clerks"
+Other,Other,11-1011.00,Chief Executives
+Other,Other,11-1011.03,Chief Sustainability Officers
+Other,Other,13-1199.04,Business Continuity Planners
+Other,Other,11-2011.00,Advertising and Promotions Managers
+Other,Other,11-2021.00,Marketing Managers
+Other,Other,13-1161.00,Market Research Analysts and Marketing Specialists
+Other,Other,13-1161.01,Search Marketing Strategists
+Other,Other,11-2032.00,Public Relations Managers
+Other,Other,11-3013.00,Facilities Managers
+Other,Other,11-3051.01,Quality Control Systems Managers
+Other,Other,11-9072.00,"Entertainment and Recreation Managers, Except Gambling"
+Other,Other,39-1014.00,"First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services"
+Other,Other,11-9141.00,"Property, Real Estate, and Community Association Managers"
+Other,Other,11-9179.00,"Personal Service Managers, All Other"
+Other,Other,11-9199.00,"Managers, All Other"
+Other,Other,11-9199.08,Loss Prevention Managers
+Other,Other,13-1041.01,Environmental Compliance Inspectors
+Other,Other,13-1041.03,Equal Opportunity Representatives and Officers
+Other,Other,13-1041.07,Regulatory Affairs Specialists
+Other,Other,13-1111.00,Management Analysts
+Other,Other,13-1121.00,"Meeting, Convention, and Event Planners"
+Other,Other,13-1199.00,"Business Operations Specialists, All Other"
+Other,Other,13-1199.04,Business Continuity Planners
+Other,Other,15-2011.00,Actuaries
+Other,Other,15-2031.01,Operations Research Analysts
+Other,Other,11-9041.00,Architectural and Engineering Managers
+Other,Other,17-1011.00,"Architects, Except Landscape and Naval"
+Other,Other,17-1012.00,Landscape Architects
+Other,Other,37-1012.00,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers"
+Other,Other,27-1025.00,Interior Designers
+Other,Other,19-3051.00,Urban and Regional Planners
+Other,Other,17-3011.00,Architectural and Civil Drafters
+Other,Other,17-3012.00,Electrical and Electronics Drafters
+Other,Other,17-3013.00,Mechanical Drafters
+Other,Other,17-3019.00,"Drafters, All Other"
+Other,Other,17-1021.00,Cartographers and Photogrammetrists
+Other,Other,17-1022.00,Surveyors
+Other,Other,17-1022.01,Geodetic Surveyors
+Other,Other,17-2072.01,Radio Frequency Identification Device Specialists
+Other,Other,21-1099.00,"Community and Social Service Specialists, All Other"
+Other,Other,23-1022.00,"Arbitrators, Mediators, and Conciliators"
+Other,Other,25-9021.00,Farm and Home Management Educators
+Other,Other,27-1025.00,Interior Designers
+Other,Other,27-1026.00,Merchandise Displayers and Window Trimmers
+Other,Other,27-1027.00,Set and Exhibit Designers
+Other,Other,27-1029.00,"Designers, All Other"
+Other,Other,27-2011.00,Actors
+Other,Other,27-2012.00,Producers and Directors
+Other,Other,27-2012.03,Media Programming Directors
+Other,Other,27-2012.04,Talent Directors
+Other,Other,27-2012.05,Media Technical Directors/Managers
+Other,Other,27-3011.00,Broadcast Announcers and Radio Disc Jockeys
+Other,Other,27-3023.00,"News Analysts, Reporters, and Journalists"
+Other,Other,27-3031.00,Public Relations Specialists
+Other,Other,27-3041.00,Editors
+Other,Other,27-3042.00,Technical Writers
+Other,Other,27-3091.00,Interpreters and Translators
+Other,Other,27-3099.00,"Media and Communication Workers, All Other"
+Other,Other,27-4099.00,"Media and Communication Equipment Workers, All Other"
+Other,Other,33-9021.00,Private Detectives and Investigators
+Other,Other,33-9092.00,"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers"
+Other,Other,33-9099.00,"Protective Service Workers, All Other"
+Other,Other,39-1022.00,First-Line Supervisors of Personal Service Workers
+Other,Other,39-3031.00,"Ushers, Lobby Attendants, and Ticket Takers"
+Other,Other,39-3099.00,"Entertainment Attendants and Related Workers, All Other"
+Other,Other,39-6012.00,Concierges
+Other,Other,39-7011.00,Tour Guides and Escorts
+Other,Other,39-7012.00,Travel Guides
+Other,Other,41-3041.00,Travel Agents
+Other,Other,41-9021.00,Real Estate Brokers
+Other,Other,41-9022.00,Real Estate Sales Agents
+Other,Other,41-9041.00,Telemarketers
+Other,Other,43-4111.00,"Interviewers, Except Eligibility and Loan"
+Other,Other,43-4181.00,Reservation and Transportation Ticket Agents and Travel Clerks
+Other,Other,43-4199.00,"Information and Record Clerks, All Other"
+Other,Other,43-5021.00,Couriers and Messengers
+Other,Other,43-5061.00,"Production, Planning, and Expediting Clerks"
+Other,Other,43-9041.00,Insurance Claims and Policy Processing Clerks
+Other,Other,43-9051.00,"Mail Clerks and Mail Machine Operators, Except Postal Service"
+Other,Other,43-9061.00,"Office Clerks, General"
+Other,Other,43-9071.00,"Office Machine Operators, Except Computer"
+Other,Other,43-9081.00,Proofreaders and Copy Markers
+Other,Other,49-9064.00,Watch and Clock Repairers
+Other,Other,49-9069.00,"Precision Instrument and Equipment Repairers, All Other"
+Other,Other,49-9091.00,"Coin, Vending, and Amusement Machine Servicers and Repairers"
+Other,Other,49-9092.00,Commercial Divers
