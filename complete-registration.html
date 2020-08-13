@@ -918,9 +918,9 @@
 
 
 
-              <fieldset class="usa-fieldset padding-bottom-6" id="work-setting">
+              <fieldset class="usa-fieldset padding-bottom-4" id="work-setting">
                   <legend class="usa-legend">What setting do you currently work in?</legend>
-                  <span class="usa-hint" id="symptoms-helper-text">Select the option that best describes where you work</span>
+                  <span class="usa-hint" id="work-setting-helper-text">Select the option that best describes where you work</span>
                   <br/><br/>
                   <div class="grid-row grid-gap">
 
@@ -1008,12 +1008,16 @@
                           <input class="usa-radio__input" id="work-setting-other" type="radio" name="work-setting" value="work-setting-other">
                           <label class="usa-radio__label" for="work-setting-other">Other</label>
                       </div>
+                      <div class="usa-checkbox tablet:grid-col-12 padding-bottom-2 other-question is-hidden" id="other-work-setting-question">
+                        <label class="usa-label" for="other-work-setting">How would you describe your work setting?</label>
+                        <input class="usa-input" id="other-work-setting" name="other-work-setting" type="text" aria-required="false">
+                      </div>
                   </div>
               </fieldset>
 
               <fieldset class="usa-fieldset is-hidden" id="role-options-healthcare">
                   <legend class="usa-legend">What type of work do you do?</legend>
-                  <span class="usa-hint" id="healthcareRoles-helper-text">Select the option that best describes your position</span>
+                  <span class="usa-hint" id="healthcare-roles-helper-text">Select the option that best describes your position</span>
                   <br/><br/>
                   <div class="grid-row grid-gap">
 
@@ -1132,8 +1136,8 @@
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="dental-dental-hygienist" type="radio" name="occupation" value="dental-dental-hygienist">
-                          <label class="usa-radio__label" for="dental-dental-hygienist">Dental hygienist</label>
+                          <input class="usa-radio__input" id="dental-hygienist" type="radio" name="occupation" value="dental-hygienist">
+                          <label class="usa-radio__label" for="dental-hygienist">Dental hygienist</label>
                       </div>
 
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
@@ -2365,13 +2369,1478 @@
                           <label class="usa-label" for="other-work-setting-other-role">What's the best way to describe your work?</label>
                           <input class="usa-input" id="other-work-setting-other-role" name="other-work-setting-other-role" type="text" aria-required="false">
                       </div>
+                  </div>
 
+              </fieldset>
+
+              <fieldset class="usa-fieldset padding-top-2" id="additional-occupation-checkbox">
+                      <input class="usa-checkbox__input" id="additional-occupation" type="checkbox" name="additional-occupation" value="additional-occupation">
+                      <label class="usa-checkbox__label" for="additional-occupation">I have an additional job or occupation</label>
+              </fieldset>
+
+
+<!-- Additional work setting -->
+
+              <fieldset class="usa-fieldset margin-top-8 padding-bottom-6 is-hidden" id="secondary-work-setting">
+                  <legend class="usa-legend">In what setting is your additional job or occupation?</legend>
+                  <span class="usa-hint" id="additional-work-setting-helper-text">Select the option that best describes the additional place where you work</span>
+                  <br/><br/>
+                  <div class="grid-row grid-gap">
+
+                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                        <input class="usa-radio__input" id="secondary-work-setting-notworking" type="radio" name="secondary-work-setting" value="secondary-work-setting-notworking">
+                        <label class="usa-radio__label" for="secondary-work-setting-notworking">Currently not working</label>
+                    </div>
+                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-healthcare" type="radio" name="secondary-work-setting" value="secondary-role-healthcare">
+                          <label class="usa-radio__label" for="secondary-role-healthcare">Healthcare</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-dental" type="radio" name="secondary-work-setting" value="secondary-role-dental">
+                          <label class="usa-radio__label" for="secondary-role-dental">Dental</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-childcare" type="radio" name="secondary-work-setting" value="secondary-role-childcare">
+                          <label class="usa-radio__label" for="secondary-role-childcare">Childcare</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-congregate-living" type="radio" name="secondary-work-setting" value="secondary-role-congregate-living">
+                          <label class="usa-radio__label" for="secondary-role-congregate-living">Congregate living (Nursing home, Assisted living, Group home)</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-faith-based-organization" type="radio" name="secondary-work-setting" value="secondary-role-faith-based-organization">
+                          <label class="usa-radio__label" for="secondary-role-faith-based-organization">Faith-based organization</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-gym" type="radio" name="secondary-work-setting" value="secondary-role-gym">
+                          <label class="usa-radio__label" for="secondary-role-gym">Gym</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-hair-salon-barbershop" type="radio" name="secondary-work-setting" value="secondary-role-hair-salon-barbershop">
+                          <label class="usa-radio__label" for="secondary-role-hair-salon-barbershop">Hair Salon or Barbershop</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-personal-services" type="radio" name="secondary-work-setting" value="secondary-role-personal-services">
+                          <label class="usa-radio__label" for="secondary-role-personal-services">Personal services (Nail, Massage, Tattoo, Facialist, Other)</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-physical-therapy" type="radio" name="secondary-work-setting" value="secondary-role-physical-therapy">
+                          <label class="usa-radio__label" for="secondary-role-physical-therapy">Physical therapy or Chiropractic</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-restaurant-or-bar" type="radio" name="secondary-work-setting" value="secondary-role-restaurant-or-bar">
+                          <label class="usa-radio__label" for="secondary-role-restaurant-or-bar">Restaurant or Bar</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-grocery-store" type="radio" name="secondary-work-setting" value="secondary-role-grocery-store">
+                          <label class="usa-radio__label" for="secondary-role-grocery-store">Grocery store</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-retail" type="radio" name="secondary-work-setting" value="secondary-role-retail">
+                          <label class="usa-radio__label" for="secondary-role-retail">Retail</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-construction-trades" type="radio" name="secondary-work-setting" value="secondary-role-construction-trades">
+                          <label class="usa-radio__label" for="secondary-role-construction-trades">Construction / Trades</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-manufacturing" type="radio" name="secondary-work-setting" value="secondary-role-manufacturing">
+                          <label class="usa-radio__label" for="secondary-role-manufacturing">Manufacturing</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-education" type="radio" name="secondary-work-setting" value="secondary-role-education">
+                          <label class="usa-radio__label" for="secondary-role-education">Education</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-government" type="radio" name="secondary-work-setting" value="secondary-role-government">
+                          <label class="usa-radio__label" for="secondary-role-government">Government (Inspectors, DMV, others)</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-transportation" type="radio" name="secondary-work-setting" value="secondary-role-transportation">
+                          <label class="usa-radio__label" for="secondary-role-transportation">Transportation</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-first-responder" type="radio" name="secondary-work-setting" value="secondary-role-first-responder">
+                          <label class="usa-radio__label" for="secondary-role-first-responder">First responder (Fire, EMS, Police)</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-corrections" type="radio" name="secondary-work-setting" value="secondary-role-corrections">
+                          <label class="usa-radio__label" for="secondary-role-corrections">Corrections</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-work-setting-other" type="radio" name="secondary-work-setting" value="secondary-role-work-setting-other">
+                          <label class="usa-radio__label" for="secondary-role-work-setting-other">Other</label>
+                      </div>
+                      <div class="usa-checkbox tablet:grid-col-12 padding-bottom-2 other-question is-hidden" id="secondary-role-other-work-setting-question">
+                        <label class="usa-label" for="secondary-role-other-work-setting">How would you describe your work setting?</label>
+                        <input class="usa-input" id="secondary-role-other-work-setting" name="secondary-role-other-work-setting" type="text" aria-required="false">
+                      </div>
                   </div>
               </fieldset>
 
 
+<!-- Additional occupation questions -->
+                          <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-healthcare">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="healthcare-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
 
-              <fieldset class="usa-fieldset padding-bottom-4 margin-top-6" id="working-from-home">
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-nursing" type="radio" name="secondary-occupation" value="secondary-role-healthcare-nursing">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-nursing">Nursing</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-nursing-practitioner" type="radio" name="secondary-occupation" value="secondary-role-healthcare-nursing-practitioner">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-nursing-practitioner">Nursing practitioner</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-pharmacy" type="radio" name="secondary-occupation" value="secondary-role-healthcare-pharmacy">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-pharmacy">Pharmacy</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-physician" type="radio" name="secondary-occupation" value="secondary-role-healthcare-physician">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-physician">Physician</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-physician-assistant" type="radio" name="secondary-occupation" value="secondary-role-healthcare-physician-assistant">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-physician-assistant">Physician assistant</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-lab-technician" type="radio" name="secondary-occupation" value="secondary-role-healthcare-lab-technician">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-lab-technician">Lab technician</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-veterinary" type="radio" name="secondary-occupation" value="secondary-role-healthcare-veterinary">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-veterinary">Veterinary</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-phlebotomy" type="radio" name="secondary-occupation" value="secondary-role-healthcare-phlebotomy">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-phlebotomy">Phlebotomy</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-aide" type="radio" name="secondary-occupation" value="secondary-role-healthcare-aide">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-aide">Personal or home health care aide</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-social-worker" type="radio" name="secondary-occupation" value="secondary-role-healthcare-social-worker">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-social-worker">Healthcare social worker</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="child-family-school-social-worker" type="radio" name="secondary-occupation" value="child-family-school-social-worker">
+                                        <label class="usa-radio__label" for="child-family-school-social-worker">Child, family, or school social worker</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-social-services-assistance" type="radio" name="secondary-occupation" value="secondary-role-healthcare-social-services-assistance">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-social-services-assistance">Social and human services assistance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-mental-health-counselor" type="radio" name="secondary-occupation" value="secondary-role-healthcare-mental-health-counselor">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-mental-health-counselor">Mental health counselor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-healthcare-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-healthcare-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-healthcare-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-healthcare-other" type="radio" name="secondary-occupation" value="secondary-role-healthcare-other">
+                                        <label class="usa-radio__label" for="secondary-role-healthcare-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-healthcareother-role-question">
+                                        <label class="usa-label" for="secondary-role-healthcareother-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-healthcareother-role" name="secondary-role-healthcareother-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-dental">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="dental-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-dental-dentist" type="radio" name="secondary-occupation" value="secondary-role-dental-dentist">
+                                        <label class="usa-radio__label" for="secondary-role-dental-dentist">Dentist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-dental-oral-surgeon" type="radio" name="secondary-occupation" value="secondary-role-dental-oral-surgeon">
+                                        <label class="usa-radio__label" for="secondary-role-dental-oral-surgeon">Oral surgeon</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-dental-orthodontist" type="radio" name="secondary-occupation" value="secondary-role-dental-orthodontist">
+                                        <label class="usa-radio__label" for="secondary-role-dental-orthodontist">Orthodontist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-dental-prosthodontist" type="radio" name="secondary-occupation" value="secondary-role-dental-prosthodontist">
+                                        <label class="usa-radio__label" for="secondary-role-dental-prosthodontist">Prosthodontist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-dental-hygienist" type="radio" name="secondary-occupation" value="secondary-role-dental-hygienist">
+                                        <label class="usa-radio__label" for="secondary-role-dental-hygienist">Dental hygienist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-dental-assistant" type="radio" name="secondary-occupation" value="secondary-role-dental-assistant">
+                                        <label class="usa-radio__label" for="secondary-role-dental-assistant">Dental assistant</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-dental-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-dental-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-dental-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-dental-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-dental-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-dental-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-dental-other" type="radio" name="secondary-occupation" value="secondary-role-dental-other">
+                                        <label class="usa-radio__label" for="secondary-role-dental-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-dental-other-role-question">
+                                        <label class="usa-label" for="secondary-role-dental-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-dental-other-role" name="secondary-role-dental-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-childcare">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="childcare-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-childcare-worker" type="radio" name="secondary-occupation" value="secondary-role-childcare-worker">
+                                        <label class="usa-radio__label" for="secondary-role-childcare-worker">Childcare worker</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-childcare-social-worker-counselor" type="radio" name="secondary-occupation" value="secondary-role-childcare-social-worker-counselor">
+                                        <label class="usa-radio__label" for="secondary-role-childcare-social-worker-counselor">Social worker or counselor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-childcare-nanny" type="radio" name="secondary-occupation" value="secondary-role-childcare-nanny">
+                                        <label class="usa-radio__label" for="secondary-role-childcare-nanny">Nanny </label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-childcare-babysitter" type="radio" name="secondary-occupation" value="secondary-role-childcare-babysitter">
+                                        <label class="usa-radio__label" for="secondary-role-childcare-babysitter">Babysitter</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-childcare-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-childcare-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-childcare-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-childcare-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-childcare-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-childcare-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-childcare-other" type="radio" name="secondary-occupation" value="secondary-role-childcare-other">
+                                        <label class="usa-radio__label" for="secondary-role-childcare-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-childcare-other-role-question">
+                                        <label class="usa-label" for="secondary-role-childcare-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-childcare-other-role" name="secondary-role-childcare-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-congregate-living">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="congregate-living-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-congregate-living-resident" type="radio" name="secondary-occupation" value="secondary-role-congregate-living-resident">
+                                        <label class="usa-radio__label" for="secondary-role-congregate-living-resident">Resident</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-congregate-living-home-health-aide" type="radio" name="secondary-occupation" value="secondary-role-congregate-living-home-health-aide">
+                                        <label class="usa-radio__label" for="secondary-role-congregate-living-home-health-aide">Home health aide</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-congregate-living-housekeeper-cleaner" type="radio" name="secondary-occupation" value="secondary-role-congregate-living-housekeeper-cleaner">
+                                        <label class="usa-radio__label" for="secondary-role-congregate-living-housekeeper-cleaner">Housekeeper or cleaner</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-congregate-living-orderly" type="radio" name="secondary-occupation" value="secondary-role-congregate-living-orderly">
+                                        <label class="usa-radio__label" for="secondary-role-congregate-living-orderly">Orderly</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-congregate-living-physician" type="radio" name="secondary-occupation" value="secondary-role-congregate-living-physician">
+                                        <label class="usa-radio__label" for="secondary-role-congregate-living-physician">Physician</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-congregate-living-physician-assistant" type="radio" name="secondary-occupation" value="secondary-role-congregate-living-physician-assistant">
+                                        <label class="usa-radio__label" for="secondary-role-congregate-living-physician-assistant">Physician assistant</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-congregate-living-nursing" type="radio" name="secondary-occupation" value="secondary-role-congregate-living-nursing">
+                                        <label class="usa-radio__label" for="secondary-role-congregate-living-nursing">Nursing</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-congregate-living-medical-assistant" type="radio" name="secondary-occupation" value="secondary-role-congregate-living-medical-assistant">
+                                        <label class="usa-radio__label" for="secondary-role-congregate-living-medical-assistant">Medical assistant</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-congregate-living-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-congregate-living-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-congregate-living-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-congregate-living-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-congregate-living-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-congregate-living-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-congregate-living-other" type="radio" name="secondary-occupation" value="secondary-role-congregate-living-other">
+                                        <label class="usa-radio__label" for="secondary-role-congregate-living-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-congregate-living-other-role-question">
+                                        <label class="usa-label" for="secondary-role-congregate-living-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-congregate-living-other-role" name="secondary-role-congregate-living-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-faith-based-org">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="faith-based-org-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-faith-based-org-clergy" type="radio" name="secondary-occupation" value="secondary-role-faith-based-org-clergy">
+                                        <label class="usa-radio__label" for="secondary-role-faith-based-org-clergy">Clergy</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-faith-based-org-choir-music" type="radio" name="secondary-occupation" value="secondary-role-faith-based-org-choir-music">
+                                        <label class="usa-radio__label" for="secondary-role-faith-based-org-choir-music">Choir or Music</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-faith-based-org-religious-education" type="radio" name="secondary-occupation" value="secondary-role-faith-based-org-religious-education">
+                                        <label class="usa-radio__label" for="secondary-role-faith-based-org-religious-education">Religious education</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-faith-based-org-religious-activities" type="radio" name="secondary-occupation" value="secondary-role-faith-based-org-religious-activities">
+                                        <label class="usa-radio__label" for="secondary-role-faith-based-org-religious-activities">Religious activities</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-faith-based-org-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-faith-based-org-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-faith-based-org-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-faith-based-org-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-faith-based-org-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-faith-based-org-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-faith-based-org-other" type="radio" name="secondary-occupation" value="secondary-role-faith-based-org-other">
+                                        <label class="usa-radio__label" for="secondary-role-faith-based-org-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-faith-based-org-other-role-question">
+                                        <label class="usa-label" for="secondary-role-faith-based-org-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-faith-based-org-other-role" name="secondary-role-faith-based-org-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-gym">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="gym-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-gym-personal-coach-trainer" type="radio" name="secondary-occupation" value="secondary-role-gym-personal-coach-trainer">
+                                        <label class="usa-radio__label" for="secondary-role-gym-personal-coach-trainer">Personal coach or trainer</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-gym-group-coach-instructor" type="radio" name="secondary-occupation" value="secondary-role-gym-group-coach-instructor">
+                                        <label class="usa-radio__label" for="secondary-role-gym-group-coach-instructor">Group coach or instructor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-gym-locker-room-attendant" type="radio" name="secondary-occupation" value="secondary-role-gym-locker-room-attendant">
+                                        <label class="usa-radio__label" for="secondary-role-gym-locker-room-attendant">Locker room attendant</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-gym-recreation-worker" type="radio" name="secondary-occupation" value="secondary-role-gym-recreation-worker">
+                                        <label class="usa-radio__label" for="secondary-role-gym-recreation-worker">Recreation worker</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-gym-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-gym-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-gym-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-gym-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-gym-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-gym-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-gym-other" type="radio" name="secondary-occupation" value="secondary-role-gym-other">
+                                        <label class="usa-radio__label" for="secondary-role-gym-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-gym-other-role-question">
+                                        <label class="usa-label" for="secondary-role-gym-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-gym-other-role" name="secondary-role-gym-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-hair-salon">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="hair-salon-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-hair-salon-barber" type="radio" name="secondary-occupation" value="secondary-role-hair-salon-barber">
+                                        <label class="usa-radio__label" for="secondary-role-hair-salon-barber">Barber</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-hair-salon-hairdresser-hairstylist" type="radio" name="secondary-occupation" value="secondary-role-hair-salon-hairdresser-hairstylist">
+                                        <label class="usa-radio__label" for="secondary-role-hair-salon-hairdresser-hairstylist">Hairdresser or hairstylist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-hair-salon-cosmetologist" type="radio" name="secondary-occupation" value="secondary-role-hair-salon-cosmetologist">
+                                        <label class="usa-radio__label" for="secondary-role-hair-salon-cosmetologist">Cosmetologist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-hair-salon-shampooer" type="radio" name="secondary-occupation" value="secondary-role-hair-salon-shampooer">
+                                        <label class="usa-radio__label" for="secondary-role-hair-salon-shampooer">Shampooer</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-hair-salon-other-appearance-worker" type="radio" name="secondary-occupation" value="secondary-role-hair-salon-other-appearance-worker">
+                                        <label class="usa-radio__label" for="secondary-role-hair-salon-other-appearance-worker">Other personal appearance worker</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-hair-salon-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-hair-salon-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-hair-salon-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-hair-salon-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-hair-salon-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-hair-salon-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-hair-salon-other" type="radio" name="secondary-occupation" value="secondary-role-hair-salon-other">
+                                        <label class="usa-radio__label" for="secondary-role-hair-salon-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-hair-salon-other-role-question">
+                                        <label class="usa-label" for="secondary-role-hair-salon-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-hair-salon-other-role" name="secondary-role-hair-salon-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-personal-services">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="personal-services-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-personal-services-acupuncture" type="radio" name="secondary-occupation" value="secondary-role-personal-services-acupuncture">
+                                        <label class="usa-radio__label" for="secondary-role-personal-services-acupuncture">Acupuncture</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-personal-services-massage-therapy" type="radio" name="secondary-occupation" value="secondary-role-personal-services-massage-therapy">
+                                        <label class="usa-radio__label" for="secondary-role-personal-services-massage-therapy">Massage therapy</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-personal-services-makeup-cosmetologist" type="radio" name="secondary-occupation" value="secondary-role-personal-services-makeup-cosmetologist">
+                                        <label class="usa-radio__label" for="secondary-role-personal-services-makeup-cosmetologist">Makeup artist or cosmetologist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-personal-services-manicurist-pedicurist" type="radio" name="secondary-occupation" value="secondary-role-personal-services-manicurist-pedicurist">
+                                        <label class="usa-radio__label" for="secondary-role-personal-services-manicurist-pedicurist">Manicurist or pedicurist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-personal-services-tattoo-artist" type="radio" name="secondary-occupation" value="secondary-role-personal-services-tattoo-artist">
+                                        <label class="usa-radio__label" for="secondary-role-personal-services-tattoo-artist">Tattoo artist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-personal-services-skincare" type="radio" name="secondary-occupation" value="secondary-role-personal-services-skincare">
+                                        <label class="usa-radio__label" for="secondary-role-personal-services-skincare">Skincare</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-personal-services-personal-care" type="radio" name="secondary-occupation" value="secondary-role-personal-services-personal-care">
+                                        <label class="usa-radio__label" for="secondary-role-personal-services-personal-care">Personal care</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-personal-services-dry-cleaning-clothing-services" type="radio" name="secondary-occupation" value="secondary-role-personal-services-dry-cleaning-clothing-services">
+                                        <label class="usa-radio__label" for="secondary-role-personal-services-dry-cleaning-clothing-services">Dry cleaning or other clothing services</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-personal-services-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-personal-services-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-personal-services-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-personal-services-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-personal-services-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-personal-services-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-personal-services-other" type="radio" name="secondary-occupation" value="secondary-role-personal-services-other">
+                                        <label class="usa-radio__label" for="secondary-role-personal-services-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-personal-services-other-role-question">
+                                        <label class="usa-label" for="secondary-role-personal-services-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-personal-services-other-role" name="secondary-role-personal-services-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-physical-therapy">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="physical-therapy-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-physical-therapy-chiropractor" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-chiropractor">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-chiropractor">Chiropractor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-physical-therapy-physical-therapist" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-physical-therapist">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-physical-therapist">Physical therapist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-physical-therapy-exercise-physiologist" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-exercise-physiologist">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-exercise-physiologist">Exercise physiologist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-physical-therapy-sports-medicine-physician" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-sports-medicine-physician">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-sports-medicine-physician">Sports medicine physician</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-physical-therapy-physical-medicine-rehabilitation" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-physical-medicine-rehabilitation">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-physical-medicine-rehabilitation">Physical medicine and rehabilitation</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-physical-therapy-athletic-trainer" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-athletic-trainer">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-athletic-trainer">Athletic trainer</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-physical-therapy-occupational-therapist" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-occupational-therapist">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-occupational-therapist">Occupational therapist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-physical-therapy-physical-therapist-assistant-aide" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-physical-therapist-assistant-aide">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-physical-therapist-assistant-aide">Physical therapist assistant or aide</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-physical-therapy-recreation-therapist" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-recreation-therapist">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-recreation-therapist">Recreation therapist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-physical-therapy-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-physical-therapy-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-physical-therapy-other" type="radio" name="secondary-occupation" value="secondary-role-physical-therapy-other">
+                                        <label class="usa-radio__label" for="secondary-role-physical-therapy-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-physical-therapy-other-role-question">
+                                        <label class="usa-label" for="secondary-role-physical-therapy-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-physical-therapy-other-role" name="secondary-role-physical-therapy-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-restaurant-or-bar">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="restaurant-or-bar-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-chef-or-cook" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-chef-or-cook">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-chef-or-cook">Chef or cook</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-bartender" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-bartender">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-bartender">Bartender</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-fast-food-counter-worker" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-fast-food-counter-worker">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-fast-food-counter-worker">Fast food or counter worker</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-barista" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-barista">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-barista">Barista</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-server-waiter-waitress" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-server-waiter-waitress">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-server-waiter-waitress">Server, waiter, or waitress</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-host-hostess" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-host-hostess">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-host-hostess">Host or hostess</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-busser-cafeteria-attendant" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-busser-cafeteria-attendant">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-busser-cafeteria-attendant">Busser or cafeteria attendant</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-dishwasher" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-dishwasher">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-dishwasher">Dishwasher</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-butcher-baker-food-handler" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-butcher-baker-food-handler">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-butcher-baker-food-handler">Butcher, baker, or food handler</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-supervisor" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-supervisor">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-supervisor">Supervisor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-restaurant-or-bar-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-restaurant-or-bar-other" type="radio" name="secondary-occupation" value="secondary-role-restaurant-or-bar-other">
+                                        <label class="usa-radio__label" for="secondary-role-restaurant-or-bar-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-restaurant-or-bar-other-role-question">
+                                        <label class="usa-label" for="secondary-role-restaurant-or-bar-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-restaurant-or-bar-other-role" name="secondary-role-restaurant-or-bar-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-grocery-store">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="grocery-store-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-grocery-store-cashier" type="radio" name="secondary-occupation" value="secondary-role-grocery-store-cashier">
+                                        <label class="usa-radio__label" for="secondary-role-grocery-store-cashier">Cashier</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-grocery-store-bagger-or-attendant" type="radio" name="secondary-occupation" value="secondary-role-grocery-store-bagger-or-attendant">
+                                        <label class="usa-radio__label" for="secondary-role-grocery-store-bagger-or-attendant">Bagger or attendant</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-grocery-store-food-preparer-or-server" type="radio" name="secondary-occupation" value="secondary-role-grocery-store-food-preparer-or-server">
+                                        <label class="usa-radio__label" for="secondary-role-grocery-store-food-preparer-or-server">Food preparer or server</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-grocery-store-supervisor" type="radio" name="secondary-occupation" value="secondary-role-grocery-store-supervisor">
+                                        <label class="usa-radio__label" for="secondary-role-grocery-store-supervisor">Supervisor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-grocery-store-shipping-receiving-inventory" type="radio" name="secondary-occupation" value="secondary-role-grocery-store-shipping-receiving-inventory">
+                                        <label class="usa-radio__label" for="secondary-role-grocery-store-shipping-receiving-inventory">Shipping, receiving, or inventory</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-grocery-store-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-grocery-store-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-grocery-store-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-grocery-store-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-grocery-store-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-grocery-store-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-grocery-store-other" type="radio" name="secondary-occupation" value="secondary-role-grocery-store-other">
+                                        <label class="usa-radio__label" for="secondary-role-grocery-store-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-grocery-store-other-role-question">
+                                        <label class="usa-label" for="secondary-role-grocery-store-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-grocery-store-other-role" name="secondary-role-grocery-store-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-retail">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="retail-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-retail-cashier" type="radio" name="secondary-occupation" value="secondary-role-retail-cashier">
+                                        <label class="usa-radio__label" for="secondary-role-retail-cashier">Cashier</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-retail-counter-rental-clerk" type="radio" name="secondary-occupation" value="secondary-role-retail-counter-rental-clerk">
+                                        <label class="usa-radio__label" for="secondary-role-retail-counter-rental-clerk">Counter or rental clerk</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-retail-loss-prevention-specialist" type="radio" name="secondary-occupation" value="secondary-role-retail-loss-prevention-specialist">
+                                        <label class="usa-radio__label" for="secondary-role-retail-loss-prevention-specialist">Loss prevention specialist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-retail-supervisor" type="radio" name="secondary-occupation" value="secondary-role-retail-supervisor">
+                                        <label class="usa-radio__label" for="secondary-role-retail-supervisor">Supervisor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-retail-door-to-door-sales" type="radio" name="secondary-occupation" value="secondary-role-retail-door-to-door-sales">
+                                        <label class="usa-radio__label" for="secondary-role-retail-door-to-door-sales">Door-to-door sales</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-retail-general-sales" type="radio" name="secondary-occupation" value="secondary-role-retail-general-sales">
+                                        <label class="usa-radio__label" for="secondary-role-retail-general-sales">General sales</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-retail-customer-service-representative" type="radio" name="secondary-occupation" value="secondary-role-retail-customer-service-representative">
+                                        <label class="usa-radio__label" for="secondary-role-retail-customer-service-representative">Customer service representative</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-retail-shipping-receiving-inventory" type="radio" name="secondary-occupation" value="secondary-role-retail-shipping-receiving-inventory">
+                                        <label class="usa-radio__label" for="secondary-role-retail-shipping-receiving-inventory">Shipping, receiving, inventory</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-retail-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-retail-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-retail-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-retail-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-retail-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-retail-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-retail-other" type="radio" name="secondary-occupation" value="secondary-role-retail-other">
+                                        <label class="usa-radio__label" for="secondary-role-retail-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-retail-other-role-question">
+                                        <label class="usa-label" for="secondary-role-retail-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-retail-other-role" name="secondary-role-retail-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-construction-trades">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="construction-trades-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-construction-trades-on-site-supervisor" type="radio" name="secondary-occupation" value="secondary-role-construction-trades-on-site-supervisor">
+                                        <label class="usa-radio__label" for="secondary-role-construction-trades-on-site-supervisor">On-site supervisor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-construction-trades-on-site-labor" type="radio" name="secondary-occupation" value="secondary-role-construction-trades-on-site-labor">
+                                        <label class="usa-radio__label" for="secondary-role-construction-trades-on-site-labor">On-site labor, landscape, craft, or trade</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-construction-trades-farming-fishing-forestry" type="radio" name="secondary-occupation" value="secondary-role-construction-trades-farming-fishing-forestry">
+                                        <label class="usa-radio__label" for="secondary-role-construction-trades-farming-fishing-forestry">Farming, fishing, or forestry</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-construction-trades-plumbing-septic" type="radio" name="secondary-occupation" value="secondary-role-construction-trades-plumbing-septic">
+                                        <label class="usa-radio__label" for="secondary-role-construction-trades-plumbing-septic">Plumbing or septic</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-construction-trades-electrician" type="radio" name="secondary-occupation" value="secondary-role-construction-trades-electrician">
+                                        <label class="usa-radio__label" for="secondary-role-construction-trades-electrician">Electrician</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-construction-trades-automotive-repair" type="radio" name="secondary-occupation" value="secondary-role-construction-trades-automotive-repair">
+                                        <label class="usa-radio__label" for="secondary-role-construction-trades-automotive-repair">Automotive body and related repair</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-construction-trades-motorcycle-bicycle-auto-repair" type="radio" name="secondary-occupation" value="secondary-role-construction-trades-motorcycle-bicycle-auto-repair">
+                                        <label class="usa-radio__label" for="secondary-role-construction-trades-motorcycle-bicycle-auto-repair">Motorcycle, bicycle, other auto repair</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-construction-trades-installation-maintenance-repair-worker" type="radio" name="secondary-occupation" value="secondary-role-construction-trades-installation-maintenance-repair-worker">
+                                        <label class="usa-radio__label" for="secondary-role-construction-trades-installation-maintenance-repair-worker">Installation, maintenance, or repair worker</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-construction-trades-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-construction-trades-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-construction-trades-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-construction-trades-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-construction-trades-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-construction-trades-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-construction-trades-other" type="radio" name="secondary-occupation" value="secondary-role-construction-trades-other">
+                                        <label class="usa-radio__label" for="secondary-role-construction-trades-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-construction-trades-other-role-question">
+                                        <label class="usa-label" for="secondary-role-construction-trades-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-construction-trades-other-role" name="secondary-role-construction-trades-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-manufacturing">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="manufacturing-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-manufacturing-on-site-manager" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-on-site-manager">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-on-site-manager">On-site manager</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-manufacturing-assembly" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-assembly">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-assembly">Assembly</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-manufacturing-slaughter-meat-packing" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-slaughter-meat-packing">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-slaughter-meat-packing">Slaughter or meat packing</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-manufacturing-food-processing" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-food-processing">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-food-processing">Food processing</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-manufacturing-machinist" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-machinist">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-machinist">Machinist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-manufacturing-metal-plastic-working" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-metal-plastic-working">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-metal-plastic-working">Metal working or plastic working</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-manufacturing-textile-apparel-furnishing" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-textile-apparel-furnishing">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-textile-apparel-furnishing">Textile, apparel, or furnishing</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-manufacturing-energy-power-management" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-energy-power-management">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-energy-power-management">Energy or power management</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-manufacturing-production-worker" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-production-worker">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-production-worker">Production worker</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-manufacturing-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-manufacturing-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-manufacturing-other" type="radio" name="secondary-occupation" value="secondary-role-manufacturing-other">
+                                        <label class="usa-radio__label" for="secondary-role-manufacturing-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-manufacturing-other-role-question">
+                                        <label class="usa-label" for="secondary-role-manufacturing-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-manufacturing-other-role" name="secondary-role-manufacturing-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-education">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="education-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-education-teacher-primary-k-12" type="radio" name="secondary-occupation" value="secondary-role-education-teacher-primary-k-12">
+                                        <label class="usa-radio__label" for="secondary-role-education-teacher-primary-k-12">Teacher, Primary K-12</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-education-professor-lecturer-instructor-postsecondary" type="radio" name="secondary-occupation" value="secondary-role-education-professor-lecturer-instructor-postsecondary">
+                                        <label class="usa-radio__label" for="secondary-role-education-professor-lecturer-instructor-postsecondary">Professor, Lecturer, or Instructor, Postsecondary</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-education-other-teacher-instructor" type="radio" name="secondary-occupation" value="secondary-role-education-other-teacher-instructor">
+                                        <label class="usa-radio__label" for="secondary-role-education-other-teacher-instructor">Other teacher or instructor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-education-academic-researcher" type="radio" name="secondary-occupation" value="secondary-role-education-academic-researcher">
+                                        <label class="usa-radio__label" for="secondary-role-education-academic-researcher">Academic researcher</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-education-special-education" type="radio" name="secondary-occupation" value="secondary-role-education-special-education">
+                                        <label class="usa-radio__label" for="secondary-role-education-special-education">Special education</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-education-small-group-para-professional-personal-tutor" type="radio" name="secondary-occupation" value="secondary-role-education-education-small-group-para-professional-personal-tutor">
+                                        <label class="usa-radio__label" for="secondary-role-education-education-small-group-para-professional-personal-tutor">Small group, para professional, personal tutor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-education-library-or-arts" type="radio" name="secondary-occupation" value="secondary-role-education-library-or-arts">
+                                        <label class="usa-radio__label" for="secondary-role-education-library-or-arts">Library or arts</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-education-classroom-attendant-or-support" type="radio" name="secondary-occupation" value="secondary-role-education-classroom-attendant-or-support">
+                                        <label class="usa-radio__label" for="secondary-role-education-classroom-attendant-or-support">Classroom attendant or support</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-education-teaching-assistant-aide" type="radio" name="secondary-occupation" value="secondary-role-education-teaching-assistant-aide">
+                                        <label class="usa-radio__label" for="secondary-role-education-teaching-assistant-aide">Teaching assistant or aide</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-education-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-education-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-education-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-education-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-education-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-education-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-education-other" type="radio" name="secondary-occupation" value="secondary-role-education-other">
+                                        <label class="usa-radio__label" for="secondary-role-education-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-education-other-role-question">
+                                        <label class="usa-label" for="secondary-role-education-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-education-other-role" name="secondary-role-education-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-government">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="government-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-government-inspector-compliance" type="radio" name="secondary-occupation" value="secondary-role-government-inspector-compliance">
+                                        <label class="usa-radio__label" for="secondary-role-government-inspector-compliance">Inspector or compliance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-government-parks-fishing-game" type="radio" name="secondary-occupation" value="secondary-role-government-parks-fishing-game">
+                                        <label class="usa-radio__label" for="secondary-role-government-parks-fishing-game">Parks, fishing, or game</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-government-animal-control" type="radio" name="secondary-occupation" value="secondary-role-government-animal-control">
+                                        <label class="usa-radio__label" for="secondary-role-government-animal-control">Animal control</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-government-call-center-operator" type="radio" name="secondary-occupation" value="secondary-role-government-call-center-operator">
+                                        <label class="usa-radio__label" for="secondary-role-government-call-center-operator">Call center operator</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-government-interviewer" type="radio" name="secondary-occupation" value="secondary-role-government-interviewer">
+                                        <label class="usa-radio__label" for="secondary-role-government-interviewer">Interviewer</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-government-postal-service-worker" type="radio" name="secondary-occupation" value="secondary-role-government-postal-service-worker">
+                                        <label class="usa-radio__label" for="secondary-role-government-postal-service-worker">Postal service worker</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-government-parking-enforcement" type="radio" name="secondary-occupation" value="secondary-role-government-parking-enforcement">
+                                        <label class="usa-radio__label" for="secondary-role-government-parking-enforcement">Parking enforcement</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-government-air-traffic-control" type="radio" name="secondary-occupation" value="secondary-role-government-air-traffic-control">
+                                        <label class="usa-radio__label" for="secondary-role-government-air-traffic-control">Air traffic control</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-government-transportation-security" type="radio" name="secondary-occupation" value="secondary-role-government-transportation-security">
+                                        <label class="usa-radio__label" for="secondary-role-government-transportation-security">Transportation security</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-government-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-government-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-government-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-government-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-government-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-government-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-government-other" type="radio" name="secondary-occupation" value="secondary-role-government-other">
+                                        <label class="usa-radio__label" for="secondary-role-government-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-government-other-role-question">
+                                        <label class="usa-label" for="secondary-role-government-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-government-other-role" name="secondary-role-government-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-transportation">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="transportation-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-transportation-bus-driver" type="radio" name="secondary-occupation" value="secondary-role-transportation-bus-driver">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-bus-driver">Bus driver</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-transportation-taxi-ride-share-driver" type="radio" name="secondary-occupation" value="secondary-role-transportation-taxi-ride-share-driver">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-taxi-ride-share-driver">Taxi or ride share driver</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-transportation-delivery-driver" type="radio" name="secondary-occupation" value="secondary-role-transportation-delivery-driver">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-delivery-driver">Delivery driver</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-transportation-ticket-taker-rail-conductor" type="radio" name="secondary-occupation" value="secondary-role-transportation-ticket-taker-rail-conductor">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-ticket-taker-rail-conductor">Ticket taker or rail conductor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-transportation-transit-police" type="radio" name="secondary-occupation" value="secondary-role-transportation-transit-police">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-transit-police">Transit police</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-transportation-airline-crew" type="radio" name="secondary-occupation" value="secondary-role-transportation-airline-crew">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-airline-crew">Airline crew</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-transportation-airline-pilot" type="radio" name="secondary-occupation" value="secondary-role-transportation-airline-pilot">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-airline-pilot">Airline pilot</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-transportation-engineer-mechanic" type="radio" name="secondary-occupation" value="secondary-role-transportation-engineer-mechanic">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-engineer-mechanic">Engineer or mechanic</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-transportation-supervisor" type="radio" name="secondary-occupation" value="secondary-role-transportation-supervisor">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-supervisor">Supervisor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-transportation-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-transportation-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-transportation-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-transportation-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-transportation-other" type="radio" name="secondary-occupation" value="secondary-role-transportation-other">
+                                        <label class="usa-radio__label" for="secondary-role-transportation-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-transportation-other-role-question">
+                                        <label class="usa-label" for="secondary-role-transportation-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-transportation-other-role" name="secondary-role-transportation-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-first-responder">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="first-responder-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-first-responder-fire" type="radio" name="secondary-occupation" value="secondary-role-first-responder-fire">
+                                        <label class="usa-radio__label" for="secondary-role-first-responder-fire">Firefighter, fire inspector, or fireline supervisor</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-first-responder-paramedic-emt" type="radio" name="secondary-occupation" value="secondary-role-first-responder-paramedic-emt">
+                                        <label class="usa-radio__label" for="secondary-role-first-responder-paramedic-emt">Paramedic or EMT</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-first-responder-police" type="radio" name="secondary-occupation" value="secondary-role-first-responder-police">
+                                        <label class="usa-radio__label" for="secondary-role-first-responder-police">Police officer</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-first-responder-detective-criminal-investigator" type="radio" name="secondary-occupation" value="secondary-role-first-responder-detective-criminal-investigator">
+                                        <label class="usa-radio__label" for="secondary-role-first-responder-detective-criminal-investigator">Detective or criminal investigator</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-first-responder-records-officer" type="radio" name="secondary-occupation" value="secondary-role-first-responder-records-officer">
+                                        <label class="usa-radio__label" for="secondary-role-first-responder-records-officer">Records officer</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-first-responder-security-guard" type="radio" name="secondary-occupation" value="secondary-role-first-responder-security-guard">
+                                        <label class="usa-radio__label" for="secondary-role-first-responder-security-guard">Security guard</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-first-responder-crossing-guard-flagger" type="radio" name="secondary-occupation" value="secondary-role-first-responder-crossing-guard-flagger">
+                                        <label class="usa-radio__label" for="secondary-role-first-responder-crossing-guard-flagger">Crossing guard or flagger</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-first-responder-dispatcher" type="radio" name="secondary-occupation" value="secondary-role-first-responder-dispatcher">
+                                        <label class="usa-radio__label" for="secondary-role-first-responder-dispatcher">Dispatcher</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-first-responder-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-first-responder-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-first-responder-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-first-responder-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-first-responder-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-first-responder-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-first-responder-other" type="radio" name="secondary-occupation" value="secondary-role-first-responder-other">
+                                        <label class="usa-radio__label" for="secondary-role-first-responder-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-first-responder-other-role-question">
+                                        <label class="usa-label" for="secondary-role-first-responder-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-first-responder-other-role" name="secondary-role-first-responder-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-corrections">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="corrections-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-corrections-officer-or-jailer" type="radio" name="secondary-occupation" value="secondary-role-corrections-officer-or-jailer">
+                                        <label class="usa-radio__label" for="secondary-role-corrections-officer-or-jailer">Correctional officer or jailer</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-corrections-bailiff" type="radio" name="secondary-occupation" value="secondary-role-corrections-bailiff">
+                                        <label class="usa-radio__label" for="secondary-role-corrections-bailiff">Bailiff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-corrections-inmate" type="radio" name="secondary-occupation" value="secondary-role-corrections-inmate">
+                                        <label class="usa-radio__label" for="secondary-role-corrections-inmate">Inmate</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-corrections-probation-officer" type="radio" name="secondary-occupation" value="secondary-role-corrections-probation-officer">
+                                        <label class="usa-radio__label" for="secondary-role-corrections-probation-officer">Probation officer</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-corrections-food-preparation" type="radio" name="secondary-occupation" value="secondary-role-corrections-food-preparation">
+                                        <label class="usa-radio__label" for="secondary-role-corrections-food-preparation">Food preparation</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-corrections-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-corrections-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-corrections-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-corrections-administrative-staff" type="radio" name="secondary-occupation" value="secondary-role-corrections-administrative-staff">
+                                        <label class="usa-radio__label" for="secondary-role-corrections-administrative-staff">Administrative staff</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-corrections-other" type="radio" name="secondary-occupation" value="secondary-role-corrections-other">
+                                        <label class="usa-radio__label" for="secondary-role-corrections-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-corrections-other-role-question">
+                                        <label class="usa-label" for="secondary-role-corrections-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-corrections-other-role" name="secondary-role-corrections-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+
+                            <fieldset class="usa-fieldset is-hidden" id="secondary-role-options-other-work-setting">
+                                <legend class="usa-legend">What type of work do you do?</legend>
+                                <span class="usa-hint" id="other-work-setting-roles-secondary-helper-text">Select the option that best describes your additional position</span>
+                                <br/><br/>
+                                <div class="grid-row grid-gap">
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-project-team-manager" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-project-team-manager">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-project-team-manager">Project manager or team manager</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-human-resources-staff-support" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-human-resources-staff-support">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-human-resources-staff-support">Human resources or staff support</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-student-primary-k-12" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-student-primary-k-12">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-student-primary-k-12">Student in Primary K-12</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-student-postsecondary" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-student-postsecondary">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-student-postsecondary">Student in college, university, or trade school</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-finance" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-finance">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-finance">Finance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-computers-technology" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-computers-technology">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-computers-technology">Computers or technology</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-engineer" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-engineer">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-engineer">Engineer</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-scientist" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-scientist">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-scientist">Scientist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-athlete" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-athlete">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-athlete">Athlete</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-artist" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-artist">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-artist">Artist</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-musician" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-musician">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-musician">Musician</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-janitor-or-maintenance" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-janitor-or-maintenance">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-janitor-or-maintenance">Janitor or maintenance</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-animal-care" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-animal-care">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-animal-care">Animal care</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-gambling" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-gambling">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-gambling">Gambling</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-funeral-services" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-funeral-services">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-funeral-services">Funeral services</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input" id="secondary-role-other-work-setting-hotel-services" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-hotel-services">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-hotel-services">Hotel services</label>
+                                    </div>
+
+                                    <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                                        <input class="usa-radio__input other-role" id="secondary-role-other-work-setting-other" type="radio" name="secondary-occupation" value="secondary-role-other-work-setting-other">
+                                        <label class="usa-radio__label" for="secondary-role-other-work-setting-other">Other</label>
+                                    </div>
+
+                                    <div class="tablet:grid-col-12 other-role-question is-hidden" id="secondary-role-other-work-setting-other-role-question">
+                                        <label class="usa-label" for="secondary-role-other-work-setting-other-role">What's the best way to describe your work?</label>
+                                        <input class="usa-input" id="secondary-role-other-work-setting-other-role" name="secondary-role-other-work-setting-other-role" type="text" aria-required="false">
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+
+
+              <fieldset class="usa-fieldset padding-bottom-4 margin-top-4" id="working-from-home">
                   <legend class="usa-legend">Are you currently working from home?</legend>
                   <!-- <span class="usa-hint" id="workFromHome-helper-text"> </span> -->
                   <br/>
@@ -2493,13 +3962,119 @@
 
                       <div class="usa-checkbox padding-top-1">
                           <input class="usa-checkbox__input" id="workplace-address-incomplete" type="checkbox" name="workplace-address-incomplete" value="workplace-address-incomplete">
-                          <label class="usa-checkbox__label" for="workplace-address-incomplete">I am not able to provide my complete workplace address</label>
+                          <label class="usa-checkbox__label" for="workplace-address-incomplete">I am not able to provide a complete address for this workplace</label>
                       </div>
 
+                      <div class="usa-checkbox padding-top-1">
+                          <input class="usa-checkbox__input" id="workplace-address-additional" type="checkbox" name="workplace-address-additional" value="workplace-address-additional">
+                          <label class="usa-checkbox__label" for="workplace-address-additional">I have an additional workplace</label>
+                      </div>
+
+              </fieldset>
 
 
+              <fieldset class="usa-fieldset padding-bottom-6 is-hidden" id="secondary-workplace-location">
+                  <legend class="usa-legend padding-top-2">Where is your additional workplace located?</legend>
+                  <span class="usa-hint" id="secondary-workplace-address-helper-text">The address of your additional workplace</span>
 
+                  <div id="secondary-workplace-address-fields" class="tablet:grid-col-8 desktop:grid-col-6">
 
+                      <label class="usa-label" for="secondary-workplace-address-1">Street address 1</label>
+                      <input class="usa-input" id="secondary-workplace-address-1" name="secondary-workplace-address-1" type="text">
+
+                      <label class="usa-label" for="secondary-workplace-address-2">Street address 2 <span class="usa-hint">(optional)</span></label>
+                      <input class="usa-input" id="secondary-workplace-address-2" name="secondary-workplace-address-2" type="text">
+
+                      <div class="grid-row grid-gap">
+                          <div class="mobile-lg:grid-col-8">
+                              <label class="usa-label" for="secondary-workplace-city">City</label>
+                              <input class="usa-input" id="secondary-workplace-city" name="secondary-workplace-city" type="text">
+                          </div>
+                          <div class="mobile-lg:grid-col-4">
+                              <label class="usa-label" for="secondary-workplace-state">State</label>
+                              <select class="usa-select" id="secondary-workplace-state" name="secondary-workplace-state">
+                                  <option value>- Select -</option>
+                                  <!-- start with local states -->
+                                  <option value="secondary-workplace-RI">Rhode Island</option>
+                                  <option value="secondary-workplace-CT">Connecticut</option>
+                                  <option value="secondary-workplace-MA">Massachusetts</option>
+                                  <!-- include all states -->
+                                  <option value="secondary-workplace-AL">Alabama</option>
+                                  <option value="secondary-workplace-AK">Alaska</option>
+                                  <option value="secondary-workplace-AZ">Arizona</option>
+                                  <option value="secondary-workplace-AR">Arkansas</option>
+                                  <option value="secondary-workplace-CA">California</option>
+                                  <option value="secondary-workplace-CO">Colorado</option>
+                                  <option value="secondary-workplace-CT">Connecticut</option>
+                                  <option value="secondary-workplace-DE">Delaware</option>
+                                  <option value="secondary-workplace-DC">District of Columbia</option>
+                                  <option value="secondary-workplace-FL">Florida</option>
+                                  <option value="secondary-workplace-GA">Georgia</option>
+                                  <option value="secondary-workplace-HI">Hawaii</option>
+                                  <option value="secondary-workplace-ID">Idaho</option>
+                                  <option value="secondary-workplace-IL">Illinois</option>
+                                  <option value="secondary-workplace-IN">Indiana</option>
+                                  <option value="secondary-workplace-IA">Iowa</option>
+                                  <option value="secondary-workplace-KS">Kansas</option>
+                                  <option value="secondary-workplace-KY">Kentucky</option>
+                                  <option value="secondary-workplace-LA">Louisiana</option>
+                                  <option value="secondary-workplace-ME">Maine</option>
+                                  <option value="secondary-workplace-MD">Maryland</option>
+                                  <option value="secondary-workplace-MA">Massachusetts</option>
+                                  <option value="secondary-workplace-MI">Michigan</option>
+                                  <option value="secondary-workplace-MN">Minnesota</option>
+                                  <option value="secondary-workplace-MS">Mississippi</option>
+                                  <option value="secondary-workplace-MO">Missouri</option>
+                                  <option value="secondary-workplace-MT">Montana</option>
+                                  <option value="secondary-workplace-NE">Nebraska</option>
+                                  <option value="secondary-workplace-NV">Nevada</option>
+                                  <option value="secondary-workplace-NH">New Hampshire</option>
+                                  <option value="secondary-workplace-NJ">New Jersey</option>
+                                  <option value="secondary-workplace-NM">New Mexico</option>
+                                  <option value="secondary-workplace-NY">New York</option>
+                                  <option value="secondary-workplace-NC">North Carolina</option>
+                                  <option value="secondary-workplace-ND">North Dakota</option>
+                                  <option value="secondary-workplace-OH">Ohio</option>
+                                  <option value="secondary-workplace-OK">Oklahoma</option>
+                                  <option value="secondary-workplace-OR">Oregon</option>
+                                  <option value="secondary-workplace-PA">Pennsylvania</option>
+                                  <option value="secondary-workplace-RI">Rhode Island</option>
+                                  <option value="secondary-workplace-SC">South Carolina</option>
+                                  <option value="secondary-workplace-SD">South Dakota</option>
+                                  <option value="secondary-workplace-TN">Tennessee</option>
+                                  <option value="secondary-workplace-TX">Texas</option>
+                                  <option value="secondary-workplace-UT">Utah</option>
+                                  <option value="secondary-workplace-VT">Vermont</option>
+                                  <option value="secondary-workplace-VA">Virginia</option>
+                                  <option value="secondary-workplace-WA">Washington</option>
+                                  <option value="secondary-workplace-WV">West Virginia</option>
+                                  <option value="secondary-workplace-WI">Wisconsin</option>
+                                  <option value="secondary-workplace-WY">Wyoming</option>
+                                  <option value="secondary-workplace-AA">AA - Armed Forces Americas</option>
+                                  <option value="secondary-workplace-AE">AE - Armed Forces Africa</option>
+                                  <option value="secondary-workplace-AE">AE - Armed Forces Canada</option>
+                                  <option value="secondary-workplace-AE">AE - Armed Forces Europe</option>
+                                  <option value="secondary-workplace-AE">AE - Armed Forces Middle East</option>
+                                  <option value="secondary-workplace-AP">AP - Armed Forces Pacific</option>
+
+                              </select>
+                          </div>
+                      </div>
+
+                      <label class="usa-label" for="secondary-workplace-zip">ZIP</label>
+                      <input class="usa-input usa-input--medium" id="secondary-workplace-zip" name="secondary-workplace-zip" type="text" pattern="[\d]{5}(-[\d]{4})?">
+
+                  </div>
+
+                      <div class="usa-checkbox padding-top-4">
+                          <input class="usa-checkbox__input" id="secondary-workplace-travel" type="checkbox" name="secondary-workplace-travel" value="secondary-workplace-travel">
+                          <label class="usa-checkbox__label" for="secondary-workplace-travel">Most of this work involves traveling between different locations</label>
+                      </div>
+
+                      <div class="usa-checkbox padding-top-1">
+                          <input class="usa-checkbox__input" id="secondary-workplace-address-incomplete" type="checkbox" name="secondary-workplace-address-incomplete" value="secondary-workplace-address-incomplete">
+                          <label class="usa-checkbox__label" for="secondary-workplace-address-incomplete">I am not able to provide a complete address for this workplace</label>
+                      </div>
 
               </fieldset>
 
@@ -2964,9 +4539,46 @@
         $1("#first-responder").checked ? removeClass($1("#role-options-first-responder"), "is-hidden") : addClass($1("#role-options-first-responder"), "is-hidden");
         $1("#corrections").checked ? removeClass($1("#role-options-corrections"), "is-hidden") : addClass($1("#role-options-corrections"), "is-hidden");
         $1("#work-setting-other").checked ? removeClass($1("#role-options-other-work-setting"), "is-hidden") : addClass($1("#role-options-other-work-setting"), "is-hidden");
-
       });
     });
+
+
+    $1("#additional-occupation").addEventListener("click", function() {
+      toggle($1('#secondary-work-setting'));
+    });
+
+    $1("#workplace-address-additional").addEventListener("click", function() {
+      toggle($1('#secondary-workplace-location'));
+    });
+
+
+
+        apply($("input[name='secondary-work-setting']"), function(elt) {
+          elt.addEventListener('click', function() {
+
+            $1("#secondary-role-healthcare").checked ? removeClass($1("#secondary-role-options-healthcare"), "is-hidden") : addClass($1("#secondary-role-options-healthcare"), "is-hidden");
+            $1("#secondary-role-dental").checked ? removeClass($1("#secondary-role-options-dental"), "is-hidden") : addClass($1("#secondary-role-options-dental"), "is-hidden");
+            $1("#secondary-role-childcare").checked ? removeClass($1("#secondary-role-options-childcare"), "is-hidden") : addClass($1("#secondary-role-options-childcare"), "is-hidden");
+            $1("#secondary-role-congregate-living").checked ? removeClass($1("#secondary-role-options-congregate-living"), "is-hidden") : addClass($1("#secondary-role-options-congregate-living"), "is-hidden");
+            $1("#secondary-role-faith-based-organization").checked ? removeClass($1("#secondary-role-options-faith-based-org"), "is-hidden") : addClass($1("#secondary-role-options-faith-based-org"), "is-hidden");
+            $1("#secondary-role-gym").checked ? removeClass($1("#secondary-role-options-gym"), "is-hidden") : addClass($1("#secondary-role-options-gym"), "is-hidden");
+            $1("#secondary-role-hair-salon-barbershop").checked ? removeClass($1("#secondary-role-options-hair-salon"), "is-hidden") : addClass($1("#secondary-role-options-hair-salon"), "is-hidden");
+            $1("#secondary-role-personal-services").checked ? removeClass($1("#secondary-role-options-personal-services"), "is-hidden") : addClass($1("#secondary-role-options-personal-services"), "is-hidden");
+            $1("#secondary-role-physical-therapy").checked ? removeClass($1("#secondary-role-options-physical-therapy"), "is-hidden") : addClass($1("#secondary-role-options-physical-therapy"), "is-hidden");
+            $1("#secondary-role-restaurant-or-bar").checked ? removeClass($1("#secondary-role-options-restaurant-or-bar"), "is-hidden") : addClass($1("#secondary-role-options-restaurant-or-bar"), "is-hidden");
+            $1("#secondary-role-grocery-store").checked ? removeClass($1("#secondary-role-options-grocery-store"), "is-hidden") : addClass($1("#secondary-role-options-grocery-store"), "is-hidden");
+            $1("#secondary-role-retail").checked ? removeClass($1("#secondary-role-options-retail"), "is-hidden") : addClass($1("#secondary-role-options-retail"), "is-hidden");
+            $1("#secondary-role-construction-trades").checked ? removeClass($1("#secondary-role-options-construction-trades"), "is-hidden") : addClass($1("#secondary-role-options-construction-trades"), "is-hidden");
+            $1("#secondary-role-manufacturing").checked ? removeClass($1("#secondary-role-options-manufacturing"), "is-hidden") : addClass($1("#secondary-role-options-manufacturing"), "is-hidden");
+            $1("#secondary-role-education").checked ? removeClass($1("#secondary-role-options-education"), "is-hidden") : addClass($1("#secondary-role-options-education"), "is-hidden");
+            $1("#secondary-role-government").checked ? removeClass($1("#secondary-role-options-government"), "is-hidden") : addClass($1("#secondary-role-options-government"), "is-hidden");
+            $1("#secondary-role-transportation").checked ? removeClass($1("#secondary-role-options-transportation"), "is-hidden") : addClass($1("#secondary-role-options-transportation"), "is-hidden");
+            $1("#secondary-role-first-responder").checked ? removeClass($1("#secondary-role-options-first-responder"), "is-hidden") : addClass($1("#secondary-role-options-first-responder"), "is-hidden");
+            $1("#secondary-role-corrections").checked ? removeClass($1("#secondary-role-options-corrections"), "is-hidden") : addClass($1("#secondary-role-options-corrections"), "is-hidden");
+            $1("#secondary-role-work-setting-other").checked ? removeClass($1("#secondary-role-options-other-work-setting"), "is-hidden") : addClass($1("#secondary-role-options-other-work-setting"), "is-hidden");
+
+          });
+        });
 
 
     // apply($("input[name='recent-locations']"), function(elt) {
@@ -3022,7 +4634,11 @@
     // setupOtherQuestion($1("#recent-locations"), $1(".gathering-question"), $1("#gathering-question-indoors"));
 
 
+    setupOtherQuestion($1("#work-setting"), $1("#work-setting-other"), $1("#other-work-setting-question"));
+    setupOtherQuestion($1("#secondary-work-setting"), $1("#secondary-role-work-setting-other"), $1("#secondary-role-other-work-setting-question"));
 
+
+// Primary occupation roles
     setupOtherQuestion($1("#role-options-healthcare"), $1("#healthcare-other"), $1("#healthcare-other-role-question"));
     setupOtherQuestion($1("#role-options-dental"), $1("#dental-other"), $1("#dental-other-role-question"));
     setupOtherQuestion($1("#role-options-childcare"), $1("#childcare-other"), $1("#childcare-other-role-question"));
@@ -3044,8 +4660,32 @@
     setupOtherQuestion($1("#role-options-corrections"), $1("#corrections-other"), $1("#corrections-other-role-question"));
     setupOtherQuestion($1("#role-options-other-work-setting"), $1("#other-work-setting-other"), $1("#other-work-setting-other-role-question"));
 
-    setupOtherQuestion($1("#ethnicity"), $1("#yes-another-origin"), $1("#ethnicity-other-question"));
 
+    // Secondary occupation roles
+    setupOtherQuestion($1("#secondary-role-options-healthcare"), $1("#secondary-healthcare-other"), $1("#secondary-healthcare-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-dental"), $1("#secondary-dental-other"), $1("#secondary-dental-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-childcare"), $1("#secondary-childcare-other"), $1("#secondary-childcare-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-congregate-living"), $1("#secondary-congregate-living-other"), $1("#secondary-congregate-living-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-faith-based-org"), $1("#secondary-faith-based-org-other"), $1("#secondary-faith-based-org-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-gym"), $1("#secondary-gym-other"), $1("#secondary-gym-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-hair-salon"), $1("#secondary-hair-salon-other"), $1("#secondary-hair-salon-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-personal-services"), $1("#secondary-personal-services-other"), $1("#secondary-personal-services-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-physical-therapy"), $1("#secondary-physical-therapy-other"), $1("#secondary-physical-therapy-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-restaurant-or-bar"), $1("#secondary-restaurant-or-bar-other"), $1("#secondary-restaurant-or-bar-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-grocery-store"), $1("#secondary-grocery-store-other"), $1("#secondary-grocery-store-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-retail"), $1("#secondary-retail-other"), $1("#secondary-retail-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-construction-trades"), $1("#secondary-construction-trades-other"), $1("#secondary-construction-trades-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-manufacturing"), $1("#secondary-manufacturing-other"), $1("#secondary-manufacturing-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-education"), $1("#secondary-education-other"), $1("#secondary-education-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-government"), $1("#secondary-government-other"), $1("#secondary-government-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-transportation"), $1("#secondary-transportation-other"), $1("#secondary-transportation-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-first-responder"), $1("#secondary-first-responder-other"), $1("#secondary-first-responder-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-corrections"), $1("#secondary-corrections-other"), $1("#secondary-corrections-other-role-question"));
+    setupOtherQuestion($1("#secondary-role-options-other-work-setting"), $1("#secondary-other-work-setting-other"), $1("#secondary-other-work-setting-other-role-question"));
+
+
+
+    setupOtherQuestion($1("#ethnicity"), $1("#yes-another-origin"), $1("#ethnicity-other-question"));
     setupOtherQuestion($1("#race"), $1("#race-white"), $1("#race-white-detailed-identity-question"));
     setupOtherQuestion($1("#race"), $1("#race-black-or-african-american"), $1("#race-black-or-african-american-detailed-identity-question"));
     setupOtherQuestion($1("#race"), $1("#race-american-indian-alaska-native"), $1("#race-american-indian-alaska-native-detailed-identity-question"));
