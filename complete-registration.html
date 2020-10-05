@@ -973,14 +973,6 @@
                           <label class="usa-radio__label" for="gym">Gym</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="hair-salon-barbershop" type="radio" name="work-setting" value="hair-salon-barbershop">
-                          <label class="usa-radio__label" for="hair-salon-barbershop">Hair Salon or Barbershop</label>
-                      </div>
-                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="personal-services" type="radio" name="work-setting" value="personal-services">
-                          <label class="usa-radio__label" for="personal-services">Personal services (Nail, Massage, Tattoo, Facialist, Other)</label>
-                      </div>
-                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="physical-therapy" type="radio" name="work-setting" value="physical-therapy">
                           <label class="usa-radio__label" for="physical-therapy">Physical therapy or Chiropractic</label>
                       </div>
@@ -997,6 +989,18 @@
                           <label class="usa-radio__label" for="retail">Retail</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="hair-salon-barbershop" type="radio" name="work-setting" value="hair-salon-barbershop">
+                          <label class="usa-radio__label" for="hair-salon-barbershop">Hair Salon or Barbershop</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="personal-services" type="radio" name="work-setting" value="personal-services">
+                          <label class="usa-radio__label" for="personal-services">Personal services (Nail, Massage, Tattoo, Facialist, Other)</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="real-estate-rentals-hotels" type="radio" name="work-setting" value="real-estate-rentals-hotels">
+                          <label class="usa-radio__label" for="real-estate-rentals-hotels">Real Estate, Rentals, or Hotels</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="construction-trades" type="radio" name="work-setting" value="construction-trades">
                           <label class="usa-radio__label" for="construction-trades">Construction / Trades</label>
                       </div>
@@ -1005,12 +1009,24 @@
                           <label class="usa-radio__label" for="manufacturing">Manufacturing</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="education" type="radio" name="work-setting" value="education">
-                          <label class="usa-radio__label" for="education">Education</label>
+                          <input class="usa-radio__input" id="agriculture-forestry-fishing-hunting" type="radio" name="work-setting" value="agriculture-forestry-fishing-hunting">
+                          <label class="usa-radio__label" for="agriculture-forestry-fishing-hunting">Agriculture, Forestry, Fishing, or Hunting</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="professional-scientific-technical-services" type="radio" name="work-setting" value="professional-scientific-technical-services">
+                          <label class="usa-radio__label" for="professional-scientific-technical-services">Professional, Scientific, or Technical services</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                        <input class="usa-radio__input" id="arts-entertainment-recreation" type="radio" name="work-setting" value="arts-entertainment-recreation">
+                        <label class="usa-radio__label" for="arts-entertainment-recreation">Arts, Entertainment, and Recreation</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="government" type="radio" name="work-setting" value="government">
                           <label class="usa-radio__label" for="government">Government (Inspectors, DMV, others)</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="education" type="radio" name="work-setting" value="education">
+                          <label class="usa-radio__label" for="education">Education</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="transportation" type="radio" name="work-setting" value="transportation">
@@ -1023,6 +1039,10 @@
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="corrections" type="radio" name="work-setting" value="corrections">
                           <label class="usa-radio__label" for="corrections">Corrections</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="military" type="radio" name="work-setting" value="military">
+                          <label class="usa-radio__label" for="military">Military</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="work-setting-other" type="radio" name="work-setting" value="work-setting-other">
@@ -2332,6 +2352,114 @@
                   </div>
               </fieldset>
 
+              <fieldset class="usa-fieldset is-hidden" id="role-options-agriculture-forestry-fishing-hunting">
+                  <legend class="usa-legend">What type of work do you do?</legend>
+                  <span class="usa-hint" id="-roles-helper-text">Select the option that best describes your position</span>
+                  <br/><br/>
+                  <div class="grid-row grid-gap">
+
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="agriculture-animal-care" type="radio" name="occupation" value="agriculture-animal-care">
+                          <label class="usa-radio__label" for="agriculture-animal-care">Animal care</label>
+                      </div>
+
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="agriculture-farmworker" type="radio" name="occupation" value="agriculture-farmworker">
+                          <label class="usa-radio__label" for="agriculture-farmworker">Farmworker</label>
+                      </div>
+
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="agriculture-forest-or-conservation-worker" type="radio" name="occupation" value="agriculture-forest-or-conservation-worker">
+                          <label class="usa-radio__label" for="agriculture-forest-or-conservation-worker">Forest or conservation worker</label>
+                      </div>
+
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="agriculture-fisher" type="radio" name="occupation" value="agriculture-fisher">
+                          <label class="usa-radio__label" for="agriculture-fisher">Fisher</label>
+                      </div>
+
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="agriculture-hunter-or-trapper" type="radio" name="occupation" value="agriculture-hunter-or-trapper">
+                          <label class="usa-radio__label" for="agriculture-hunter-or-trapper">Hunter or trapper</label>
+                      </div>
+
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="agriculture-logging-worker" type="radio" name="occupation" value="agriculture-logging-worker">
+                          <label class="usa-radio__label" for="agriculture-logging-worker">Logging worker</label>
+                      </div>
+
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="agriculture-scientist" type="radio" name="occupation" value="agriculture-scientist">
+                          <label class="usa-radio__label" for="agriculture-scientist">Scientist</label>
+                      </div>
+
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="agriculture-janitor-or-maintenance" type="radio" name="occupation" value="agriculture-janitor-or-maintenance">
+                          <label class="usa-radio__label" for="agriculture-janitor-or-maintenance">Janitor or maintenance</label>
+                      </div>
+
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="agriculture-administrative-staff" type="radio" name="occupation" value="agriculture-administrative-staff">
+                          <label class="usa-radio__label" for="agriculture-administrative-staff">Administrative staff</label>
+                      </div>
+
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input other-role" id="agriculture-other" type="radio" name="occupation" value="agriculture-other">
+                          <label class="usa-radio__label" for="agriculture-other">Other</label>
+                      </div>
+
+                      <div class="tablet:grid-col-12 other-role-question is-hidden" id="agriculture-other-role-question">
+                          <label class="usa-label" for="agriculture-other-role">What's the best way to describe your work?</label>
+                          <input class="usa-input" id="agriculture-other-role" name="agriculture-other-role" type="text" aria-required="false">
+                      </div>
+                  </div>
+              </fieldset>
+
+              <fieldset class="usa-fieldset is-hidden" id="role-options-real-estate-rentals-hotels">
+                  <legend class="usa-legend">What type of work do you do?</legend>
+                  <span class="usa-hint" id="-roles-helper-text">Select the option that best describes your position</span>
+                  <br/><br/>
+                  <div class="grid-row grid-gap">
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="real-estate-rentals-hotels-realtor-or-broker" type="radio" name="occupation" value="real-estate-rentals-hotels-realtor-or-broker">
+                          <label class="usa-radio__label" for="real-estate-rentals-hotels-realtor-or-broker">Realtor or broker</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="real-estate-rentals-hotels-site-manager" type="radio" name="occupation" value="real-estate-rentals-hotels-site-manager">
+                          <label class="usa-radio__label" for="real-estate-rentals-hotels-site-manager">Site manager</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="real-estate-rentals-hotels-hotel-or-hospitality-services" type="radio" name="occupation" value="real-estate-rentals-hotels-hotel-or-hospitality-services">
+                          <label class="usa-radio__label" for="real-estate-rentals-hotels-hotel-or-hospitality-services">Hotel or hospitality services</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="real-estate-rentals-hotels-food-services" type="radio" name="occupation" value="real-estate-rentals-hotels-food-services">
+                          <label class="usa-radio__label" for="real-estate-rentals-hotels-food-services">Food services</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="real-estate-rentals-hotels-housekeeping" type="radio" name="occupation" value="real-estate-rentals-hotels-housekeeping">
+                          <label class="usa-radio__label" for="real-estate-rentals-hotels-housekeeping">Housekeeping</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="real-estate-rentals-hotels-janitor-or-maintenance" type="radio" name="occupation" value="real-estate-rentals-hotels-janitor-or-maintenance">
+                          <label class="usa-radio__label" for="real-estate-rentals-hotels-janitor-or-maintenance">Janitor or maintenance</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="real-estate-rentals-hotels-administrative-staff" type="radio" name="occupation" value="real-estate-rentals-hotels-administrative-staff">
+                          <label class="usa-radio__label" for="real-estate-rentals-hotels-administrative-staff">Administrative staff</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input other-role" id="real-estate-rentals-hotels-other" type="radio" name="occupation" value="real-estate-rentals-hotels-other">
+                          <label class="usa-radio__label" for="real-estate-rentals-hotels-other">Other</label>
+                      </div>
+                      <div class="tablet:grid-col-12 other-role-question is-hidden" id="real-estate-rentals-hotels-other-role-question">
+                          <label class="usa-label" for="real-estate-rentals-hotels-other-role">What's the best way to describe your work?</label>
+                          <input class="usa-input" id="real-estate-rentals-hotels-other-role" name="real-estate-rentals-hotels-other-role" type="text" aria-required="false">
+                      </div>
+                  </div>
+              </fieldset>
+
+
 
               <fieldset class="usa-fieldset is-hidden" id="role-options-other-work-setting">
                   <legend class="usa-legend">What type of work do you do?</legend>
@@ -2522,17 +2650,10 @@
                           <label class="usa-radio__label" for="secondary-role-gym">Gym</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="secondary-role-hair-salon-barbershop" type="radio" name="secondary-work-setting" value="secondary-role-hair-salon-barbershop">
-                          <label class="usa-radio__label" for="secondary-role-hair-salon-barbershop">Hair Salon or Barbershop</label>
-                      </div>
-                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="secondary-role-personal-services" type="radio" name="secondary-work-setting" value="secondary-role-personal-services">
-                          <label class="usa-radio__label" for="secondary-role-personal-services">Personal services (Nail, Massage, Tattoo, Facialist, Other)</label>
-                      </div>
-                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="secondary-role-physical-therapy" type="radio" name="secondary-work-setting" value="secondary-role-physical-therapy">
                           <label class="usa-radio__label" for="secondary-role-physical-therapy">Physical therapy or Chiropractic</label>
                       </div>
+
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="secondary-role-restaurant-or-bar" type="radio" name="secondary-work-setting" value="secondary-role-restaurant-or-bar">
                           <label class="usa-radio__label" for="secondary-role-restaurant-or-bar">Restaurant or Bar</label>
@@ -2546,6 +2667,18 @@
                           <label class="usa-radio__label" for="secondary-role-retail">Retail</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-hair-salon-barbershop" type="radio" name="secondary-work-setting" value="secondary-role-hair-salon-barbershop">
+                          <label class="usa-radio__label" for="secondary-role-hair-salon-barbershop">Hair Salon or Barbershop</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-personal-services" type="radio" name="secondary-work-setting" value="secondary-role-personal-services">
+                          <label class="usa-radio__label" for="secondary-role-personal-services">Personal services (Nail, Massage, Tattoo, Facialist, Other)</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-real-estate-rentals-hotels" type="radio" name="secondary-work-setting" value="secondary-role-real-estate-rentals-hotels">
+                          <label class="usa-radio__label" for="secondary-role-real-estate-rentals-hotels">Real Estate, Rentals, or Hotels</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="secondary-role-construction-trades" type="radio" name="secondary-work-setting" value="secondary-role-construction-trades">
                           <label class="usa-radio__label" for="secondary-role-construction-trades">Construction / Trades</label>
                       </div>
@@ -2554,12 +2687,24 @@
                           <label class="usa-radio__label" for="secondary-role-manufacturing">Manufacturing</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
-                          <input class="usa-radio__input" id="secondary-role-education" type="radio" name="secondary-work-setting" value="secondary-role-education">
-                          <label class="usa-radio__label" for="secondary-role-education">Education</label>
+                        <input class="usa-radio__input" id="secondary-role-agriculture-forestry-fishing-hunting" type="radio" name="secondary-work-setting" value="secondary-role-agriculture-forestry-fishing-hunting">
+                        <label class="usa-radio__label" for="secondary-role-agriculture-forestry-fishing-hunting">Agriculture, Forestry, Fishing, or Hunting</label>
                       </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-professional-scientific-technical-services" type="radio" name="work-setting" value="secondary-role-professional-scientific-technical-services">
+                          <label class="usa-radio__label" for="secondary-role-professional-scientific-technical-services">Professional, Scientific, or Technical services</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                        <input class="usa-radio__input" id="secondary-role-arts-entertainment-recreation" type="radio" name="secondary-work-setting" value="secondary-role-arts-entertainment-recreation">
+                        <label class="usa-radio__label" for="secondary-role-arts-entertainment-recreation">Arts, Entertainment, and Recreation</label>
+                    </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="secondary-role-government" type="radio" name="secondary-work-setting" value="secondary-role-government">
                           <label class="usa-radio__label" for="secondary-role-government">Government (Inspectors, DMV, others)</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                          <input class="usa-radio__input" id="secondary-role-education" type="radio" name="secondary-work-setting" value="secondary-role-education">
+                          <label class="usa-radio__label" for="secondary-role-education">Education</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="secondary-role-transportation" type="radio" name="secondary-work-setting" value="secondary-role-transportation">
@@ -2572,6 +2717,10 @@
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="secondary-role-corrections" type="radio" name="secondary-work-setting" value="secondary-role-corrections">
                           <label class="usa-radio__label" for="secondary-role-corrections">Corrections</label>
+                      </div>
+                      <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
+                        <input class="usa-radio__input" id="secondary-role-military" type="radio" name="secondary-work-setting" value="secondary-role-military">
+                        <label class="usa-radio__label" for="military">secondary-role-Military</label>
                       </div>
                       <div class="usa-radio tablet:grid-col-6 padding-bottom-1">
                           <input class="usa-radio__input" id="secondary-role-work-setting-other" type="radio" name="secondary-work-setting" value="secondary-role-work-setting-other">
@@ -4322,38 +4471,38 @@
                           <br/>
                           <div class="grid-row grid-gap">
 
-                              <div class="usa-radio tablet:grid-col-6">
-                                <input class="usa-radio__input" id="straight" type="radio" name="sexual-orientation" value="straight">
-                                <label class="usa-radio__label" for="straight">Straight (not Lesbian or Gay)</label>
+                              <div class="usa-checkbox tablet:grid-col-6">
+                                <input class="usa-checkbox__input" id="straight" type="checkbox" name="sexual-orientation" value="straight">
+                                <label class="usa-checkbox__label" for="straight">Straight (not Lesbian or Gay)</label>
                               </div>
 
-                              <div class="usa-radio tablet:grid-col-6">
-                                <input class="usa-radio__input" id="lesbian-or-gay" type="radio" name="sexual-orientation" value="lesbian-or-gay">
-                                <label class="usa-radio__label" for="lesbian-or-gay">Lesbian, Gay</label>
+                              <div class="usa-checkbox tablet:grid-col-6">
+                                <input class="usa-checkbox__input" id="lesbian-or-gay" type="checkbox" name="sexual-orientation" value="lesbian-or-gay">
+                                <label class="usa-checkbox__label" for="lesbian-or-gay">Lesbian, Gay</label>
                               </div>
-                              <div class="usa-radio tablet:grid-col-6">
-                                <input class="usa-radio__input" id="queer" type="radio" name="sexual-orientation" value="queer">
-                                <label class="usa-radio__label" for="queer">Queer</label>
+                              <div class="usa-checkbox tablet:grid-col-6">
+                                <input class="usa-checkbox__input" id="queer" type="checkbox" name="sexual-orientation" value="queer">
+                                <label class="usa-checkbox__label" for="queer">Queer</label>
                               </div>
-                              <div class="usa-radio tablet:grid-col-6">
-                                <input class="usa-radio__input" id="bisexual" type="radio" name="sexual-orientation" value="bisexual">
-                                <label class="usa-radio__label" for="bisexual">Bisexual</label>
+                              <div class="usa-checkbox tablet:grid-col-6">
+                                <input class="usa-checkbox__input" id="bisexual" type="checkbox" name="sexual-orientation" value="bisexual">
+                                <label class="usa-checkbox__label" for="bisexual">Bisexual</label>
                               </div>
-                              <div class="usa-radio tablet:grid-col-6">
-                                <input class="usa-radio__input" id="asexual" type="radio" name="sexual-orientation" value="asexual">
-                                <label class="usa-radio__label" for="asexual">Asexual</label>
+                              <div class="usa-checkbox tablet:grid-col-6">
+                                <input class="usa-checkbox__input" id="asexual" type="checkbox" name="sexual-orientation" value="asexual">
+                                <label class="usa-checkbox__label" for="asexual">Asexual</label>
                               </div>
-                              <div class="usa-radio tablet:grid-col-6">
-                                <input class="usa-radio__input" id="so-not-listed" type="radio" name="sexual-orientation" value="so-not-listed">
-                                <label class="usa-radio__label" for="so-not-listed">Not listed</label>
+                              <div class="usa-checkbox tablet:grid-col-6">
+                                <input class="usa-checkbox__input" id="so-not-listed" type="checkbox" name="sexual-orientation" value="so-not-listed">
+                                <label class="usa-checkbox__label" for="so-not-listed">Not listed</label>
                               </div>
-                              <div class="usa-radio tablet:grid-col-6">
-                                <input class="usa-radio__input" id="so-dont-know" type="radio" name="sexual-orientation" value="so-dont-know">
-                                <label class="usa-radio__label" for="so-dont-know">Don’t know</label>
+                              <div class="usa-checkbox tablet:grid-col-6">
+                                <input class="usa-checkbox__input" id="so-dont-know" type="checkbox" name="sexual-orientation" value="so-dont-know">
+                                <label class="usa-checkbox__label" for="so-dont-know">Don’t know</label>
                               </div>
-                              <div class="usa-radio tablet:grid-col-6">
-                                <input class="usa-radio__input" id="so-choose-not-to-disclose" type="radio" name="sexual-orientation" value="so-choose-not-to-disclose">
-                                <label class="usa-radio__label" for="so-choose-not-to-disclose">Choose not to disclose</label>
+                              <div class="usa-checkbox tablet:grid-col-6">
+                                <input class="usa-checkbox__input" id="so-choose-not-to-disclose" type="checkbox" name="sexual-orientation" value="so-choose-not-to-disclose">
+                                <label class="usa-checkbox__label" for="so-choose-not-to-disclose">Choose not to disclose</label>
                               </div>
                               <div class="usa-checkbox tablet:grid-col-9 margin-bottom-2 other-question is-hidden" id="so-other-question">
                                 <label class="usa-label" for="so-other">How do you describe your sexual orientation?</label>
